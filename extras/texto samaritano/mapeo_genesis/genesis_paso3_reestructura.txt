@@ -1,0 +1,11 @@
+PASO 3c - REESTRUCTURACION (GENESIS)
+==================================================
+
+Transposiciones reclasificadas a 'moved': 0
+
+Pluses vocalizados (extra): 3
+   {"ref": "Gn 8:19", "cons": "עוף", "text": "עוּף", "src": "gemelo"}
+   {"ref": "Gn 17:14", "cons": "יום", "text": "יּוּם", "src": "corpus"}
+   {"ref": "Gn 30:36", "cons": "קום", "text": "קוּם", "src": "corpus"}
+
+Conteo de tipos: {"common": 26785, "plus": 657, "variant": 1471, "omit": 206, "moved_omit": 16, "moved": 16}

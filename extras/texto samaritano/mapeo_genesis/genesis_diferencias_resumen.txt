@@ -1,0 +1,4420 @@
+PASO 1 - DIFERENCIAS MT vs SAMARITANO CUADRADO (GENESIS)
+============================================================
+Versiculos con diferencias: 1024 / 1533
+Variantes: 1471 | Plus(ADD+): 673 | Omisiones: 222
+============================================================
+
+Gn 1:11
+   PLUS [10] ו   (and)  [SIN VOCALIZAR]
+
+Gn 1:14
+   VAR  [ 4] מְאֹרֹת֙  ->  מאורות   (lamp, sim=0.833)
+   VAR  [27] אֹתֹת֙  ->  אתות   (sign, sim=0.875)
+   PLUS [ 9] ל   (to)  [SIN VOCALIZAR]
+   PLUS [10] האיר   (be light)  [SIN VOCALIZAR]
+   PLUS [11] על   (upon)  [SIN VOCALIZAR]
+   PLUS [12] ה   (the)  [SIN VOCALIZAR]
+   PLUS [13] ארץ   (earth)  [SIN VOCALIZAR]
+   PLUS [14] ו   (and)  [SIN VOCALIZAR]
+
+Gn 1:15
+   VAR  [ 3] מְאֹורֹת֙  ->  מאורות   (lamp, sim=0.917)
+
+Gn 1:16
+   VAR  [ 6] מְּאֹרֹ֖ת  ->  מאורות   (lamp, sim=0.833)
+   VAR  [13] גָּדֹל֙  ->  גדול   (great, sim=0.875)
+
+Gn 1:20
+   VAR  [11] יְעֹופֵ֣ף  ->  יעפף   (fly, sim=0.9)
+
+Gn 1:21
+   VAR  [ 5] תַּנִּינִ֖ם  ->  תנינים   (second, sim=0.917)
+   VAR  [21] מִֽינֵהֶ֗ם  ->  מיניהם   (kind, sim=0.917)
+
+Gn 1:22
+   VAR  [19] יִ֥רֶב  ->  ירבה   (be many, sim=0.875)
+
+Gn 1:24
+   VAR  [14] חַֽיְתֹו  ->  חית   (wild animal, sim=0.875)
+   PLUS [15] ה   (the)  [SIN VOCALIZAR]
+
+Gn 1:26
+   PLUS [ 7] ו   (and)  [SIN VOCALIZAR]
+
+Gn 1:28
+   VAR  [17] כִבְשֻׁ֑הָ  ->  כבשׁוה   (subdue, sim=0.9)
+   PLUS [32] ה   (the)  [SIN VOCALIZAR]
+
+Gn 1:29
+   OMIT [20] ה   ()
+
+Gn 1:30
+   VAR  [16] רֹומֵ֣שׂ  ->  רמשׂ   (creeping animals, sim=0.875)
+   PLUS [15] ה   (the)  [SIN VOCALIZAR]
+
+Gn 2:2
+   VAR  [ 6] שְּׁבִיעִ֔י  ->  שׁשׁי   (sixth, sim=0.5)
+
+Gn 2:4
+   VAR  [ 1] תֹולְדֹ֧ות  ->  תולדת   (generations, sim=0.917)
+   PLUS [15] שׁמים   (heavens)  [SIN VOCALIZAR]
+   PLUS [18] ארץ   (earth)  [SIN VOCALIZAR]
+   OMIT [14] ארץ   ()
+   OMIT [17] שמים   ()
+
+Gn 2:7
+   VAR  [ 1] יִּיצֶר֩  ->  יצר   (shape, sim=0.875)
+   OMIT [19] ה   ()
+
+Gn 2:9
+   PLUS [ 7] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 2:11
+   VAR  [ 6] סֹּבֵ֗ב  ->  סובב   (turn, sim=0.875)
+
+Gn 2:12
+   VAR  [ 5] הִ֖וא  ->  היא   (she, sim=0.667)
+   PLUS [ 7] מאד   (might)  [SIN VOCALIZAR]
+
+Gn 2:14
+   VAR  [ 6] חִדֶּ֔קֶל  ->  הדקל   (Tigris, sim=0.75)
+
+Gn 2:15
+   VAR  [ 8] יַּנִּחֵ֣הוּ  ->  יניחהו   (settle, sim=0.917)
+
+Gn 2:19
+   PLUS [ 4] עוד   (duration)  [SIN VOCALIZAR]
+   PLUS [ 8] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 2:21
+   VAR  [18] תַּחְתֶּֽנָּה  ->  תחתיה   (under part, sim=0.8)
+
+Gn 2:22
+   VAR  [15] יְבִאֶ֖הָ  ->  יביאה   (come, sim=0.9)
+
+Gn 2:23
+   VAR  [20] אִ֖ישׁ  ->  אישׁה   (man, sim=0.875)
+
+Gn 2:24
+   VAR  [14] הָי֖וּ  ->  היה   (be, sim=0.667)
+   PLUS [15] מ   (from)  [SIN VOCALIZAR]
+   PLUS [16] שׁניהם   (two)  [SIN VOCALIZAR]
+
+Gn 2:25
+   VAR  [ 3] עֲרוּמִּ֔ים  ->  ערמים   (naked, sim=0.917)
+   OMIT [ 4] ה   ()
+
+Gn 3:3
+   VAR  [22] תְּמֻתֽוּן  ->  תמותון   (die, sim=0.917)
+   PLUS [ 5] ה   (the)  [SIN VOCALIZAR]
+   PLUS [ 6] זה   (this)  [SIN VOCALIZAR]
+
+Gn 3:4
+   VAR  [ 9] תְּמֻתֽוּן  ->  תמותון   (die, sim=0.917)
+
+Gn 3:6
+   VAR  [35] יֹּאכַֽל  ->  יאכלו   (eat, sim=0.9)
+
+Gn 3:7
+   VAR  [ 7] עֵֽירֻמִּ֖ם  ->  ערמים   (naked, sim=0.8)
+   VAR  [10] יִּתְפְּרוּ֙  ->  יתפארו   (sew, sim=0.917)
+   VAR  [11] עֲלֵ֣ה  ->  עלי   (leafage, sim=0.667)
+   VAR  [16] חֲגֹרֹֽת  ->  חגרות   (girdle, sim=0.9)
+
+Gn 3:8
+   OMIT [15] ה   ()
+
+Gn 3:10
+   VAR  [ 3] קֹלְךָ֥  ->  קולך   (sound, sim=0.875)
+   VAR  [10] עֵירֹ֥ם  ->  ערום   (naked, sim=0.75)
+
+Gn 3:11
+   VAR  [ 6] עֵירֹ֖ם  ->  ערום   (naked, sim=0.75)
+
+Gn 3:12
+   VAR  [ 9] הִ֛וא  ->  היא   (she, sim=0.667)
+
+Gn 3:13
+   VAR  [ 8] עָשִׂ֑ית  ->  עשׂיתי   (make, sim=0.9)
+   VAR  [15] הִשִּׁיאַ֖נִי  ->  השׁיני   (beguile, sim=0.917)
+
+Gn 3:16
+   VAR  [ 7] עִצְּבֹונֵ֣ךְ  ->  עצבוניך   (pain, sim=0.929)
+   VAR  [ 9] הֵֽרֹנֵ֔ךְ  ->  הריוניך   (conception, sim=0.786)
+   VAR  [11] עֶ֖צֶב  ->  עצבון   (pain, sim=0.7)
+   VAR  [16] אִישֵׁךְ֙  ->  אישׁיך   (man, sim=0.9)
+   VAR  [17] תְּשׁ֣וּקָתֵ֔ךְ  ->  תשׁוקתיך   (impulse, sim=0.929)
+   VAR  [21] בָּֽךְ  ->  ביך   (in, sim=0.833)
+   PLUS [ 0] ו   (and)  [SIN VOCALIZAR]
+
+Gn 3:19
+   VAR  [18] עָפָ֖ר  ->  עפרך   (dust, sim=0.75)
+
+Gn 3:20
+   VAR  [ 8] הִ֥וא  ->  היא   (she, sim=0.667)
+
+Gn 3:21
+   VAR  [ 9] כָּתְנֹ֥ות  ->  כיתנות   (tunic, sim=0.917)
+
+Gn 3:22
+   VAR  [33] עֹלָֽם  ->  עולם   (eternity, sim=0.875)
+
+Gn 3:24
+   VAR  [14] כְּרֻבִ֗ים  ->  כרובים   (cherub, sim=0.917)
+   VAR  [17] לַ֤הַט  ->  לחט   (flame, sim=0.667)
+
+Gn 4:2
+   VAR  [11] רֹ֣עֵה  ->  רעי   (pasture, sim=0.667)
+
+Gn 4:4
+   VAR  [ 6] בְּכֹרֹ֥ות  ->  בכורות   (first-born, sim=0.917)
+   VAR  [10] חֶלְבֵהֶ֑ן  ->  חלביהן   (fat, sim=0.917)
+
+Gn 4:7
+   VAR  [ 3] תֵּיטִיב֙  ->  תטיב   (be good, sim=0.9)
+   VAR  [ 8] תֵיטִ֔יב  ->  תטיב   (be good, sim=0.9)
+
+Gn 4:8
+   PLUS [ 6] נלכה   (walk)  [SIN VOCALIZAR]
+   PLUS [ 7] ה   (the)  [SIN VOCALIZAR]
+   PLUS [ 8] שׂדה   (open field)  [SIN VOCALIZAR]
+
+Gn 4:9
+   VAR  [ 5] אֵ֖י  ->  איה   (where, sim=0.833)
+
+Gn 4:10
+   VAR  [ 5] דְּמֵ֣י  ->  דם   (blood, sim=0.833)
+   VAR  [ 7] צֹעֲקִ֥ים  ->  צעק   (cry, sim=0.7)
+
+Gn 4:11
+   VAR  [14] דְּמֵ֥י  ->  דם   (blood, sim=0.833)
+
+Gn 4:12
+   VAR  [ 6] תֹסֵ֥ף  ->  תוסיף   (add, sim=0.8)
+
+Gn 4:14
+   VAR  [13] אֶסָּתֵ֑ר  ->  אסתיר   (hide, sim=0.9)
+
+Gn 4:16
+   VAR  [11] נֹ֖וד  ->  נד   (Nod, sim=0.833)
+
+Gn 4:17
+   PLUS [17] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 4:18
+   VAR  [10] מְחֽוּיָאֵ֑ל  ->  מיהאל   (Mehujael, sim=0.667)
+   VAR  [12] מְחִיּיָאֵ֗ל  ->  מיהאל   (Mehujael, sim=0.667)
+
+Gn 4:21
+   VAR  [ 9] כִּנֹּ֖ור  ->  כנר   (cither, sim=0.875)
+   VAR  [11] עוּגָֽב  ->  עגב   (flute, sim=0.875)
+
+Gn 4:22
+   VAR  [ 3] הִ֗וא  ->  היא   (she, sim=0.667)
+
+Gn 4:23
+   VAR  [12] הַאְזֵ֖נָּה  ->  האזינה   (listen, sim=0.917)
+   VAR  [13] אִמְרָתִ֑י  ->  אמירתי   (say, sim=0.917)
+
+Gn 4:25
+   VAR  [10] תִּקְרָ֥א  ->  יקרא   (call, sim=0.75)
+
+Gn 4:26
+   VAR  [13] הוּחַ֔ל  ->  החל   (defile, sim=0.875)
+
+Gn 5:3
+   VAR  [ 8] יֹּ֥ולֶד  ->  יוליד   (bear, sim=0.9)
+
+Gn 5:4
+   VAR  [ 9] מֵאֹ֖ת  ->  מאות   (hundred, sim=0.875)
+   VAR  [12] יֹּ֥ולֶד  ->  יוליד   (bear, sim=0.9)
+
+Gn 5:6
+   VAR  [ 9] יֹּ֖ולֶד  ->  יוליד   (bear, sim=0.9)
+
+Gn 5:7
+   VAR  [14] יֹּ֥ולֶד  ->  יוליד   (bear, sim=0.9)
+
+Gn 5:9
+   VAR  [ 6] יֹּ֖ולֶד  ->  יוליד   (bear, sim=0.9)
+
+Gn 5:10
+   VAR  [15] יֹּ֥ולֶד  ->  יוליד   (bear, sim=0.9)
+
+Gn 5:12
+   VAR  [ 6] יֹּ֖ולֶד  ->  יוליד   (bear, sim=0.9)
+
+Gn 5:13
+   VAR  [14] יֹּ֥ולֶד  ->  יוליד   (bear, sim=0.9)
+
+Gn 5:15
+   VAR  [ 9] יֹּ֖ולֶד  ->  יוליד   (bear, sim=0.9)
+
+Gn 5:16
+   VAR  [14] יֹּ֥ולֶד  ->  יוליד   (bear, sim=0.9)
+
+Gn 5:18
+   VAR  [11] יֹּ֖ולֶד  ->  יוליד   (bear, sim=0.9)
+   OMIT [ 6] שנה   ()
+   OMIT [ 7] ו   ()
+   OMIT [ 8] מאת   ()
+
+Gn 5:19
+   VAR  [10] שְׁמֹנֶ֥ה  ->  שׁנה   (year, sim=0.75)
+   VAR  [16] יֹּ֥ולֶד  ->  יוליד   (bear, sim=0.9)
+   PLUS [ 7] חמשׁ   (five)  [SIN VOCALIZAR]
+   PLUS [ 8] ו   (and)  [SIN VOCALIZAR]
+   PLUS [ 9] שׁמנים   (eight)  [SIN VOCALIZAR]
+   PLUS [11] ו   (and)  [SIN VOCALIZAR]
+   PLUS [12] שׁבע   (seven)  [SIN VOCALIZAR]
+
+Gn 5:20
+   PLUS [ 6] שׁבע   (seven)  [SIN VOCALIZAR]
+   PLUS [ 9] ארבעים   (four)  [SIN VOCALIZAR]
+   PLUS [13] שׁמנה   (eight)  [SIN VOCALIZAR]
+   OMIT [ 5] שתים   ()
+   OMIT [ 8] ששים   ()
+   OMIT [12] תשע   ()
+
+Gn 5:21
+   VAR  [ 8] יֹּ֖ולֶד  ->  יוליד   (bear, sim=0.9)
+
+Gn 5:22
+   VAR  [14] יֹּ֥ולֶד  ->  יוליד   (bear, sim=0.9)
+
+Gn 5:23
+   VAR  [ 1] יְהִ֖י  ->  יהיו   (be, sim=0.875)
+
+Gn 5:25
+   VAR  [ 5] שְׁמֹנִ֛ים  ->  שׁשׁים   (six, sim=0.6)
+   VAR  [11] יֹּ֖ולֶד  ->  יוליד   (bear, sim=0.9)
+   OMIT [ 6] שנה   ()
+   OMIT [ 7] ו   ()
+   OMIT [ 8] מאת   ()
+
+Gn 5:26
+   VAR  [10] שְׁמֹונִים֙  ->  חמשׁים   (five, sim=0.583)
+   VAR  [18] יֹּ֥ולֶד  ->  יוליד   (bear, sim=0.9)
+   PLUS [ 8] שׁלשׁ   (three)  [SIN VOCALIZAR]
+   PLUS [14] שׁשׁ   (six)  [SIN VOCALIZAR]
+   OMIT [ 7] שתים   ()
+   OMIT [13] שבע   ()
+
+Gn 5:27
+   VAR  [ 7] שִׁשִּׁים֙  ->  עשׂרים   (-teen, sim=0.6)
+   PLUS [11] שׁבע   (seven)  [SIN VOCALIZAR]
+   OMIT [ 5] תשע   ()
+   OMIT [ 6] ו   ()
+   OMIT [10] תשע   ()
+
+Gn 5:28
+   VAR  [ 6] שְׁמֹנִ֛ים  ->  חמשׁים   (five, sim=0.6)
+   VAR  [12] יֹּ֖ולֶד  ->  יוליד   (bear, sim=0.9)
+   PLUS [ 4] שׁלשׁ   (three)  [SIN VOCALIZAR]
+   OMIT [ 3] שתים   ()
+   OMIT [ 7] שנה   ()
+   OMIT [ 8] ו   ()
+   OMIT [ 9] מאת   ()
+
+Gn 5:29
+   VAR  [10] מַּעֲשֵׂ֨נוּ֙  ->  מעשׂינו   (deed, sim=0.917)
+
+Gn 5:30
+   VAR  [10] שָׁנָ֔ה  ->  שׁשׁ   (six, sim=0.5)
+   VAR  [13] מֵאֹ֖ת  ->  מאות   (hundred, sim=0.875)
+   VAR  [16] יֹּ֥ולֶד  ->  יוליד   (bear, sim=0.9)
+   OMIT [ 7] חמש   ()
+   OMIT [ 8] ו   ()
+   OMIT [ 9] תשעים   ()
+   OMIT [11] ו   ()
+   OMIT [12] חמש   ()
+
+Gn 5:31
+   VAR  [ 1] יְהִי֙  ->  יהיו   (be, sim=0.875)
+   PLUS [ 6] שׁלשׁ   (three)  [SIN VOCALIZAR]
+   PLUS [ 9] חמשׁים   (five)  [SIN VOCALIZAR]
+   PLUS [13] שׁשׁ   (six)  [SIN VOCALIZAR]
+   OMIT [ 5] שבע   ()
+   OMIT [ 8] שבעים   ()
+   OMIT [12] שבע   ()
+
+Gn 5:32
+   VAR  [ 8] יֹּ֣ולֶד  ->  יוליד   (bear, sim=0.9)
+   PLUS [12] ו   (and)  [SIN VOCALIZAR]
+   OMIT [ 9] נח   ()
+
+Gn 6:2
+   VAR  [10] טֹבֹ֖ת  ->  טובות   (good, sim=0.8)
+
+Gn 6:3
+   VAR  [ 9] עֹלָ֔ם  ->  עולם   (eternity, sim=0.875)
+
+Gn 6:4
+   VAR  [24] יָלְד֖וּ  ->  יולידו   (bear, sim=0.833)
+   VAR  [26] הֵ֧מָּה  ->  הם   (they, sim=0.833)
+   VAR  [28] גִּבֹּרִ֛ים  ->  גבורים   (vigorous, sim=0.917)
+   PLUS [ 0] ו   (and)  [SIN VOCALIZAR]
+
+Gn 6:5
+   VAR  [13] מַחְשְׁבֹ֣ת  ->  מחשׁבות   (thought, sim=0.917)
+
+Gn 6:7
+   VAR  [28] עֲשִׂיתִֽם  ->  עשׂיתים   (make, sim=0.917)
+   OMIT [20] ו   ()
+
+Gn 6:9
+   PLUS [ 6] ו   (and)  [SIN VOCALIZAR]
+
+Gn 6:10
+   VAR  [ 1] יֹּ֥ולֶד  ->  יוליד   (bear, sim=0.9)
+   PLUS [ 7] ו   (and)  [SIN VOCALIZAR]
+
+Gn 6:13
+   VAR  [20] מַשְׁחִיתָ֖ם  ->  משׁחיתים   (destroy, sim=0.929)
+
+Gn 6:15
+   PLUS [11] ו   (and)  [SIN VOCALIZAR]
+
+Gn 6:16
+   VAR  [ 5] אֶל  ->  על   (upon, sim=0.5)
+   VAR  [21] שְׁלִשִׁ֖ים  ->  שׁלישׁים   (third, sim=0.917)
+
+Gn 6:17
+   VAR  [12] שַׁחֵ֣ת  ->  השׁחית   (destroy, sim=0.8)
+
+Gn 6:19
+   VAR  [ 4] חַי  ->  חיה   (wild animal, sim=0.833)
+   VAR  [18] הַחֲיֹ֣ת  ->  החיות   (be alive, sim=0.9)
+   PLUS [ 5] ו   (and)  [SIN VOCALIZAR]
+   PLUS [ 8] ה   (the)  [SIN VOCALIZAR]
+   OMIT [23] יהיו   ()
+
+Gn 6:20
+   VAR  [ 2] מֵ  ->  מן   (from, sim=0.5)
+   VAR  [22] מִינֵ֑הוּ  ->  מיניהם   (kind, sim=0.75)
+   PLUS [ 0] ו   (and)  [SIN VOCALIZAR]
+   PLUS [ 1] היה   (be)  [SIN VOCALIZAR]
+   PLUS [13] ו   (and)  [SIN VOCALIZAR]
+   PLUS [16] אשׁר   (<relative>)  [SIN VOCALIZAR]
+   PLUS [18] על   (upon)  [SIN VOCALIZAR]
+
+Gn 7:1
+   VAR  [ 4] לְ  ->  אל   (to, sim=0.75)
+   PLUS [ 3] אלהים   (god(s))  [SIN VOCALIZAR]
+   OMIT [ 2] יהוה   ()
+
+Gn 7:2
+   VAR  [ 5] טְּהֹורָ֗ה  ->  טהרה   (pure, sim=0.9)
+   VAR  [22] הִ֛וא  ->  היא   (she, sim=0.667)
+   PLUS [11] זכר   (male)  [SIN VOCALIZAR]
+   PLUS [14] נקבה   (female)  [SIN VOCALIZAR]
+   PLUS [25] שׁנים   (two)  [SIN VOCALIZAR]
+   PLUS [26] זכר   (male)  [SIN VOCALIZAR]
+   PLUS [29] נקבה   (female)  [SIN VOCALIZAR]
+   OMIT [10] איש   ()
+   OMIT [13] אשתו   ()
+   OMIT [24] איש   ()
+   OMIT [28] אשתו   ()
+
+Gn 7:3
+   VAR  [14] חַיֹּ֥ות  ->  החיות   (be alive, sim=0.9)
+   PLUS [ 0] ו   (and)  [SIN VOCALIZAR]
+   PLUS [ 6] ה   (the)  [SIN VOCALIZAR]
+   PLUS [ 7] טהור   (pure)  [SIN VOCALIZAR]
+
+Gn 7:8
+   VAR  [ 4] טְּהֹורָ֔ה  ->  טהרה   (pure, sim=0.9)
+   PLUS [17] מ   (from)  [SIN VOCALIZAR]
+
+Gn 7:9
+   PLUS [15] יהוה   (YHWH)  [SIN VOCALIZAR]
+   OMIT [14] אלהים   ()
+
+Gn 7:11
+   VAR  [25] מַעְיְנֹת֙  ->  מעינות   (well, sim=0.917)
+   VAR  [29] אֲרֻבֹּ֥ת  ->  ארבות   (hole, sim=0.9)
+   PLUS [ 2] ה   (the)  [SIN VOCALIZAR]
+
+Gn 7:13
+   OMIT [ 8] ו   ()
+   OMIT [10] ו   ()
+
+Gn 7:14
+   VAR  [ 0] הֵ֜מָּה  ->  הם   (they, sim=0.833)
+
+Gn 7:15
+   OMIT [11] ה   ()
+
+Gn 7:16
+   PLUS [ 3] זכר   (male)  [SIN VOCALIZAR]
+   PLUS [ 4] ו   (and)  [SIN VOCALIZAR]
+   PLUS [ 5] נקבה   (female)  [SIN VOCALIZAR]
+
+Gn 7:19
+   VAR  [15] גְּבֹהִ֔ים  ->  גבחים   (bald, sim=0.8)
+
+Gn 7:23
+   OMIT [17] ו   ()
+
+Gn 8:2
+   VAR  [ 2] מַעְיְנֹ֣ת  ->  מעינות   (well, sim=0.917)
+   VAR  [ 5] אֲרֻבֹּ֖ת  ->  ארבות   (hole, sim=0.9)
+   VAR  [ 9] יִּכָּלֵ֥א  ->  יכל   (be complete, sim=0.875)
+
+Gn 8:3
+   VAR  [ 8] הָלֹ֣וךְ  ->  הלכו   (walk, sim=0.75)
+   VAR  [10] שֹׁ֑וב  ->  שׁבו   (return, sim=0.667)
+   VAR  [16] קְצֵ֕ה  ->  קץ   (end, sim=0.833)
+
+Gn 8:4
+   VAR  [16] אֲרָרָֽט  ->  הררט   (Ararat, sim=0.75)
+
+Gn 8:5
+   VAR  [ 4] הָלֹ֣וךְ  ->  הלכו   (walk, sim=0.75)
+   VAR  [ 6] חָסֹ֔ור  ->  חסרו   (diminish, sim=0.75)
+   OMIT [ 8] ה   ()
+
+Gn 8:7
+   VAR  [ 7] יָצֹוא֙  ->  יצא   (go out, sim=0.875)
+   VAR  [ 9] שֹׁ֔וב  ->  שׁב   (return, sim=0.833)
+
+Gn 8:9
+   VAR  [ 2] מָצְאָה֩  ->  מצא   (find, sim=0.875)
+   PLUS [24] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 8:11
+   VAR  [10] עֲלֵה  ->  עלי   (leafage, sim=0.667)
+
+Gn 8:12
+   VAR  [ 1] יִּיָּ֣חֶל  ->  יחל   (wait, to hope, sim=0.875)
+   VAR  [14] שׁוּב  ->  שׁובה   (return, sim=0.875)
+
+Gn 8:13
+   VAR  [ 9] רִאשֹׁון֙  ->  ראישׁון   (first, sim=0.917)
+
+Gn 8:17
+   VAR  [24] הַיְצֵ֣א  ->  הוציא   (go out, sim=0.9)
+   PLUS [ 0] ו   (and)  [SIN VOCALIZAR]
+
+Gn 8:19
+   VAR  [16] רֹומֵ֣שׂ  ->  רמשׂ   (creep, sim=0.875)
+   VAR  [21] מִשְׁפְּחֹ֣תֵיהֶ֔ם  ->  משׁפחותיהם   (clan, sim=0.944)
+   PLUS [ 0] ו   (and)  [SIN VOCALIZAR]
+   PLUS [ 4] ו   (and)  [SIN VOCALIZAR]
+   PLUS [ 8] עוף   (bird)  [SIN VOCALIZAR]
+   PLUS [12] רמשׂ   (creeping animals)  [SIN VOCALIZAR]
+   PLUS [14] ה   (the)  [SIN VOCALIZAR]
+   OMIT [ 7] רמש   ()
+   OMIT [13] עוף   ()
+   OMIT [15] כל   ()
+
+Gn 8:20
+   VAR  [13] טְּהֹורָ֗ה  ->  טהרה   (pure, sim=0.9)
+   VAR  [20] טָּהֹ֔ר  ->  טהור   (pure, sim=0.875)
+   VAR  [23] עֹלֹ֖ת  ->  עלות   (burnt-offering, sim=0.875)
+
+Gn 8:21
+   VAR  [13] אֹ֠סִף  ->  אוסיף   (add, sim=0.8)
+   VAR  [35] אֹסִ֥ף  ->  אוסיף   (add, sim=0.8)
+   PLUS [14] עוד   (duration)  [SIN VOCALIZAR]
+   OMIT [17] עוד   ()
+
+Gn 8:22
+   VAR  [ 9] קֹ֨ר  ->  קור   (cold, sim=0.833)
+   VAR  [17] יֹ֥ום  ->  יומם   (by day, sim=0.75)
+   OMIT [ 8] ו   ()
+   OMIT [12] ו   ()
+   OMIT [16] ו   ()
+
+Gn 9:2
+   VAR  [ 1] מֹורַאֲכֶ֤ם  ->  מראכם   (fear, sim=0.917)
+   VAR  [ 3] חִתְּכֶם֙  ->  חתתכם   (terror, sim=0.8)
+   VAR  [31] נִתָּֽנוּ  ->  נתתיו   (give, sim=0.7)
+   PLUS [16] ו   (and)  [SIN VOCALIZAR]
+
+Gn 9:3
+   PLUS [15] ה   (the)  [SIN VOCALIZAR]
+
+Gn 9:5
+   VAR  [10] חַיָּ֖ה  ->  חי   (alive, sim=0.833)
+   PLUS [20] ו   (and)  [SIN VOCALIZAR]
+   OMIT [ 1] אך   ()
+   OMIT [12] ו   ()
+
+Gn 9:7
+   PLUS [ 5] ו   (and)  [SIN VOCALIZAR]
+
+Gn 9:10
+   PLUS [10] ו   (and)  [SIN VOCALIZAR]
+
+Gn 9:11
+   VAR  [23] שַׁחֵ֥ת  ->  השׁחית   (destroy, sim=0.8)
+   PLUS [ 8] עוד   (duration)  [SIN VOCALIZAR]
+   PLUS [20] ה   (the)  [SIN VOCALIZAR]
+   OMIT [11] עוד   ()
+
+Gn 9:12
+   VAR  [12] בֵ֣ינֵיכֶ֔ם  ->  בינכם   (interval, sim=0.917)
+   VAR  [22] דֹרֹ֖ת  ->  דרות   (generation, sim=0.875)
+   PLUS [17] ה   (the)  [SIN VOCALIZAR]
+
+Gn 9:15
+   VAR  [ 7] בֵ֣ינֵיכֶ֔ם  ->  בינכם   (interval, sim=0.917)
+   VAR  [28] שַׁחֵ֖ת  ->  השׁחית   (destroy, sim=0.8)
+   PLUS [12] ה   (the)  [SIN VOCALIZAR]
+   PLUS [14] אשׁר   (<relative>)  [SIN VOCALIZAR]
+   PLUS [15] אתכם   (together with)  [SIN VOCALIZAR]
+
+Gn 9:16
+   VAR  [ 7] רְאִיתִ֗יהָ  ->  ראיתה   (see, sim=0.917)
+   VAR  [ 9] זְכֹּר֙  ->  אזכרה   (memorial offering, sim=0.8)
+   PLUS [18] ה   (the)  [SIN VOCALIZAR]
+
+Gn 9:18
+   VAR  [ 5] יֹּֽצְאִים֙  ->  יוצאים   (go out, sim=0.917)
+   OMIT [10] ו   ()
+
+Gn 9:19
+   OMIT [ 4] ו   ()
+
+Gn 9:21
+   VAR  [11] אָהֳלֹֽו  ->  אהלו   (tent, sim=0.75)
+
+Gn 9:23
+   VAR  [ 9] יָּשִׂ֨ימוּ֙  ->  ישׂמו   (put, sim=0.9)
+
+Gn 9:24
+   VAR  [ 1] יִּ֥יקֶץ  ->  יקץ   (awake, sim=0.875)
+
+Gn 9:28
+   VAR  [ 3] אַחַ֣ר  ->  אחרי   (after, sim=0.875)
+
+Gn 10:1
+   VAR  [10] יִּוָּלְד֥וּ  ->  יולידו   (bear, sim=0.917)
+   VAR  [13] אַחַ֥ר  ->  אחרי   (after, sim=0.875)
+
+Gn 10:2
+   VAR  [10] תֻבָ֑ל  ->  תובל   (Tubal, sim=0.875)
+   VAR  [12] מֶ֖שֶׁךְ  ->  מושׁך   (Meshech, sim=0.875)
+   OMIT [ 5] ו   ()
+   OMIT [ 9] ו   ()
+   OMIT [11] ו   ()
+
+Gn 10:3
+   OMIT [ 4] ו   ()
+
+Gn 10:4
+   VAR  [ 3] אֱלִישָׁ֣ה  ->  אלישׁ   (Elishah, sim=0.9)
+   VAR  [ 8] דֹדָנִֽים  ->  רודנים   (Dodanite, sim=0.75)
+   OMIT [ 4] ו   ()
+
+Gn 10:5
+   VAR  [ 7] אַרְצֹתָ֔ם  ->  ארצותם   (earth, sim=0.917)
+   VAR  [12] מִשְׁפְּחֹתָ֖ם  ->  משׁפחותם   (clan, sim=0.929)
+
+Gn 10:6
+   OMIT [ 6] ו   ()
+
+Gn 10:7
+   VAR  [ 3] סְבָא֙  ->  סבה   (Seba, sim=0.667)
+   VAR  [11] סַבְתְּכָ֑א  ->  סבתכה   (Sabteca, sim=0.8)
+   OMIT [ 6] ו   ()
+
+Gn 10:8
+   VAR  [ 2] יָלַ֣ד  ->  הוליד   (bear, sim=0.6)
+   VAR  [ 4] נִמְרֹ֑ד  ->  נמרוד   (Nimrod, sim=0.9)
+   VAR  [ 9] גִּבֹּ֖ר  ->  גבור   (vigorous, sim=0.875)
+
+Gn 10:9
+   VAR  [ 2] גִבֹּֽר  ->  גבור   (vigorous, sim=0.875)
+   VAR  [11] נִמְרֹ֛ד  ->  נמרוד   (Nimrod, sim=0.9)
+
+Gn 10:11
+   VAR  [ 4] הִ֖וא  ->  היא   (she, sim=0.667)
+   VAR  [13] רְחֹבֹ֥ת עִ֖יר  ->  רחבות עיר   (Rehoboth Ir, sim=0.938)
+
+Gn 10:12
+   VAR  [ 8] הִ֖וא  ->  היא   (she, sim=0.667)
+
+Gn 10:13
+   VAR  [ 4] לוּדִ֧ים  ->  לדים   (Ludites, sim=0.9)
+   VAR  [ 7] עֲנָמִ֛ים  ->  עינמים   (Anamites, sim=0.917)
+
+Gn 10:15
+   VAR  [ 4] צִידֹ֥ן  ->  צידון   (Sidon, sim=0.9)
+   VAR  [ 5] בְּכֹרֹ֖ו  ->  בכורו   (first-born, sim=0.9)
+   PLUS [ 8] ה   (the)  [SIN VOCALIZAR]
+
+Gn 10:17
+   VAR  [ 7] עַרְקִ֖י  ->  ערוקי   (Arkite, sim=0.9)
+
+Gn 10:18
+   VAR  [14] נָפֹ֔צוּ  ->  נפצה   (disperse, sim=0.75)
+   VAR  [15] מִשְׁפְּחֹ֖ות  ->  משׁפחת   (clan, sim=0.917)
+
+Gn 10:19
+   PLUS [ 8] נהר   (stream)  [SIN VOCALIZAR]
+   PLUS [10] מצרים   (Egypt)  [SIN VOCALIZAR]
+   PLUS [13] ה   (the)  [SIN VOCALIZAR]
+   PLUS [15] נהר   (stream)  [SIN VOCALIZAR]
+   PLUS [17] ה   (the)  [SIN VOCALIZAR]
+   PLUS [19] גדול   (great)  [SIN VOCALIZAR]
+   PLUS [21] נהר   (stream)  [SIN VOCALIZAR]
+   PLUS [24] פרת   (Euphrates)  [SIN VOCALIZAR]
+   PLUS [28] ה   (the)  [SIN VOCALIZAR]
+   PLUS [29] ים   (sea)  [SIN VOCALIZAR]
+   PLUS [30] ה   (the)  [SIN VOCALIZAR]
+   PLUS [32] אחרון   (at the back)  [SIN VOCALIZAR]
+   OMIT [ 6] צידן   ()
+   OMIT [ 7] באכה   ()
+   OMIT [ 9] גררה   ()
+   OMIT [12] עזה   ()
+   OMIT [14] באכה   ()
+   OMIT [16] סדמה   ()
+   OMIT [18] ו   ()
+   OMIT [20] עמרה   ()
+   OMIT [22] ו   ()
+   OMIT [23] אדמה   ()
+   OMIT [26] צבים   ()
+   OMIT [31] לשע   ()
+
+Gn 10:20
+   VAR  [ 4] מִשְׁפְּחֹתָ֖ם  ->  משׁפחותם   (clan, sim=0.929)
+   VAR  [ 6] לְשֹֽׁנֹתָ֑ם  ->  לשׁנותם   (tongue, sim=0.917)
+   VAR  [ 8] אַרְצֹתָ֖ם  ->  ארצותם   (earth, sim=0.917)
+   PLUS [10] ל   (to)  [SIN VOCALIZAR]
+   OMIT [ 9] ב   ()
+
+Gn 10:22
+   VAR  [ 8] ל֥וּד  ->  לד   (Lud, sim=0.833)
+
+Gn 10:23
+   VAR  [ 5] ח֖וּל  ->  חויל   (Hul, sim=0.875)
+   VAR  [ 9] מַֽשׁ  ->  משׁא   (Meshech, sim=0.833)
+   OMIT [ 6] ו   ()
+
+Gn 10:25
+   VAR  [ 3] יֻלַּ֖ד  ->  ילדו   (bear, sim=0.875)
+
+Gn 10:27
+   VAR  [ 2] הֲדֹורָ֥ם  ->  אדורם   (Hadoram, sim=0.8)
+   VAR  [ 5] אוּזָ֖ל  ->  עיזל   (Uzal, sim=0.5)
+
+Gn 10:28
+   VAR  [ 2] עֹובָ֥ל  ->  עיבל   (Obal, sim=0.75)
+
+Gn 10:29
+   VAR  [ 2] אֹופִ֥ר  ->  אפר   (<land of gold>, sim=0.875)
+
+Gn 10:31
+   VAR  [ 4] מִשְׁפְּחֹתָ֖ם  ->  משׁפחותם   (clan, sim=0.929)
+   VAR  [ 6] לְשֹׁנֹתָ֑ם  ->  לשׁנותם   (tongue, sim=0.917)
+   VAR  [ 8] אַרְצֹתָ֖ם  ->  ארצותם   (earth, sim=0.917)
+
+Gn 10:32
+   VAR  [ 1] מִשְׁפְּחֹ֧ת  ->  משׁפחות   (clan, sim=0.917)
+   VAR  [17] אַחַ֥ר  ->  אחרי   (after, sim=0.875)
+   PLUS [12] איי   (coast, island)  [SIN VOCALIZAR]
+   OMIT [ 8] ו   ()
+
+Gn 11:3
+   VAR  [ 8] לְבֵנִ֔ים  ->  בנים   (son, sim=0.8)
+   VAR  [22] חֵמָ֔ר  ->  חימר   (bitumen, sim=0.875)
+   VAR  [26] חֹֽמֶר  ->  חימר   (bitumen, sim=0.875)
+   PLUS [ 7] ל   (to)  [SIN VOCALIZAR]
+
+Gn 11:5
+   VAR  [ 4] רְאֹ֥ת  ->  ראות   (see, sim=0.875)
+
+Gn 11:6
+   VAR  [23] יָזְמ֖וּ  ->  יזמנו   (appoint, sim=0.8)
+
+Gn 11:7
+   VAR  [ 5] שְׂפָתָ֑ם  ->  שׂפתים   (lip, sim=0.9)
+   VAR  [ 8] יִשְׁמְע֔וּ  ->  ישׁמע   (hear, sim=0.9)
+   PLUS [10] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 11:8
+   VAR  [14] בְנֹ֥ת  ->  בנות   (build, sim=0.875)
+   PLUS [15] את   (<object marker>)  [SIN VOCALIZAR]
+   PLUS [18] ו   (and)  [SIN VOCALIZAR]
+   PLUS [19] את   (<object marker>)  [SIN VOCALIZAR]
+   PLUS [20] ה   (the)  [SIN VOCALIZAR]
+   PLUS [21] מגדל   (tower)  [SIN VOCALIZAR]
+
+Gn 11:9
+   PLUS [ 9] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 11:10
+   VAR  [ 8] יֹּ֖ולֶד  ->  יוליד   (bear, sim=0.9)
+   VAR  [12] אַחַ֥ר  ->  אחרי   (after, sim=0.875)
+
+Gn 11:11
+   VAR  [11] יֹּ֥ולֶד  ->  יוליד   (bear, sim=0.9)
+   PLUS [15] ו   (and)  [SIN VOCALIZAR]
+   PLUS [16] יהיו   (be)  [SIN VOCALIZAR]
+   PLUS [17] כל   (whole)  [SIN VOCALIZAR]
+   PLUS [18] ימי   (day)  [SIN VOCALIZAR]
+   PLUS [19] שׁם   (Shem)  [SIN VOCALIZAR]
+   PLUS [20] שׁשׁ   (six)  [SIN VOCALIZAR]
+   PLUS [21] מאות   (hundred)  [SIN VOCALIZAR]
+   PLUS [22] שׁנה   (year)  [SIN VOCALIZAR]
+   PLUS [23] ו   (and)  [SIN VOCALIZAR]
+   PLUS [24] ימת   (die)  [SIN VOCALIZAR]
+
+Gn 11:12
+   VAR  [10] יֹּ֖ולֶד  ->  יוליד   (bear, sim=0.9)
+   PLUS [ 6] ו   (and)  [SIN VOCALIZAR]
+   PLUS [ 7] מאת   (hundred)  [SIN VOCALIZAR]
+
+Gn 11:13
+   VAR  [15] יֹּ֥ולֶד  ->  יוליד   (bear, sim=0.9)
+   PLUS [11] שׁלשׁ   (three)  [SIN VOCALIZAR]
+   PLUS [19] ו   (and)  [SIN VOCALIZAR]
+   PLUS [20] יהיו   (be)  [SIN VOCALIZAR]
+   PLUS [21] כל   (whole)  [SIN VOCALIZAR]
+   PLUS [22] ימי   (day)  [SIN VOCALIZAR]
+   PLUS [23] ארפכשׁד   (Arpachshad)  [SIN VOCALIZAR]
+   PLUS [24] שׁמנה   (eight)  [SIN VOCALIZAR]
+   PLUS [25] ו   (and)  [SIN VOCALIZAR]
+   PLUS [26] שׁלשׁים   (three)  [SIN VOCALIZAR]
+   PLUS [27] שׁנה   (year)  [SIN VOCALIZAR]
+   PLUS [28] ו   (and)  [SIN VOCALIZAR]
+   PLUS [29] ארבע   (four)  [SIN VOCALIZAR]
+   PLUS [30] מאות   (hundred)  [SIN VOCALIZAR]
+   PLUS [31] שׁנה   (year)  [SIN VOCALIZAR]
+   PLUS [32] ו   (and)  [SIN VOCALIZAR]
+   PLUS [33] ימת   (die)  [SIN VOCALIZAR]
+   OMIT [10] ארבע   ()
+
+Gn 11:14
+   VAR  [10] יֹּ֖ולֶד  ->  יוליד   (bear, sim=0.9)
+   PLUS [ 1] יחי   (be alive)  [SIN VOCALIZAR]
+   PLUS [ 5] שׁנה   (year)  [SIN VOCALIZAR]
+   PLUS [ 6] ו   (and)  [SIN VOCALIZAR]
+   PLUS [ 7] מאת   (hundred)  [SIN VOCALIZAR]
+   OMIT [ 3] חי   ()
+
+Gn 11:15
+   VAR  [15] יֹּ֥ולֶד  ->  יוליד   (bear, sim=0.9)
+   PLUS [11] שׁלשׁ   (three)  [SIN VOCALIZAR]
+   PLUS [19] ו   (and)  [SIN VOCALIZAR]
+   PLUS [20] יהיו   (be)  [SIN VOCALIZAR]
+   PLUS [21] כל   (whole)  [SIN VOCALIZAR]
+   PLUS [22] ימי   (day)  [SIN VOCALIZAR]
+   PLUS [23] שׁלח   (Shelah)  [SIN VOCALIZAR]
+   PLUS [24] שׁלשׁ   (three)  [SIN VOCALIZAR]
+   PLUS [25] ו   (and)  [SIN VOCALIZAR]
+   PLUS [26] שׁלשׁים   (three)  [SIN VOCALIZAR]
+   PLUS [27] שׁנה   (year)  [SIN VOCALIZAR]
+   PLUS [28] ו   (and)  [SIN VOCALIZAR]
+   PLUS [29] ארבע   (four)  [SIN VOCALIZAR]
+   PLUS [30] מאות   (hundred)  [SIN VOCALIZAR]
+   PLUS [31] שׁנה   (year)  [SIN VOCALIZAR]
+   PLUS [32] ו   (and)  [SIN VOCALIZAR]
+   PLUS [33] ימת   (die)  [SIN VOCALIZAR]
+   OMIT [10] ארבע   ()
+
+Gn 11:16
+   VAR  [10] יֹּ֖ולֶד  ->  יוליד   (bear, sim=0.9)
+   PLUS [ 6] ו   (and)  [SIN VOCALIZAR]
+   PLUS [ 7] מאת   (hundred)  [SIN VOCALIZAR]
+
+Gn 11:17
+   VAR  [ 7] שְׁלֹשִׁ֣ים  ->  שׁבעים   (seven, sim=0.6)
+   VAR  [11] מֵאֹ֖ות  ->  מאתים   (hundred, sim=0.6)
+   VAR  [14] יֹּ֥ולֶד  ->  יוליד   (bear, sim=0.9)
+   PLUS [18] ו   (and)  [SIN VOCALIZAR]
+   PLUS [19] יהיו   (be)  [SIN VOCALIZAR]
+   PLUS [20] כל   (whole)  [SIN VOCALIZAR]
+   PLUS [21] ימי   (day)  [SIN VOCALIZAR]
+   PLUS [22] עבר   (Eber)  [SIN VOCALIZAR]
+   PLUS [23] ארבע   (four)  [SIN VOCALIZAR]
+   PLUS [24] שׁנים   (year)  [SIN VOCALIZAR]
+   PLUS [25] ו   (and)  [SIN VOCALIZAR]
+   PLUS [26] ארבע   (four)  [SIN VOCALIZAR]
+   PLUS [27] מאות   (hundred)  [SIN VOCALIZAR]
+   PLUS [28] שׁנה   (year)  [SIN VOCALIZAR]
+   PLUS [29] ו   (and)  [SIN VOCALIZAR]
+   PLUS [30] ימת   (die)  [SIN VOCALIZAR]
+   OMIT [10] ארבע   ()
+
+Gn 11:18
+   VAR  [ 9] יֹּ֖ולֶד  ->  יוליד   (bear, sim=0.9)
+   PLUS [ 4] שׁנה   (year)  [SIN VOCALIZAR]
+   PLUS [ 5] ו   (and)  [SIN VOCALIZAR]
+   PLUS [ 6] מאת   (hundred)  [SIN VOCALIZAR]
+
+Gn 11:19
+   VAR  [10] מָאתַ֣יִם  ->  מאת   (hundred, sim=0.7)
+   VAR  [13] יֹּ֥ולֶד  ->  יוליד   (bear, sim=0.9)
+   PLUS [17] ו   (and)  [SIN VOCALIZAR]
+   PLUS [18] יהיו   (be)  [SIN VOCALIZAR]
+   PLUS [19] כל   (whole)  [SIN VOCALIZAR]
+   PLUS [20] ימי   (day)  [SIN VOCALIZAR]
+   PLUS [21] פלג   (Peleg)  [SIN VOCALIZAR]
+   PLUS [22] תשׁע   (nine)  [SIN VOCALIZAR]
+   PLUS [23] ו   (and)  [SIN VOCALIZAR]
+   PLUS [24] שׁלשׁים   (three)  [SIN VOCALIZAR]
+   PLUS [25] ו   (and)  [SIN VOCALIZAR]
+   PLUS [26] מאתים   (hundred)  [SIN VOCALIZAR]
+   PLUS [27] שׁנה   (year)  [SIN VOCALIZAR]
+   PLUS [28] ו   (and)  [SIN VOCALIZAR]
+   PLUS [29] ימת   (die)  [SIN VOCALIZAR]
+
+Gn 11:20
+   VAR  [10] יֹּ֖ולֶד  ->  יוליד   (bear, sim=0.9)
+   PLUS [ 6] ו   (and)  [SIN VOCALIZAR]
+   PLUS [ 7] מאת   (hundred)  [SIN VOCALIZAR]
+
+Gn 11:21
+   VAR  [10] מָאתַ֣יִם  ->  מאת   (hundred, sim=0.7)
+   VAR  [13] יֹּ֥ולֶד  ->  יוליד   (bear, sim=0.9)
+   PLUS [17] ו   (and)  [SIN VOCALIZAR]
+   PLUS [18] יהיו   (be)  [SIN VOCALIZAR]
+   PLUS [19] כל   (whole)  [SIN VOCALIZAR]
+   PLUS [20] ימי   (day)  [SIN VOCALIZAR]
+   PLUS [21] רעו   (Reu)  [SIN VOCALIZAR]
+   PLUS [22] תשׁע   (nine)  [SIN VOCALIZAR]
+   PLUS [23] ו   (and)  [SIN VOCALIZAR]
+   PLUS [24] שׁלשׁים   (three)  [SIN VOCALIZAR]
+   PLUS [25] ו   (and)  [SIN VOCALIZAR]
+   PLUS [26] מאתים   (hundred)  [SIN VOCALIZAR]
+   PLUS [27] שׁנה   (year)  [SIN VOCALIZAR]
+   PLUS [28] ו   (and)  [SIN VOCALIZAR]
+   PLUS [29] ימת   (die)  [SIN VOCALIZAR]
+
+Gn 11:22
+   VAR  [ 9] יֹּ֖ולֶד  ->  יוליד   (bear, sim=0.9)
+   PLUS [ 4] שׁנה   (year)  [SIN VOCALIZAR]
+   PLUS [ 5] ו   (and)  [SIN VOCALIZAR]
+   PLUS [ 6] מאת   (hundred)  [SIN VOCALIZAR]
+
+Gn 11:23
+   VAR  [ 7] מָאתַ֣יִם  ->  מאת   (hundred, sim=0.7)
+   VAR  [10] יֹּ֥ולֶד  ->  יוליד   (bear, sim=0.9)
+   PLUS [14] ו   (and)  [SIN VOCALIZAR]
+   PLUS [15] יהיו   (be)  [SIN VOCALIZAR]
+   PLUS [16] כל   (whole)  [SIN VOCALIZAR]
+   PLUS [17] ימי   (day)  [SIN VOCALIZAR]
+   PLUS [18] שׂרוג   (Serug)  [SIN VOCALIZAR]
+   PLUS [19] שׁלשׁים   (three)  [SIN VOCALIZAR]
+   PLUS [20] שׁנה   (year)  [SIN VOCALIZAR]
+   PLUS [21] ו   (and)  [SIN VOCALIZAR]
+   PLUS [22] מאתים   (hundred)  [SIN VOCALIZAR]
+   PLUS [23] שׁנה   (year)  [SIN VOCALIZAR]
+   PLUS [24] ו   (and)  [SIN VOCALIZAR]
+   PLUS [25] ימת   (die)  [SIN VOCALIZAR]
+
+Gn 11:24
+   VAR  [ 9] יֹּ֖ולֶד  ->  יוליד   (bear, sim=0.9)
+   PLUS [ 6] שׁבעים   (seven)  [SIN VOCALIZAR]
+   OMIT [ 5] עשרים   ()
+
+Gn 11:25
+   VAR  [ 9] שָׁנָ֖ה  ->  שׁנים   (year, sim=0.625)
+   VAR  [15] יֹּ֥ולֶד  ->  יוליד   (bear, sim=0.9)
+   PLUS [12] שׁשׁים   (six)  [SIN VOCALIZAR]
+   PLUS [19] ו   (and)  [SIN VOCALIZAR]
+   PLUS [20] יהיו   (be)  [SIN VOCALIZAR]
+   PLUS [21] כל   (whole)  [SIN VOCALIZAR]
+   PLUS [22] ימי   (day)  [SIN VOCALIZAR]
+   PLUS [23] נחור   (Nahor)  [SIN VOCALIZAR]
+   PLUS [24] שׁמנה   (eight)  [SIN VOCALIZAR]
+   PLUS [25] ו   (and)  [SIN VOCALIZAR]
+   PLUS [26] ארבעים   (four)  [SIN VOCALIZAR]
+   PLUS [27] שׁנה   (year)  [SIN VOCALIZAR]
+   PLUS [28] ו   (and)  [SIN VOCALIZAR]
+   PLUS [29] מאת   (hundred)  [SIN VOCALIZAR]
+   PLUS [30] שׁנה   (year)  [SIN VOCALIZAR]
+   PLUS [31] ו   (and)  [SIN VOCALIZAR]
+   PLUS [32] ימת   (die)  [SIN VOCALIZAR]
+   OMIT [ 8] עשרה   ()
+   OMIT [11] מאת   ()
+
+Gn 11:26
+   VAR  [ 6] יֹּ֨ולֶד֙  ->  יוליד   (bear, sim=0.9)
+   PLUS [ 9] ו   (and)  [SIN VOCALIZAR]
+
+Gn 11:27
+   PLUS [ 8] ו   (and)  [SIN VOCALIZAR]
+   OMIT [ 0] ו   ()
+
+Gn 11:30
+   VAR  [ 6] וָלָֽד  ->  ילד   (boy, sim=0.667)
+
+Gn 11:31
+   VAR  [19] כַּלָּתֹ֔ו  ->  כלותו   (bride, sim=0.9)
+   VAR  [24] בְּנֹ֑ו  ->  בניו   (son, sim=0.875)
+   VAR  [26] יֵּצְא֨וּ  ->  יוצא   (go out, sim=0.75)
+   PLUS [16] ו   (and)  [SIN VOCALIZAR]
+   PLUS [17] את   (<object marker>)  [SIN VOCALIZAR]
+   PLUS [18] מלכה   (Milcah)  [SIN VOCALIZAR]
+   PLUS [22] ו   (and)  [SIN VOCALIZAR]
+   PLUS [23] נחור   (Nahor)  [SIN VOCALIZAR]
+
+Gn 11:32
+   VAR  [ 9] מָאתַ֣יִם  ->  מאת   (hundred, sim=0.7)
+   PLUS [ 6] ו   (and)  [SIN VOCALIZAR]
+   PLUS [ 7] ארבעים   (four)  [SIN VOCALIZAR]
+
+Gn 12:2
+   VAR  [11] הְיֵ֖ה  ->  הוי   (become, sim=0.667)
+
+Gn 12:3
+   VAR  [ 1] אֲבָֽרֲכָה֙  ->  אברך   (bless, sim=0.9)
+   VAR  [ 4] מְקַלֶּלְךָ֖  ->  מקלליך   (be slight, sim=0.917)
+   VAR  [10] מִשְׁפְּחֹ֥ת  ->  משׁפחות   (clan, sim=0.917)
+
+Gn 12:6
+   VAR  [10] מֹורֶ֑ה  ->  מורא   (Moreh, sim=0.75)
+
+Gn 12:7
+   PLUS [ 7] לו   (to)  [SIN VOCALIZAR]
+
+Gn 12:8
+   VAR  [ 9] בֵֽית־אֵ֖ל  ->  בית   (house, sim=0.7)
+   VAR  [13] אָהֳלֹ֑ו  ->  אהלו   (tent, sim=0.75)
+   PLUS [10] אל   (to)  [SIN VOCALIZAR]
+
+Gn 12:9
+   VAR  [ 5] נָסֹ֖ועַ  ->  נסע   (pull out, sim=0.875)
+
+Gn 12:11
+   VAR  [20] אָֽתְּ  ->  אתי   (you, sim=0.833)
+
+Gn 12:12
+   VAR  [ 4] אֹתָךְ֙  ->  אתיך   (<object marker>, sim=0.875)
+   VAR  [15] אֹתָ֥ךְ  ->  אתיך   (<object marker>, sim=0.875)
+
+Gn 12:13
+   VAR  [ 2] אֲחֹ֣תִי  ->  אחותי   (sister, sim=0.9)
+   VAR  [ 3] אָ֑תְּ  ->  אתי   (you, sim=0.833)
+   VAR  [ 8] עֲבוּרֵ֔ךְ  ->  עבוריך   (way, sim=0.917)
+   VAR  [13] גְלָלֵֽךְ  ->  גלליך   (<uncertain>, sim=0.9)
+
+Gn 12:14
+   VAR  [15] הִ֖וא  ->  היא   (she, sim=0.667)
+
+Gn 12:15
+   VAR  [14] בֵּ֥ית  ->  ביתה   (house, sim=0.875)
+
+Gn 12:16
+   VAR  [ 3] הֵיטִ֖יב  ->  הייטב   (be good, sim=0.8)
+   VAR  [20] שְׁפָחֹ֔ת  ->  שׁפחות   (maidservant, sim=0.9)
+   VAR  [24] אֲתֹנֹ֖ת  ->  אתנות   (she-ass, sim=0.9)
+   PLUS [13] מקנה   (purchase)  [SIN VOCALIZAR]
+   PLUS [15] כבד   (heavy)  [SIN VOCALIZAR]
+   PLUS [17] מאד   (might)  [SIN VOCALIZAR]
+   PLUS [21] ו   (and)  [SIN VOCALIZAR]
+   PLUS [22] חמרים   (he-ass)  [SIN VOCALIZAR]
+   OMIT [12] ו   ()
+   OMIT [14] חמרים   ()
+   OMIT [16] ו   ()
+
+Gn 12:18
+   VAR  [17] הִֽוא  ->  היא   (she, sim=0.667)
+
+Gn 12:19
+   VAR  [ 3] אֲחֹ֣תִי  ->  אחותי   (sister, sim=0.9)
+   VAR  [ 4] הִ֔וא  ->  היא   (she, sim=0.667)
+   PLUS [ 0] ו   (and)  [SIN VOCALIZAR]
+
+Gn 12:20
+   PLUS [16] ו   (and)  [SIN VOCALIZAR]
+   PLUS [17] לוט   (Lot)  [SIN VOCALIZAR]
+   PLUS [18] עמו   (with)  [SIN VOCALIZAR]
+
+Gn 13:3
+   VAR  [15] אָֽהֳלֹו֙  ->  אהלו   (tent, sim=0.75)
+
+Gn 13:4
+   VAR  [ 8] רִאשֹׁנָ֑ה  ->  ראישׁונה   (first, sim=0.857)
+
+Gn 13:6
+   VAR  [ 2] נָשָׂ֥א  ->  נשׂאה   (lift, sim=0.875)
+
+Gn 13:7
+   VAR  [19] יֹשֵׁ֥ב  ->  ישׁבים   (sit, sim=0.7)
+
+Gn 13:8
+   VAR  [ 7] תְהִ֤י  ->  תהיה   (be, sim=0.875)
+   VAR  [11] בֵינֶ֔יךָ  ->  בינך   (interval, sim=0.9)
+
+Gn 13:9
+   VAR  [ 1] לֹ֤א  ->  לוא   (not, sim=0.833)
+   VAR  [13] שְּׂמֹ֣אל  ->  שׂמאלה   (left-hand side, sim=0.9)
+   VAR  [16] אֵימִ֔נָה  ->  ימינה   (right-hand side, sim=0.8)
+   VAR  [20] יָּמִ֖ין  ->  ימינה   (right-hand side, sim=0.9)
+   VAR  [23] אַשְׂמְאִֽילָה  ->  שׂמאלה   (left-hand side, sim=0.857)
+   PLUS [15] ה   (the)  [SIN VOCALIZAR]
+   PLUS [22] ה   (the)  [SIN VOCALIZAR]
+
+Gn 13:10
+   VAR  [13] כֻלָּ֖הּ  ->  כלו   (whole, sim=0.667)
+   VAR  [31] צֹֽעַר  ->  צערה   (Zoar, sim=0.875)
+
+Gn 13:14
+   VAR  [21] צָפֹ֥נָה  ->  צפונה   (north, sim=0.9)
+
+Gn 13:18
+   VAR  [ 1] יֶּאֱהַ֣ל  ->  יאל   (pitch a tent, sim=0.875)
+   VAR  [ 8] אֵלֹנֵ֥י  ->  אלוני   (big tree, sim=0.9)
+
+Gn 14:1
+   PLUS [ 7] ו   (and)  [SIN VOCALIZAR]
+
+Gn 14:2
+   VAR  [16] שֶׁמְאֵ֨בֶר֙  ->  שׁמ אבד   (Shemeber, sim=0.8)
+   VAR  [18] צְבֹויִ֔ם  ->  צבואים   (Zeboiim, sim=0.75)
+   PLUS [11] ו   (and)  [SIN VOCALIZAR]
+
+Gn 14:4
+   PLUS [ 7] ב   (in)  [SIN VOCALIZAR]
+
+Gn 14:5
+   VAR  [18] עַשְׁתְּרֹ֣ת קַרְנַ֔יִם  ->  עשׁתרות קרנים   (Ashteroth Karnaim, sim=0.955)
+   VAR  [24] הָ֑ם  ->  חם   (Ham, sim=0.5)
+   PLUS [15] ה   (the)  [SIN VOCALIZAR]
+   PLUS [31] שׁבי   (plain)  [SIN VOCALIZAR]
+   OMIT [30] שוה   ()
+
+Gn 14:6
+   VAR  [ 5] הַרְרָ֣ם  ->  הררי   (mountain, sim=0.75)
+   VAR  [ 8] אֵ֣יל פָּארָ֔ן  ->  איל פראן   (El Paran, sim=0.857)
+
+Gn 14:7
+   VAR  [ 6] הִ֣וא  ->  היא   (she, sim=0.667)
+   VAR  [23] חַֽצְצֹ֥ן תָּמָֽר  ->  חצצונ תמר   (Hazazon Tamar, sim=0.938)
+
+Gn 14:8
+   VAR  [12] צְבֹויִ֔ם  ->  צבואים   (Zeboiim, sim=0.75)
+
+Gn 14:9
+   OMIT [ 8] ו   ()
+
+Gn 14:10
+   VAR  [ 4] בֶּֽאֱרֹ֤ת  ->  בארות   (well, sim=0.9)
+   VAR  [ 5] בֶּאֱרֹת֙  ->  בארות   (well, sim=0.9)
+   VAR  [ 6] חֵמָ֔ר  ->  חימר   (bitumen, sim=0.875)
+   VAR  [16] שָׁ֑מָּה  ->  שׁם   (there, sim=0.833)
+   PLUS [12] מלך   (king)  [SIN VOCALIZAR]
+   PLUS [20] ה   (the)  [SIN VOCALIZAR]
+
+Gn 14:11
+   VAR  [ 4] רְכֻ֨שׁ  ->  רכושׁ   (property, sim=0.875)
+
+Gn 14:12
+   VAR  [ 7] רְכֻשֹׁ֛ו  ->  רכושׁו   (property, sim=0.9)
+   VAR  [12] יֵּלֵ֑כוּ  ->  ילך   (walk, sim=0.875)
+   PLUS [ 6] כל   (whole)  [SIN VOCALIZAR]
+
+Gn 14:13
+   VAR  [14] אֵֽלֹנֵ֜י  ->  אלוני   (big tree, sim=0.9)
+   VAR  [19] אֶשְׁכֹּל֙  ->  אשׁכול   (Eshcol, sim=0.9)
+   VAR  [22] עָנֵ֔ר  ->  ענרם   (Aner, sim=0.75)
+
+Gn 14:14
+   VAR  [ 4] נִשְׁבָּ֖ה  ->  נשׁבא   (take captive, sim=0.75)
+   VAR  [ 7] יָּ֨רֶק  ->  ידק   (equip, sim=0.667)
+
+Gn 14:16
+   VAR  [ 5] רְכֻ֑שׁ  ->  רכושׁ   (property, sim=0.875)
+   VAR  [12] רְכֻשֹׁו֙  ->  רכושׁו   (property, sim=0.9)
+
+Gn 14:17
+   VAR  [21] שָׁוֵ֔ה  ->  שׁוי   (Shaveh, sim=0.667)
+   PLUS [20] ה   (the)  [SIN VOCALIZAR]
+
+Gn 14:19
+   VAR  [ 1] יְבָרְכֵ֖הוּ  ->  יברך   (bless, sim=0.833)
+   PLUS [ 2] את   (<object marker>)  [SIN VOCALIZAR]
+   PLUS [ 3] אברם   (Abram)  [SIN VOCALIZAR]
+
+Gn 14:21
+   VAR  [ 6] תֶּן  ->  תנה   (give, sim=0.833)
+   VAR  [12] רְכֻ֖שׁ  ->  רכושׁ   (property, sim=0.875)
+
+Gn 14:22
+   VAR  [ 6] הֲרִימֹ֨תִי  ->  הרמתי   (be high, sim=0.917)
+   VAR  [10] יְהוָה֙  ->  ה   (the, sim=0.625)
+   PLUS [ 7] את   (<object marker>)  [SIN VOCALIZAR]
+   PLUS [11] אלהים   (god(s))  [SIN VOCALIZAR]
+
+Gn 14:23
+   VAR  [ 5] שְׂרֹֽוךְ  ->  שׂרוג   (sandal-thong, sim=0.75)
+   VAR  [17] אֲנִ֖י  ->  אנכי   (i, sim=0.75)
+   VAR  [18] הֶעֱשַׁ֥רְתִּי  ->  אעשׁרתי   (become rich, sim=0.833)
+   OMIT [ 7] ו   ()
+
+Gn 14:24
+   VAR  [13] עָנֵר֙  ->  ענרם   (Aner, sim=0.75)
+   VAR  [15] אֶשְׁכֹּ֣ל  ->  אשׁכול   (Eshcol, sim=0.9)
+   PLUS [14] ו   (and)  [SIN VOCALIZAR]
+
+Gn 15:1
+   VAR  [22] הַרְבֵּ֥ה  ->  ארבה   (be many, sim=0.75)
+   PLUS [20] ו   (and)  [SIN VOCALIZAR]
+
+Gn 15:2
+   VAR  [10] הֹולֵ֣ךְ  ->  הלך   (walk, sim=0.875)
+   VAR  [11] עֲרִירִ֑י  ->  עררי   (childless, sim=0.9)
+
+Gn 15:3
+   VAR  [12] יֹורֵ֥שׁ  ->  יירשׁ   (trample down, sim=0.75)
+
+Gn 15:5
+   VAR  [10] שָּׁמַ֗יְמָה  ->  שׁמים   (heavens, sim=0.9)
+
+Gn 15:8
+   VAR  [ 8] אִֽירָשֶֽׁנָּה  ->  איירשׁנה   (trample down, sim=0.929)
+
+Gn 15:9
+   VAR  [ 3] קְחָ֥ה  ->  קח   (take, sim=0.833)
+
+Gn 15:10
+   VAR  [10] תָּ֔וֶךְ  ->  תור   (ox, sim=0.667)
+   VAR  [22] צִפֹּ֖ר  ->  צפורים   (bird, sim=0.667)
+   PLUS [14] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 15:14
+   VAR  [14] רְכֻ֥שׁ  ->  רכושׁ   (property, sim=0.875)
+
+Gn 15:16
+   VAR  [ 4] יָשׁ֣וּבוּ  ->  ישׁוב   (return, sim=0.9)
+   PLUS [ 2] ה   (the)  [SIN VOCALIZAR]
+
+Gn 15:18
+   VAR  [26] גָּדֹ֖ל  ->  גדול   (great, sim=0.875)
+
+Gn 15:19
+   VAR  [10] קַּדְמֹנִֽי  ->  קדמוני   (easterner, sim=0.917)
+
+Gn 15:21
+   PLUS [12] ו   (and)  [SIN VOCALIZAR]
+   PLUS [13] את   (<object marker>)  [SIN VOCALIZAR]
+   PLUS [14] ה   (the)  [SIN VOCALIZAR]
+   PLUS [15] חוי   (Hivite)  [SIN VOCALIZAR]
+
+Gn 16:5
+   VAR  [24] בֵינֶֽיׄךָ  ->  בינך   (interval, sim=0.9)
+
+Gn 16:6
+   VAR  [ 6] שִׁפְחָתֵךְ֙  ->  שׁפחתיך   (maidservant, sim=0.917)
+   VAR  [ 8] יָדֵ֔ךְ  ->  ידיך   (hand, sim=0.875)
+   VAR  [ 9] עֲשִׂי  ->  עשׂה   (make, sim=0.667)
+
+Gn 16:8
+   VAR  [ 5] אֵֽי  ->  אוי   (where, sim=0.833)
+   VAR  [ 8] בָ֖את  ->  באתי   (come, sim=0.875)
+
+Gn 16:9
+   VAR  [ 7] גְּבִרְתֵּ֑ךְ  ->  גברתיך   (lady, sim=0.917)
+   VAR  [11] יָדֶֽיהָ  ->  ידה   (hand, sim=0.875)
+
+Gn 16:10
+   VAR  [ 8] זַרְעֵ֑ךְ  ->  זרעיך   (seed, sim=0.9)
+
+Gn 16:11
+   PLUS [12] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 16:12
+   VAR  [ 3] פֶּ֣רֶא  ->  פרה   (cow, sim=0.667)
+
+Gn 16:13
+   VAR  [ 9] רֳאִ֑י  ->  ראה   (see, sim=0.667)
+   VAR  [17] רֹאִֽי  ->  ראה   (see, sim=0.667)
+
+Gn 16:14
+   VAR  [ 2] קָרָ֣א  ->  קראה   (call, sim=0.875)
+   VAR  [ 6] לַחַ֖י רֹאִ֑י  ->  לחי ראה   (Beer Lahai Roi, sim=0.833)
+
+Gn 16:15
+   PLUS [ 9] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 17:1
+   VAR  [24] הְיֵ֥ה  ->  הוי   (become, sim=0.667)
+   OMIT [ 5] שנה   ()
+
+Gn 17:2
+   VAR  [ 8] אֹותְךָ֖  ->  אתך   (<object marker>, sim=0.875)
+
+Gn 17:4
+   PLUS [ 0] ו   (and)  [SIN VOCALIZAR]
+
+Gn 17:5
+   OMIT [ 4] את   ()
+
+Gn 17:6
+   VAR  [ 1] הִפְרֵתִ֤י  ->  הפריתי   (be fertile, sim=0.917)
+
+Gn 17:9
+   VAR  [15] דֹרֹתָֽם  ->  דרותם   (generation, sim=0.9)
+
+Gn 17:10
+   VAR  [ 6] בֵ֣ינֵיכֶ֔ם  ->  בינכם   (interval, sim=0.917)
+
+Gn 17:11
+   VAR  [ 6] הָיָה֙  ->  היתה   (be, sim=0.75)
+   VAR  [12] בֵינֵיכֶֽם  ->  בינכם   (interval, sim=0.917)
+
+Gn 17:13
+   VAR  [ 2] יְלִ֥יד  ->  ילידי   (son, sim=0.9)
+
+Gn 17:14
+   VAR  [18] הִ֖וא  ->  היא   (she, sim=0.667)
+   PLUS [ 9] ב   (in)  [SIN VOCALIZAR]
+   PLUS [10] יום   (day)  [SIN VOCALIZAR]
+   PLUS [11] ה   (the)  [SIN VOCALIZAR]
+   PLUS [12] שׁמיני   (eighth)  [SIN VOCALIZAR]
+
+Gn 17:16
+   VAR  [10] בֵֽרַכְתִּ֨יהָ֙  ->  ברכתיו   (bless, sim=0.833)
+   PLUS [15] ו   (and)  [SIN VOCALIZAR]
+
+Gn 17:17
+   VAR  [13] בֶ֤ן  ->  לבן   (white, sim=0.667)
+   VAR  [14] מֵאָֽה  ->  מ   (from, sim=0.667)
+   VAR  [17] יִוָּלֵ֔ד  ->  אוליד   (bear, sim=0.7)
+   PLUS [15] את   (together with)  [SIN VOCALIZAR]
+   OMIT [12] ל   ()
+
+Gn 17:18
+   VAR  [ 6] ל֥וּ  ->  לוי   (oh that, sim=0.833)
+
+Gn 17:19
+   PLUS [ 4] הנה   (behold)  [SIN VOCALIZAR]
+   PLUS [23] ו   (and)  [SIN VOCALIZAR]
+
+Gn 17:20
+   VAR  [18] נְשִׂיאִם֙  ->  נשׂיאים   (chief, sim=0.917)
+
+Gn 17:24
+   VAR  [ 6] שָׁנָ֑ה  ->  שׁנים   (year, sim=0.625)
+   PLUS [ 9] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 17:26
+   VAR  [ 6] נִמֹּ֖ול  ->  נמל   (circumcise, sim=0.875)
+
+Gn 18:1
+   VAR  [ 5] אֵלֹנֵ֖י  ->  אלוני   (big tree, sim=0.9)
+
+Gn 18:2
+   VAR  [ 8] אֲנָשִׁ֔ים  ->  אנושׁים   (man, sim=0.917)
+   VAR  [22] יִּשְׁתַּ֖חוּ  ->  ישׁתחוי   (bow down, sim=0.917)
+
+Gn 18:3
+   VAR  [ 8] עֵינֶ֔יךָ  ->  עיניכם   (eye, sim=0.833)
+   VAR  [11] תַעֲבֹ֖ר  ->  תעברו   (pass, sim=0.9)
+   VAR  [14] עַבְדֶּֽךָ  ->  עבדכם   (servant, sim=0.8)
+
+Gn 18:4
+   VAR  [ 8] הִֽשָּׁעֲנ֖וּ  ->  השׁעינו   (lean, sim=0.917)
+
+Gn 18:5
+   VAR  [ 1] אֶקְחָ֨ה  ->  אקח   (take, sim=0.875)
+   VAR  [ 6] לִבְּכֶם֙  ->  לבבכם   (heart, sim=0.8)
+   PLUS [ 7] ו   (and)  [SIN VOCALIZAR]
+
+Gn 18:6
+   VAR  [11] סְאִים֙  ->  סים   (seah, sim=0.875)
+   VAR  [16] עֲשִׂ֥י  ->  עשׂה   (make, sim=0.667)
+
+Gn 18:7
+   VAR  [21] עֲשֹׂ֥ות  ->  עשׂותו   (make, sim=0.9)
+   OMIT [22] אתו   ()
+
+Gn 18:8
+   PLUS [ 6] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 18:10
+   VAR  [21] ה֥וּא  ->  היא   (she, sim=0.667)
+
+Gn 18:15
+   VAR  [11] לֹ֖א  ->  לה   (to, sim=0.5)
+
+Gn 18:16
+   VAR  [ 5] אֲנָשִׁ֔ים  ->  אנושׁים   (man, sim=0.917)
+
+Gn 18:17
+   PLUS [ 8] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 18:18
+   VAR  [13] גֹּויֵ֥י  ->  גוי   (people, sim=0.875)
+
+Gn 18:19
+   VAR  [ 1] יְדַעְתִּ֗יו  ->  ידעתי   (know, sim=0.917)
+   PLUS [ 5] אברהם   (Abraham)  [SIN VOCALIZAR]
+
+Gn 18:20
+   VAR  [ 3] זַעֲקַ֛ת  ->  צעקת   (cry, sim=0.75)
+
+Gn 18:22
+   VAR  [ 5] אֲנָשִׁ֔ים  ->  אנושׁים   (man, sim=0.917)
+
+Gn 18:24
+   VAR  [ 3] צַדִּיקִ֖ם  ->  צדיקים   (just, sim=0.917)
+   VAR  [19] צַּדִּיקִ֖ם  ->  צדקים   (just, sim=0.8)
+
+Gn 18:25
+   VAR  [ 0] חָלִ֨לָה  ->  חלילה   (be it far, sim=0.9)
+   VAR  [ 3] עֲשֹׂ֣ת  ->  עשׂות   (make, sim=0.875)
+   VAR  [19] חָלִ֣לָה  ->  חלילה   (be it far, sim=0.9)
+
+Gn 18:26
+   VAR  [ 8] צַדִּיקִ֖ם  ->  צדקים   (just, sim=0.8)
+
+Gn 18:28
+   VAR  [ 4] צַּדִּיקִם֙  ->  צדקים   (just, sim=0.8)
+
+Gn 18:29
+   PLUS [ 8] אליו   (to)  [SIN VOCALIZAR]
+   PLUS [17] אשׁחית   (destroy)  [SIN VOCALIZAR]
+   OMIT [16] אעשה   ()
+
+Gn 18:30
+   PLUS [17] אשׁחית   (destroy)  [SIN VOCALIZAR]
+   OMIT [16] אעשה   ()
+
+Gn 18:33
+   VAR  [14] מְקֹמֹֽו  ->  מקומו   (place, sim=0.9)
+
+Gn 19:1
+   VAR  [22] יִּשְׁתַּ֥חוּ  ->  ישׁתחוי   (bow down, sim=0.917)
+
+Gn 19:2
+   VAR  [26] רְחֹ֖וב  ->  רחב   (open place, sim=0.875)
+
+Gn 19:4
+   OMIT [ 2] ו   ()
+
+Gn 19:5
+   VAR  [ 6] לֹ֔ו  ->  אליו   (to, sim=0.75)
+   VAR  [ 9] אֲנָשִׁ֛ים  ->  אנושׁים   (man, sim=0.917)
+   VAR  [18] נֵדְעָ֖ה  ->  נדע   (know, sim=0.875)
+
+Gn 19:6
+   VAR  [ 2] אֲלֵהֶ֛ם  ->  אליהם   (to, sim=0.9)
+   VAR  [ 5] פֶּ֑תְחָה  ->  פתח   (opening, sim=0.875)
+   VAR  [ 9] סָגַ֥ר  ->  סגרו   (close, sim=0.875)
+
+Gn 19:7
+   VAR  [ 5] תָּרֵֽעוּ  ->  תריעו   (be evil, sim=0.9)
+
+Gn 19:8
+   VAR  [ 9] אֹוצִֽיאָה  ->  הוציא   (go out, sim=0.75)
+   VAR  [24] אֵל֙  ->  אלה   (these, sim=0.833)
+   VAR  [34] קֹרָתִֽי  ->  קורתי   (beam, sim=0.9)
+
+Gn 19:9
+   VAR  [ 2] גֶּשׁ  ->  גשׁה   (approach, sim=0.833)
+   VAR  [14] שָׁפֹ֔וט  ->  שׁפט   (judgment, sim=0.875)
+   VAR  [16] נָרַ֥ע  ->  נריע   (be evil, sim=0.875)
+   PLUS [13] גם   (even)  [SIN VOCALIZAR]
+   OMIT [ 6] ה   ()
+
+Gn 19:10
+   VAR  [ 3] אֲנָשִׁים֙  ->  אנושׁים   (man, sim=0.917)
+
+Gn 19:12
+   VAR  [ 7] עֹ֚ד  ->  עוד   (duration, sim=0.833)
+   VAR  [22] הֹוצֵ֖א  ->  הוציא   (go out, sim=0.9)
+   PLUS [ 4] מלאכים   (messenger)  [SIN VOCALIZAR]
+   PLUS [26] ה   (the)  [SIN VOCALIZAR]
+   PLUS [27] זה   (this)  [SIN VOCALIZAR]
+   OMIT [ 3] אנשים   ()
+   OMIT [12] ו   ()
+
+Gn 19:13
+   VAR  [ 1] מַשְׁחִתִ֣ים  ->  משׁחיתים   (destroy, sim=0.929)
+   VAR  [18] שַׁחֲתָֽהּ  ->  השׁחיתה   (destroy, sim=0.833)
+
+Gn 19:15
+   VAR  [22] נִּמְצָאֹ֔ת  ->  נמצאות   (find, sim=0.917)
+
+Gn 19:16
+   VAR  [ 5] אֲנָשִׁ֜ים  ->  אנושׁים   (man, sim=0.917)
+   VAR  [22] יֹּצִאֻ֥הוּ  ->  יוציאהו   (go out, sim=0.857)
+   VAR  [24] יַּנִּחֻ֖הוּ  ->  יניחהו   (settle, sim=0.917)
+
+Gn 19:17
+   VAR  [13] תַּבִּ֣יט  ->  תבט   (look at, sim=0.875)
+
+Gn 19:18
+   VAR  [ 3] אֲלֵהֶ֑ם  ->  אליהם   (to, sim=0.9)
+
+Gn 19:20
+   VAR  [ 6] קְרֹבָ֛ה  ->  קרובה   (near, sim=0.9)
+   VAR  [13] אִמָּלְטָ֨ה  ->  אמלט   (escape, sim=0.9)
+   VAR  [17] לֹ֥א  ->  לוא   (not, sim=0.833)
+   VAR  [19] הִ֖וא  ->  היא   (she, sim=0.667)
+   VAR  [21] תְחִ֥י  ->  תחיה   (be alive, sim=0.875)
+
+Gn 19:22
+   VAR  [10] בֹּאֲךָ֖  ->  באכה   (come, sim=0.875)
+   VAR  [18] צֹֽועַר  ->  צער   (Zoar, sim=0.875)
+
+Gn 19:25
+   VAR  [ 6] אֵ֔ל  ->  אלה   (these, sim=0.833)
+
+Gn 19:26
+   VAR  [ 7] נְצִ֥יב  ->  נצב   (pillar, sim=0.875)
+
+Gn 19:28
+   VAR  [21] קִיטֹ֣ר  ->  קיטור   (smoke, sim=0.9)
+   VAR  [25] קִיטֹ֖ר  ->  קיטור   (smoke, sim=0.9)
+   PLUS [ 9] פני   (face)  [SIN VOCALIZAR]
+   PLUS [12] ה   (the)  [SIN VOCALIZAR]
+   OMIT [11] פני   ()
+
+Gn 19:29
+   VAR  [ 3] שַׁחֵ֤ת  ->  השׁחית   (destroy, sim=0.8)
+   VAR  [21] הֲפֵכָ֔ה  ->  אפכה   (overthrow, sim=0.75)
+   VAR  [23] הֲפֹךְ֙  ->  הפכו   (turn, sim=0.875)
+
+Gn 19:30
+   VAR  [ 4] צֹּ֜ועַר  ->  מצער   (little, sim=0.625)
+   VAR  [18] צֹ֑ועַר  ->  צער   (Zoar, sim=0.875)
+   PLUS [27] עמו   (with)  [SIN VOCALIZAR]
+   OMIT [ 3] מ   ()
+
+Gn 19:32
+   VAR  [ 0] לְכָ֨ה  ->  לכי   (walk, sim=0.667)
+
+Gn 19:33
+   VAR  [ 1] תַּשְׁקֶ֧יןָ  ->  תשׁקיהן   (give drink, sim=0.917)
+   PLUS [ 7] ה   (the)  [SIN VOCALIZAR]
+
+Gn 19:34
+   VAR  [11] הֵן  ->  הנה   (behold, sim=0.833)
+   VAR  [16] נַשְׁקֶ֨נּוּ  ->  נשׁקינו   (give drink, sim=0.917)
+
+Gn 19:35
+   VAR  [ 1] תַּשְׁקֶ֜יןָ  ->  תשׁקיהן   (give drink, sim=0.917)
+   VAR  [24] קֻמָֽהּ  ->  קומה   (arise, sim=0.875)
+
+Gn 19:36
+   VAR  [ 1] תַּהֲרֶ֛יןָ  ->  תהרנה   (be pregnant, sim=0.8)
+
+Gn 19:37
+   PLUS [ 7] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 19:38
+   VAR  [ 4] הִוא֙  ->  היא   (she, sim=0.667)
+   PLUS [ 9] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 20:1
+   VAR  [ 5] אַ֣רְצָה  ->  ארץ   (earth, sim=0.875)
+
+Gn 20:2
+   VAR  [ 6] אֲחֹ֣תִי  ->  אחותי   (sister, sim=0.9)
+   VAR  [ 7] הִ֑וא  ->  היא   (she, sim=0.667)
+
+Gn 20:3
+   VAR  [21] הִ֖וא  ->  היא   (she, sim=0.667)
+   VAR  [22] בְּעֻ֥לַת  ->  בעילת   (own, sim=0.9)
+   PLUS [15] אדות   (inducement)  [SIN VOCALIZAR]
+
+Gn 20:5
+   VAR  [ 1] לֹ֨א  ->  לוא   (not, sim=0.833)
+   VAR  [ 5] אֲחֹ֣תִי  ->  אחותי   (sister, sim=0.9)
+   VAR  [ 6] הִ֔וא  ->  היא   (she, sim=0.667)
+   VAR  [19] נִקְיֹ֥ן  ->  נקיון   (innocence, sim=0.9)
+   OMIT [10] הוא   ()
+
+Gn 20:6
+   VAR  [ 6] חֲלֹ֗ם  ->  חלום   (dream, sim=0.875)
+   VAR  [20] אֹֽותְךָ֖  ->  אתך   (<object marker>, sim=0.875)
+   VAR  [22] חֲטֹו  ->  חטאה   (sin-offering, sim=0.625)
+
+Gn 20:7
+   PLUS [ 3] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 20:8
+   PLUS [22] כל   (whole)  [SIN VOCALIZAR]
+
+Gn 20:9
+   VAR  [26] יֵֽעָשׂ֔וּ  ->  יעשׂון   (make, sim=0.8)
+
+Gn 20:11
+   PLUS [ 3] כי   (that)  [SIN VOCALIZAR]
+   PLUS [ 4] יראתי   (fear)  [SIN VOCALIZAR]
+
+Gn 20:12
+   VAR  [ 3] אָמְנָ֗ה  ->  אמנם   (really, sim=0.75)
+   VAR  [ 4] אֲחֹתִ֤י  ->  אחותי   (sister, sim=0.9)
+   PLUS [ 2] ה   (the)  [SIN VOCALIZAR]
+   PLUS [ 5] היא   (she)  [SIN VOCALIZAR]
+   OMIT [ 8] הוא   ()
+
+Gn 20:13
+   VAR  [ 4] הִתְע֣וּ  ->  התעה   (err, sim=0.75)
+   VAR  [18] חַסְדֵּ֔ךְ  ->  חסדיך   (loyalty, sim=0.9)
+   VAR  [20] תַּעֲשִׂ֖י  ->  תעשׂין   (make, sim=0.8)
+   PLUS [10] ו   (and)  [SIN VOCALIZAR]
+   PLUS [11] מ   (from)  [SIN VOCALIZAR]
+   PLUS [12] ארץ   (earth)  [SIN VOCALIZAR]
+   PLUS [13] מולדתי   (offspring)  [SIN VOCALIZAR]
+
+Gn 20:14
+   VAR  [12] שְׁפָחֹ֔ת  ->  שׁפחות   (maidservant, sim=0.9)
+   PLUS [ 3] אלף   (thousand)  [SIN VOCALIZAR]
+   PLUS [ 4] כסף   (silver)  [SIN VOCALIZAR]
+   PLUS [ 5] ו   (and)  [SIN VOCALIZAR]
+
+Gn 20:16
+   VAR  [12] לָךְ֙  ->  ליך   (to, sim=0.833)
+   VAR  [19] אִתָּ֑ךְ  ->  אתיך   (together with, sim=0.875)
+   VAR  [25] נֹכָֽחַת  ->  נוכחת   (reprove, sim=0.9)
+   PLUS [15] ו   (and)  [SIN VOCALIZAR]
+   PLUS [22] ה   (the)  [SIN VOCALIZAR]
+
+Gn 20:17
+   VAR  [15] אַמְהֹתָ֖יו  ->  אמתיו   (handmaid, sim=0.917)
+
+Gn 20:18
+   PLUS [ 4] אלהים   (god(s))  [SIN VOCALIZAR]
+   OMIT [ 3] יהוה   ()
+
+Gn 21:7
+   VAR  [ 7] הֵינִ֥יקָה  ->  יניקה   (suck, sim=0.917)
+   PLUS [ 6] ה   (behold)  [SIN VOCALIZAR]
+   PLUS [12] לו   (to)  [SIN VOCALIZAR]
+
+Gn 21:8
+   PLUS [16] בנו   (son)  [SIN VOCALIZAR]
+
+Gn 21:10
+   PLUS [ 5] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 21:11
+   VAR  [ 9] אֹודֹ֥ת  ->  אדות   (inducement, sim=0.75)
+
+Gn 21:12
+   VAR  [22] קֹלָ֑הּ  ->  קולה   (sound, sim=0.875)
+
+Gn 21:13
+   PLUS [ 6] ה   (the)  [SIN VOCALIZAR]
+   PLUS [ 7] זאת   (this)  [SIN VOCALIZAR]
+   PLUS [10] גדול   (great)  [SIN VOCALIZAR]
+
+Gn 21:15
+   VAR  [ 8] תַּשְׁלֵ֣ךְ  ->  תשׁליך   (throw, sim=0.9)
+   VAR  [15] שִּׂיחִֽם  ->  שׂחים   (shrub, sim=0.75)
+
+Gn 21:16
+   VAR  [ 7] הַרְחֵק֙  ->  הרחקה   (be far, sim=0.9)
+   VAR  [ 9] מְטַחֲוֵ֣י  ->  מטוי   (shoot, sim=0.8)
+   VAR  [26] קֹלָ֖הּ  ->  קולה   (sound, sim=0.875)
+
+Gn 21:17
+   VAR  [20] לָּ֣ךְ  ->  מלכי   (king, sim=0.625)
+   VAR  [27] אֶל  ->  את   (<object marker>, sim=0.5)
+   OMIT [19] מה   ()
+
+Gn 21:18
+   VAR  [ 6] הַחֲזִ֥יקִי  ->  חזקי   (be strong, sim=0.833)
+
+Gn 21:20
+   VAR  [14] רֹבֶ֥ה  ->  רבי   (shoot, sim=0.667)
+
+Gn 21:21
+   VAR  [ 4] פָּארָ֑ן  ->  פראן   (Paran, sim=0.75)
+
+Gn 21:22
+   VAR  [ 5] הִ֔וא  ->  היא   (she, sim=0.667)
+   VAR  [11] פִיכֹל֙  ->  כל   (whole, sim=0.625)
+   PLUS [10] פי   (mouth)  [SIN VOCALIZAR]
+
+Gn 21:23
+   VAR  [ 2] הִשָּׁ֨בְעָה  ->  השׁבע   (swear, sim=0.9)
+   VAR  [15] נֶכְדִּ֑י  ->  נגדי   (progeny, sim=0.75)
+   VAR  [29] גַּ֥רְתָּה  ->  גרת   (dwell, sim=0.875)
+   PLUS [16] ו   (and)  [SIN VOCALIZAR]
+
+Gn 21:24
+   VAR  [ 5] אִשָּׁבֵֽעַ  ->  שׁבע   (seven, sim=0.875)
+   PLUS [ 4] ה   (the)  [SIN VOCALIZAR]
+
+Gn 21:25
+   VAR  [ 1] הֹוכִ֥חַ  ->  הוכיח   (reprove, sim=0.9)
+
+Gn 21:28
+   VAR  [ 5] כִּבְשֹׂ֥ת  ->  כבשׂות   (young ewe-lamb, sim=0.9)
+   OMIT [ 3] את   ()
+   OMIT [ 6] ה   ()
+
+Gn 21:29
+   VAR  [ 9] כְּבָשֹׂת֙  ->  כבשׂות   (young ewe-lamb, sim=0.9)
+   VAR  [15] בַדָּֽנָה  ->  בדהן   (linen, part, stave, sim=0.75)
+   PLUS [ 8] ה   (the)  [SIN VOCALIZAR]
+
+Gn 21:30
+   VAR  [ 7] כְּבָשֹׂ֔ת  ->  כבשׂות   (young ewe-lamb, sim=0.9)
+   PLUS [ 2] אברהם   (Abraham)  [SIN VOCALIZAR]
+   PLUS [ 6] ה   (the)  [SIN VOCALIZAR]
+
+Gn 21:32
+   VAR  [11] פִיכֹל֙  ->  כל   (whole, sim=0.625)
+   PLUS [10] פי   (mouth)  [SIN VOCALIZAR]
+
+Gn 21:33
+   PLUS [ 2] אברהם   (Abraham)  [SIN VOCALIZAR]
+
+Gn 22:2
+   VAR  [18] מֹּרִיָּ֑ה  ->  מוראה   (Muriyya, sim=0.7)
+   OMIT [22] ל   ()
+
+Gn 22:3
+   VAR  [ 8] חֲמֹרֹ֔ו  ->  חמורו   (he-ass, sim=0.9)
+   PLUS [22] ה   (the)  [SIN VOCALIZAR]
+
+Gn 22:5
+   VAR  [20] נִֽשְׁתַּחֲוֶ֖ה  ->  נשׁתחוי   (bow down, sim=0.833)
+   VAR  [22] נָשׁ֥וּבָה  ->  נשׁוב   (return, sim=0.9)
+
+Gn 22:8
+   OMIT [ 6] ה   ()
+
+Gn 22:12
+   VAR  [ 5] אֶל  ->  על   (upon, sim=0.5)
+   VAR  [10] תַּ֥עַשׂ  ->  תעשׂה   (make, sim=0.875)
+
+Gn 22:13
+   VAR  [10] אַחַ֕ר  ->  אחד   (one, sim=0.667)
+   OMIT [26] ל   ()
+
+Gn 22:14
+   PLUS [ 3] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 22:16
+   PLUS [22] ממני   (from)  [SIN VOCALIZAR]
+
+Gn 22:17
+   VAR  [ 1] בָרֵ֣ךְ  ->  ברוך   (bless, sim=0.875)
+   VAR  [21] יִרַ֣שׁ  ->  יירשׁ   (trample down, sim=0.875)
+
+Gn 22:18
+   VAR  [ 5] גֹּויֵ֣י  ->  גוי   (people, sim=0.875)
+   VAR  [12] קֹלִֽי  ->  קולי   (sound, sim=0.875)
+
+Gn 22:20
+   VAR  [ 2] אַחֲרֵי֙  ->  אחר   (after, sim=0.875)
+   VAR  [17] הִ֛וא  ->  היא   (she, sim=0.667)
+
+Gn 22:21
+   VAR  [ 2] בְּכֹרֹ֖ו  ->  בכורו   (first-born, sim=0.9)
+
+Gn 22:22
+   VAR  [ 8] פִּלְדָּ֖שׁ  ->  פילדשׁ   (Pildash, sim=0.9)
+
+Gn 22:23
+   VAR  [ 2] יָלַ֣ד  ->  הוליד   (bear, sim=0.6)
+
+Gn 22:24
+   VAR  [ 4] רְאוּמָ֑ה  ->  רומה   (Reumah, sim=0.9)
+   VAR  [ 8] הִוא֙  ->  היא   (she, sim=0.667)
+
+Gn 23:1
+   VAR  [ 4] מֵאָ֥ה  ->  מ   (from, sim=0.667)
+   PLUS [ 5] את   (together with)  [SIN VOCALIZAR]
+
+Gn 23:2
+   VAR  [ 4] קִרְיַ֥ת אַרְבַּ֛ע  ->  קרית הארבע   (Kiriath Arba, sim=0.944)
+   VAR  [ 7] הִ֥וא  ->  היא   (she, sim=0.667)
+   VAR  [21] בְכֹּתָֽהּ  ->  בכותה   (weep, sim=0.9)
+   PLUS [ 5] אל   (to)  [SIN VOCALIZAR]
+   PLUS [ 6] עמק   (valley)  [SIN VOCALIZAR]
+
+Gn 23:3
+   VAR  [ 6] מֵתֹ֑ו  ->  מיתו   (die, sim=0.875)
+
+Gn 23:4
+   VAR  [13] מֵתִ֖י  ->  מיתי   (die, sim=0.875)
+   PLUS [12] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 23:5
+   VAR  [ 8] לֹֽו  ->  לא   (not, sim=0.5)
+
+Gn 23:6
+   VAR  [12] מֵתֶ֑ךָ  ->  מיתך   (die, sim=0.875)
+   VAR  [22] מֵתֶֽךָ  ->  מיתך   (die, sim=0.875)
+
+Gn 23:7
+   VAR  [ 4] יִּשְׁתַּ֥חוּ  ->  ישׁתחוי   (bow down, sim=0.917)
+
+Gn 23:8
+   VAR  [ 6] יֵ֣שׁ  ->  ישׁת   (please, sim=0.667)
+   VAR  [12] מֵתִי֙  ->  מיתי   (die, sim=0.875)
+   VAR  [23] צֹֽחַר  ->  צהר   (Zohar, sim=0.667)
+   PLUS [24] ה   (the)  [SIN VOCALIZAR]
+   PLUS [25] חתי   (Hittite)  [SIN VOCALIZAR]
+   OMIT [ 7] את   ()
+
+Gn 23:11
+   VAR  [21] מֵתֶֽךָ  ->  מיתך   (die, sim=0.875)
+
+Gn 23:12
+   VAR  [ 1] יִּשְׁתַּ֨חוּ֙  ->  ישׁתחוי   (bow down, sim=0.917)
+
+Gn 23:13
+   VAR  [14] ל֖וּ  ->  לי   (to, sim=0.5)
+   VAR  [25] מֵתִ֖י  ->  מיתי   (die, sim=0.875)
+   VAR  [26] שָֽׁמָּה  ->  שׁם   (there, sim=0.833)
+
+Gn 23:14
+   VAR  [ 7] לֹֽו  ->  לא   (not, sim=0.5)
+
+Gn 23:15
+   VAR  [ 4] מֵאֹ֧ת  ->  מאות   (hundred, sim=0.875)
+   VAR  [14] מֵתְךָ֖  ->  מיתך   (die, sim=0.875)
+
+Gn 23:16
+   VAR  [ 9] עֶפְרֹ֔ן  ->  עפרון   (Ephron, sim=0.9)
+
+Gn 23:17
+   VAR  [ 8] לִ  ->  על   (upon, sim=0.5)
+   VAR  [28] גְּבֻלֹ֖ו  ->  גבולו   (boundary, sim=0.9)
+
+Gn 23:19
+   VAR  [16] הִ֣וא  ->  היא   (she, sim=0.667)
+
+Gn 24:3
+   VAR  [23] יֹושֵׁ֥ב  ->  ישׁב   (sit, sim=0.875)
+
+Gn 24:4
+   PLUS [ 1] אם   (if)  [SIN VOCALIZAR]
+
+Gn 24:8
+   VAR  [12] שְּׁבֻעָתִ֖י  ->  שׁבועתי   (oath, sim=0.917)
+   VAR  [18] תָשֵׁ֖ב  ->  תשׁיב   (return, sim=0.875)
+
+Gn 24:11
+   VAR  [ 8] אֶל  ->  על   (upon, sim=0.5)
+   VAR  [19] שֹּׁאֲבֹֽת  ->  שׁאבות   (draw water, sim=0.9)
+
+Gn 24:12
+   VAR  [ 6] הַקְרֵה  ->  הקרא   (call, sim=0.75)
+
+Gn 24:14
+   VAR  [ 3] נַּעֲרָ֗  ->  נערה   (girl, sim=0.875)
+   VAR  [ 7] הַטִּי  ->  הטני   (extend, sim=0.75)
+   VAR  [20] הֹכַ֨חְתָּ֙  ->  הוכחת   (reprove, sim=0.9)
+   PLUS [33] אברהם   (Abraham)  [SIN VOCALIZAR]
+   OMIT [ 8] נא   ()
+
+Gn 24:15
+   PLUS [ 7] אל   (to)  [SIN VOCALIZAR]
+   PLUS [ 8] לבו   (heart)  [SIN VOCALIZAR]
+
+Gn 24:16
+   VAR  [ 2] נַּעֲרָ֗  ->  נערה   (girl, sim=0.875)
+   VAR  [ 3] טֹבַ֤ת  ->  טובת   (good, sim=0.875)
+   VAR  [14] עַ֔יְנָה  ->  עין   (eye, sim=0.875)
+
+Gn 24:17
+   VAR  [ 8] הַגְמִיאִ֥ינִי  ->  הגמיני   (swallow, sim=0.875)
+
+Gn 24:18
+   VAR  [ 7] תֹּ֧רֶד  ->  תורד   (descend, sim=0.875)
+
+Gn 24:19
+   VAR  [ 3] הַשְׁקֹתֹ֑ו  ->  השׁקותו   (give drink, sim=0.917)
+   VAR  [14] שְׁתֹּֽת  ->  שׁתות   (drink, sim=0.875)
+
+Gn 24:20
+   VAR  [ 3] תְּעַ֤ר  ->  תורד   (descend, sim=0.5)
+   VAR  [ 5] אֶל  ->  על   (upon, sim=0.5)
+   VAR  [ 7] שֹּׁ֔קֶת  ->  שׁקות   (watering trough, sim=0.875)
+
+Gn 24:21
+   VAR  [ 3] מִשְׁתָּאֵ֖ה  ->  משׁתה   (drinking, sim=0.9)
+   VAR  [10] הִצְלִ֧יחַ  ->  צליח   (be strong, sim=0.9)
+   PLUS [ 5] ו   (and)  [SIN VOCALIZAR]
+
+Gn 24:22
+   PLUS [17] ו   (and)  [SIN VOCALIZAR]
+   PLUS [18] ישׂם   (put)  [SIN VOCALIZAR]
+   PLUS [19] על   (upon)  [SIN VOCALIZAR]
+   PLUS [20] אפה   (nose)  [SIN VOCALIZAR]
+
+Gn 24:23
+   VAR  [ 4] אַ֔תְּ  ->  אתי   (you, sim=0.833)
+   PLUS [10] ב   (in)  [SIN VOCALIZAR]
+
+Gn 24:25
+   VAR  [ 6] מִסְפֹּ֖וא  ->  מספה   (fodder, sim=0.7)
+   VAR  [13] לֽוּן  ->  לין   (lodge, sim=0.667)
+   PLUS [ 9] ו   (and)  [SIN VOCALIZAR]
+
+Gn 24:26
+   VAR  [ 5] יִּשְׁתַּ֖חוּ  ->  ישׁתחוי   (bow down, sim=0.917)
+
+Gn 24:27
+   PLUS [16] אברהם   (Abraham)  [SIN VOCALIZAR]
+
+Gn 24:28
+   VAR  [ 3] נַּעֲרָ֔  ->  נערה   (girl, sim=0.875)
+
+Gn 24:30
+   VAR  [ 3] רְאֹ֣ת  ->  ראותו   (see, sim=0.8)
+   VAR  [10] צְּמִדִים֮  ->  צמידים   (bracelet, sim=0.917)
+   VAR  [13] אֲחֹתֹו֒  ->  אחותו   (sister, sim=0.9)
+   VAR  [20] אֲחֹתֹו֙  ->  אחותו   (sister, sim=0.9)
+
+Gn 24:31
+   VAR  [ 2] בֹּ֖וא  ->  בא   (come, sim=0.833)
+
+Gn 24:32
+   VAR  [14] מִסְפֹּוא֙  ->  מספה   (fodder, sim=0.7)
+
+Gn 24:33
+   VAR  [ 1] יּוּשַׂ֤ם  ->  יושׂם   (put, sim=0.75)
+   VAR  [15] יֹּ֖אמֶר  ->  יאמרו   (say, sim=0.9)
+
+Gn 24:35
+   VAR  [19] עֲבָדִם֙  ->  עבדים   (servant, sim=0.9)
+   VAR  [21] שְׁפָחֹ֔ת  ->  שׁפחות   (maidservant, sim=0.9)
+   OMIT [14] ו   ()
+   OMIT [18] ו   ()
+
+Gn 24:36
+   VAR  [ 9] זִקְנָתָ֑הּ  ->  זקנתו   (old age, sim=0.8)
+
+Gn 24:38
+   PLUS [ 0] כי   (that)  [SIN VOCALIZAR]
+   OMIT [ 2] לא   ()
+
+Gn 24:39
+   VAR  [ 4] אֻלַ֛י  ->  אולי   (perhaps, sim=0.875)
+
+Gn 24:41
+   VAR  [ 1] תִּנָּקֶה֙  ->  תנקיא   (be clean, sim=0.7)
+   VAR  [15] נָקִ֖י  ->  נקיא   (innocent, sim=0.875)
+
+Gn 24:42
+   VAR  [ 1] אָבֹ֥א  ->  אבוא   (come, sim=0.875)
+   VAR  [19] אָנֹכִ֖י  ->  אני   (i, sim=0.75)
+
+Gn 24:44
+   VAR  [11] הִ֣וא  ->  היא   (she, sim=0.667)
+   VAR  [15] הֹכִ֥יחַ  ->  הוכיח   (reprove, sim=0.9)
+   VAR  [18] בֶן  ->  לבן   (white, sim=0.667)
+   OMIT [17] ל   ()
+
+Gn 24:45
+   VAR  [18] עַ֖יְנָה  ->  עין   (eye, sim=0.875)
+   PLUS [26] מעט   (little)  [SIN VOCALIZAR]
+   PLUS [27] מים   (water)  [SIN VOCALIZAR]
+   PLUS [28] מ   (from)  [SIN VOCALIZAR]
+   PLUS [29] כדך   (pitcher)  [SIN VOCALIZAR]
+
+Gn 24:46
+   VAR  [15] אֵ֕שְׁתְּ  ->  אשׁתה   (drink, sim=0.875)
+
+Gn 24:47
+   VAR  [ 7] אַתְּ֒  ->  אתי   (you, sim=0.833)
+   VAR  [19] אָשִׂ֤ם  ->  אשׁים   (fire, sim=0.875)
+
+Gn 24:48
+   VAR  [ 3] אֶשְׁתַּחֲוֶ֖ה  ->  אשׁתחוי   (bow down, sim=0.833)
+
+Gn 24:49
+   PLUS [20] ה   (the)  [SIN VOCALIZAR]
+   PLUS [24] ה   (the)  [SIN VOCALIZAR]
+
+Gn 24:50
+   VAR  [17] אֹו  ->  ו   (and, sim=0.75)
+
+Gn 24:52
+   VAR  [10] יִּשְׁתַּ֥חוּ  ->  ישׁתחוי   (bow down, sim=0.917)
+
+Gn 24:53
+   VAR  [16] מִ֨גְדָּנֹ֔ת  ->  מגדנות   (presents, sim=0.917)
+
+Gn 24:54
+   VAR  [13] יָּק֣וּמוּ  ->  יקמו   (arise, sim=0.9)
+   VAR  [18] שַׁלְּחֻ֥נִי  ->  שׁלחוני   (send, sim=0.917)
+
+Gn 24:55
+   VAR  [ 1] יֹּ֤אמֶר  ->  יאמרו   (say, sim=0.9)
+   VAR  [ 7] נַּעֲרָ֥  ->  נערה   (girl, sim=0.875)
+   PLUS [11] חדשׁ   (month)  [SIN VOCALIZAR]
+   PLUS [13] ו   (and)  [SIN VOCALIZAR]
+   OMIT [12] עשור   ()
+
+Gn 24:56
+   VAR  [ 2] אֲלֵהֶם֙  ->  אליהם   (to, sim=0.9)
+   VAR  [14] לַֽ  ->  אל   (to, sim=0.75)
+   PLUS [ 9] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 24:57
+   VAR  [ 4] נַּעֲרָ֑  ->  נערה   (girl, sim=0.875)
+   VAR  [ 6] נִשְׁאֲלָ֖ה  ->  נשׁאל   (ask, sim=0.9)
+
+Gn 24:58
+   VAR  [ 6] אֵלֶ֔יהָ  ->  לה   (to, sim=0.75)
+
+Gn 24:59
+   VAR  [ 4] אֲחֹתָ֖ם  ->  אחותם   (sister, sim=0.9)
+   VAR  [ 7] מֵנִקְתָּ֑הּ  ->  מינקתה   (nursing woman, sim=0.917)
+
+Gn 24:60
+   VAR  [ 7] אֲחֹתֵ֕נוּ  ->  אחותנו   (sister, sim=0.917)
+   VAR  [ 8] אַ֥תְּ  ->  אתי   (you, sim=0.833)
+   VAR  [ 9] הֲיִ֖י  ->  הוי   (become, sim=0.667)
+   VAR  [15] זַרְעֵ֔ךְ  ->  זרעיך   (seed, sim=0.9)
+   PLUS [19] איביו   (be hostile)  [SIN VOCALIZAR]
+   OMIT [18] שנאיו   ()
+
+Gn 24:62
+   VAR  [ 4] בֹּ֔וא  ->  ב   (in, sim=0.667)
+   VAR  [ 7] לַחַ֖י רֹאִ֑י  ->  לחי ראה   (Beer Lahai Roi, sim=0.833)
+   VAR  [10] יֹושֵׁ֖ב  ->  ישׁב   (sit, sim=0.875)
+   PLUS [ 5] מדבר   (desert)  [SIN VOCALIZAR]
+   OMIT [ 3] מ   ()
+
+Gn 24:63
+   PLUS [17] ה   (the)  [SIN VOCALIZAR]
+
+Gn 24:65
+   VAR  [ 9] לָּזֶה֙  ->  הלז   (this, sim=0.667)
+   OMIT [ 8] ה   ()
+
+Gn 24:67
+   VAR  [ 1] יְבִאֶ֣הָ  ->  יביאה   (come, sim=0.9)
+
+Gn 25:2
+   VAR  [ 4] זִמְרָן֙  ->  זמרון   (Zimran, sim=0.9)
+
+Gn 25:3
+   VAR  [12] אַשּׁוּרִ֥ם  ->  אשׁורים   (Asshurites, sim=0.917)
+   VAR  [14] לְטוּשִׁ֖ים  ->  לטשׁים   (Letushites, sim=0.917)
+
+Gn 25:4
+   VAR  [ 5] עֵ֨פֶר֙  ->  אפר   (Epher, sim=0.667)
+   VAR  [ 7] חֲנֹ֔ךְ  ->  חנוך   (Henoch, sim=0.875)
+   OMIT [ 6] ו   ()
+
+Gn 25:5
+   PLUS [ 9] בנו   (son)  [SIN VOCALIZAR]
+
+Gn 25:6
+   VAR  [10] מַתָּנֹ֑ת  ->  מתנות   (present, sim=0.9)
+   VAR  [23] קֶֽדֶם  ->  קדמה   (front, sim=0.875)
+
+Gn 25:7
+   VAR  [ 9] מְאַ֥ת  ->  את   (together with, sim=0.667)
+   PLUS [ 8] מ   (from)  [SIN VOCALIZAR]
+
+Gn 25:8
+   VAR  [15] עַמָּֽיו  ->  עמו   (with, sim=0.875)
+   PLUS [11] ימים   (day)  [SIN VOCALIZAR]
+
+Gn 25:9
+   VAR  [13] עֶפְרֹ֤ן  ->  עפרון   (Ephron, sim=0.9)
+   VAR  [15] צֹ֨חַר֙  ->  צהר   (Zohar, sim=0.667)
+
+Gn 25:10
+   VAR  [ 9] שָׁ֛מָּה  ->  שׁם   (there, sim=0.833)
+   VAR  [10] קֻבַּ֥ר  ->  קבור   (bury, sim=0.875)
+
+Gn 25:12
+   VAR  [ 2] תֹּלְדֹ֥ת  ->  תולדת   (generations, sim=0.9)
+
+Gn 25:13
+   VAR  [ 6] שְׁמֹתָ֖ם  ->  שׁמותם   (name, sim=0.9)
+   VAR  [ 9] בְּכֹ֤ר  ->  בכור   (first-born, sim=0.875)
+   VAR  [11] נְבָיֹ֔ת  ->  נבאות   (Nebaioth, sim=0.7)
+   VAR  [13] קֵדָ֥ר  ->  קדד   (Kedar, sim=0.667)
+   VAR  [15] אַדְבְּאֵ֖ל  ->  אדבל   (Abdeel, sim=0.9)
+
+Gn 25:15
+   VAR  [ 0] חֲדַ֣ד  ->  הדד   (Hadad, sim=0.667)
+   VAR  [ 2] תֵימָ֔א  ->  תימה   (Tema, sim=0.75)
+
+Gn 25:16
+   VAR  [ 6] שְׁמֹתָ֔ם  ->  שׁמותם   (name, sim=0.9)
+   VAR  [ 8] חַצְרֵיהֶ֖ם  ->  חצרותם   (court, sim=0.667)
+   VAR  [14] נְשִׂיאִ֖ם  ->  נשׂיאים   (chief, sim=0.917)
+
+Gn 25:17
+   VAR  [ 6] מְאַ֥ת  ->  את   (together with, sim=0.667)
+   VAR  [21] עַמָּֽיו  ->  עמו   (with, sim=0.875)
+   PLUS [ 5] מ   (from)  [SIN VOCALIZAR]
+
+Gn 25:21
+   VAR  [ 3] לַֽ  ->  אל   (to, sim=0.75)
+   VAR  [10] הִ֑וא  ->  היא   (she, sim=0.667)
+
+Gn 25:23
+   VAR  [ 5] גֹויִם֙  ->  גוים   (people, sim=0.75)
+
+Gn 25:24
+   VAR  [ 7] תֹומִ֖ם  ->  תאמים   (twins, sim=0.7)
+
+Gn 25:25
+   VAR  [ 3] רִאשֹׁון֙  ->  ראישׁון   (first, sim=0.917)
+
+Gn 25:26
+   VAR  [12] יִּקְרָ֥א  ->  יקראו   (call, sim=0.9)
+
+Gn 25:28
+   VAR  [ 6] צַ֣יִד  ->  צידו   (hunting, sim=0.875)
+
+Gn 25:30
+   VAR  [ 5] הַלְעִיטֵ֤נִי  ->  הלעטני   (swallow, sim=0.929)
+   VAR  [ 9] אָדֹ֤ם  ->  אדום   (Edom, sim=0.875)
+
+Gn 25:32
+   VAR  [ 5] הֹולֵ֖ךְ  ->  הלך   (walk, sim=0.875)
+   VAR  [12] בְּכֹרָֽה  ->  בכורה   (right of first-born, sim=0.9)
+
+Gn 25:33
+   VAR  [ 3] הִשָּׁ֤בְעָה  ->  השׁבע   (swear, sim=0.9)
+   VAR  [13] בְּכֹרָתֹ֖ו  ->  בכורתו   (right of first-born, sim=0.917)
+
+Gn 25:34
+   VAR  [ 9] עֲדָשִׁ֔ים  ->  שׂים   (put, sim=0.6)
+   VAR  [23] בְּכֹרָֽה  ->  בכורה   (right of first-born, sim=0.9)
+   PLUS [ 8] עד   (unto)  [SIN VOCALIZAR]
+
+Gn 26:1
+   VAR  [11] רִאשֹׁ֔ון  ->  ראישׁון   (first, sim=0.917)
+
+Gn 26:3
+   VAR  [ 0] גּ֚וּר  ->  גר   (sojourner, sim=0.833)
+   VAR  [19] אֲרָצֹ֣ת  ->  ארצות   (earth, sim=0.9)
+   VAR  [21] אֵ֔ל  ->  אלה   (these, sim=0.833)
+   VAR  [26] שְּׁבֻעָ֔ה  ->  שׁבועה   (oath, sim=0.9)
+
+Gn 26:4
+   VAR  [15] אֲרָצֹ֖ת  ->  ארצות   (earth, sim=0.9)
+   VAR  [17] אֵ֑ל  ->  אלה   (these, sim=0.833)
+   VAR  [23] גֹּויֵ֥י  ->  גוי   (people, sim=0.875)
+
+Gn 26:5
+   VAR  [ 6] קֹלִ֑י  ->  קולי   (sound, sim=0.875)
+   VAR  [13] תֹורֹתָֽי  ->  תורותי   (instruction, sim=0.917)
+   PLUS [ 4] אביך   (father)  [SIN VOCALIZAR]
+
+Gn 26:7
+   VAR  [ 5] לְ  ->  על   (upon, sim=0.5)
+   VAR  [ 9] אֲחֹ֣תִי  ->  אחותי   (sister, sim=0.9)
+   VAR  [10] הִ֑וא  ->  היא   (she, sim=0.667)
+   VAR  [18] יַֽהַרְגֻ֜נִי  ->  יהרגוני   (kill, sim=0.929)
+   PLUS [16] היא   (she)  [SIN VOCALIZAR]
+
+Gn 26:8
+   VAR  [ 2] כִּ֣י  ->  כ   (as, sim=0.75)
+   VAR  [ 4] אָֽרְכוּ  ->  הרכו   (be long, sim=0.75)
+   PLUS [ 3] אשׁר   (<relative>)  [SIN VOCALIZAR]
+
+Gn 26:9
+   VAR  [10] הִ֔וא  ->  היא   (she, sim=0.667)
+   VAR  [14] אֲחֹ֣תִי  ->  אחותי   (sister, sim=0.9)
+   VAR  [15] הִ֑וא  ->  היא   (she, sim=0.667)
+
+Gn 26:11
+   VAR  [ 6] עָ֖ם  ->  עמו   (with, sim=0.833)
+   OMIT [ 5] ה   ()
+
+Gn 26:12
+   VAR  [ 6] הִ֔וא  ->  היא   (she, sim=0.667)
+   VAR  [12] הִ֖וא  ->  היא   (she, sim=0.667)
+
+Gn 26:13
+   VAR  [ 6] הָלֹוךְ֙  ->  הלך   (walk, sim=0.875)
+
+Gn 26:15
+   VAR  [ 3] בְּאֵרֹ֗ת  ->  בארות   (well, sim=0.9)
+
+Gn 26:18
+   VAR  [ 6] בְּאֵרֹ֣ת  ->  בארות   (well, sim=0.9)
+   VAR  [27] שֵּׁמֹ֕ת  ->  שׁמות   (name, sim=0.875)
+   PLUS [12] עבדי   (servant)  [SIN VOCALIZAR]
+   OMIT [11] ב   ()
+   OMIT [13] ימי   ()
+
+Gn 26:22
+   VAR  [ 5] יַּחְפֹּר֙  ->  יחפרו   (dig, sim=0.9)
+
+Gn 26:27
+   VAR  [ 2] אֲלֵהֶם֙  ->  אליהם   (to, sim=0.9)
+
+Gn 26:28
+   VAR  [10] תְּהִ֨י  ->  תהיה   (be, sim=0.875)
+   VAR  [13] בֵּינֹותֵ֖ינוּ  ->  בינתנו   (interval, sim=0.875)
+   VAR  [14] בֵּינֵ֣ינוּ  ->  ביננו   (interval, sim=0.917)
+
+Gn 26:29
+   VAR  [ 3] רָעָ֗ה  ->  רע   (evil, sim=0.833)
+   VAR  [19] אַתָּ֥ה  ->  עתה   (now, sim=0.667)
+   VAR  [20] עַתָּ֖ה  ->  אתה   (you, sim=0.667)
+
+Gn 26:31
+   VAR  [ 1] יַּשְׁכִּ֣ימוּ  ->  ישׁכמו   (rise early, sim=0.917)
+   PLUS [ 9] רעהו   (fellow)  [SIN VOCALIZAR]
+   OMIT [ 8] אחיו   ()
+
+Gn 26:34
+   VAR  [19] אֵילֹ֖ן  ->  אילון   (<judge>, sim=0.9)
+   VAR  [21] חִתִּֽי  ->  חוי   (Hivite, sim=0.667)
+
+Gn 26:35
+   VAR  [ 1] תִּהְיֶ֖יןָ  ->  תהיינה   (be, sim=0.917)
+
+Gn 27:1
+   VAR  [ 6] תִּכְהֶ֥יןָ  ->  תכהנה   (grow dim, sim=0.8)
+   VAR  [ 9] רְאֹ֑ת  ->  ראות   (see, sim=0.875)
+   VAR  [16] גָּדֹ֗ל  ->  גדול   (great, sim=0.875)
+
+Gn 27:3
+   VAR  [ 5] תֶּלְיְךָ֖  ->  תליתך   (quiver, sim=0.8)
+   VAR  [13] צ֥וּדָה  ->  צוד   (hunt, sim=0.875)
+   VAR  [15] צָֽיִד  ->  ציד   (hunting, sim=0.875)
+
+Gn 27:4
+   VAR  [ 8] הָבִ֥יאָה  ->  הבאת   (come, sim=0.7)
+   VAR  [11] אֹכֵ֑לָה  ->  אכל   (eat, sim=0.875)
+
+Gn 27:7
+   VAR  [ 0] הָבִ֨יאָה  ->  הבא   (come, sim=0.8)
+   VAR  [10] אֲבָרֶכְכָ֛ה  ->  אברכך   (bless, sim=0.917)
+
+Gn 27:8
+   VAR  [ 5] קֹלִ֑י  ->  קולי   (sound, sim=0.875)
+   VAR  [ 9] מְצַוָּ֥ה  ->  מצויה   (command, sim=0.9)
+
+Gn 27:9
+   VAR  [13] טֹבִ֑ים  ->  טובים   (good, sim=0.9)
+
+Gn 27:10
+   VAR  [ 7] עֲבֻ֛ר  ->  עבור   (way, sim=0.875)
+
+Gn 27:11
+   VAR  [ 6] הֵ֣ן  ->  הנה   (behold, sim=0.833)
+   VAR  [10] שָׂעִ֔ר  ->  שׂעיר   (hairy, sim=0.875)
+
+Gn 27:12
+   VAR  [10] הֵבֵאתִ֥י  ->  הבאת   (come, sim=0.9)
+
+Gn 27:13
+   VAR  [10] קֹלִ֖י  ->  קולי   (sound, sim=0.875)
+
+Gn 27:15
+   VAR  [ 8] גָּדֹל֙  ->  גדול   (great, sim=0.875)
+   VAR  [10] חֲמֻדֹ֔ת  ->  חמדות   (desirables, sim=0.9)
+   VAR  [16] תַּלְבֵּ֥שׁ  ->  תלבישׁ   (clothe, sim=0.9)
+
+Gn 27:16
+   VAR  [ 2] עֹרֹת֙  ->  עורות   (skin, sim=0.8)
+   VAR  [ 8] יָדָ֑יו  ->  ידו   (hand, sim=0.875)
+   VAR  [12] צַוָּארָֽיו  ->  צוארו   (neck, sim=0.917)
+
+Gn 27:20
+   VAR  [14] הִקְרָ֛ה  ->  הקרא   (call, sim=0.75)
+
+Gn 27:21
+   VAR  [ 8] אֲמֻֽשְׁךָ֖  ->  אמושׁך   (touch, sim=0.9)
+
+Gn 27:22
+   VAR  [11] קֹּל֙  ->  קול   (sound, sim=0.833)
+
+Gn 27:23
+   VAR  [10] שְׂעִרֹ֑ת  ->  שׂעירות   (hairy, sim=0.833)
+
+Gn 27:24
+   PLUS [ 2] ה   (the)  [SIN VOCALIZAR]
+
+Gn 27:25
+   VAR  [ 2] הַגִּ֤שָׁה  ->  הגישׁה   (approach, sim=0.9)
+   VAR  [ 5] אֹֽכְלָה֙  ->  אכל   (eat, sim=0.875)
+
+Gn 27:27
+   VAR  [14] רְאֵה֙  ->  ראו   (see, sim=0.667)
+   VAR  [23] בֵּרֲכֹ֖ו  ->  ברכהו   (bless, sim=0.9)
+   PLUS [19] ה   (the)  [SIN VOCALIZAR]
+   PLUS [21] מלא   (be full)  [SIN VOCALIZAR]
+
+Gn 27:28
+   OMIT [ 0] ו   ()
+
+Gn 27:29
+   VAR  [ 3] יִֽשְׁתַּחֲו֤וּ  ->  ישׁתחוו   (bow down, sim=0.917)
+   VAR  [ 6] הֱוֵ֤ה  ->  הוי   (become, sim=0.667)
+
+Gn 27:31
+   VAR  [13] יָקֻ֤ם  ->  יקום   (arise, sim=0.875)
+
+Gn 27:32
+   VAR  [ 2] לֹ֛ו  ->  אליו   (to, sim=0.75)
+
+Gn 27:33
+   VAR  [10] אֵפֹ֡וא  ->  אפו   (nose, sim=0.875)
+   PLUS [27] ו   (and)  [SIN VOCALIZAR]
+   OMIT [11] הוא   ()
+
+Gn 27:34
+   PLUS [ 0] ו   (and)  [SIN VOCALIZAR]
+   PLUS [ 1] יהי   (be)  [SIN VOCALIZAR]
+
+Gn 27:35
+   PLUS [ 8] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 27:36
+   VAR  [ 3] כִי֩  ->  כו   (thus, sim=0.5)
+   VAR  [23] אָצַ֥לְתָּ  ->  הצלת   (deliver, sim=0.75)
+
+Gn 27:37
+   VAR  [25] לְכָ֣ה  ->  לך   (to, sim=0.833)
+
+Gn 27:38
+   VAR  [ 8] הִֽוא  ->  היא   (she, sim=0.667)
+   VAR  [18] קֹלֹ֖ו  ->  קולו   (sound, sim=0.875)
+
+Gn 27:39
+   VAR  [ 7] הִנֵּ֞ה  ->  הן   (behold, sim=0.833)
+   VAR  [20] עָֽל  ->  מעל   (top, sim=0.667)
+   OMIT [14] ו   ()
+
+Gn 27:40
+   VAR  [16] עֻלֹּ֖ו  ->  עולו   (yoke, sim=0.875)
+   PLUS [13] תהדר   (honour)  [SIN VOCALIZAR]
+   OMIT [12] תריד   ()
+
+Gn 27:42
+   VAR  [ 9] גָּדֹ֑ל  ->  גדול   (great, sim=0.875)
+
+Gn 27:43
+   VAR  [ 5] קֹלִ֑י  ->  קולי   (sound, sim=0.875)
+
+Gn 28:2
+   VAR  [ 4] בֵּ֥יתָה  ->  בית   (house, sim=0.875)
+
+Gn 28:4
+   VAR  [13] רִשְׁתְּךָ֙  ->  רשׁת   (trample down, sim=0.75)
+   PLUS [ 6] אביך   (father)  [SIN VOCALIZAR]
+   PLUS [20] יהוה   (YHWH)  [SIN VOCALIZAR]
+   OMIT [19] אלהים   ()
+
+Gn 28:6
+   VAR  [23] יְצַ֤ו  ->  יצוו   (command, sim=0.875)
+
+Gn 28:9
+   VAR  [14] נְבָיֹ֛ות  ->  נבאות   (Nebaioth, sim=0.8)
+   OMIT [ 3] אל   ()
+   OMIT [ 4] ישמעאל   ()
+
+Gn 28:10
+   VAR  [ 8] יֵּ֖לֶךְ  ->  לכת   (walk, sim=0.5)
+   PLUS [ 7] ל   (to)  [SIN VOCALIZAR]
+   OMIT [ 6] ו   ()
+
+Gn 28:11
+   VAR  [19] מְרַֽאֲשֹׁתָ֑יו  ->  מראשׁיתו   (head-place, sim=0.857)
+
+Gn 28:12
+   VAR  [11] שָּׁמָ֑יְמָה  ->  שׁמים   (heavens, sim=0.9)
+
+Gn 28:14
+   VAR  [13] צָפֹ֣נָה  ->  צפונה   (north, sim=0.9)
+   VAR  [20] מִשְׁפְּחֹ֥ת  ->  משׁפחות   (clan, sim=0.917)
+
+Gn 28:16
+   VAR  [ 1] יִּיקַ֣ץ  ->  יקץ   (loath, sim=0.875)
+
+Gn 28:18
+   VAR  [12] מְרַֽאֲשֹׁתָ֔יו  ->  מראשׁיתו   (head-place, sim=0.857)
+
+Gn 28:19
+   VAR  [11] ל֥וּז  ->  לוזה   (Luz, sim=0.875)
+   VAR  [16] רִאשֹׁנָֽה  ->  ראישׁונה   (first, sim=0.857)
+
+Gn 28:20
+   VAR  [17] אָנֹכִ֣י  ->  אני   (i, sim=0.75)
+   VAR  [18] הֹולֵ֔ךְ  ->  הלך   (walk, sim=0.875)
+
+Gn 28:22
+   VAR  [16] עַשֵּׂ֖ר  ->  אעשׂר   (take tenth, sim=0.875)
+
+Gn 29:1
+   VAR  [ 6] אַ֥רְצָה  ->  ארץ   (earth, sim=0.875)
+
+Gn 29:2
+   VAR  [20] הִ֔וא  ->  היא   (she, sim=0.667)
+   OMIT [25] ה   ()
+
+Gn 29:3
+   VAR  [ 2] שָׁ֣מָּה  ->  שׁם   (there, sim=0.833)
+   VAR  [32] מְקֹמָֽהּ  ->  מקומה   (place, sim=0.9)
+   PLUS [ 6] רעים   (pasture)  [SIN VOCALIZAR]
+   OMIT [ 5] עדרים   ()
+
+Gn 29:7
+   PLUS [ 2] להם   (to)  [SIN VOCALIZAR]
+
+Gn 29:8
+   PLUS [10] רעים   (pasture)  [SIN VOCALIZAR]
+   OMIT [ 9] עדרים   ()
+
+Gn 29:9
+   VAR  [ 2] מְדַבֵּ֣ר  ->  דבר   (word, sim=0.75)
+   VAR  [15] הִֽוא  ->  היא   (she, sim=0.667)
+   PLUS [ 1] מ   (from)  [SIN VOCALIZAR]
+
+Gn 29:11
+   VAR  [ 8] קֹלֹ֖ו  ->  קולו   (sound, sim=0.875)
+
+Gn 29:13
+   VAR  [ 9] אֲחֹתֹ֗ו  ->  אחותו   (sister, sim=0.9)
+
+Gn 29:19
+   VAR  [13] שְׁבָ֖ה  ->  שׁב   (sit, sim=0.833)
+
+Gn 29:21
+   VAR  [12] אָבֹ֖ואָה  ->  אבוא   (come, sim=0.9)
+
+Gn 29:23
+   PLUS [16] יעקב   (Jacob)  [SIN VOCALIZAR]
+
+Gn 29:24
+   PLUS [10] ל   (to)  [SIN VOCALIZAR]
+   OMIT [ 3] לה   ()
+
+Gn 29:25
+   VAR  [ 6] הִ֖וא  ->  היא   (she, sim=0.667)
+   VAR  [17] לֹ֤א  ->  לוא   (not, sim=0.833)
+
+Gn 29:26
+   VAR  [ 7] מְקֹומֵ֑נוּ  ->  מקומינו   (place, sim=0.929)
+
+Gn 29:27
+   VAR  [ 4] נִתְּנָ֨ה  ->  אתן   (give, sim=0.625)
+
+Gn 29:32
+   PLUS [ 8] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 29:33
+   PLUS [22] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 29:34
+   VAR  [21] קָרָֽא  ->  קראה   (call, sim=0.875)
+
+Gn 30:1
+   VAR  [12] אֲחֹתָ֑הּ  ->  אחותה   (sister, sim=0.9)
+
+Gn 30:2
+   VAR  [15] מִמֵּ֖ךְ  ->  מעיך   (bowels, sim=0.625)
+   PLUS [14] מ   (from)  [SIN VOCALIZAR]
+
+Gn 30:6
+   VAR  [ 9] קֹלִ֔י  ->  קולי   (sound, sim=0.875)
+
+Gn 30:8
+   VAR  [ 3] נַפְתּוּלֵ֨י  ->  נפתלי   (wrestling, sim=0.917)
+   VAR  [ 7] אֲחֹתִ֖י  ->  אחותי   (sister, sim=0.9)
+   PLUS [ 8] ו   (and)  [SIN VOCALIZAR]
+   PLUS [13] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 30:11
+   VAR  [ 4] גָ֑ד  ->  בגד   (garment, sim=0.667)
+   OMIT [ 3] בא   ()
+
+Gn 30:14
+   VAR  [ 9] דֽוּדָאִים֙  ->  דודים   (mandrake, sim=0.917)
+   VAR  [27] דּוּדָאֵ֖י  ->  דודי   (mandrake, sim=0.9)
+   VAR  [28] בְּנֵֽךְ  ->  בניך   (son, sim=0.875)
+
+Gn 30:15
+   VAR  [ 5] קַחְתֵּ֣ךְ  ->  קחתיך   (take, sim=0.9)
+   VAR  [10] קַ֕חַת  ->  לקחתי   (take, sim=0.7)
+   VAR  [13] דּוּדָאֵ֖י  ->  דודי   (mandrake, sim=0.9)
+   VAR  [20] עִמָּךְ֙  ->  עמיך   (people, sim=0.875)
+   VAR  [24] דּוּדָאֵ֥י  ->  דודי   (mandrake, sim=0.9)
+   VAR  [25] בְנֵֽךְ  ->  בניך   (son, sim=0.875)
+   OMIT [ 9] ל   ()
+
+Gn 30:16
+   VAR  [23] דוּדָאֵ֖י  ->  דודי   (mandrake, sim=0.9)
+   PLUS [17] ה   (the)  [SIN VOCALIZAR]
+   PLUS [18] לילה   (night)  [SIN VOCALIZAR]
+   PLUS [30] ה   (the)  [SIN VOCALIZAR]
+
+Gn 30:18
+   PLUS [13] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 30:20
+   VAR  [21] זְבֻלֽוּן  ->  זבולן   (Zebulun, sim=0.8)
+
+Gn 30:25
+   VAR  [19] לְ  ->  אל   (to, sim=0.75)
+
+Gn 30:29
+   VAR  [12] מִקְנְךָ֖  ->  מקניך   (purchase, sim=0.9)
+
+Gn 30:31
+   PLUS [15] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 30:32
+   VAR  [ 6] הָסֵ֨ר  ->  הסיר   (turn aside, sim=0.875)
+   VAR  [11] נָקֹ֣ד  ->  נקוד   (speckled, sim=0.875)
+   VAR  [23] נָקֹ֖ד  ->  נקוד   (speckled, sim=0.875)
+
+Gn 30:33
+   VAR  [ 8] תָבֹ֥וא  ->  יבוא   (come, sim=0.75)
+   VAR  [16] נָקֹ֨ד  ->  נקוד   (speckled, sim=0.875)
+
+Gn 30:34
+   VAR  [ 5] ל֖וּ  ->  לא   (not, sim=0.5)
+   VAR  [ 6] יְהִ֥י  ->  יהיה   (be, sim=0.875)
+   VAR  [ 8] דְבָרֶֽךָ  ->  דבריך   (word, sim=0.9)
+   PLUS [ 3] ו   (and)  [SIN VOCALIZAR]
+
+Gn 30:35
+   VAR  [10] עֲקֻדִּ֣ים  ->  עקודים   (twisted, sim=0.917)
+   VAR  [13] טְּלֻאִ֗ים  ->  טלואים   (patch, sim=0.917)
+   VAR  [20] נְּקֻדֹּ֣ות  ->  נקודות   (speckled, sim=0.917)
+   VAR  [23] טְּלֻאֹ֔ת  ->  טלואת   (patch, sim=0.9)
+
+Gn 30:36
+   VAR  [ 5] בֵּינֹ֖ו  ->  בינם   (interval, sim=0.75)
+   PLUS [17] ו   (and)  [SIN VOCALIZAR]
+   PLUS [18] יאמר   (say)  [SIN VOCALIZAR]
+   PLUS [19] מלאך   (messenger)  [SIN VOCALIZAR]
+   PLUS [20] אלהים   (god(s))  [SIN VOCALIZAR]
+   PLUS [21] אל   (to)  [SIN VOCALIZAR]
+   PLUS [22] יעקב   (Jacob)  [SIN VOCALIZAR]
+   PLUS [23] ב   (in)  [SIN VOCALIZAR]
+   PLUS [24] חלום   (dream)  [SIN VOCALIZAR]
+   PLUS [25] ו   (and)  [SIN VOCALIZAR]
+   PLUS [26] יאמר   (say)  [SIN VOCALIZAR]
+   PLUS [27] יעקב   (Jacob)  [SIN VOCALIZAR]
+   PLUS [28] ו   (and)  [SIN VOCALIZAR]
+   PLUS [29] יאמר   (say)  [SIN VOCALIZAR]
+   PLUS [30] הנני   (behold)  [SIN VOCALIZAR]
+   PLUS [31] ו   (and)  [SIN VOCALIZAR]
+   PLUS [32] יאמר   (say)  [SIN VOCALIZAR]
+   PLUS [33] שׂא   (lift)  [SIN VOCALIZAR]
+   PLUS [34] נא   (yeah)  [SIN VOCALIZAR]
+   PLUS [35] עיניך   (eye)  [SIN VOCALIZAR]
+   PLUS [36] ו   (and)  [SIN VOCALIZAR]
+   PLUS [37] ראה   (see)  [SIN VOCALIZAR]
+   PLUS [38] את   (<object marker>)  [SIN VOCALIZAR]
+   PLUS [39] כל   (whole)  [SIN VOCALIZAR]
+   PLUS [40] ה   (the)  [SIN VOCALIZAR]
+   PLUS [41] עתודים   (ram)  [SIN VOCALIZAR]
+   PLUS [42] ה   (the)  [SIN VOCALIZAR]
+   PLUS [43] עלים   (ascend)  [SIN VOCALIZAR]
+   PLUS [44] על   (upon)  [SIN VOCALIZAR]
+   PLUS [45] ה   (the)  [SIN VOCALIZAR]
+   PLUS [46] צאן   (cattle)  [SIN VOCALIZAR]
+   PLUS [47] עקודים   (twisted)  [SIN VOCALIZAR]
+   PLUS [48] נקודים   (speckled)  [SIN VOCALIZAR]
+   PLUS [49] ו   (and)  [SIN VOCALIZAR]
+   PLUS [50] ברודים   (speckled)  [SIN VOCALIZAR]
+   PLUS [51] כי   (that)  [SIN VOCALIZAR]
+   PLUS [52] ראיתי   (see)  [SIN VOCALIZAR]
+   PLUS [53] את   (<object marker>)  [SIN VOCALIZAR]
+   PLUS [54] כל   (whole)  [SIN VOCALIZAR]
+   PLUS [55] אשׁר   (<relative>)  [SIN VOCALIZAR]
+   PLUS [56] לבן   (Laban)  [SIN VOCALIZAR]
+   PLUS [57] עשׂה   (make)  [SIN VOCALIZAR]
+   PLUS [58] לך   (to)  [SIN VOCALIZAR]
+   PLUS [59] אנכי   (i)  [SIN VOCALIZAR]
+   PLUS [60] ה   (the)  [SIN VOCALIZAR]
+   PLUS [61] אל   (god)  [SIN VOCALIZAR]
+   PLUS [62] בית אל   (Bethel)  [SIN VOCALIZAR]
+   PLUS [63] אשׁר   (<relative>)  [SIN VOCALIZAR]
+   PLUS [64] משׁחת   (smear)  [SIN VOCALIZAR]
+   PLUS [65] שׁם   (there)  [SIN VOCALIZAR]
+   PLUS [66] מצבה   (massebe)  [SIN VOCALIZAR]
+   PLUS [67] ו   (and)  [SIN VOCALIZAR]
+   PLUS [68] אשׁר   (<relative>)  [SIN VOCALIZAR]
+   PLUS [69] נדרת   (vow)  [SIN VOCALIZAR]
+   PLUS [70] לי   (to)  [SIN VOCALIZAR]
+   PLUS [71] שׁם   (there)  [SIN VOCALIZAR]
+   PLUS [72] נדר   (vow)  [SIN VOCALIZAR]
+   PLUS [73] ו   (and)  [SIN VOCALIZAR]
+   PLUS [74] עתה   (now)  [SIN VOCALIZAR]
+   PLUS [75] קום   (arise)  [SIN VOCALIZAR]
+   PLUS [76] צא   (go out)  [SIN VOCALIZAR]
+   PLUS [77] מן   (from)  [SIN VOCALIZAR]
+   PLUS [78] ה   (the)  [SIN VOCALIZAR]
+   PLUS [79] ארץ   (earth)  [SIN VOCALIZAR]
+   PLUS [80] ה   (the)  [SIN VOCALIZAR]
+   PLUS [81] זאת   (this)  [SIN VOCALIZAR]
+   PLUS [82] ו   (and)  [SIN VOCALIZAR]
+   PLUS [83] שׁוב   (return)  [SIN VOCALIZAR]
+   PLUS [84] אל   (to)  [SIN VOCALIZAR]
+   PLUS [85] ארץ   (earth)  [SIN VOCALIZAR]
+   PLUS [86] אביך   (father)  [SIN VOCALIZAR]
+   PLUS [87] ו   (and)  [SIN VOCALIZAR]
+   PLUS [88] אטיב   (be good)  [SIN VOCALIZAR]
+   PLUS [89] עמך   (with)  [SIN VOCALIZAR]
+
+Gn 30:37
+   VAR  [13] בָּהֵן֙  ->  בהם   (in, sim=0.667)
+
+Gn 30:38
+   VAR  [ 8] רֳהָטִ֖ים  ->  רחטים   (trough, sim=0.8)
+   VAR  [10] שִֽׁקֲתֹ֣ות  ->  השׁקות   (give drink, sim=0.7)
+   VAR  [14] תָּבֹ֨אןָ  ->  תבאנה   (come, sim=0.9)
+   VAR  [26] בֹאָ֥ן  ->  באנה   (come, sim=0.875)
+
+Gn 30:39
+   VAR  [ 1] יֶּחֱמ֥וּ  ->  יחמנה   (be hot, sim=0.7)
+   VAR  [ 4] אֶל  ->  על   (upon, sim=0.5)
+   VAR  [ 8] תֵּלַ֣דְןָ  ->  תלדנה   (bear, sim=0.9)
+   VAR  [11] עֲקֻדִּ֥ים  ->  עקודים   (twisted, sim=0.917)
+   VAR  [12] נְקֻדִּ֖ים  ->  נקודים   (speckled, sim=0.917)
+
+Gn 30:40
+   VAR  [10] אֶל  ->  איל   (ram, despot, sim=0.833)
+   VAR  [11] עָקֹ֛ד  ->  עקוד   (twisted, sim=0.875)
+
+Gn 30:41
+   VAR  [ 1] הָיָ֗ה  ->  יהי   (be, sim=0.667)
+   VAR  [10] שָׂ֨ם  ->  ישׂים   (put, sim=0.75)
+   VAR  [20] רֳהָטִ֑ים  ->  רחטים   (trough, sim=0.8)
+   OMIT [ 9] ו   ()
+
+Gn 30:42
+   VAR  [ 8] הָיָ֤ה  ->  היו   (be, sim=0.667)
+   VAR  [10] עֲטֻפִים֙  ->  עטופים   (feeble, sim=0.917)
+   VAR  [15] קְּשֻׁרִ֖ים  ->  קשׁורים   (tie, sim=0.917)
+
+Gn 30:43
+   OMIT [13] ו   ()
+
+Gn 31:1
+   VAR  [24] כָּבֹ֖ד  ->  כבוד   (weight, sim=0.875)
+
+Gn 31:2
+   VAR  [ 8] אֵינֶנּ֛וּ  ->  אינם   (<NEG>, sim=0.7)
+
+Gn 31:3
+   VAR  [ 8] אֲבֹותֶ֖יךָ  ->  אבתיך   (father, sim=0.917)
+   VAR  [10] לְ  ->  אל   (to, sim=0.75)
+
+Gn 31:5
+   VAR  [ 9] אֵינֶ֥נּוּ  ->  אינם   (<NEG>, sim=0.7)
+   VAR  [12] תְמֹ֣ל  ->  תמול   (yesterday, sim=0.875)
+   VAR  [13] שִׁלְשֹׁ֑ם  ->  שׁלשׁום   (day before yesterday, sim=0.9)
+
+Gn 31:6
+   VAR  [ 1] אַתֵּ֖נָה  ->  אתין   (you, sim=0.75)
+
+Gn 31:7
+   VAR  [ 5] הֶֽחֱלִ֥ף  ->  יחלף   (pass by, sim=0.75)
+   VAR  [16] הָרַ֖ע  ->  הריע   (be evil, sim=0.875)
+   PLUS [14] יהוה   (YHWH)  [SIN VOCALIZAR]
+   OMIT [13] אלהים   ()
+
+Gn 31:8
+   VAR  [ 3] נְקֻדִּים֙  ->  נקודים   (speckled, sim=0.917)
+   VAR  [11] נְקֻדִּ֑ים  ->  נקודים   (speckled, sim=0.917)
+   VAR  [16] עֲקֻדִּים֙  ->  עקודים   (twisted, sim=0.917)
+   VAR  [24] עֲקֻדִּֽים  ->  עקודים   (twisted, sim=0.917)
+
+Gn 31:9
+   VAR  [ 6] אֲבִיכֶ֖ם  ->  אביכן   (father, sim=0.8)
+   PLUS [ 3] יהוה   (YHWH)  [SIN VOCALIZAR]
+   OMIT [ 2] אלהים   ()
+
+Gn 31:10
+   VAR  [11] אֵ֖רֶא  ->  אראה   (see, sim=0.875)
+   VAR  [17] עַתֻּדִים֙  ->  עתודים   (ram, sim=0.917)
+   VAR  [23] עֲקֻדִּ֥ים  ->  עקודים   (twisted, sim=0.917)
+   VAR  [24] נְקֻדִּ֖ים  ->  נקודים   (speckled, sim=0.917)
+   VAR  [26] בְרֻדִּֽים  ->  ברודים   (speckled, sim=0.917)
+
+Gn 31:12
+   VAR  [10] עַתֻּדִים֙  ->  עתודים   (ram, sim=0.917)
+   VAR  [16] עֲקֻדִּ֥ים  ->  עקודים   (twisted, sim=0.917)
+   VAR  [17] נְקֻדִּ֖ים  ->  נקודים   (speckled, sim=0.917)
+   VAR  [19] בְרֻדִּ֑ים  ->  ברודים   (speckled, sim=0.917)
+   PLUS [ 7] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 31:13
+   PLUS [ 8] ו   (and)  [SIN VOCALIZAR]
+   PLUS [14] ו   (and)  [SIN VOCALIZAR]
+
+Gn 31:15
+   VAR  [11] אָכֹ֖ול  ->  אכל   (eat, sim=0.875)
+   PLUS [ 2] כ   (as)  [SIN VOCALIZAR]
+
+Gn 31:16
+   VAR  [20] אֱלֹהִ֛ים  ->  אליך   (to, sim=0.7)
+   VAR  [21] אֵלֶ֖יךָ  ->  אלהים   (god(s), sim=0.7)
+   PLUS [ 7] יהוה   (YHWH)  [SIN VOCALIZAR]
+   OMIT [ 6] אלהים   ()
+
+Gn 31:17
+   VAR  [ 6] בָּנָ֥יו  ->  נשׁיו   (woman, sim=0.5)
+   VAR  [ 9] נָשָׁ֖יו  ->  בניו   (son, sim=0.5)
+
+Gn 31:18
+   VAR  [ 8] רְכֻשֹׁו֙  ->  רכושׁו   (property, sim=0.9)
+
+Gn 31:19
+   VAR  [ 4] גְזֹ֖ז  ->  גוז   (shear, sim=0.667)
+
+Gn 31:20
+   VAR  [ 8] עַל  ->  עד   (unto, sim=0.5)
+   VAR  [ 9] בְּלִי֙  ->  בלתי   (failure, sim=0.75)
+
+Gn 31:24
+   VAR  [ 8] חֲלֹ֣ם  ->  חלום   (dream, sim=0.875)
+
+Gn 31:26
+   VAR  [14] בְּנֹתַ֔י  ->  בנותי   (daughter, sim=0.9)
+
+Gn 31:27
+   VAR  [ 1] נַחְבֵּ֨אתָ֙  ->  נחבת   (flee, sim=0.9)
+   VAR  [22] כִנֹּֽור  ->  כנר   (cither, sim=0.875)
+   OMIT [15] ו   ()
+
+Gn 31:28
+   VAR  [ 9] בְנֹתָ֑י  ->  בנותי   (daughter, sim=0.9)
+   VAR  [12] עֲשֹֽׂו  ->  עשׂות   (make, sim=0.75)
+
+Gn 31:29
+   VAR  [ 6] עִמָּכֶ֖ם  ->  עמך   (with, sim=0.75)
+   VAR  [10] אֲבִיכֶ֜ם  ->  אביך   (father, sim=0.8)
+
+Gn 31:30
+   VAR  [ 6] נִכְסַ֖פְתָּה  ->  נכספת   (long, sim=0.917)
+
+Gn 31:31
+   VAR  [14] בְּנֹותֶ֖יךָ  ->  בנותך   (daughter, sim=0.917)
+
+Gn 31:33
+   PLUS [ 3] ו   (and)  [SIN VOCALIZAR]
+   PLUS [ 4] יחפשׂ   (search)  [SIN VOCALIZAR]
+   PLUS [18] שׁפחות   (maidservant)  [SIN VOCALIZAR]
+   OMIT [17] אמהת   ()
+
+Gn 31:34
+   VAR  [ 7] תְּשִׂמֵ֛ם  ->  תשׂימם   (put, sim=0.9)
+
+Gn 31:35
+   VAR  [10] לֹ֤וא  ->  לא   (not, sim=0.833)
+   PLUS [18] ה   (the)  [SIN VOCALIZAR]
+
+Gn 31:36
+   PLUS [17] ו   (and)  [SIN VOCALIZAR]
+
+Gn 31:37
+   PLUS [ 0] ו   (and)  [SIN VOCALIZAR]
+
+Gn 31:38
+   OMIT [10] ו   ()
+
+Gn 31:39
+   VAR  [ 9] גְּנֻֽבְתִ֣י  ->  גנובת   (steal, sim=0.8)
+   VAR  [12] גְנֻֽבְתִ֖י  ->  גנובת   (steal, sim=0.8)
+   OMIT [ 8] תבקשנה   ()
+
+Gn 31:40
+   VAR  [ 4] חֹ֖רֶב  ->  חרף   (autumn, sim=0.667)
+
+Gn 31:41
+   VAR  [12] בְנֹתֶ֔יךָ  ->  בנותך   (daughter, sim=0.8)
+
+Gn 31:42
+   VAR  [ 0] לוּלֵ֡י  ->  לו   (if only, sim=0.625)
+   VAR  [19] יְגִ֧יעַ  ->  יגע   (toil, sim=0.875)
+   VAR  [24] יֹּ֥וכַח  ->  הוכיח   (reprove, sim=0.7)
+   PLUS [ 1] לא   (not)  [SIN VOCALIZAR]
+
+Gn 31:43
+   VAR  [ 9] בְּנֹתַ֜י  ->  בנותי   (daughter, sim=0.9)
+   VAR  [27] בְנֹתַ֞י  ->  בנותי   (daughter, sim=0.9)
+   VAR  [36] בְנֵיהֶ֖ן  ->  בניהם   (son, sim=0.8)
+
+Gn 31:45
+   VAR  [ 5] יְרִימֶ֖הָ  ->  ירמה   (be high, sim=0.9)
+
+Gn 31:47
+   VAR  [ 5] שָׂהֲדוּתָ֑א  ->  שׂהדותה   (testimony, sim=0.833)
+
+Gn 31:49
+   VAR  [ 2] מִּצְפָּה֙  ->  מצבה   (massebe, sim=0.75)
+
+Gn 31:50
+   VAR  [ 3] בְּנֹתַ֗י  ->  בנותי   (daughter, sim=0.9)
+   VAR  [ 9] בְּנֹתַ֔י  ->  בנותי   (daughter, sim=0.9)
+
+Gn 31:51
+   VAR  [15] יָרִ֖יתִי  ->  יראת   (fear, sim=0.7)
+
+Gn 31:53
+   VAR  [ 5] יִשְׁפְּט֣וּ  ->  ישׁפט   (judge, sim=0.9)
+   VAR  [ 6] בֵינֵ֔ינוּ  ->  ביננו   (interval, sim=0.917)
+   VAR  [ 8] אֲבִיהֶ֑ם  ->  אברהם   (Abraham, sim=0.8)
+
+Gn 32:1
+   VAR  [11] בְנֹותָ֖יו  ->  בנתיו   (daughter, sim=0.917)
+   VAR  [14] אֶתְהֶ֑ם  ->  אתם   (<object marker>, sim=0.875)
+   VAR  [21] מְקֹמֹֽו  ->  מקומו   (place, sim=0.9)
+
+Gn 32:4
+   VAR  [ 9] אַ֥רְצָה  ->  ארץ   (earth, sim=0.875)
+
+Gn 32:6
+   PLUS [ 6] ו   (and)  [SIN VOCALIZAR]
+
+Gn 32:9
+   VAR  [ 9] אַחַ֖ת  ->  אחד   (one, sim=0.667)
+   VAR  [19] פְלֵיטָֽה  ->  פלטה   (escape, sim=0.9)
+
+Gn 32:10
+   VAR  [15] לְ  ->  אל   (to, sim=0.75)
+   VAR  [18] לְ  ->  אל   (to, sim=0.75)
+   VAR  [21] אֵיטִ֥יבָה  ->  אטיב   (be good, sim=0.833)
+   OMIT [11] ה   ()
+
+Gn 32:12
+   VAR  [ 0] הַצִּילֵ֥נִי  ->  הצלני   (deliver, sim=0.917)
+   PLUS [16] ה   (the)  [SIN VOCALIZAR]
+   PLUS [19] ה   (the)  [SIN VOCALIZAR]
+
+Gn 32:13
+   VAR  [ 3] הֵיטֵ֥ב  ->  הטיב   (be good, sim=0.75)
+   VAR  [ 4] אֵיטִ֖יב  ->  אטיב   (be good, sim=0.9)
+
+Gn 32:16
+   VAR  [ 1] מֵינִיקֹ֛ות  ->  מינקות   (suck, sim=0.929)
+   VAR  [10] אֲתֹנֹ֣ת  ->  אתנות   (she-ass, sim=0.9)
+   VAR  [13] עְיָרִ֖ם  ->  עירים   (steed, sim=0.9)
+
+Gn 32:18
+   VAR  [ 4] רִאשֹׁ֖ון  ->  ראישׁון   (first, sim=0.917)
+
+Gn 32:19
+   VAR  [ 7] הִוא֙  ->  היא   (she, sim=0.667)
+
+Gn 32:20
+   PLUS [ 6] ו   (and)  [SIN VOCALIZAR]
+   PLUS [11] ו   (and)  [SIN VOCALIZAR]
+
+Gn 32:21
+   PLUS [ 6] בא   (come)  [SIN VOCALIZAR]
+
+Gn 32:23
+   VAR  [19] יְלָדָ֑יו  ->  ילידיו   (boy, sim=0.917)
+   PLUS [ 4] ה   (the)  [SIN VOCALIZAR]
+   PLUS [24] ה   (the)  [SIN VOCALIZAR]
+
+Gn 32:24
+   PLUS [10] כל   (whole)  [SIN VOCALIZAR]
+
+Gn 32:31
+   VAR  [ 6] פְּנִיאֵ֑ל  ->  פנואל   (Peniel, sim=0.8)
+
+Gn 32:32
+   VAR  [12] צֹלֵ֖עַ  ->  צלוע   (limp, sim=0.875)
+
+Gn 32:33
+   VAR  [ 9] נָּשֶׁ֗ה  ->  נשׁא   (sciatic nerve, sim=0.667)
+   VAR  [29] נָּשֶֽׁה  ->  נשׁא   (sciatic nerve, sim=0.667)
+
+Gn 33:2
+   VAR  [ 8] רִֽאשֹׁנָ֑ה  ->  ראישׁונה   (first, sim=0.857)
+
+Gn 33:3
+   VAR  [ 6] יִּשְׁתַּ֤חוּ  ->  ישׁתחוי   (bow down, sim=0.917)
+
+Gn 33:5
+   OMIT [ 2] את   ()
+
+Gn 33:6
+   VAR  [ 1] תִּגַּ֧שְׁןָ  ->  תגשׁנה   (approach, sim=0.9)
+   VAR  [ 8] תִּֽשְׁתַּחֲוֶֽיןָ  ->  תשׁתחוינה   (bow down, sim=0.938)
+
+Gn 33:9
+   PLUS [ 7] ו   (and)  [SIN VOCALIZAR]
+
+Gn 33:10
+   VAR  [22] רְאֹ֛ת  ->  ראות   (see, sim=0.875)
+
+Gn 33:11
+   VAR  [ 5] הֻבָ֣את  ->  הבאתי   (come, sim=0.9)
+
+Gn 33:13
+   VAR  [15] עָלֹ֣ות  ->  אעלת   (nurse, sim=0.75)
+   VAR  [18] דְפָקוּם֙  ->  דפקתים   (drive, sim=0.75)
+
+Gn 33:14
+   VAR  [25] אָבֹ֥א  ->  אבוא   (come, sim=0.875)
+
+Gn 33:17
+   VAR  [ 3] סֻכֹּ֔תָה  ->  סכותה   (Succoth, sim=0.9)
+   VAR  [12] סֻכֹּ֔ת  ->  סכות   (cover of foliage, sim=0.875)
+
+Gn 33:18
+   VAR  [ 3] שָׁלֵ֜ם  ->  שׁלום   (peace, sim=0.875)
+
+Gn 34:1
+   VAR  [10] רְאֹ֖ות  ->  הראות   (see, sim=0.9)
+
+Gn 34:3
+   VAR  [11] נַּעֲרָ֔  ->  נערה   (girl, sim=0.875)
+   VAR  [14] עַל  ->  אל   (to, sim=0.5)
+   VAR  [17] נַּעֲרָֽ  ->  נערה   (girl, sim=0.875)
+
+Gn 34:4
+   OMIT [ 4] חמור   ()
+
+Gn 34:5
+   VAR  [16] הֶחֱרִ֥שׁ  ->  חרישׁ   (ploughing, sim=0.75)
+
+Gn 34:10
+   VAR  [11] סְחָר֔וּהָ  ->  סחרו   (go about, sim=0.9)
+   VAR  [13] הֵֽאָחֲז֖וּ  ->  אחזו   (seize, sim=0.9)
+   OMIT [10] ו   ()
+
+Gn 34:12
+   VAR  [ 6] מַתָּ֔ן  ->  מתנה   (present, sim=0.875)
+   VAR  [ 8] אֶ֨תְּנָ֔ה  ->  אתן   (give, sim=0.875)
+   VAR  [18] נַּעֲרָ֖  ->  נערה   (girl, sim=0.875)
+   PLUS [ 2] מהר   (bride price)  [SIN VOCALIZAR]
+   OMIT [ 4] מהר   ()
+
+Gn 34:13
+   VAR  [15] טִמֵּ֔א  ->  טמאו   (be unclean, sim=0.875)
+   VAR  [18] אֲחֹתָֽם  ->  אחותם   (sister, sim=0.9)
+
+Gn 34:14
+   VAR  [15] אֲחֹתֵ֔נוּ  ->  אחותנו   (sister, sim=0.917)
+   VAR  [23] הִ֖וא  ->  היא   (she, sim=0.667)
+   PLUS [ 7] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 34:15
+   VAR  [ 7] כָמֹ֔נוּ  ->  כמונו   (like, sim=0.9)
+   VAR  [ 9] הִמֹּ֥ל  ->  המול   (circumcise, sim=0.875)
+
+Gn 34:16
+   PLUS [16] כ   (as)  [SIN VOCALIZAR]
+   OMIT [15] ל   ()
+
+Gn 34:18
+   VAR  [10] בֶּן  ->  בנו   (son, sim=0.833)
+   OMIT [11] חמור   ()
+
+Gn 34:21
+   VAR  [18] רַֽחֲבַת  ->  רחבות   (wide, sim=0.9)
+   VAR  [23] בְּנֹתָם֙  ->  בנותם   (daughter, sim=0.9)
+   OMIT [ 7] ו   ()
+
+Gn 34:22
+   VAR  [ 3] יֵאֹ֨תוּ  ->  יאותו   (<uncertain>, sim=0.9)
+
+Gn 34:23
+   VAR  [ 0] מִקְנֵהֶ֤ם  ->  מקניהם   (purchase, sim=0.917)
+   VAR  [11] נֵאֹ֣ותָה  ->  נאות   (<uncertain>, sim=0.9)
+
+Gn 34:27
+   PLUS [ 0] ו   (and)  [SIN VOCALIZAR]
+
+Gn 34:29
+   OMIT [ 6] כל   ()
+   OMIT [14] ו   ()
+
+Gn 34:30
+   VAR  [11] הַבְאִישֵׁ֨נִי֙  ->  הבאשׁני   (stink, sim=0.929)
+   VAR  [13] יֹשֵׁ֣ב  ->  יושׁב   (sit, sim=0.875)
+
+Gn 34:31
+   VAR  [ 5] יַעֲשֶׂ֖ה  ->  יעשׂו   (make, sim=0.75)
+
+Gn 35:2
+   VAR  [10] הָסִ֜רוּ  ->  הסירו   (turn aside, sim=0.9)
+   VAR  [17] תֹכְכֶ֔ם  ->  תוככם   (midst, sim=0.9)
+
+Gn 35:4
+   VAR  [25] אֵלָ֖ה  ->  אילה   (big tree, sim=0.875)
+
+Gn 35:6
+   VAR  [ 9] בֵּֽית־אֵ֑ל  ->  בית   (house, sim=0.7)
+   PLUS [10] אל   (to)  [SIN VOCALIZAR]
+
+Gn 35:7
+   VAR  [12] נִגְל֤וּ  ->  נגלה   (uncover, sim=0.75)
+
+Gn 35:8
+   VAR  [ 2] דְּבֹרָה֙  ->  דבורה   (Deborah, sim=0.9)
+   VAR  [10] בֵֽית־אֵ֖ל  ->  בית   (house, sim=0.7)
+   VAR  [19] בָּכֽוּת  ->  בכית   (weeping, sim=0.75)
+   PLUS [11] אל   (not)  [SIN VOCALIZAR]
+
+Gn 35:9
+   PLUS [14] אלהים   (god(s))  [SIN VOCALIZAR]
+
+Gn 35:10
+   PLUS [ 8] עוד   (duration)  [SIN VOCALIZAR]
+   OMIT [10] עוד   ()
+
+Gn 35:15
+   VAR  [12] בֵּֽית־אֵֽל  ->  בית   (house, sim=0.7)
+   PLUS [13] אל   (to)  [SIN VOCALIZAR]
+
+Gn 35:16
+   VAR  [ 3] בֵּ֣ית אֵ֔ל  ->  בית   (house, sim=0.7)
+   PLUS [ 4] אל   (to)  [SIN VOCALIZAR]
+
+Gn 35:17
+   VAR  [ 3] הַקְשֹׁתָ֖הּ  ->  הקשׁותה   (be hard, sim=0.917)
+   VAR  [16] לָ֖ךְ  ->  ליך   (to, sim=0.833)
+
+Gn 35:18
+   VAR  [16] בִנְיָמִֽין  ->  בנימים   (Benjamin, sim=0.833)
+   PLUS [ 9] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 35:19
+   VAR  [ 8] הִ֖וא  ->  היא   (she, sim=0.667)
+
+Gn 35:20
+   VAR  [ 6] הִ֛וא  ->  היא   (she, sim=0.667)
+
+Gn 35:21
+   VAR  [ 5] אָֽהֳלֹ֔ו  ->  אהלו   (tent, sim=0.75)
+
+Gn 35:22
+   VAR  [ 8] הִ֔וא  ->  היא   (she, sim=0.667)
+
+Gn 35:24
+   VAR  [ 5] בִנְיָמִֽן  ->  בנימים   (Benjamin, sim=0.75)
+   PLUS [ 0] ו   (and)  [SIN VOCALIZAR]
+
+Gn 35:26
+   VAR  [12] יֻלַּד  ->  ילדו   (bear, sim=0.875)
+
+Gn 35:27
+   VAR  [ 8] הִ֣וא  ->  היא   (she, sim=0.667)
+
+Gn 35:28
+   VAR  [ 5] מְאַ֥ת  ->  את   (together with, sim=0.667)
+   PLUS [ 4] מ   (from)  [SIN VOCALIZAR]
+
+Gn 35:29
+   VAR  [ 8] עַמָּ֔יו  ->  עמו   (people, sim=0.875)
+
+Gn 36:1
+   VAR  [ 2] תֹּלְדֹ֥ות  ->  תולדת   (generations, sim=0.8)
+
+Gn 36:2
+   VAR  [18] בַּת  ->  בן   (son, sim=0.5)
+
+Gn 36:3
+   VAR  [ 7] נְבָיֹֽות  ->  נבאות   (Nebaioth, sim=0.8)
+   PLUS [ 3] מחלת   (Mahalath)  [SIN VOCALIZAR]
+   OMIT [ 2] בשמת   ()
+
+Gn 36:4
+   PLUS [ 9] מחלת   (Mahalath)  [SIN VOCALIZAR]
+   OMIT [ 8] בשמת   ()
+
+Gn 36:5
+   VAR  [ 4] יְע֥וּשׁ  ->  יעושׁ   (Jeush, sim=0.75)
+
+Gn 36:6
+   PLUS [35] מ   (from)  [SIN VOCALIZAR]
+   PLUS [37] כנען   (Canaan)  [SIN VOCALIZAR]
+   OMIT [34] אל   ()
+
+Gn 36:7
+   VAR  [11] מְגֽוּרֵיהֶם֙  ->  מגריהם   (neighbourhood, sim=0.929)
+
+Gn 36:9
+   VAR  [ 2] תֹּלְדֹ֥ות  ->  תולדת   (generations, sim=0.8)
+
+Gn 36:10
+   PLUS [ 0] ו   (and)  [SIN VOCALIZAR]
+   PLUS [13] מחלת   (Mahalath)  [SIN VOCALIZAR]
+   OMIT [12] בשמת   ()
+
+Gn 36:11
+   VAR  [ 6] אֹומָ֔ר  ->  אמר   (Omar, sim=0.875)
+   PLUS [ 5] ו   (and)  [SIN VOCALIZAR]
+   PLUS [ 7] ו   (and)  [SIN VOCALIZAR]
+
+Gn 36:13
+   VAR  [ 7] שַׁמָּ֣ה  ->  שׁמח   (Shammah, sim=0.667)
+   PLUS [14] מחלת   (Mahalath)  [SIN VOCALIZAR]
+   OMIT [13] בשמת   ()
+
+Gn 36:14
+   VAR  [ 7] בַּת  ->  בן   (son, sim=0.5)
+   VAR  [16] יְע֥וּשׁ  ->  יעושׁ   (Jeush, sim=0.75)
+
+Gn 36:15
+   VAR  [11] אֹומָ֔ר  ->  אמר   (Omar, sim=0.875)
+
+Gn 36:16
+   OMIT [ 0] אלוף   ()
+   OMIT [ 1] קרח   ()
+
+Gn 36:17
+   VAR  [11] שַׁמָּ֖ה  ->  שׁמח   (Shammah, sim=0.667)
+   PLUS [23] מחלת   (Mahalath)  [SIN VOCALIZAR]
+   OMIT [22] בשמת   ()
+
+Gn 36:19
+   PLUS [ 6] עשׂו   (Esau)  [SIN VOCALIZAR]
+
+Gn 36:20
+   PLUS [ 0] ו   (and)  [SIN VOCALIZAR]
+
+Gn 36:21
+   VAR  [ 1] דִשֹׁ֥ון  ->  דישׁון   (Dishon, sim=0.9)
+
+Gn 36:22
+   VAR  [ 6] הֵימָ֑ם  ->  אימם   (Homam, sim=0.75)
+
+Gn 36:24
+   VAR  [14] יֵּמִם֙  ->  אימים   (Emite, sim=0.8)
+   OMIT [ 4] ו   ()
+
+Gn 36:25
+   VAR  [ 4] דִּשֹׁ֑ן  ->  דישׁון   (Dishon, sim=0.8)
+
+Gn 36:26
+   VAR  [ 3] דִישָׁ֑ן  ->  דישׁון   (Dishon, sim=0.9)
+   OMIT [ 7] ו   ()
+
+Gn 36:27
+   VAR  [ 6] זַעֲוָ֖ן  ->  זוען   (Zaavan, sim=0.75)
+   PLUS [ 0] ו   (and)  [SIN VOCALIZAR]
+
+Gn 36:28
+   VAR  [ 6] אֲרָֽן  ->  אדן   (Aran, sim=0.667)
+   PLUS [ 0] ו   (and)  [SIN VOCALIZAR]
+
+Gn 36:30
+   VAR  [ 1] דִּשֹׁ֛ן  ->  דישׁון   (Dishon, sim=0.8)
+   VAR  [11] אַלֻּפֵיהֶ֖ם  ->  אלופיהם   (chief, sim=0.929)
+
+Gn 36:35
+   VAR  [13] מִדְיָן֙  ->  מדיני   (Midianite, sim=0.9)
+   PLUS [12] ה   (the)  [SIN VOCALIZAR]
+
+Gn 36:39
+   VAR  [ 8] הֲדַ֔ר  ->  הדד   (Hadad, sim=0.667)
+   VAR  [16] מְהֵֽיטַבְאֵל֙  ->  מהטבאל   (Mehetabel, sim=0.929)
+   OMIT [ 3] בן   ()
+   OMIT [ 4] עכבור   ()
+
+Gn 36:40
+   VAR  [ 6] מִשְׁפְּחֹתָ֔ם  ->  משׁפחותם   (clan, sim=0.929)
+   VAR  [ 8] מְקֹמֹתָ֖ם  ->  מקומותם   (place, sim=0.857)
+   VAR  [10] שְׁמֹתָ֑ם  ->  שׁמותם   (name, sim=0.9)
+
+Gn 36:43
+   VAR  [ 1] מַגְדִּיאֵ֖ל  ->  מגדאל   (Magdiel, sim=0.917)
+   VAR  [ 8] מֹֽשְׁבֹתָם֙  ->  משׁפחותם   (clan, sim=0.643)
+
+Gn 37:1
+   VAR  [ 5] מְגוּרֵ֣י  ->  מגרי   (neighbourhood, sim=0.9)
+
+Gn 37:2
+   VAR  [ 1] תֹּלְדֹ֣ות  ->  תולדת   (generations, sim=0.8)
+
+Gn 37:3
+   VAR  [14] עָ֥שָׂה  ->  יעשׂ   (make, sim=0.667)
+   VAR  [16] כְּתֹ֥נֶת  ->  כיתנת   (tunic, sim=0.9)
+
+Gn 37:4
+   VAR  [ 9] אֶחָ֔יו  ->  בניו   (son, sim=0.5)
+   VAR  [16] דַּבְּרֹ֥ו  ->  דבריו   (word, sim=0.9)
+   VAR  [18] שָׁלֹֽם  ->  שׁלום   (peace, sim=0.875)
+
+Gn 37:5
+   VAR  [ 9] יֹּוסִ֥פוּ  ->  יוסיפו   (add, sim=0.917)
+
+Gn 37:7
+   VAR  [18] תְסֻבֶּ֨ינָה֙  ->  תסבנה   (turn, sim=0.917)
+   VAR  [21] תִּֽשְׁתַּחֲוֶ֖יןָ  ->  תשׁתחוינה   (bow down, sim=0.938)
+
+Gn 37:8
+   VAR  [ 5] מָלֹ֤ךְ  ->  מלוך   (be king, sim=0.875)
+   VAR  [ 9] מָשֹׁ֥ול  ->  משׁל   (rule, sim=0.875)
+   VAR  [13] יֹּוסִ֤פוּ  ->  יוסיפו   (add, sim=0.917)
+   VAR  [18] חֲלֹמֹתָ֖יו  ->  חלמיו   (dream, sim=0.833)
+
+Gn 37:10
+   VAR  [ 2] אֶל  ->  ל   (to, sim=0.75)
+   VAR  [ 5] אֶל  ->  ל   (to, sim=0.75)
+   VAR  [22] בֹ֣וא  ->  בא   (come, sim=0.833)
+
+Gn 37:13
+   VAR  [11] לְכָ֖ה  ->  לך   (walk, sim=0.833)
+
+Gn 37:14
+   PLUS [ 5] ו   (and)  [SIN VOCALIZAR]
+
+Gn 37:15
+   PLUS [ 2] ה   (the)  [SIN VOCALIZAR]
+
+Gn 37:16
+   VAR  [ 4] אָנֹכִ֣י  ->  אני   (i, sim=0.75)
+
+Gn 37:17
+   VAR  [ 8] שָׁמַ֨עְתִּי֙  ->  שׁמעתים   (hear, sim=0.833)
+   VAR  [11] דֹּתָ֑יְנָה  ->  דותינה   (Dothan, sim=0.917)
+   VAR  [15] אַחַ֣ר  ->  אחרי   (after, sim=0.875)
+   VAR  [20] דֹתָֽן  ->  דותין   (Dothan, sim=0.8)
+
+Gn 37:18
+   OMIT [ 5] ו   ()
+
+Gn 37:19
+   VAR  [10] לָּזֶ֖ה  ->  הלז   (this, sim=0.667)
+   OMIT [ 9] ה   ()
+
+Gn 37:20
+   VAR  [ 6] נַשְׁלִכֵ֨הוּ֙  ->  נשׁליכהו   (throw, sim=0.929)
+   VAR  [10] בֹּרֹ֔ות  ->  בורות   (cistern, sim=0.9)
+   VAR  [15] אֲכָלָ֑תְהוּ  ->  אכלתו   (eat, sim=0.917)
+   VAR  [19] יִּהְי֖וּ  ->  יהיה   (be, sim=0.75)
+
+Gn 37:21
+   VAR  [ 4] יַּצִּלֵ֖הוּ  ->  יצלו   (deliver, sim=0.9)
+
+Gn 37:22
+   VAR  [ 2] אֲלֵהֶ֣ם  ->  אליהם   (to, sim=0.9)
+
+Gn 37:23
+   VAR  [ 9] יַּפְשִׁ֤יטוּ  ->  יפשׁטו   (strip off, sim=0.917)
+   VAR  [13] כֻּתָּנְתֹּ֔ו  ->  כיתנתו   (tunic, sim=0.917)
+   VAR  [15] כְּתֹ֥נֶת  ->  כיתנת   (tunic, sim=0.9)
+
+Gn 37:24
+   VAR  [ 1] יִּ֨קָּחֻ֔הוּ  ->  יקחו   (take, sim=0.9)
+   VAR  [ 6] בֹּ֑רָה  ->  בור   (cistern, sim=0.667)
+   VAR  [10] רֵ֔ק  ->  ריק   (empty, sim=0.833)
+
+Gn 37:25
+   VAR  [24] לֹ֔ט  ->  לוט   (mastic tree, sim=0.833)
+   VAR  [25] הֹולְכִ֖ים  ->  הלכים   (walk, sim=0.917)
+
+Gn 37:27
+   VAR  [ 8] תְּהִי  ->  תהיה   (be, sim=0.875)
+   PLUS [12] ו   (and)  [SIN VOCALIZAR]
+   OMIT [ 1] ו   ()
+
+Gn 37:30
+   VAR  [11] אָ֥נָה  ->  הנה   (behold, sim=0.667)
+
+Gn 37:31
+   VAR  [ 3] כְּתֹ֣נֶת  ->  כיתנת   (tunic, sim=0.9)
+   VAR  [13] כֻּתֹּ֖נֶת  ->  כיתנת   (tunic, sim=0.9)
+
+Gn 37:32
+   VAR  [ 3] כְּתֹ֣נֶת  ->  כיתנת   (tunic, sim=0.9)
+   VAR  [17] כְּתֹ֧נֶת  ->  כיתנת   (tunic, sim=0.9)
+   VAR  [19] הִ֖וא  ->  היא   (she, sim=0.667)
+
+Gn 37:33
+   VAR  [ 1] יַּכִּירָ֤הּ  ->  יכרה   (dig, sim=0.9)
+   VAR  [ 4] כְּתֹ֣נֶת  ->  כיתנת   (tunic, sim=0.9)
+   VAR  [ 9] אֲכָלָ֑תְהוּ  ->  אכלתו   (eat, sim=0.917)
+   PLUS [ 6] היא   (she)  [SIN VOCALIZAR]
+
+Gn 37:35
+   VAR  [17] אֶל  ->  על   (upon, sim=0.5)
+
+Gn 37:36
+   VAR  [ 2] מְּדָנִ֔ים  ->  מדינים   (Medanite, sim=0.917)
+   VAR  [ 4] אֹתֹ֖ו  ->  את   (<object marker>, sim=0.833)
+   VAR  [ 7] מִצְרָ֑יִם  ->  מצרימה   (Egypt, sim=0.917)
+   PLUS [ 6] יוסף   (Joseph)  [SIN VOCALIZAR]
+   OMIT [ 5] אל   ()
+
+Gn 38:1
+   VAR  [ 5] הִ֔וא  ->  היא   (she, sim=0.667)
+
+Gn 38:3
+   VAR  [ 6] יִּקְרָ֥א  ->  תקרא   (call, sim=0.75)
+
+Gn 38:5
+   VAR  [12] הָיָ֥ה  ->  יהי   (be, sim=0.667)
+   VAR  [14] כְזִ֖יב  ->  כזבה   (lie, sim=0.75)
+
+Gn 38:10
+   PLUS [ 5] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 38:12
+   VAR  [15] עַל  ->  אל   (to, sim=0.5)
+
+Gn 38:13
+   VAR  [12] גֹ֥ז  ->  גוז   (shear, sim=0.833)
+   PLUS [ 4] כלתו   (bride)  [SIN VOCALIZAR]
+
+Gn 38:14
+   VAR  [ 7] תְּכַ֤ס  ->  תתכס   (cover, sim=0.75)
+   VAR  [15] פֶ֣תַח  ->  פתע   (opening, sim=0.667)
+   VAR  [27] הִ֕וא  ->  היא   (she, sim=0.667)
+
+Gn 38:16
+   VAR  [ 9] הָֽבָה  ->  בא   (come, sim=0.5)
+   VAR  [18] הִ֑וא  ->  היא   (she, sim=0.667)
+   PLUS [ 8] ה   (the)  [SIN VOCALIZAR]
+
+Gn 38:18
+   VAR  [ 7] לָּךְ֒  ->  ליך   (to, sim=0.833)
+   VAR  [10] חֹתָֽמְךָ֙  ->  חתימך   (seal, sim=0.9)
+
+Gn 38:21
+   VAR  [ 5] מְקֹמָהּ֙  ->  מקום   (place, sim=0.75)
+   VAR  [12] הִ֥וא  ->  היא   (she, sim=0.667)
+   PLUS [ 4] ה   (the)  [SIN VOCALIZAR]
+   PLUS [11] ה   (the)  [SIN VOCALIZAR]
+
+Gn 38:23
+   PLUS [11] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 38:24
+   VAR  [ 4] שְׁלֹ֣שׁ  ->  שׁלשׁת   (three, sim=0.75)
+   VAR  [20] זְנוּנִ֑ים  ->  זנים   (fornicate, sim=0.75)
+   VAR  [24] הֹוצִיא֖וּהָ  ->  הוציאה   (go out, sim=0.929)
+
+Gn 38:25
+   VAR  [ 0] הִ֣וא  ->  היא   (she, sim=0.667)
+   VAR  [23] חֹתֶ֧מֶת  ->  חתים   (seal, sim=0.625)
+   VAR  [26] פְּתִילִ֛ים  ->  פתיל   (cord, sim=0.75)
+
+Gn 38:27
+   VAR  [ 7] תְאֹומִ֖ים  ->  תאמים   (twins, sim=0.917)
+
+Gn 38:28
+   VAR  [20] רִאשֹׁנָֽה  ->  ראישׁון   (first, sim=0.75)
+
+Gn 38:29
+   VAR  [13] עָלֶ֣יךָ  ->  עלינו   (upon, sim=0.7)
+   VAR  [16] יִּקְרָ֥א  ->  תקרא   (call, sim=0.75)
+   PLUS [17] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 38:30
+   VAR  [ 1] אַחַר֙  ->  אחרי   (after, sim=0.875)
+   VAR  [11] יִּקְרָ֥א  ->  תקרא   (call, sim=0.75)
+   PLUS [ 2] כן   (thus)  [SIN VOCALIZAR]
+
+Gn 39:1
+   VAR  [19] הֹורִדֻ֖הוּ  ->  הורידהו   (descend, sim=0.929)
+
+Gn 39:2
+   OMIT [11] ב   ()
+
+Gn 39:4
+   VAR  [ 5] עֵינָ֖יו  ->  עיני   (eye, sim=0.9)
+   PLUS [ 6] אדניו   (lord)  [SIN VOCALIZAR]
+   PLUS [16] אשׁר   (<relative>)  [SIN VOCALIZAR]
+
+Gn 39:6
+   VAR  [19] אֹוכֵ֑ל  ->  אכל   (eat, sim=0.875)
+
+Gn 39:8
+   VAR  [12] מַה  ->  מאומה   (something, sim=0.6)
+   VAR  [14] בָּ֑יִת  ->  ביתו   (house, sim=0.875)
+
+Gn 39:9
+   VAR  [14] אֹותָ֖ךְ  ->  אתיך   (<object marker>, sim=0.75)
+   VAR  [17] אַתְּ  ->  אתי   (you, sim=0.833)
+
+Gn 39:10
+   PLUS [ 7] ו   (and)  [SIN VOCALIZAR]
+
+Gn 39:11
+   PLUS [ 9] יוסף   (Joseph)  [SIN VOCALIZAR]
+   PLUS [15] ב   (in)  [SIN VOCALIZAR]
+   PLUS [16] בית   (house)  [SIN VOCALIZAR]
+   OMIT [ 3] ה   ()
+
+Gn 39:12
+   VAR  [ 3] בִגְדֹ֛ו  ->  בגדיו   (garment, sim=0.9)
+   VAR  [10] בִּגְדֹו֙  ->  בגדיו   (garment, sim=0.9)
+
+Gn 39:13
+   VAR  [ 6] בִּגְדֹ֖ו  ->  בגדיו   (garment, sim=0.9)
+   PLUS [11] ו   (and)  [SIN VOCALIZAR]
+   PLUS [12] יצא   (go out)  [SIN VOCALIZAR]
+
+Gn 39:15
+   VAR  [ 5] הֲרִימֹ֥תִי  ->  הרמי   (be high, sim=0.75)
+   VAR  [11] בִּגְדֹו֙  ->  בגדיו   (garment, sim=0.9)
+   PLUS [12] ב   (in)  [SIN VOCALIZAR]
+   PLUS [14] ידי   (hand)  [SIN VOCALIZAR]
+   OMIT [13] אצלי   ()
+
+Gn 39:16
+   VAR  [ 2] בִּגְדֹ֖ו  ->  בגדיו   (garment, sim=0.9)
+   VAR  [ 5] בֹּ֥וא  ->  בא   (come, sim=0.833)
+
+Gn 39:18
+   VAR  [ 3] הֲרִימִ֥י  ->  הרמי   (be high, sim=0.9)
+   VAR  [ 9] בִּגְדֹ֛ו  ->  בגדיו   (garment, sim=0.9)
+
+Gn 39:20
+   VAR  [10] סֹּ֔הַר  ->  סחר   (prison, sim=0.667)
+   VAR  [23] סֹּֽהַר  ->  סחר   (prison, sim=0.667)
+
+Gn 39:21
+   VAR  [17] סֹּֽהַר  ->  סחר   (prison, sim=0.667)
+
+Gn 39:22
+   VAR  [ 5] סֹּ֨הַר֙  ->  סחר   (prison, sim=0.667)
+   VAR  [12] אֲסִירִ֔ם  ->  אסורים   (prisoner, sim=0.75)
+   VAR  [17] סֹּ֑הַר  ->  סחר   (prison, sim=0.667)
+
+Gn 39:23
+   VAR  [ 4] סֹּ֗הַר  ->  סחר   (prison, sim=0.667)
+   PLUS [16] כל   (whole)  [SIN VOCALIZAR]
+
+Gn 40:2
+   VAR  [14] אֹופִֽים  ->  אפים   (baker, sim=0.9)
+
+Gn 40:3
+   VAR  [12] סֹּ֑הַר  ->  סחר   (prison, sim=0.667)
+
+Gn 40:5
+   VAR  [27] סֹּֽהַר  ->  סחר   (prison, sim=0.667)
+
+Gn 40:8
+   VAR  [11] אֲלֵהֶ֜ם  ->  אליהם   (to, sim=0.9)
+
+Gn 40:9
+   VAR  [13] חֲלֹומִ֕י  ->  חלמי   (dream, sim=0.9)
+
+Gn 40:10
+   VAR  [ 4] שָׂרִיגִ֑ם  ->  שׂרוגים   (tendril, sim=0.75)
+   VAR  [ 8] פֹרַ֨חַת֙  ->  אפרחת   (young one, sim=0.9)
+
+Gn 40:11
+   VAR  [13] אֶל  ->  על   (upon, sim=0.5)
+
+Gn 40:12
+   VAR  [ 8] שָּׂ֣רִגִ֔ים  ->  שׂרוגים   (tendril, sim=0.917)
+
+Gn 40:13
+   VAR  [13] נָתַתָּ֤  ->  נתתה   (give, sim=0.875)
+   VAR  [21] רִאשֹׁ֔ון  ->  ראישׁון   (first, sim=0.917)
+
+Gn 40:14
+   VAR  [15] אֶל  ->  ל   (to, sim=0.75)
+
+Gn 40:15
+   VAR  [ 1] גֻנֹּ֣ב  ->  גנוב   (steal, sim=0.875)
+   VAR  [ 2] גֻּנַּ֔בְתִּי  ->  נגנבתי   (steal, sim=0.833)
+
+Gn 40:16
+   VAR  [15] חֲלֹומִ֔י  ->  חלמי   (dream, sim=0.9)
+
+Gn 40:17
+   VAR  [16] מִן  ->  מ   (from, sim=0.5)
+   PLUS [17] על   (upon)  [SIN VOCALIZAR]
+
+Gn 40:19
+   VAR  [11] תָלָ֥ה  ->  תלא   (hang, sim=0.667)
+   VAR  [12] אֹותְךָ֖  ->  אתך   (<object marker>, sim=0.875)
+   PLUS [14] ה   (the)  [SIN VOCALIZAR]
+
+Gn 40:20
+   VAR  [ 7] הֻלֶּ֣דֶת  ->  הולדת   (bear, sim=0.9)
+
+Gn 40:21
+   PLUS [10] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 40:22
+   VAR  [ 5] תָּלָ֑ה  ->  תלא   (hang, sim=0.667)
+
+Gn 41:2
+   VAR  [ 5] עֹלֹת֙  ->  עלות   (ascend, sim=0.875)
+   VAR  [11] בְרִיאֹ֣ת  ->  בריות   (fat, sim=0.8)
+   VAR  [14] תִּרְעֶ֖ינָה  ->  תריענה   (pasture, sim=0.833)
+
+Gn 41:3
+   VAR  [13] דַקֹּ֣ות  ->  רקות   (thin, sim=0.75)
+
+Gn 41:4
+   VAR  [ 8] דַקֹּ֣ת  ->  רקות   (thin, sim=0.625)
+   VAR  [15] יְפֹ֥ת  ->  יפות   (beautiful, sim=0.875)
+   VAR  [20] בְּרִיאֹ֑ת  ->  בריות   (fat, sim=0.8)
+   VAR  [22] יִּיקַ֖ץ  ->  יקץ   (awake, sim=0.875)
+
+Gn 41:5
+   VAR  [13] בְּרִיאֹ֥ות  ->  בריות   (fat, sim=0.917)
+   VAR  [15] טֹבֹֽות  ->  טובות   (good, sim=0.9)
+
+Gn 41:6
+   VAR  [ 6] שְׁדוּפֹ֣ת  ->  שׁדיפת   (scorch, sim=0.8)
+
+Gn 41:7
+   VAR  [11] בְּרִיאֹ֖ות  ->  בריות   (fat, sim=0.917)
+   VAR  [14] מְּלֵאֹ֑ות  ->  מליות   (full, sim=0.8)
+   VAR  [16] יִּיקַ֥ץ  ->  יקץ   (awake, sim=0.875)
+
+Gn 41:8
+   VAR  [24] חֲלֹמֹ֔ו  ->  חלמיו   (dream, sim=0.9)
+   VAR  [27] פֹּותֵ֥ר  ->  פתר   (interpret, sim=0.875)
+   VAR  [28] אֹותָ֖ם  ->  אתם   (<object marker>, sim=0.875)
+
+Gn 41:9
+   VAR  [ 5] אֶת  ->  אל   (to, sim=0.5)
+
+Gn 41:11
+   VAR  [ 1] נַּֽחַלְמָ֥ה  ->  נחלם   (wadi, sim=0.9)
+
+Gn 41:13
+   VAR  [14] תָלָֽה  ->  תלא   (hang, sim=0.667)
+
+Gn 41:15
+   VAR  [17] תִּשְׁמַ֥ע  ->  התשׁמע   (hear, sim=0.9)
+
+Gn 41:16
+   PLUS [ 9] לא   (not)  [SIN VOCALIZAR]
+
+Gn 41:17
+   VAR  [ 3] אֶל  ->  את   (<object marker>, sim=0.5)
+   PLUS [ 7] ו   (and)  [SIN VOCALIZAR]
+
+Gn 41:18
+   VAR  [ 5] עֹלֹת֙  ->  עלות   (ascend, sim=0.875)
+   VAR  [ 8] בְּרִיאֹ֥ות  ->  בריות   (fat, sim=0.917)
+   VAR  [11] יפֹ֣ת  ->  יפות   (beautiful, sim=0.875)
+   VAR  [14] תִּרְעֶ֖ינָה  ->  תריענה   (pasture, sim=0.833)
+
+Gn 41:19
+   VAR  [18] הֵ֛נָּה  ->  כהן   (as, sim=0.5)
+   OMIT [17] כ   ()
+
+Gn 41:20
+   VAR  [14] רִאשֹׁנֹ֖ות  ->  ראישׁונות   (first, sim=0.875)
+   VAR  [17] בְּרִיאֹֽת  ->  בריות   (fat, sim=0.8)
+   PLUS [15] ו   (and)  [SIN VOCALIZAR]
+
+Gn 41:21
+   VAR  [ 3] קִרְבֶּ֗נָה  ->  קרבהן   (war, sim=0.8)
+   VAR  [10] קִרְבֶּ֔נָה  ->  קרבהן   (war, sim=0.8)
+   VAR  [12] מַרְאֵיהֶ֣ן  ->  מראהן   (sight, sim=0.917)
+   VAR  [19] אִיקָֽץ  ->  אקץ   (awake, sim=0.875)
+
+Gn 41:22
+   VAR  [ 1] אֵ֖רֶא  ->  אראה   (see, sim=0.875)
+   VAR  [ 8] עֹלֹ֛ת  ->  עלות   (ascend, sim=0.875)
+   VAR  [12] מְלֵאֹ֥ת  ->  מליות   (full, sim=0.7)
+   VAR  [14] טֹבֹֽות  ->  טובות   (good, sim=0.9)
+
+Gn 41:23
+   VAR  [ 7] שְׁדֻפֹ֣ות  ->  שׁדיפות   (scorch, sim=0.917)
+   VAR  [10] אַחֲרֵיהֶֽם  ->  אחריהן   (after, sim=0.833)
+   PLUS [ 6] ו   (and)  [SIN VOCALIZAR]
+
+Gn 41:24
+   VAR  [ 1] תִּבְלַ֨עְןָ֙  ->  תבלענה   (swallow, sim=0.917)
+   VAR  [ 5] דַּקֹּ֔ת  ->  דקות   (thin, sim=0.875)
+   VAR  [11] טֹּבֹ֑ות  ->  טובות   (good, sim=0.9)
+
+Gn 41:25
+   VAR  [14] הִגִּ֥יד  ->  אגיד   (report, sim=0.75)
+
+Gn 41:26
+   VAR  [ 2] פָּרֹ֣ת  ->  פרות   (cow, sim=0.875)
+   VAR  [ 4] טֹּבֹ֗ת  ->  טובות   (good, sim=0.8)
+   VAR  [13] טֹּבֹ֔ת  ->  טובות   (good, sim=0.8)
+   PLUS [ 1] ה   (the)  [SIN VOCALIZAR]
+
+Gn 41:27
+   VAR  [ 8] רָעֹ֜ת  ->  רעות   (evil, sim=0.875)
+   VAR  [10] עֹלֹ֣ת  ->  עלות   (ascend, sim=0.875)
+   VAR  [20] רֵקֹ֔ות  ->  דקות   (thin, sim=0.75)
+   VAR  [22] שְׁדֻפֹ֖ות  ->  שׁדיפת   (scorch, sim=0.8)
+   PLUS [21] ו   (and)  [SIN VOCALIZAR]
+
+Gn 41:28
+   PLUS [ 7] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 41:31
+   PLUS [13] ו   (and)  [SIN VOCALIZAR]
+
+Gn 41:32
+   VAR  [ 1] עַ֨ל  ->  עלה   (ascend, sim=0.833)
+   VAR  [ 2] הִשָּׁנֹ֧ות  ->  שׁנית   (second, sim=0.7)
+   VAR  [18] מְמַהֵ֥ר  ->  מהר   (bride price, sim=0.75)
+   VAR  [22] עֲשֹׂתֹֽו  ->  עשׂותו   (make, sim=0.9)
+   PLUS [17] מ   (from)  [SIN VOCALIZAR]
+
+Gn 41:33
+   VAR  [ 2] יֵרֶ֣א  ->  יראה   (see, sim=0.875)
+   VAR  [ 8] חָכָ֑ם  ->  חכום   (wise, sim=0.875)
+   VAR  [10] ישִׁיתֵ֖הוּ  ->  ישׁתהו   (put, sim=0.917)
+   PLUS [ 3] לו   (to)  [SIN VOCALIZAR]
+
+Gn 41:34
+   VAR  [ 1] יַעֲשֶׂ֣ה  ->  יעשׂ   (make, sim=0.875)
+   VAR  [10] חִמֵּשׁ֙  ->  יחמשׁ   (array, sim=0.875)
+   PLUS [ 0] ו   (and)  [SIN VOCALIZAR]
+
+Gn 41:35
+   VAR  [ 1] יִקְבְּצ֗וּ  ->  יקבץ   (collect, sim=0.9)
+   VAR  [10] טֹּבֹ֔ת  ->  טובות   (good, sim=0.8)
+   VAR  [12] בָּאֹ֖ת  ->  באות   (come, sim=0.875)
+   VAR  [25] שָׁמָֽרוּ  ->  ישׁמרו   (keep, sim=0.9)
+   PLUS [ 4] ה   (the)  [SIN VOCALIZAR]
+   PLUS [ 6] שׁבע   (seven)  [SIN VOCALIZAR]
+
+Gn 41:36
+   VAR  [14] תִּהְיֶ֖יןָ  ->  תהינה   (be, sim=0.8)
+
+Gn 41:39
+   VAR  [ 8] אֹותְךָ֖  ->  אתך   (together with, sim=0.875)
+   VAR  [15] חָכָ֖ם  ->  חכום   (wise, sim=0.875)
+
+Gn 41:42
+   VAR  [21] רְבִ֥ד  ->  רביד   (necklace, sim=0.875)
+   OMIT [22] ה   ()
+
+Gn 41:43
+   VAR  [10] יִּקְרְא֥וּ  ->  יקרא   (call, sim=0.9)
+   VAR  [15] נָתֹ֣ון  ->  נתן   (give, sim=0.875)
+
+Gn 41:45
+   VAR  [ 5] צָֽפְנַ֣ת פַּעְנֵחַ֒  ->  צפינתי פענה   (Zaphenath-Paneah, sim=0.8)
+
+Gn 41:48
+   VAR  [11] הָיוּ֙  ->  ה   (the, sim=0.667)
+   PLUS [ 4] ה   (the)  [SIN VOCALIZAR]
+   PLUS [ 7] ה   (the)  [SIN VOCALIZAR]
+   PLUS [10] היה   (be)  [SIN VOCALIZAR]
+   PLUS [12] שׁבע   (seven)  [SIN VOCALIZAR]
+
+Gn 41:50
+   VAR  [ 3] יֻלַּד֙  ->  ילדו   (bear, sim=0.875)
+   VAR  [18] כֹּהֵ֥ן  ->  כהנאן   (priest of On, sim=0.7)
+   OMIT [19] און   ()
+
+Gn 41:51
+   OMIT [ 3] את   ()
+   OMIT [12] כל   ()
+
+Gn 41:53
+   VAR  [ 1] תִּכְלֶ֕ינָה  ->  תכלנה   (be complete, sim=0.917)
+   VAR  [ 7] הָיָ֖ה  ->  היו   (be, sim=0.667)
+
+Gn 41:54
+   VAR  [ 1] תְּחִלֶּ֜ינָה  ->  תחלנה   (become weak, sim=0.917)
+   PLUS [14] ה   (the)  [SIN VOCALIZAR]
+
+Gn 41:55
+   VAR  [26] תַּעֲשֽׂוּ  ->  תעשׂון   (make, sim=0.8)
+   PLUS [22] ו   (and)  [SIN VOCALIZAR]
+
+Gn 41:56
+   PLUS [ 5] פני   (face)  [SIN VOCALIZAR]
+   PLUS [17] בר   (son)  [SIN VOCALIZAR]
+   OMIT [ 7] פני   ()
+
+Gn 41:57
+   VAR  [ 3] אָ֨רֶץ֙  ->  ארצות   (earth, sim=0.7)
+
+Gn 42:1
+   VAR  [11] לְ  ->  אל   (to, sim=0.75)
+   VAR  [14] תִּתְרָאֽוּ  ->  תתיראו   (fear, sim=0.917)
+
+Gn 42:2
+   VAR  [10] שָׁ֨מָּה֙  ->  שׁם   (there, sim=0.833)
+
+Gn 42:4
+   VAR  [ 2] בִּנְיָמִין֙  ->  בנימים   (Benjamin, sim=0.833)
+
+Gn 42:6
+   PLUS [ 8] ו   (and)  [SIN VOCALIZAR]
+
+Gn 42:7
+   VAR  [16] אֲלֵהֶם֙  ->  אליהם   (to, sim=0.9)
+
+Gn 42:9
+   VAR  [11] אֲלֵהֶם֙  ->  אליהם   (to, sim=0.9)
+
+Gn 42:11
+   VAR  [ 4] נָ֑חְנוּ  ->  אנחנו   (we, sim=0.9)
+
+Gn 42:12
+   VAR  [ 2] אֲלֵהֶ֑ם  ->  אליהם   (to, sim=0.9)
+
+Gn 42:14
+   VAR  [ 2] אֲלֵהֶ֖ם  ->  אליהם   (to, sim=0.9)
+   VAR  [ 7] אֲלֵכֶ֛ם  ->  אליכם   (to, sim=0.9)
+
+Gn 42:16
+   PLUS [24] ו   (and)  [SIN VOCALIZAR]
+   PLUS [25] יאמרו   (say)  [SIN VOCALIZAR]
+   PLUS [26] לא   (not)  [SIN VOCALIZAR]
+   PLUS [27] יוכל   (be able)  [SIN VOCALIZAR]
+   PLUS [28] ה   (<interrogative>)  [SIN VOCALIZAR]
+   PLUS [29] נער   (boy)  [SIN VOCALIZAR]
+   PLUS [30] ל   (to)  [SIN VOCALIZAR]
+   PLUS [31] עזב   (leave)  [SIN VOCALIZAR]
+   PLUS [32] את   (<object marker>)  [SIN VOCALIZAR]
+   PLUS [33] אביו   (father)  [SIN VOCALIZAR]
+   PLUS [34] ו   (and)  [SIN VOCALIZAR]
+   PLUS [35] עזב   (leave)  [SIN VOCALIZAR]
+   PLUS [36] את   (<object marker>)  [SIN VOCALIZAR]
+   PLUS [37] אביו   (father)  [SIN VOCALIZAR]
+   PLUS [38] ו   (and)  [SIN VOCALIZAR]
+   PLUS [39] מת   (die)  [SIN VOCALIZAR]
+
+Gn 42:18
+   VAR  [ 2] אֲלֵהֶ֤ם  ->  אליהם   (to, sim=0.9)
+
+Gn 42:19
+   PLUS [ 4] ה   (the)  [SIN VOCALIZAR]
+   PLUS [13] ו   (and)  [SIN VOCALIZAR]
+   PLUS [15] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 42:20
+   VAR  [ 5] תָּבִ֣יאוּ  ->  תביאון   (come, sim=0.833)
+   VAR  [12] תָמ֑וּתוּ  ->  תמותון   (die, sim=0.833)
+
+Gn 42:21
+   VAR  [24] אֵלֵ֔ינוּ  ->  עלינו   (upon, sim=0.8)
+   PLUS [12] ב   (in)  [SIN VOCALIZAR]
+   PLUS [25] כל   (whole)  [SIN VOCALIZAR]
+
+Gn 42:22
+   VAR  [ 8] אָמַ֨רְתִּי  ->  דברתי   (speak, sim=0.6)
+   VAR  [18] שְׁמַעְתֶּ֑ם  ->  שׁמעתים   (hear, sim=0.917)
+
+Gn 42:24
+   VAR  [ 8] אֲלֵהֶם֙  ->  אליהם   (to, sim=0.9)
+   VAR  [11] אֲלֵהֶ֔ם  ->  אליהם   (to, sim=0.9)
+
+Gn 42:25
+   VAR  [14] אֶל  ->  על   (upon, sim=0.5)
+   PLUS [11] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 42:27
+   VAR  [ 8] מִסְפֹּ֛וא  ->  מספה   (fodder, sim=0.7)
+   OMIT [ 2] ה   ()
+
+Gn 42:28
+   VAR  [18] אֶל  ->  על   (upon, sim=0.5)
+   PLUS [ 9] הוא   (he)  [SIN VOCALIZAR]
+
+Gn 42:29
+   VAR  [ 8] יַּגִּ֣ידוּ  ->  יגדו   (report, sim=0.9)
+   VAR  [13] קֹּרֹ֥ת  ->  קרות   (meet, sim=0.875)
+
+Gn 42:32
+   PLUS [ 2] אחים   (brother)  [SIN VOCALIZAR]
+   PLUS [ 7] ו   (and)  [SIN VOCALIZAR]
+   OMIT [ 4] אחים   ()
+
+Gn 42:35
+   VAR  [ 1] יְהִ֗י  ->  יהיו   (be, sim=0.875)
+   VAR  [17] הֵ֥מָּה  ->  הם   (they, sim=0.833)
+
+Gn 42:36
+   VAR  [ 2] אֲלֵהֶם֙  ->  אליהם   (to, sim=0.9)
+   VAR  [14] בִּנְיָמִ֣ן  ->  בנימים   (Benjamin, sim=0.75)
+
+Gn 42:38
+   VAR  [28] שְׁאֹֽולָה  ->  שׁאלה   (nether world, sim=0.9)
+
+Gn 43:2
+   VAR  [18] שֻׁ֖בוּ  ->  שׁובו   (return, sim=0.875)
+   PLUS [19] ו   (and)  [SIN VOCALIZAR]
+
+Gn 43:7
+   VAR  [ 2] שָׁאֹ֣ול  ->  שׁאל   (ask, sim=0.875)
+   VAR  [21] נַ֨גֶּד  ->  נגיד   (report, sim=0.875)
+   VAR  [30] יָדֹ֣ועַ  ->  יודע   (know, sim=0.75)
+
+Gn 43:8
+   VAR  [ 6] שִׁלְחָ֥ה  ->  שׁלח   (send, sim=0.875)
+
+Gn 43:9
+   VAR  [ 7] הֲבִיאֹתִ֤יו  ->  הבאתיו   (come, sim=0.929)
+
+Gn 43:10
+   VAR  [ 2] לוּלֵ֣א  ->  לא   (not, sim=0.625)
+   VAR  [ 3] הִתְמַהְמָ֑הְנוּ  ->  התמהמנו   (tarry, sim=0.938)
+   PLUS [ 1] לו   (to)  [SIN VOCALIZAR]
+
+Gn 43:11
+   VAR  [ 2] אֲלֵהֶ֜ם  ->  אליהם   (to, sim=0.9)
+   VAR  [29] לֹ֔ט  ->  לוט   (mastic tree, sim=0.833)
+   VAR  [32] שְׁקֵדִֽים  ->  שׁקידים   (almond tree, sim=0.917)
+
+Gn 43:12
+   VAR  [17] יֶדְכֶ֔ם  ->  ידיכם   (hand, sim=0.9)
+   VAR  [20] הֽוּא  ->  היא   (she, sim=0.667)
+
+Gn 43:13
+   PLUS [ 6] ו   (and)  [SIN VOCALIZAR]
+
+Gn 43:14
+   VAR  [16] אַחֵ֖ר  ->  אחד   (one, sim=0.667)
+   VAR  [19] בִּנְיָמִ֑ין  ->  בנימים   (Benjamin, sim=0.833)
+   PLUS [15] ה   (the)  [SIN VOCALIZAR]
+
+Gn 43:15
+   VAR  [17] בִּנְיָמִ֑ן  ->  בנימים   (Benjamin, sim=0.75)
+   VAR  [22] מִצְרַ֔יִם  ->  מצרימה   (Egypt, sim=0.917)
+
+Gn 43:16
+   VAR  [ 6] בִּנְיָמִין֒  ->  בנימים   (Benjamin, sim=0.833)
+   PLUS [ 4] ו   (and)  [SIN VOCALIZAR]
+
+Gn 43:18
+   VAR  [ 6] בֵּ֣ית  ->  ביתה   (house, sim=0.875)
+   VAR  [15] שָּׁ֤ב  ->  מושׁב   (seat, sim=0.625)
+   OMIT [29] ו   ()
+
+Gn 43:21
+   VAR  [ 8] נִּפְתְּחָה֙  ->  נפתח   (open, sim=0.9)
+   VAR  [22] נָּ֥שֶׁב  ->  נשׁיב   (return, sim=0.875)
+
+Gn 43:22
+   PLUS [ 4] לקחנו   (take)  [SIN VOCALIZAR]
+   OMIT [ 3] הורדנו   ()
+
+Gn 43:23
+   VAR  [ 9] אֲבִיכֶם֙  ->  אבתיכם   (father, sim=0.833)
+   VAR  [20] אֲלֵהֶ֖ם  ->  אליהם   (to, sim=0.9)
+
+Gn 43:24
+   VAR  [17] מִסְפֹּ֖וא  ->  מספה   (fodder, sim=0.7)
+
+Gn 43:25
+   VAR  [ 6] בֹּ֥וא  ->  בא   (come, sim=0.833)
+
+Gn 43:27
+   OMIT [14] ה   ()
+
+Gn 43:28
+   VAR  [21] יִּֽשְׁתַּחֲוּֽוּ  ->  ישׁתחוו   (bow down, sim=0.917)
+   PLUS [ 9] ו   (and)  [SIN VOCALIZAR]
+   PLUS [10] יאמר   (say)  [SIN VOCALIZAR]
+   PLUS [11] ברוך   (bless)  [SIN VOCALIZAR]
+   PLUS [12] ה   (the)  [SIN VOCALIZAR]
+   PLUS [13] אישׁ   (man)  [SIN VOCALIZAR]
+   PLUS [14] ה   (the)  [SIN VOCALIZAR]
+   PLUS [15] הוא   (he)  [SIN VOCALIZAR]
+   PLUS [16] ל   (to)  [SIN VOCALIZAR]
+   PLUS [17] אלהים   (god(s))  [SIN VOCALIZAR]
+
+Gn 43:29
+   VAR  [ 6] בִּנְיָמִ֣ין  ->  בנימים   (Benjamin, sim=0.833)
+
+Gn 43:30
+   VAR  [ 6] אֶל  ->  על   (upon, sim=0.5)
+   VAR  [18] שָֽׁמָּה  ->  שׁם   (there, sim=0.833)
+
+Gn 43:32
+   VAR  [ 1] יָּשִׂ֥ימוּ  ->  ישׂמו   (put, sim=0.9)
+   VAR  [30] הִ֖וא  ->  היא   (she, sim=0.667)
+
+Gn 43:33
+   VAR  [ 5] בְּכֹר֙  ->  בכור   (first-born, sim=0.875)
+   VAR  [ 7] בְכֹ֣רָתֹ֔ו  ->  בכירתו   (right of first-born, sim=0.917)
+   VAR  [12] צְעִרָתֹ֑ו  ->  צעירתו   (youth, sim=0.917)
+   VAR  [18] אֶל  ->  על   (upon, sim=0.5)
+
+Gn 43:34
+   VAR  [ 6] אֲלֵהֶם֒  ->  אליהם   (to, sim=0.9)
+   VAR  [10] בִּנְיָמִ֛ן  ->  בנימים   (Benjamin, sim=0.75)
+
+Gn 44:2
+   VAR  [ 2] גְּבִיעִ֞י  ->  גביע   (cup, sim=0.9)
+
+Gn 44:3
+   VAR  [ 7] הֵ֖מָּה  ->  הם   (they, sim=0.833)
+
+Gn 44:4
+   VAR  [23] אֲלֵהֶ֔ם  ->  אליהם   (to, sim=0.9)
+
+Gn 44:6
+   VAR  [ 4] אֲלֵהֶ֔ם  ->  אליהם   (to, sim=0.9)
+
+Gn 44:7
+   OMIT [ 2] אליו   ()
+
+Gn 44:8
+   VAR  [ 8] הֱשִׁיבֹ֥נוּ  ->  הושׁבנו   (sit, sim=0.833)
+   PLUS [ 1] ה   (the)  [SIN VOCALIZAR]
+
+Gn 44:9
+   VAR  [ 6] מֵ֑ת  ->  יומת   (die, sim=0.75)
+   OMIT [ 5] ו   ()
+
+Gn 44:10
+   VAR  [17] נְקִיִּֽם  ->  נקואים   (be clean, sim=0.833)
+
+Gn 44:11
+   VAR  [ 3] יֹּורִ֛דוּ  ->  יורידו   (descend, sim=0.917)
+   OMIT [ 5] את   ()
+
+Gn 44:12
+   VAR  [15] בִּנְיָמִֽן  ->  בנימים   (Benjamin, sim=0.75)
+
+Gn 44:13
+   VAR  [ 2] שִׂמְלֹתָ֑ם  ->  שׂמלותם   (mantle, sim=0.917)
+   VAR  [ 4] יַּעֲמֹס֙  ->  יעמסו   (load, sim=0.9)
+   VAR  [ 7] חֲמֹרֹ֔ו  ->  חמורו   (he-ass, sim=0.9)
+
+Gn 44:15
+   VAR  [19] כָּמֹֽנִי  ->  כמוני   (like, sim=0.9)
+
+Gn 44:16
+   PLUS [ 7] ו   (and)  [SIN VOCALIZAR]
+   PLUS [13] ו   (and)  [SIN VOCALIZAR]
+
+Gn 44:20
+   VAR  [ 9] יֶ֥לֶד  ->  יולד   (bear, sim=0.875)
+   OMIT [12] ו   ()
+
+Gn 44:21
+   VAR  [ 4] הֹורִדֻ֖הוּ  ->  הורידהו   (descend, sim=0.929)
+
+Gn 44:23
+   VAR  [12] תֹסִפ֖וּן  ->  תוסיפון   (add, sim=0.857)
+
+Gn 44:24
+   VAR  [ 6] אָבִ֑י  ->  אבינו   (father, sim=0.7)
+   VAR  [ 8] נַּ֨גֶּד  ->  נגיד   (report, sim=0.875)
+
+Gn 44:25
+   VAR  [ 3] שֻׁ֖בוּ  ->  שׁובו   (return, sim=0.875)
+   PLUS [ 4] ו   (and)  [SIN VOCALIZAR]
+
+Gn 44:26
+   PLUS [19] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 44:28
+   VAR  [ 8] אַ֖ךְ  ->  הך   (only, sim=0.5)
+
+Gn 44:29
+   VAR  [ 9] קָרָ֣הוּ  ->  קראהו   (call, sim=0.9)
+
+Gn 44:30
+   VAR  [11] אִתָּ֑נוּ  ->  אתי   (together with, sim=0.625)
+
+Gn 44:31
+   PLUS [ 8] אתנו   (together with)  [SIN VOCALIZAR]
+
+Gn 44:32
+   VAR  [ 8] אָבִ֖י  ->  אביו   (father, sim=0.875)
+
+Gn 44:33
+   VAR  [14] יַ֥עַל  ->  יעלה   (ascend, sim=0.875)
+
+Gn 44:34
+   VAR  [13] רָ֔ע  ->  רעה   (evil, sim=0.833)
+
+Gn 45:1
+   VAR  [18] עָלָ֑י  ->  עליו   (upon, sim=0.875)
+   PLUS [13] ו   (and)  [SIN VOCALIZAR]
+
+Gn 45:2
+   VAR  [ 3] קֹלֹ֖ו  ->  קולו   (sound, sim=0.875)
+   VAR  [10] יִּשְׁמַ֖ע  ->  ישׁמעו   (hear, sim=0.9)
+
+Gn 45:6
+   OMIT [ 3] ה   ()
+
+Gn 45:7
+   VAR  [ 6] שׂ֥וּם  ->  שׂים   (put, sim=0.667)
+   VAR  [ 8] שְׁאֵרִ֖ית  ->  שׁארות   (rest, sim=0.8)
+   VAR  [16] פְלֵיטָ֖ה  ->  פלטה   (escape, sim=0.9)
+   OMIT [15] ל   ()
+
+Gn 45:8
+   VAR  [11] יְשִׂימֵ֨נִֽי  ->  ישׂמני   (put, sim=0.917)
+
+Gn 45:10
+   OMIT [15] ו   ()
+
+Gn 45:12
+   VAR  [ 7] בִנְיָמִ֑ין  ->  בנימים   (Benjamin, sim=0.833)
+   VAR  [ 9] פִ֖י  ->  פיי   (mouth, sim=0.833)
+
+Gn 45:14
+   VAR  [ 3] צַוְּארֵ֥י  ->  צואר   (neck, sim=0.9)
+   VAR  [ 4] בִנְיָמִֽן  ->  בנימים   (Benjamin, sim=0.75)
+   VAR  [ 9] בִנְיָמִ֔ן  ->  בנימים   (Benjamin, sim=0.75)
+   VAR  [11] בָּכָ֖ה  ->  כה   (thus, sim=0.667)
+   VAR  [13] צַוָּארָֽיו  ->  צוארו   (neck, sim=0.917)
+   PLUS [10] ב   (in)  [SIN VOCALIZAR]
+
+Gn 45:16
+   VAR  [ 2] קֹּ֣ל  ->  קול   (sound, sim=0.833)
+
+Gn 45:17
+   PLUS [15] ו   (and)  [SIN VOCALIZAR]
+
+Gn 45:18
+   VAR  [11] אֶתְּנָ֣ה  ->  אתן   (give, sim=0.875)
+
+Gn 45:19
+   VAR  [ 2] צֻוֵּ֖יתָה  ->  צויתי   (command, sim=0.8)
+
+Gn 45:20
+   VAR  [ 1] עֵ֣ינְכֶ֔ם  ->  עיניכם   (eye, sim=0.917)
+   VAR  [ 3] תָּחֹ֖ס  ->  תחוס   (pity, sim=0.875)
+
+Gn 45:22
+   VAR  [ 5] חֲלִפֹ֣ות  ->  חליפות   (substitute, sim=0.917)
+   VAR  [ 6] שְׂמָלֹ֑ת  ->  שׂמלות   (mantle, sim=0.9)
+   VAR  [ 9] בִנְיָמִ֤ן  ->  בנימים   (Benjamin, sim=0.75)
+   VAR  [16] חֲלִפֹ֥ת  ->  חליפות   (substitute, sim=0.833)
+   VAR  [17] שְׂמָלֹֽת  ->  שׂמלות   (mantle, sim=0.9)
+
+Gn 45:23
+   VAR  [15] אֲתֹנֹ֡ת  ->  אתנות   (she-ass, sim=0.9)
+   VAR  [16] נֹֽ֠שְׂאֹת  ->  נשׂאות   (lift, sim=0.9)
+   PLUS [11] ארץ   (earth)  [SIN VOCALIZAR]
+
+Gn 45:24
+   VAR  [ 8] אֲלֵהֶ֔ם  ->  אליהם   (to, sim=0.9)
+   VAR  [10] תִּרְגְּז֖וּ  ->  תתרגזו   (quake, sim=0.833)
+
+Gn 45:25
+   VAR  [ 6] אֶ֣רֶץ  ->  ארצה   (earth, sim=0.875)
+
+Gn 45:26
+   VAR  [21] הֶאֱמִ֖ין  ->  האמן   (be firm, sim=0.9)
+
+Gn 45:27
+   VAR  [ 9] אֲלֵהֶ֔ם  ->  אליהם   (to, sim=0.9)
+
+Gn 46:1
+   VAR  [ 9] בְּאֵ֣רָה  ->  באר   (well, sim=0.875)
+
+Gn 46:2
+   VAR  [ 6] מַרְאֹ֣ת  ->  מראות   (vision, sim=0.9)
+
+Gn 46:3
+   VAR  [10] רְדָ֣ה  ->  רדת   (descend, sim=0.667)
+
+Gn 46:4
+   VAR  [12] יָדֹ֖ו  ->  ידיו   (hand, sim=0.875)
+
+Gn 46:8
+   VAR  [11] בְּכֹ֥ר  ->  בכור   (first-born, sim=0.875)
+
+Gn 46:9
+   OMIT [ 6] ו   ()
+
+Gn 46:10
+   VAR  [ 7] אֹ֖הַד  ->  אחד   (Ohad, sim=0.667)
+   VAR  [11] צֹ֑חַר  ->  צהר   (Zohar, sim=0.667)
+
+Gn 46:12
+   VAR  [26] חָמֽוּל  ->  חמואל   (Hamul, sim=0.9)
+   OMIT [ 6] ו   ()
+   OMIT [ 8] ו   ()
+
+Gn 46:13
+   VAR  [ 5] פֻוָּ֖ה  ->  פואה   (Puah, sim=0.875)
+   VAR  [ 7] יֹ֥וב  ->  ישׁוב   (Jashub, sim=0.75)
+   OMIT [ 6] ו   ()
+
+Gn 46:15
+   VAR  [18] בְנֹותָ֖יו  ->  בנתיו   (daughter, sim=0.917)
+
+Gn 46:16
+   VAR  [ 3] צִפְיֹ֥ון  ->  צפון   (Zephon, sim=0.9)
+   VAR  [ 9] אֶצְבֹּ֑ן  ->  אצבעון   (Ezbon, sim=0.75)
+   VAR  [10] עֵרִ֥י  ->  עדי   (Eri, sim=0.667)
+   VAR  [14] אַרְאֵלִֽי  ->  ארולי   (Areli, sim=0.8)
+   PLUS [ 6] ו   (and)  [SIN VOCALIZAR]
+
+Gn 46:17
+   VAR  [12] אֲחֹתָ֑ם  ->  אחותם   (sister, sim=0.9)
+
+Gn 46:19
+   VAR  [ 6] בִנְיָמִֽן  ->  בנימים   (Benjamin, sim=0.75)
+
+Gn 46:20
+   VAR  [13] כֹּהֵ֣ן  ->  כהנאן   (priest of On, sim=0.7)
+   OMIT [14] אן   ()
+
+Gn 46:21
+   VAR  [ 2] בִנְיָמִ֗ן  ->  בנימים   (Benjamin, sim=0.75)
+   VAR  [ 7] אַשְׁבֵּ֔ל  ->  אשׁבאל   (Ashbel, sim=0.9)
+   VAR  [ 8] גֵּרָ֥א  ->  גרה   (Gera, sim=0.667)
+   VAR  [11] אֵחִ֣י  ->  אחים   (Ehi, sim=0.75)
+   VAR  [14] מֻפִּ֥ים  ->  מאפים   (Muppim, sim=0.9)
+   VAR  [16] חֻפִּ֖ים  ->  אפים   (Huppim, sim=0.75)
+
+Gn 46:22
+   VAR  [ 4] יֻלַּ֖ד  ->  ילדה   (bear, sim=0.875)
+   VAR  [ 9] אַרְבָּעָ֥ה  ->  ארבע   (four, sim=0.9)
+   VAR  [10] עָשָֽׂר  ->  עשׂרה   (-teen, sim=0.875)
+
+Gn 46:24
+   VAR  [ 9] שִׁלֵּֽם  ->  שׁלום   (Shillem, sim=0.875)
+   OMIT [ 6] ו   ()
+
+Gn 46:25
+   VAR  [17] שִׁבְעָֽה  ->  שׁבע   (seven, sim=0.875)
+
+Gn 46:27
+   VAR  [ 4] יֻלַּד  ->  ילדו   (bear, sim=0.875)
+
+Gn 46:28
+   VAR  [ 9] הֹורֹ֥ת  ->  הראות   (see, sim=0.7)
+   VAR  [14] יָּבֹ֖אוּ  ->  יבא   (come, sim=0.875)
+   VAR  [15] אַ֥רְצָה  ->  ארץ   (earth, sim=0.875)
+
+Gn 46:29
+   VAR  [17] צַוָּארָ֔יו  ->  צוארו   (neck, sim=0.917)
+   VAR  [21] צַוָּארָ֖יו  ->  צוארו   (neck, sim=0.917)
+
+Gn 46:30
+   VAR  [ 9] רְאֹותִ֣י  ->  ראיתי   (see, sim=0.8)
+   OMIT [10] את   ()
+
+Gn 46:31
+   VAR  [15] אֹֽמְרָ֣ה  ->  אמר   (say, sim=0.875)
+
+Gn 46:34
+   VAR  [ 7] נְּעוּרֵ֣ינוּ  ->  נערינו   (youth, sim=0.929)
+   VAR  [25] רֹ֥עֵה  ->  רעי   (pasture, sim=0.667)
+
+Gn 47:1
+   PLUS [ 9] אליו   (to)  [SIN VOCALIZAR]
+
+Gn 47:2
+   PLUS [ 5] עמו   (with)  [SIN VOCALIZAR]
+
+Gn 47:3
+   VAR  [ 4] אֶחָ֖יו  ->  אחי   (brother, sim=0.875)
+   VAR  [12] רֹעֵ֥ה  ->  רעי   (pasture, sim=0.667)
+   VAR  [18] אֲבֹותֵֽינוּ  ->  אבתינו   (father, sim=0.929)
+   PLUS [ 5] יוסף   (Joseph)  [SIN VOCALIZAR]
+
+Gn 47:6
+   VAR  [ 4] הִ֔וא  ->  היא   (she, sim=0.667)
+   PLUS [23] ה   (the)  [SIN VOCALIZAR]
+   OMIT [22] ו   ()
+
+Gn 47:9
+   VAR  [ 7] מְגוּרַ֔י  ->  מגרי   (neighbourhood, sim=0.9)
+   VAR  [26] אֲבֹתַ֔י  ->  אבותי   (father, sim=0.9)
+   VAR  [29] מְגוּרֵיהֶֽם  ->  מגריהם   (neighbourhood, sim=0.929)
+
+Gn 47:13
+   VAR  [13] תֵּ֜לַהּ  ->  תלא   (be weary, sim=0.667)
+
+Gn 47:15
+   PLUS [28] ה   (the)  [SIN VOCALIZAR]
+
+Gn 47:16
+   VAR  [ 6] אֶתְּנָ֥ה  ->  אתן   (give, sim=0.875)
+   PLUS [ 8] לחם   (bread)  [SIN VOCALIZAR]
+   PLUS [13] ה   (the)  [SIN VOCALIZAR]
+
+Gn 47:17
+   VAR  [27] יְנַהֲלֵ֤ם  ->  ינחלם   (take possession, sim=0.8)
+   VAR  [32] מִקְנֵהֶ֔ם  ->  מקניהם   (purchase, sim=0.917)
+   VAR  [36] הִֽוא  ->  היא   (she, sim=0.667)
+
+Gn 47:18
+   VAR  [ 5] הִוא֒  ->  היא   (she, sim=0.667)
+   VAR  [38] גְּוִיָּתֵ֖נוּ  ->  גויתינו   (body, sim=0.929)
+
+Gn 47:20
+   VAR  [16] עֲלֵהֶ֖ם  ->  עליהם   (upon, sim=0.9)
+
+Gn 47:21
+   VAR  [ 4] הֶעֱבִ֥יר  ->  העביד   (work, serve, sim=0.8)
+   VAR  [ 7] עָרִ֑ים  ->  עבדים   (servant, sim=0.6)
+   OMIT [12] ו   ()
+
+Gn 47:23
+   VAR  [13] אַדְמַתְכֶ֖ם  ->  אדמתיכם   (soil, sim=0.929)
+
+Gn 47:24
+   VAR  [ 3] תְּבוּאֹ֔ת  ->  תבואתה   (yield, sim=0.917)
+   VAR  [ 6] חֲמִישִׁ֖ית  ->  חמישׁת   (fifth part, sim=0.917)
+   VAR  [12] יָּדֹ֡ת  ->  ידות   (hand, sim=0.875)
+
+Gn 47:26
+   VAR  [17] חֹ֑מֶשׁ  ->  חמושׁ   (<uncertain>, sim=0.875)
+   VAR  [23] בַדָּ֔ם  ->  בדה   (linen, part, stave, sim=0.667)
+
+Gn 47:28
+   VAR  [10] יְהִ֤י  ->  יהיו   (be, sim=0.875)
+
+Gn 47:29
+   VAR  [ 9] בְנֹ֣ו  ->  לבנו   (white, sim=0.75)
+   PLUS [28] נא   (yeah)  [SIN VOCALIZAR]
+   OMIT [ 8] ל   ()
+
+Gn 47:30
+   VAR  [17] דְבָרֶֽךָ  ->  דבריך   (word, sim=0.9)
+
+Gn 47:31
+   VAR  [ 2] הִשָּֽׁבְעָה֙  ->  השׁבע   (swear, sim=0.9)
+   VAR  [ 8] יִּשְׁתַּ֥חוּ  ->  ישׁתחוי   (bow down, sim=0.917)
+
+Gn 48:1
+   VAR  [ 2] אַחֲרֵי֙  ->  אחר   (after, sim=0.875)
+
+Gn 48:3
+   VAR  [10] ל֖וּז  ->  לוזה   (Luz, sim=0.875)
+
+Gn 48:4
+   VAR  [ 4] מַפְרְךָ֙  ->  מפריך   (be fertile, sim=0.9)
+   VAR  [ 6] הִרְבִּיתִ֔ךָ  ->  הרביתיך   (be many, sim=0.929)
+
+Gn 48:5
+   PLUS [22] כ   (as)  [SIN VOCALIZAR]
+
+Gn 48:7
+   VAR  [22] בֹ֣א  ->  בוא   (come, sim=0.833)
+   VAR  [29] אֶפְרָ֔ת  ->  אפרתה   (Ephrath, sim=0.9)
+   VAR  [30] הִ֖וא  ->  היא   (she, sim=0.667)
+   PLUS [ 6] ארם   (Aram)  [SIN VOCALIZAR]
+   PLUS [10] אמך   (mother)  [SIN VOCALIZAR]
+   PLUS [19] ה   (the)  [SIN VOCALIZAR]
+
+Gn 48:8
+   PLUS [10] לך   (to)  [SIN VOCALIZAR]
+
+Gn 48:9
+   VAR  [12] זֶ֑ה  ->  בזה   (despise, sim=0.667)
+   OMIT [11] ב   ()
+
+Gn 48:10
+   VAR  [ 3] כָּבְד֣וּ  ->  כבדה   (be heavy, sim=0.75)
+   VAR  [ 5] זֹּ֔קֶן  ->  זקנה   (old age, sim=0.875)
+   VAR  [ 7] יוּכַ֖ל  ->  יכל   (be able, sim=0.875)
+
+Gn 48:12
+   VAR  [ 8] יִּשְׁתַּ֥חוּ  ->  ישׁתחוו   (bow down, sim=0.917)
+
+Gn 48:14
+   VAR  [ 7] יָּ֨שֶׁת  ->  ישׁתה   (put, sim=0.875)
+   PLUS [ 4] יד   (hand)  [SIN VOCALIZAR]
+
+Gn 48:15
+   VAR  [10] אֲבֹתַ֤י  ->  אבותי   (father, sim=0.9)
+   VAR  [22] עֹודִ֖י  ->  עודני   (duration, sim=0.8)
+
+Gn 48:16
+   VAR  [ 1] מַּלְאָךְ֩  ->  מלך   (king, sim=0.875)
+   VAR  [20] אֲבֹתַ֖י  ->  אבותי   (father, sim=0.9)
+   PLUS [12] ה   (the)  [SIN VOCALIZAR]
+   PLUS [13] אלה   (these)  [SIN VOCALIZAR]
+
+Gn 48:17
+   PLUS [ 6] את   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 48:18
+   VAR  [11] בְּכֹ֔ר  ->  בכור   (first-born, sim=0.875)
+
+Gn 48:20
+   VAR  [ 7] אמֹור֒  ->  אמר   (say, sim=0.875)
+   VAR  [13] יְשִֽׂמְךָ֣  ->  ישׂימך   (put, sim=0.9)
+
+Gn 48:22
+   VAR  [ 5] אַחַ֖ד  ->  אחת   (one, sim=0.667)
+
+Gn 49:3
+   VAR  [ 1] בְּכֹ֣רִי  ->  בכורי   (first-born, sim=0.9)
+
+Gn 49:4
+   VAR  [ 0] פַּ֤חַז  ->  פחזת   (be insolent, sim=0.75)
+   VAR  [ 4] תֹּותַ֔ר  ->  תותיר   (remain, sim=0.9)
+
+Gn 49:5
+   VAR  [ 4] כְּלֵ֥י  ->  כלו   (be complete, sim=0.667)
+
+Gn 49:6
+   VAR  [ 1] סֹדָם֙  ->  סודם   (confidential talk, sim=0.875)
+   VAR  [ 3] תָּבֹ֣א  ->  תבוא   (come, sim=0.875)
+   VAR  [11] כְּבֹדִ֑י  ->  כבודי   (weight, sim=0.9)
+   VAR  [19] רְצֹנָ֖ם  ->  רצונם   (pleasure, sim=0.9)
+   PLUS [ 5] ו   (and)  [SIN VOCALIZAR]
+   PLUS [10] יחר   (be hot)  [SIN VOCALIZAR]
+   OMIT [ 9] תחד   ()
+
+Gn 49:7
+   VAR  [ 0] אָר֤וּר  ->  אדיר   (mighty, sim=0.5)
+   VAR  [ 5] עֶבְרָתָ֖ם  ->  חברתם   (colleague, sim=0.8)
+
+Gn 49:8
+   VAR  [ 2] יֹוד֣וּךָ  ->  יודך   (praise, sim=0.9)
+   VAR  [ 4] יָדְךָ֖  ->  ידיך   (hand, sim=0.875)
+
+Gn 49:9
+   VAR  [13] לָבִ֖יא  ->  לביה   (lion, sim=0.75)
+
+Gn 49:10
+   VAR  [ 9] רַגְלָ֑יו  ->  דגליו   (banner, sim=0.8)
+   VAR  [12] יָבֹ֣א  ->  יבוא   (come, sim=0.875)
+   VAR  [13] שִׁילֹ֔ו  ->  שׁלה   (Shelah, sim=0.875)
+   VAR  [16] יִקְּהַ֥ת  ->  יקחתו   (gather, sim=0.7)
+
+Gn 49:11
+   VAR  [ 0] אֹסְרִ֤י  ->  אסורי   (bind, sim=0.9)
+   VAR  [ 3] עִירֹ֔ו  ->  עירו   (ass, sim=0.75)
+   VAR  [ 8] אֲתֹנֹ֑ו  ->  איתנו   (she-ass, sim=0.9)
+   VAR  [12] לְבֻשֹׁ֔ו  ->  לבושׁו   (garment, sim=0.9)
+   VAR  [18] סוּתֹֽו  ->  סותו   (garment, sim=0.75)
+   PLUS [17] כ   (as)  [SIN VOCALIZAR]
+
+Gn 49:12
+   VAR  [ 0] חַכְלִילִ֥י  ->  חכלילו   (turbid, sim=0.833)
+
+Gn 49:13
+   VAR  [12] עַל  ->  עד   (unto, sim=0.5)
+
+Gn 49:14
+   VAR  [ 1] חֲמֹ֣ר  ->  חמור   (he-ass, sim=0.875)
+   VAR  [ 2] גָּ֑רֶם  ->  גרים   (bone, sim=0.875)
+
+Gn 49:15
+   VAR  [ 2] מְנֻחָה֙  ->  מנוחה   (resting place, sim=0.9)
+   VAR  [ 4] טֹ֔וב  ->  טובה   (what is good, sim=0.875)
+   VAR  [19] מַס  ->  מוס   (forced labour, sim=0.833)
+
+Gn 49:17
+   VAR  [ 0] יְהִי  ->  יהיה   (be, sim=0.875)
+   VAR  [ 3] עֲלֵי  ->  עלה   (ascend, sim=0.667)
+   VAR  [ 5] שְׁפִיפֹ֖ן  ->  שׁפפון   (lying in ambush, sim=0.8)
+
+Gn 49:19
+   VAR  [ 2] יְגוּדֶ֑נּוּ  ->  יגידנו   (attack, sim=0.833)
+   VAR  [ 5] יָגֻ֥ד  ->  יגיד   (report, sim=0.875)
+
+Gn 49:20
+   VAR  [ 2] שְׁמֵנָ֣ה  ->  שׁמן   (fat, sim=0.875)
+
+Gn 49:21
+   VAR  [ 2] שְׁלֻחָ֑ה  ->  שׁלוחה   (send, sim=0.9)
+
+Gn 49:22
+   VAR  [ 7] בָּנֹ֕ות  ->  בני   (son, sim=0.625)
+   VAR  [ 8] צָעֲדָ֖ה  ->  צעירי   (little, sim=0.5)
+
+Gn 49:23
+   VAR  [ 3] רֹ֑בּוּ  ->  יריבהו   (contend, sim=0.75)
+
+Gn 49:24
+   VAR  [ 7] זְרֹעֵ֣י  ->  זרועי   (arm, sim=0.9)
+   VAR  [15] רֹעֶ֖ה  ->  רעי   (pasture, sim=0.667)
+
+Gn 49:25
+   VAR  [ 6] אֵ֤ת  ->  אל   (god, sim=0.5)
+   VAR  [13] עָ֔ל  ->  מעל   (top, sim=0.667)
+   OMIT [ 5] ו   ()
+
+Gn 49:26
+   VAR  [ 7] הֹורַ֔י  ->  הרי   (mountain, sim=0.875)
+   VAR  [12] תִּֽהְיֶ֨ין֙  ->  תהינה   (be, sim=0.8)
+   PLUS [ 2] ו   (and)  [SIN VOCALIZAR]
+   PLUS [ 3] אמך   (mother)  [SIN VOCALIZAR]
+
+Gn 49:27
+   VAR  [ 0] בִּנְיָמִין֙  ->  בנימים   (Benjamin, sim=0.833)
+   VAR  [ 6] עַ֑ד  ->  עדי   (prey, sim=0.833)
+
+Gn 49:28
+   VAR  [14] אֹותָ֔ם  ->  אתם   (<object marker>, sim=0.875)
+   OMIT [16] אשר   ()
+
+Gn 49:29
+   VAR  [ 2] אֹותָ֗ם  ->  אתם   (<object marker>, sim=0.875)
+   VAR  [ 5] אֲלֵהֶם֙  ->  אליהם   (to, sim=0.9)
+   VAR  [13] אֲבֹתָ֑י  ->  אבותי   (father, sim=0.9)
+
+Gn 49:30
+   VAR  [22] עֶפְרֹ֥ן  ->  עפרון   (Ephron, sim=0.9)
+
+Gn 49:31
+   VAR  [ 0] שָׁ֣מָּה  ->  שׁם   (there, sim=0.833)
+   VAR  [ 9] שָׁ֚מָּה  ->  שׁם   (there, sim=0.833)
+   VAR  [18] שָׁ֥מָּה  ->  שׁם   (there, sim=0.833)
+   PLUS [ 8] ו   (and)  [SIN VOCALIZAR]
+
+Gn 49:33
+   VAR  [18] עַמָּֽיו  ->  עמו   (people, sim=0.875)
+
+Gn 50:3
+   VAR  [14] מִצְרַ֖יִם  ->  מצרימה   (Egypt, sim=0.917)
+
+Gn 50:5
+   VAR  [13] כָּרִ֤יתִי  ->  כרתי   (cut, sim=0.9)
+   VAR  [18] שָׁ֖מָּה  ->  שׁם   (there, sim=0.833)
+   PLUS [ 2] ל   (to)  [SIN VOCALIZAR]
+   PLUS [ 3] פני   (face)  [SIN VOCALIZAR]
+   PLUS [ 4] מותו   (death)  [SIN VOCALIZAR]
+   PLUS [28] כ   (as)  [SIN VOCALIZAR]
+   PLUS [29] אשׁר   (<relative>)  [SIN VOCALIZAR]
+   PLUS [30] השׁביעני   (swear)  [SIN VOCALIZAR]
+
+Gn 50:8
+   OMIT [ 4] ו   ()
+
+Gn 50:11
+   VAR  [24] שְׁמָהּ֙  ->  שׁמו   (name, sim=0.667)
+
+Gn 50:12
+   PLUS [ 2] לו   (to)  [SIN VOCALIZAR]
+   OMIT [ 4] לו   ()
+
+Gn 50:13
+   VAR  [25] עֶפְרֹ֥ן  ->  עפרון   (Ephron, sim=0.9)
+
+Gn 50:15
+   VAR  [ 9] ל֥וּ  ->  לא   (not, sim=0.5)
+   OMIT [12] ו   ()
+
+Gn 50:16
+   VAR  [ 2] אֶל  ->  על   (upon, sim=0.5)
+
+Gn 50:17
+   VAR  [ 1] תֹאמְר֣וּ  ->  תאמרון   (say, sim=0.833)
+   VAR  [ 4] אָ֣נָּ֡א  ->  אנה   (pray, sim=0.667)
+
+Gn 50:19
+   VAR  [ 2] אֲלֵהֶ֛ם  ->  אליהם   (to, sim=0.9)
+   OMIT [ 6] כי   ()
+
+Gn 50:20
+   VAR  [10] טֹבָ֔ה  ->  טובה   (what is good, sim=0.875)
+   VAR  [12] עֲשֹׂ֛ה  ->  עשׂות   (make, sim=0.625)
+   VAR  [18] הַחֲיֹ֥ת  ->  החיות   (be alive, sim=0.9)
+   PLUS [ 5] ו   (and)  [SIN VOCALIZAR]
+   PLUS [ 6] ה   (the)  [SIN VOCALIZAR]
+   OMIT [ 0] ו   ()
+
+Gn 50:21
+   VAR  [12] אֹותָ֔ם  ->  אתם   (<object marker>, sim=0.875)
+   VAR  [15] עַל  ->  אל   (to, sim=0.5)
+
+Gn 50:23
+   VAR  [ 5] בְּנֵ֖י  ->  בנים   (son, sim=0.75)
+   VAR  [ 6] שִׁלֵּשִׁ֑ים  ->  שׁלישׁים   (grandsons, sim=0.917)
+   PLUS [15] ב   (in)  [SIN VOCALIZAR]
+   PLUS [16] ימי   (day)  [SIN VOCALIZAR]
+   OMIT [13] על   ()
+   OMIT [14] ברכי   ()
+
+Gn 50:24
+   PLUS [ 8] ה   (the)  [SIN VOCALIZAR]
+
+Gn 50:25
+   VAR  [ 1] יַּשְׁבַּ֣ע  ->  ישׁביע   (swear, sim=0.9)
+   VAR  [13] הַעֲלִתֶ֥ם  ->  העליתם   (ascend, sim=0.917)
+   PLUS [18] אתכם   (<object marker>)  [SIN VOCALIZAR]
+
+Gn 50:26
+   VAR  [12] יִּ֥ישֶׂם  ->  יושׂם   (put, sim=0.75)
+   VAR  [14] אָרֹ֖ון  ->  ארן   (ark, sim=0.875)
+

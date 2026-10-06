@@ -1,0 +1,27 @@
+{
+ "plus_total": 673,
+ "plus_vocalizados": 670,
+ "cobertura_%": 99.6,
+ "fuentes": {
+  "lexico-exacto": 654,
+  "lexico-fuzzy": 16,
+  "sin-vocalizar": 3
+ },
+ "sin_vocalizar_detalle": [
+  {
+   "ref": "8:19",
+   "sp_cons": "עוף",
+   "gloss": "bird"
+  },
+  {
+   "ref": "17:14",
+   "sp_cons": "יום",
+   "gloss": "day"
+  },
+  {
+   "ref": "30:36",
+   "sp_cons": "קום",
+   "gloss": "arise"
+  }
+ ]
+}

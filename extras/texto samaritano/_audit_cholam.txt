@@ -1,0 +1,173 @@
+
+================================================================================
+A) SEGOLADOS NOMINALES (pos=subs) -> RECOMIENDO flip a /a-a/  (92 formas, 1006 tokens)
+================================================================================
+  אהל          x184  [tent              ] MT:אֹהֶל         SAM:אֻהֶל         gen 4:20
+  קדשׁ          x170  [holiness          ] MT:קֹדֶשׁ        SAM:קֻדַשׁ        exo 3:5
+  בקר          x78   [morning           ] MT:בֹקֶר         SAM:בֻקַר         gen 1:5
+  חדשׁ          x78   [month             ] MT:חֹדֶשׁ        SAM:חֻדַשׁ        gen 7:11
+  נחשׁת         x47   [bronze            ] MT:נְחֹשֶׁת      SAM:נָחֻשַׁת      gen 4:22
+  סלת          x43   [wheat groat       ] MT:סֹלֶת         SAM:סֻלַת         gen 18:6
+  קטרת         x40   [smoke of sacrifice] MT:קְטֹרֶת       SAM:קָטֻרַת       exo 25:6
+  אבתיך        x33   [father            ] MT:אֲבֹתֶיךָ     SAM:אָבֻתֶיַך     gen 15:15
+  שׁלשׁת         x26   [three             ] MT:שְׁלֹשֶׁת     SAM:שָׁלֻשַׁת     gen 7:13
+  כפרת         x26   [cover             ] MT:כַפֹּרֶת      SAM:כַפֻּרַת      exo 25:17
+  חשׁן          x25   [breast-piece      ] MT:חֹֽשֶׁן       SAM:חֻֽשַׁן       exo 25:7
+  פרכת         x21   [curtain           ] MT:פָרֹכֶת       SAM:פָרֻכַת       exo 26:31
+  אכל          x18   [food              ] MT:אֹכֶל         SAM:אֻכַל         gen 41:35
+  ארך          x14   [length            ] MT:אֹרֶךְ        SAM:אֻרַך         gen 6:15
+  בהון         x14   [thumb             ] MT:בֹּהֶן        SAM:בֻּהֶן        exo 29:20
+  כיתנת        x12   [tunic             ] MT:כְּתֹנֶת      SAM:כָּתֻנַת      gen 37:3
+  יותרת        x11   [appendage of liver] MT:יֹּתֶרֶת      SAM:יֻּתֶרַת      exo 29:13
+  חשׁך          x10   [darkness          ] MT:חֹשֶׁךְ       SAM:חֻשַׁך        gen 1:2
+  שׁמנה         x10   [eight             ] MT:שְׁמֹנֶה      SAM:שָׁמֻנַה      gen 5:4
+  ערף          x8    [neck              ] MT:עֹרֶף         SAM:עֻרַף         gen 49:8
+  בנתיך        x7    [daughter          ] MT:בְנֹתֶיךָ     SAM:בָנֻתֶיַך     gen 19:12
+  נרתיה        x7    [lamp              ] MT:נֵרֹתֶיהָ     SAM:נֵרֻתֶיהָ     exo 25:37
+  אזן          x7    [ear               ] MT:אֹזֶן         SAM:אֻזַן         exo 29:20
+  עמר          x6    [wool              ] MT:עֹמֶר         SAM:עֻמַר         exo 16:16
+  גרן          x5    [threshing-floor   ] MT:גֹּרֶן        SAM:גֻּרַן        gen 50:10
+  עמר          x5    [cut grain         ] MT:עֹמֶר         SAM:עֻמַר         lev 23:10
+  עלתיך        x4    [burnt-offering    ] MT:עֹלֹתֶיךָ     SAM:עֻלֻתֶיַך     exo 20:24
+  כפתריה       x4    [bulb              ] MT:כַּפְתֹּרֶיהָ SAM:כַּפתֻּרֶיהָ  exo 25:31
+  חרשׁת         x4    [work              ] MT:חֲרֹשֶׁת      SAM:חָרֻשַׁת      exo 31:5
+  אפה          x3    [baker             ] MT:אֹפֶה         SAM:אֻפַה         gen 40:1
+  חזק          x3    [strength          ] MT:חֹזֶק         SAM:חֻזַק         exo 13:3
+  גלגלת        x3    [skull             ] MT:גֻּלְגֹּלֶת   SAM:גֻּלגֻּלַת    exo 16:16
+  מחתיתיה      x3    [fire holder       ] MT:מַחְתֹּתֶיהָ  SAM:מַחתֻּתֶיהָ   exo 25:38
+  כפר          x3    [ransom            ] MT:כֹּפֶר        SAM:כֻּפַר        exo 30:12
+  שׁבתתיה       x3    [sabbath           ] MT:שַׁבְּתֹתֶיהָ SAM:שַׁבּתֻתֶיהָ  lev 26:34
+  בנתיה        x3    [daughter          ] MT:בְּנֹתֶֽיהָ   SAM:בָּנֻתֶֽיהָ   num 21:25
+  חרף          x2    [autumn            ] MT:חֹרֶף         SAM:חֻרַף         gen 8:22
+  חימר         x2    [bitumen           ] MT:חֹֽמֶר        SAM:חֻֽמַר        gen 11:3
+  אדניך        x2    [lord              ] MT:אֲדֹנֶיךָ     SAM:אָדֻנֶיַך     gen 24:51
+  נערתיה       x2    [girl              ] MT:נַעֲרֹתֶיהָ   SAM:נַעָרֻתֶיהָ   gen 24:61
+  קולך         x2    [sound             ] MT:קֹלֶךָ        SAM:קֻלַך         exo 3:18
+  חברת         x2    [drapery           ] MT:חֹבֶרֶת       SAM:חֻבֶרַת       exo 26:10
+  אדם          x2    [ruby              ] MT:אֹדֶם         SAM:אֻדַם         exo 28:17
+  נפך          x2    [turquoise         ] MT:נֹפֶךְ        SAM:נֻפַך         exo 28:18
+  חמץ          x2    [vinegar           ] MT:חֹמֶץ         SAM:חֻמַץ         num 6:3
+  גדל          x2    [greatness         ] MT:גֹדֶל         SAM:גֻדַל         num 14:19
+  גבולתיה      x2    [boundary          ] MT:גְבֻלֹתֶֽיהָ  SAM:גָבֻלֻתֶֽיהָ  num 34:2
+  חסר          x2    [want              ] MT:חֹסֶר         SAM:חֻסַר         deu 28:48
+  שׁנה          x1    [year              ] MT:שְׁמֹנֶה      SAM:שָׁמֻנַה      gen 5:19
+  גפר          x1    [gopher            ] MT:גֹפֶר         SAM:גֻפַר         gen 6:14
+  כפר          x1    [cover             ] MT:כֹּֽפֶר       SAM:כֻּֽפַר       gen 6:14
+  שׁקות         x1    [watering trough   ] MT:שֹּׁקֶת       SAM:שֻּׁקַת       gen 24:20
+  בכרך         x1    [first-born        ] MT:בְּכֹרֶךָ     SAM:בָּכֻרַך      gen 27:19
+  עשׁר          x1    [riches            ] MT:עֹשֶׁר        SAM:עֻשַׁר        gen 31:16
+  בנותך        x1    [daughter          ] MT:בְנֹתֶיךָ     SAM:בָנֻתֶיַך     gen 31:41
+  חתים         x1    [seal              ] MT:חֹתֶמֶת       SAM:חֻתֶמַת       gen 38:25
+  אשׁכלתיה      x1    [grape             ] MT:אַשְׁכְּלֹתֶיהָ SAM:אַשׁכִּלֻתֶיהָ gen 40:10
+  סביבתיה      x1    [surrounding       ] MT:סְבִיבֹתֶיהָ  SAM:סָבִיבֻתֶיהָ  gen 41:48
+  חמושׁ         x1    [<uncertain>       ] MT:חֹמֶשׁ        SAM:חֻמַשׁ        gen 47:26
+  זקנה         x1    [old age           ] MT:זֹּקֶן        SAM:זֻּקַן        gen 48:10
+  גמא          x1    [papyrus           ] MT:גֹּמֶא        SAM:גֻּמַא        exo 2:3
+  בכורך        x1    [first-born        ] MT:בְּכֹרֶֽךָ    SAM:בָּכֻרַֽך     exo 4:23
+  מתכנת        x1    [proportion        ] MT:מַתְכֹּנֶת    SAM:מַתכֻּנַת     exo 5:8
+  תכן          x1    [quantity          ] MT:תֹכֶן         SAM:תֻכַן         exo 5:18
+  קצר          x1    [shortness         ] MT:קֹּצֶר        SAM:קֻּצַר        exo 6:9
+  אשׁמרת        x1    [night watch       ] MT:אַשְׁמֹרֶת    SAM:אַשׁמֻרַת     exo 14:24
+  אדניו        x1    [lord              ] MT:אדֹנֶיהָ      SAM:אדֻנֶיהָ      exo 21:4
+  אדניה        x1    [lord              ] MT:אֲדֹנֶיהָ     SAM:אָדֻנֶיהָ     exo 21:8
+  כופר         x1    [ransom            ] MT:כֹּפֶר        SAM:כֻּפַר        exo 21:30
+  בשׂם          x1    [balsam-tree       ] MT:בֹשֶׂם        SAM:בֻשַׂם        exo 30:23
+  כבודך        x1    [weight            ] MT:כְּבֹדֶֽךָ    SAM:כָּבֻדַֽך     exo 33:18
+  בשׂמים        x1    [balsam-tree       ] MT:בֹּשֶׂם       SAM:בֻּשַׂם       exo 35:28
+  יתדתיה       x1    [peg               ] MT:יתֵדֹתֶיהָ    SAM:יתֵדֻתֶיהָ    exo 39:40
+  עשׁוק         x1    [oppressor         ] MT:עֹשֶׁק        SAM:עֻשַׁק        lev 5:23
+  חלד          x1    [mole-rat          ] MT:חֹלֶד         SAM:חֻלַד         lev 11:29
+  מט           x1    [reptile           ] MT:חֹמֶט         SAM:חֻמַט         lev 11:30
+  בקרת         x1    [punishment        ] MT:בִּקֹּרֶת     SAM:בִּקֻּרַת     lev 19:20
+  כתבת         x1    [tattooing         ] MT:כְתֹבֶת       SAM:כָתֻבַת       lev 19:28
+  מרך          x1    [timidity          ] MT:מֹרֶךְ        SAM:מֻרַך         lev 26:36
+  חמר          x1    [homer             ] MT:חֹמֶר         SAM:חֻמַר         lev 27:16
+  מקדשׁי        x1    [sanctuary         ] MT:קֹּדֶשׁ       SAM:קֻּדַשׁ       num 18:9
+  משׁכנתיך      x1    [dwelling-place    ] MT:מִשְׁכְּנֹתֶיךָ SAM:מִשׁכִּנֻתֶיַך num 24:5
+  גבורתיך      x1    [strength          ] MT:גְבוּרֹתֶֽךָ  SAM:גָבוּרֻתַֽך   deu 3:24
+  מאדך         x1    [might             ] MT:מְאֹדֶֽךָ     SAM:מָאֻדַֽך      deu 6:5
+  עצם          x1    [might             ] MT:עֹצֶם         SAM:עֻצַם         deu 8:17
+  ישׁר          x1    [uprightness       ] MT:יֹשֶׁר        SAM:יֻשַׁר        deu 9:5
+  נדבתיך       x1    [free will         ] MT:נִדְבֹתֶיךָ   SAM:נִדבֻתֶיַך    deu 12:17
+  מצותיך       x1    [commandment       ] MT:מִּצְוֹתֶיךָ  SAM:מִּצוֻתֶיַך   deu 26:13
+  חומתך        x1    [wall              ] MT:חֹמֹתֶיךָ     SAM:חֻמֻתֶיַך     deu 28:52
+  אבתך         x1    [father            ] MT:אֲבֹתֶיךָ     SAM:אָבֻתֶיַך     deu 29:12
+  שׁרשׁ          x1    [root              ] MT:שֹׁרֶשׁ       SAM:שֻׁרַשׁ       deu 29:17
+  דברתך        x1    [word              ] MT:דַּבְּרֹתֶֽיךָ SAM:דַּבּרֻתֶֽיַך deu 33:3
+
+================================================================================
+B) PARTICIPIOS/VERBOS segolados (pos=verb) -> TU DECISION  (48 formas, 108 tokens)
+================================================================================
+  עשׂה          x25   [make              ] MT:עֹשֶׂה        SAM:עֻשַׂה        gen 1:11
+  יסף          x6    [add               ] MT:יֹּסֶף        SAM:יֻּסַף        gen 8:10
+  ראה          x5    [see               ] MT:רֹאֶה         SAM:רֻאֶה         gen 13:15
+  רעה          x5    [pasture           ] MT:רֹעֶה         SAM:רֻעֶה         gen 30:36
+  אכלת         x5    [eat               ] MT:אֹכֶלֶת       SAM:אֻכֶלַת       exo 24:17
+  רמשׂת         x3    [creep             ] MT:רֹמֶשֶׂת      SAM:רֻמֶשַׂת      gen 1:21
+  רבצת         x3    [lie down          ] MT:רֹבֶצֶת       SAM:רֻבֶצַת       gen 49:25
+  חגתם         x3    [jump              ] MT:חַגֹּתֶם      SAM:חַגֻּתַם      exo 12:14
+  קנה          x3    [buy               ] MT:קֹּנֶה        SAM:קֻּנַה        lev 25:28
+  תסף          x2    [add               ] MT:תֹּסֶף        SAM:תֻּסַף        gen 4:2
+  נפלת         x2    [fall              ] MT:נֹפֶלֶת       SAM:נֻפֶלַת       gen 15:12
+  ילדת         x2    [bear              ] MT:יֹלֶדֶת       SAM:יֻלֶדַת       gen 17:19
+  הלכת         x2    [walk              ] MT:הֹלֶכֶת       SAM:הֻלֶכַת       gen 32:21
+  תעה          x2    [err               ] MT:תֹעֶה         SAM:תֻעֶה         gen 37:15
+  עלה          x2    [ascend            ] MT:עֹלֶה         SAM:עֻלַה         gen 38:13
+  הרעתם        x2    [be evil           ] MT:הֲרֵעֹתֶם     SAM:הָרֵעֻתַם     gen 43:6
+  בכה          x2    [weep              ] MT:בֹּכֶה        SAM:בֻּכַה        exo 2:6
+  נשׁא          x2    [give loan         ] MT:נֹשֶׁה        SAM:נֻשַׁה        exo 22:24
+  יכלת         x2    [be able           ] MT:יְכֹלֶת       SAM:יָכֻלַת       num 14:16
+  באך          x2    [come              ] MT:בֹאֶךָ        SAM:בֻאֶך         deu 28:6
+  בנה          x1    [build             ] MT:בֹּנֶה        SAM:בֻּנַה        gen 4:17
+  יבשׁת         x1    [be dry            ] MT:יְבֹשֶׁת      SAM:יָבֻשַׁת      gen 8:7
+  רעיך         x1    [pasture           ] MT:רֹעֶיךָ       SAM:רֻעֶיַך       gen 13:8
+  רבי          x1    [shoot             ] MT:רֹבֶה         SAM:רֻבַה         gen 21:20
+  תורד         x1    [descend           ] MT:תֹּרֶד        SAM:תֻּרַד        gen 24:18
+  אחזת         x1    [seize             ] MT:אֹחֶזֶת       SAM:אֻחֶזַת       gen 25:26
+  אהבת         x1    [love              ] MT:אֹהֶבֶת       SAM:אֻהֶבַת       gen 25:28
+  ענה          x1    [answer            ] MT:עֹנֶה         SAM:עֻנַה         gen 35:3
+  חלה          x1    [become weak       ] MT:חֹלֶה         SAM:חֻלַה         gen 48:1
+  רעי          x1    [pasture           ] MT:רֹעֶה         SAM:רֻעֶה         gen 49:24
+  תוסיף        x1    [add               ] MT:תֹּסֶף        SAM:תֻּסַף        exo 10:28
+  חנה          x1    [encamp            ] MT:חֹנֶה         SAM:חֻנַה         exo 18:5
+  חתנך         x1    [be father-in-law  ] MT:חֹתֶנְךָ      SAM:חֻתֶנַך       exo 18:6
+  עדפת         x1    [remain            ] MT:עֹדֶפֶת       SAM:עֻדֶפַת       exo 26:12
+  שׁרצת         x1    [swarm             ] MT:שֹּׁרֶצֶת     SAM:שֻּׁרֶצַת     lev 11:46
+  ישׁבת         x1    [sit               ] MT:יֹשֶֽׁבֶת     SAM:יֻשֶֽׁבַת     lev 15:23
+  נקמת         x1    [avenge            ] MT:נֹקֶמֶת       SAM:נֻקֶמַת       lev 26:25
+  הרעתם        x1    [shout             ] MT:הֲרֵעֹתֶם     SAM:הָרֵעֻתַם     num 10:9
+  הלנתם        x1    [murmur            ] MT:הֲלִֽינֹתֶם   SAM:הָלִֽינֻתַם   num 14:29
+  שׁגגת         x1    [commit error      ] MT:שֹּׁגֶגֶת     SAM:שֻּׁגֶגַת     num 15:28
+  הרמתם        x1    [be high           ] MT:הֲרֵמֹתֶם     SAM:הָרֵמֻתַם     num 18:26
+  מדתם         x1    [measure           ] MT:מַדֹּתֶם      SAM:מַדֻּתַם      num 35:5
+  ירשׁת         x1    [trample down      ] MT:יֹרֶשֶׁת      SAM:יֻרֶשַׁת      num 36:8
+  נסותך        x1    [try               ] MT:נַסֹּתֶךָ     SAM:נַסֻּתַך      deu 8:16
+  מורה         x1    [rebel             ] MT:מֹרֶה         SAM:מֻרַה         deu 21:20
+  פנה          x1    [turn              ] MT:פֹנֶה         SAM:פֻנַה         deu 29:17
+  פרה          x1    [be fertile        ] MT:פֹּרֶה        SAM:פֻּרַה        deu 29:17
+  מברכת        x1    [bless             ] MT:מְבֹרֶכֶת     SAM:מָבֻרֶכַת     deu 33:13
+
+================================================================================
+C) OTRA categoria segolada (adjv/etc.) -> revisar  (3 formas, 26 tokens)
+================================================================================
+               x24   [                  ] MT:מֹשֶׁה        SAM:מֻשַׁה        exo 18:25
+  כמוך         x1    [like              ] MT:חֲמֹרֶךָ      SAM:חָמֻרַך       exo 23:12
+  קדישׁים       x1    [holy              ] MT:קֹֽדֶשׁ       SAM:קֻֽדַשׁ       lev 21:6
+
+================================================================================
+D) NOMBRES PROPIOS segolados (Moshe, Goshen...) -> RECOMIENDO mantener /u/  (8 formas, 667 tokens)
+================================================================================
+  משׁה          x642  [Moses             ] MT:מֹשֶׁה        SAM:מֻשַׁה        exo 2:10
+  גשׁן          x10   [Goshen            ] MT:גֹּשֶׁן       SAM:גֻּשַׁן       gen 45:10
+  כדר לעמר     x5    [Kedorlaomer       ] MT:כְּדָרְלָעֹמֶר SAM:כָּדָרִלָעֻמַר gen 14:1
+  מלך          x5    [advise            ] MT:מֹּלֶךְ       SAM:מֻּלַך        lev 18:21
+  גמר          x2    [Gomer             ] MT:גֹּמֶר        SAM:גֻּמַר        gen 10:2
+  קרח          x1    [Korah             ] MT:קֹרֶח         SAM:קֻרַח         num 16:27
+  תפל          x1    [Tophel            ] MT:תֹּפֶל        SAM:תֻּפַל        deu 1:1
+  מורא         x1    [Moreh             ] MT:מֹרֶֽה        SAM:מֻרַֽה        deu 11:30
+
+================================================================================
+E) Formas de ELOHIM segoladas -> mantener /u/ (ya acordado)  (2 formas, 254 tokens)
+================================================================================
+  אלהיך        x251  [god(s)            ] MT:אֱלֹהֶיךָ     SAM:אַלֻהֶיַך     gen 27:20
+  אלהיכם       x3    [god(s)            ] MT:אֱלֹהֶיךָ     SAM:אַלֻהֶיַך     deu 4:25

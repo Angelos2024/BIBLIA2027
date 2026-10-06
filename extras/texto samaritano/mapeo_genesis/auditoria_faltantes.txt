@@ -1,0 +1,20 @@
+Capitulos base/txt/fin: 50/50/50
+Versiculos base/txt/fin: 1533/1533/1533
+Versiculos en base y NO en txt: []
+Versiculos en txt y NO en fin: []
+
+Tipos (txt): {'common': 26785, 'plus': 657, 'variant': 1471, 'omit': 206, 'moved_omit': 16, 'moved': 16}
+Visibles SIN vocalizar (>1 consonante): 0
+Visibles con texto vacio: 0
+
+Versiculos con reading FINAL vacio: 0 []
+
+Omisiones totales: 206 | sin glosa: 0
+
+HTML versos (.verse): 3066
+HTML ADD+ (class w add): 657
+HTML lineas esp: 1534  acad: 1534
+
+Huecos de numeracion de versiculos (capitulo, faltan): []
+
+Conteo match en base: {'exact': 26785, 'sp_only': 673, 'fuzzy': 1471, 'mt_only': 222}

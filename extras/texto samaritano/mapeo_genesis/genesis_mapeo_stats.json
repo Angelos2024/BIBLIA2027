@@ -1,0 +1,70 @@
+{
+ "verses_total": 1533,
+ "verses_con_diferencias": 1024,
+ "variantes": 1471,
+ "plus": 673,
+ "omisiones": 222,
+ "plus_sin_vocalizar": 673,
+ "top_versos_plus": [
+  {
+   "verso": "Gn 30:36",
+   "plus": 73
+  },
+  {
+   "verso": "Gn 42:16",
+   "plus": 16
+  },
+  {
+   "verso": "Gn 11:15",
+   "plus": 16
+  },
+  {
+   "verso": "Gn 11:13",
+   "plus": 16
+  },
+  {
+   "verso": "Gn 11:25",
+   "plus": 15
+  },
+  {
+   "verso": "Gn 11:21",
+   "plus": 13
+  },
+  {
+   "verso": "Gn 11:19",
+   "plus": 13
+  },
+  {
+   "verso": "Gn 11:17",
+   "plus": 13
+  },
+  {
+   "verso": "Gn 11:23",
+   "plus": 12
+  },
+  {
+   "verso": "Gn 10:19",
+   "plus": 12
+  },
+  {
+   "verso": "Gn 11:11",
+   "plus": 10
+  },
+  {
+   "verso": "Gn 43:28",
+   "plus": 9
+  },
+  {
+   "verso": "Gn 50:5",
+   "plus": 6
+  },
+  {
+   "verso": "Gn 1:14",
+   "plus": 6
+  },
+  {
+   "verso": "Gn 8:19",
+   "plus": 5
+  }
+ ]
+}
