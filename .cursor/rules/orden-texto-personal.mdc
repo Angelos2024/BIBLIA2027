@@ -1,0 +1,23 @@
+---
+description: Por capítulo: Motor ES → revisión manual → texto personal → colores al final
+alwaysApply: true
+---
+
+# Orden por capítulo (Motor ES ≠ colores)
+
+Son **acciones distintas**. No exigir texto personal para correr el motor.
+
+1. **Motor ES** (`revisar_es.py` / botón del visor): informe o `--apply` de AUTOFIX. El usuario revisa y corrige a mano lo que el motor no resuelve.
+2. **Texto fluido personal** (`data_master/traduccion_personal_<libro>.json`; en el visor sustituye a la RVR1960), cuando el interlineal del capítulo ya está revisado.
+3. **Colores al final** (rojo transliterar, azul globalizar, verde refuerzo del motor). No mezclar con el paso 1.
+
+## Texto personal «completo»
+
+`data[capítulo-1]` lista con **todos** los versos en string no vacío. Eso vale para el paso 2, no como candado del Motor ES.
+
+## Qué no hacer
+
+- No bloquees el Motor ES por falta de texto personal.
+- No trates marcas de color como si fueran el Motor ES.
+- No apliques ni proceses colores de un capítulo si aún no toca ese paso (después del texto personal).
+- Capítulos **cerrados** (candado): el motor no escribe.

@@ -1,0 +1,36 @@
+
+========== SpaRV1909 @ SpaRV1909 ==========
+  modules in package: ['SpaRV1909']
+  Genesis 1:1 RAW   : <w lemma="Strong:H7225">EN el principio</w> <w lemma="Strong:H1254">crió</w> <w lemma="Strong:H0430">Dios</w> <w lemma="Strong:H8064">los cielos</w> <w lemma="Strong:H0776">y la tierra</w>.
+  Genesis 1:1 CLEAN : EN el principio crió Dios los cielos y la tierra.
+  Genesis 1:2 RAW   : <w lemma="Strong:H0776">Y la tierra</w> <w lemma="Strong:H1961">estaba</w> <w lemma="Strong:H8414">desordenada</w> <w lemma="Strong:H0922">y vacía</w>, <w lemma="Strong:H2822">y las tinieblas</w> <w lemma="Strong:H5921">estaban sobre</w> <w lemma="Strong:H6440">la haz</w> <w lemma="Strong:H8415">del abismo</w>, <w lemma="Strong:H7307">y el Espíritu</w> <w lemma="Strong:H0430">de Dios</w> <w lemma="Strong:H7363">se movía</w> <w lemma="Strong:H5921">sobre</w> <w lemma="Strong:H6440">la haz</w> <w lemma="Strong:H4325">de las aguas</w>.
+  Genesis 1:2 CLEAN : Y la tierra estaba desordenada y vacía, y las tinieblas estaban sobre la haz del abismo, y el Espíritu de Dios se movía sobre la haz de las aguas.
+  John 3:16 RAW   : <w lemma="Strong:G1063">Porque</w> <w lemma="Strong:G3779">de tal manera</w> <w lemma="Strong:G0025">amó</w> <w lemma="Strong:G2316">Dios</w> <w lemma="Strong:G3588">al</w> <w lemma="Strong:G2889">mundo</w>, <w lemma="Strong:G5620">que</w> <w lemma="Strong:G1325">ha dado</w> <w lemma="Strong:G0846">á su</w> <w lemma="Strong:G5207">Hijo</w> <w lemma="Strong:G3439">unigénito</w>, <w lemma="Strong:G2443">para que</w> <w lemma="Strong:G3956">todo</w> <w lemma="Strong:G3588">aquel</w> <w lemma="Strong:G2443">que</w> <w lemma="Strong:G1519">en</w> <w lemma="Strong:G0846">él</w> <w lemma="Strong:G4100">cree</w>, <w lemma="Strong:G3361">no</w> <w lemma="Strong:G0622">se pierda</w>, <w lemma="Strong:G0235">mas</w> <w lemma="Strong:G2192">tenga</w> <w lemma="Strong:G2222">vida</w> <w lemma="Strong:G0166">eterna</w>.
+  John 3:16 CLEAN : Porque de tal manera amó Dios al mundo, que ha dado á su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna.
+
+========== SpaRV @ SpaRV ==========
+  modules in package: ['SpaRV']
+  Genesis 1:1 RAW   : EN el principio crió Dios los cielos y la tierra. 
+  Genesis 1:1 CLEAN : EN el principio crió Dios los cielos y la tierra. 
+  Genesis 1:2 RAW   : Y la tierra estaba desordenada y vacía, y las tinieblas estaban sobre la haz del abismo, y el Espíritu de Dios se movía sobre la haz de las aguas. 
+  Genesis 1:2 CLEAN : Y la tierra estaba desordenada y vacía, y las tinieblas estaban sobre la haz del abismo, y el Espíritu de Dios se movía sobre la haz de las aguas. 
+  John 3:16 RAW   : Porque de tal manera amó Dios al mundo, que ha dado á su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna. 
+  John 3:16 CLEAN : Porque de tal manera amó Dios al mundo, que ha dado á su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna. 
+
+========== OSHB @ OSHB ==========
+  modules in package: ['OSHB']
+  Genesis 1:1 RAW   : <w lemma="strong:H07225" morph="oshm:HR/Ncfsa">בְּרֵאשִׁ֖ית</w> <w lemma="strong:H01254" morph="oshm:HVqp3ms">בָּרָ֣א</w> <w lemma="strong:H0430" morph="oshm:HNcmpa">אֱלֹהִ֑ים</w> <w lemma="strong:H0853" morph="oshm:HTo">אֵ֥ת</w> <w lemma="strong:H08064" morph="oshm:HTd/Ncmpa">הַשָּׁמַ֖יִם</w> <w lemma="strong:H0853" morph="oshm:HC/To">וְאֵ֥ת</w> <w lemma="strong:H0776" morph="oshm:HTd/Ncbsa">הָאָֽרֶץ</w><seg type="x-sof-pasuq">׃</seg> 
+  Genesis 1:1 CLEAN : בְּרֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַשָּׁמַ֖יִם וְאֵ֥ת הָאָֽרֶץ׃ 
+  Genesis 1:2 RAW   : <w lemma="strong:H0776" morph="oshm:HC/Td/Ncbsa">וְהָאָ֗רֶץ</w> <w lemma="strong:H01961" morph="oshm:HVqp3fs">הָיְתָ֥ה</w> <w lemma="strong:H08414" morph="oshm:HNcmsa">תֹ֨הוּ֙</w> <w lemma="strong:H0922" morph="oshm:HC/Ncmsa">וָבֹ֔הוּ</w> <w lemma="strong:H02822" morph="oshm:HC/Ncmsa">וְחֹ֖שֶׁךְ</w> <w lemma="strong:H05921" morph="oshm:HR">עַל</w><seg type="x-maqqef">־</seg><w lemma="strong:H06440" morph="oshm:HNcbpc">פְּנֵ֣י</w> <w lemma="strong:H08415" morph="oshm:HNcbsa">תְה֑וֹם</w> <w lemma="strong:H07307" morph="oshm:HC/Ncbsc">וְר֣וּחַ</w> <w lemma="strong:H0430" morph="oshm:HNcmpa">אֱלֹהִ֔ים</w> <w lemma="strong:H07363" morph="oshm:HVprfsa">מְרַחֶ֖פֶת</w> <w lemma="strong:H05921" morph="oshm:HR">עַל</w><seg type="x-maqqef">־</seg><w lemma="strong:H06440" morph="oshm:HNcbpc">פְּנֵ֥י</w> <w lemma="strong:H04325" morph="oshm:HTd/Ncmpa">הַמָּֽיִם</w><seg type="x-sof-pasuq">׃</seg> 
+  Genesis 1:2 CLEAN : וְהָאָ֗רֶץ הָיְתָ֥ה תֹ֨הוּ֙ וָבֹ֔הוּ וְחֹ֖שֶׁךְ עַל־פְּנֵ֣י תְה֑וֹם וְר֣וּחַ אֱלֹהִ֔ים מְרַחֶ֖פֶת עַל־פְּנֵ֥י הַמָּֽיִם׃ 
+  John 3:16 RAW   ERROR: ValueError: Book name "john" does not exist in BibleStructure.
+  John 3:16 CLEAN ERROR: ValueError: Book name "john" does not exist in BibleStructure.
+
+========== WLC @ WLC ==========
+  modules in package: ['WLC']
+  Genesis 1:1 RAW   : בְּרֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַשָּׁמַ֖יִם וְאֵ֥ת הָאָֽרֶץ׃ 
+  Genesis 1:1 CLEAN : בְּרֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַשָּׁמַ֖יִם וְאֵ֥ת הָאָֽרֶץ׃ 
+  Genesis 1:2 RAW   : וְהָאָ֗רֶץ הָיְתָ֥ה תֹ֙הוּ֙ וָבֹ֔הוּ וְחֹ֖שֶׁךְ עַל־פְּנֵ֣י תְה֑וֹם וְר֣וּחַ אֱלֹהִ֔ים מְרַחֶ֖פֶת עַל־פְּנֵ֥י הַמָּֽיִם׃ 
+  Genesis 1:2 CLEAN : וְהָאָ֗רֶץ הָיְתָ֥ה תֹ֙הוּ֙ וָבֹ֔הוּ וְחֹ֖שֶׁךְ עַל־פְּנֵ֣י תְה֑וֹם וְר֣וּחַ אֱלֹהִ֔ים מְרַחֶ֖פֶת עַל־פְּנֵ֥י הַמָּֽיִם׃ 
+  John 3:16 RAW   ERROR: ValueError: Book name "john" does not exist in BibleStructure.
+  John 3:16 CLEAN ERROR: ValueError: Book name "john" does not exist in BibleStructure.

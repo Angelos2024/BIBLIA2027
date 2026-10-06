@@ -1,0 +1,3261 @@
+<!doctype html>
+<html lang="es" data-theme="cream">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Interlineal · Prototipo CATSS</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* ── Variables de tema ── */
+    :root {
+      --bd: #e6e8eb;
+      --muted: #6b7280;
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --text: #0f172a;
+      --primary: #2563eb;
+      --primary-contrast: #ffffff;
+      --soft-bg: #f1f5f9;
+      --panel-shadow: 0 10px 30px rgba(15,23,42,.08);
+    }
+    [data-theme="cream"] {
+      --bd: #d5c1b1;
+      --muted: #6d5d52;
+      --bg: #edddce;
+      --surface: #cdbaa9;
+      --text: #2c1d1f;
+      --primary: #4b2743;
+      --primary-contrast: #fdf6f2;
+      --soft-bg: #e0cdbd;
+      --soft-hover: #d6c2b2;
+      --outline: #4b2743;
+      --panel-shadow: 0 12px 30px rgba(75,39,67,.2);
+    }
+    [data-theme="white"] {
+      --bd: #e6e8eb;
+      --muted: #6b7280;
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --text: #0f172a;
+      --primary: #2563eb;
+      --primary-contrast: #ffffff;
+      --soft-bg: #f1f5f9;
+      --panel-shadow: 0 10px 30px rgba(15,23,42,.08);
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+
+    /* ── Topbar ── */
+    .topbar {
+      background: var(--surface);
+      border-bottom: 1px solid var(--bd);
+      position: sticky; top: 0; z-index: 1000;
+      box-shadow: 0 8px 32px rgba(15,23,42,.06);
+    }
+    .sitewrap { max-width: 1280px; }
+    .site-brand img {
+      display: block;
+      height: 44px;
+      width: auto;
+      object-fit: contain;
+      border-radius: 5px;
+    }
+    .btn-soft {
+      background: #4b2743;
+      border: 1px solid #4b2743;
+      color: #ffffff;
+    }
+    .btn-soft:hover { background: #361c30; border-color: #361c30; color: #fff; }
+    .btn-primary { background: var(--primary); border-color: var(--primary); color: var(--primary-contrast); }
+    .btn-primary:hover {
+      background: color-mix(in srgb, var(--primary) 85%, #000);
+      border-color: color-mix(in srgb, var(--primary) 85%, #000);
+      color: var(--primary-contrast);
+    }
+    .btn-outline-primary { color: var(--primary); border-color: var(--primary); }
+    .btn-outline-primary:hover { background: var(--primary); color: var(--primary-contrast); }
+    [data-theme="cream"] .btn-primary,
+    [data-theme="cream"] .btn-outline-primary { border-color: #4b2743; }
+    [data-theme="cream"] .btn-primary { background: #4b2743; }
+    [data-theme="cream"] .btn-outline-primary { color: #4b2743; }
+    [data-theme="cream"] .btn-outline-primary:hover { background: #4b2743; color: #fdf6f2; }
+
+    /* ── Panels ── */
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--bd);
+      border-radius: 12px;
+      box-shadow: var(--panel-shadow);
+    }
+    .panel-header {
+      border-bottom: 1px solid var(--bd);
+      padding: .75rem 1rem;
+      font-weight: 600;
+    }
+    .panel-body { padding: 1rem; background: #ffffff; border-radius: 0 0 12px 12px; }
+
+    .passage-title { font-size: 1.25rem; font-weight: 700; }
+    .meta-row { color: var(--muted); font-size: .9rem; }
+
+    /* ── Sidebar ── */
+    .content-layout { align-items: flex-start; }
+    .sticky-aside { position: sticky; top: 4.5rem; }
+    .admin-summary { display: grid; gap: .7rem; }
+    .admin-summary-row {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: .75rem; font-size: .94rem;
+    }
+
+    /* ── Workspace ── */
+    .admin-workspace-panel .panel-body {
+      background: linear-gradient(180deg, rgba(255,255,255,.85) 0%, rgba(255,250,244,.94) 100%);
+    }
+    .admin-editor-mount { display: grid; gap: 1rem; }
+
+    /* ── Verse Cards ── */
+    .admin-verse-card {
+      border: 1px solid rgba(75,39,67,.14);
+      border-radius: 18px;
+      background: #fff;
+      overflow: hidden;
+      box-shadow: 0 12px 28px rgba(15,23,42,.06);
+    }
+    .admin-verse-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: .65rem 1.1rem .6rem;
+      background: linear-gradient(180deg, rgba(237,221,206,.42) 0%, rgba(255,255,255,.92) 100%);
+      border-bottom: 1px solid rgba(75,39,67,.12);
+    }
+    .admin-verse-ref { font-size: 1rem; font-weight: 700; color: #2c1d1f; }
+
+    /* ══════════════════════════════════════════════════════════════
+       DISEÑO INTERLINEAL — réplica exacta admin-morfologia.css
+       de Torah con Yehoshúa / angelos project
+       ══════════════════════════════════════════════════════════════ */
+
+    /* Tamaños base (idénticos al admin de angelos) */
+    :root {
+      --morph-lang-size:   1.08rem;
+      --morph-hebrew-size: calc(1.08rem * 1.14);   /* 1.2312rem */
+      --morph-label-size:  calc(1.08rem * 0.66);   /* 0.7128rem */
+    }
+    @media (max-width: 900px) {
+      :root {
+        --morph-lang-size:   1rem;
+        --morph-hebrew-size: calc(1rem * 1.14);
+        --morph-label-size:  calc(1rem * 0.66);
+      }
+    }
+
+    /* ── Strip de tokens (contenedor RTL) ── */
+    .admin-morph-token-strip {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      direction: rtl;
+      text-align: right;
+      align-items: flex-start;
+      padding: .85rem 1.1rem 1rem;
+      gap: 0;
+    }
+
+    /* ── Regla del Maqaf (־): enlace atómico entre palabras hebreas ──
+       Las palabras unidas por maqaf forman una unidad fonética/sintáctica
+       que NUNCA debe partirse visualmente. El grupo entero puede
+       envolverse a la siguiente línea, pero sus tarjetas internas no.   */
+    .maqaf-group {
+      display: inline-flex;
+      flex-direction: row;
+      gap: 0;
+      align-items: stretch;
+      border-bottom: 2px solid rgba(139, 69, 19, 0.4);
+      border-radius: 0 0 4px 4px;
+      padding-bottom: 2px;
+      margin: 0 0 4px .82rem;       /* margen izquierdo igual al de un token suelto */
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    .maqaf-group .admin-morph-token {
+      /* dentro del grupo, las tarjetas pierden margen lateral para verse pegadas */
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+    /* El maqaf ─ se muestra directamente desde el texto hebreo (U+05BE conservado) */
+
+    /* ── Token individual ── */
+    .admin-morph-token {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 0 .6rem .82rem;
+      min-width: 5.8rem;
+      max-width: 9rem;
+      box-sizing: border-box;
+    }
+    .admin-morph-token.tok-elem-prefix {
+      opacity: .88;
+    }
+    /* Adición LXX — visible y distinguible, no difuminada */
+    .tok-gkadd-marker {
+      font-family: system-ui, sans-serif !important;
+      font-size: .65rem !important;
+      font-weight: 700;
+      color: #395a93;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      min-height: auto !important;
+    }
+    .tok-gkadd-label {
+      color: #395a93 !important;
+      background: rgba(57,90,147,.1);
+      border-radius: 3px;
+      padding: 0 .3em;
+    }
+    .admin-morph-token.tok-kind-gkadd {
+      border-left: 2px solid rgba(57,90,147,.4);
+      padding-left: .3rem;
+    }
+    .admin-morph-token.tok-kind-omit  { opacity: .55; }
+
+    /* ── ADD+ LXX section (large gk_add blocks) ── */
+    .lxx-add-section {
+      border-left: 4px solid #395a93;
+      background: linear-gradient(135deg, rgba(57,90,147,.06) 0%, rgba(57,90,147,.02) 100%);
+      border-radius: 8px;
+      margin: .5rem 0;
+      padding: 1rem 1.2rem;
+    }
+    .lxx-add-header {
+      display: flex;
+      align-items: center;
+      gap: .6rem;
+      margin-bottom: .8rem;
+      padding-bottom: .5rem;
+      border-bottom: 1px solid rgba(57,90,147,.15);
+    }
+    .lxx-add-badge {
+      background: #395a93;
+      color: #fff;
+      font-size: .7rem;
+      font-weight: 700;
+      padding: .2em .6em;
+      border-radius: 4px;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    .lxx-add-ref {
+      font-size: .85rem;
+      font-weight: 600;
+      color: #395a93;
+    }
+    .lxx-add-meta {
+      font-size: .72rem;
+      color: #8899aa;
+      margin-left: auto;
+    }
+    .lxx-add-body {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: .35rem .5rem;
+      direction: ltr;
+      text-align: center;
+      line-height: 1.7;
+    }
+    .lxx-add-word {
+      font-family: "SBL Greek", "GFS Didot", "Times New Roman", serif;
+      font-size: 1rem;
+      color: #395a93;
+    }
+
+    /* ── Segmento morfológico (columna vertical: hebreo → morf → glosa → griego) ── */
+    .admin-morph-segment {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: .22rem;
+      direction: ltr;
+    }
+
+    /* Hebreo — con niqqud (OSHB), fuente SBL */
+    .admin-morph-segment-hebrew {
+      font-family: "SBL Hebrew", "Ezra SIL", "Times New Roman", serif;
+      font-size: var(--morph-hebrew-size);
+      color: #24181a;
+      direction: rtl;
+      line-height: 1.32;
+      text-align: center;
+      min-height: 1.6rem;
+    }
+    .admin-morph-token.tok-elem-prefix .admin-morph-segment-hebrew {
+      color: #4a3020;
+      font-size: calc(var(--morph-hebrew-size) * .92);
+    }
+
+    /* Marca de trabajo: hebreo clicable (stem y prefijos cortos ב/ו/מ/…) */
+    .admin-morph-segment-hebrew-base {
+      cursor: pointer;
+      border-radius: 5px;
+      padding: 0 .18em;
+      box-decoration-break: clone;
+    }
+    .admin-morph-segment-hebrew-base:hover {
+      background: rgba(75, 39, 67, .08);
+    }
+    .admin-morph-segment-hebrew.marca-rojo {
+      background: rgba(239, 68, 68, .32) !important;
+      box-shadow: inset 0 0 0 2px #dc2626;
+    }
+    .admin-morph-segment-hebrew.marca-azul {
+      background: rgba(59, 130, 246, .32) !important;
+      box-shadow: inset 0 0 0 2px #2563eb;
+    }
+    .admin-morph-segment-hebrew.marca-verde {
+      background: rgba(34, 197, 94, .32) !important;
+      box-shadow: inset 0 0 0 2px #16a34a;
+    }
+
+    .marca-palette {
+      display: none;
+      position: fixed;
+      z-index: 1500;
+      background: #fff;
+      border: 1px solid rgba(44, 29, 31, .18);
+      border-radius: 999px;
+      box-shadow: 0 6px 20px rgba(44, 29, 31, .18);
+      padding: .28rem .34rem;
+      gap: .28rem;
+      align-items: center;
+    }
+    .marca-palette.is-open { display: flex; }
+    .marca-palette button {
+      width: 1.15rem;
+      height: 1.15rem;
+      border-radius: 50%;
+      border: 2px solid rgba(0,0,0,.12);
+      padding: 0;
+      cursor: pointer;
+    }
+    .marca-palette button[data-color="rojo"]  { background: #ef4444; }
+    .marca-palette button[data-color="azul"]  { background: #3b82f6; }
+    .marca-palette button[data-color="verde"] { background: #22c55e; }
+    .marca-palette button.is-on {
+      box-shadow: 0 0 0 2px #fff, 0 0 0 4px rgba(44,29,31,.45);
+    }
+    .marca-legend {
+      position: fixed;
+      right: 10px;
+      top: 5.4rem;
+      z-index: 1100;
+      display: flex;
+      flex-direction: column;
+      gap: .14rem;
+      width: max-content;
+      max-width: 7.6rem;
+      font-size: .64rem;
+      color: #7b6a60;
+      line-height: 1.15;
+      margin: 0;
+      padding: .32rem .42rem;
+      background: #fff;
+      border: 1px solid rgba(44, 29, 31, .14);
+      border-radius: 10px;
+      box-shadow: 0 6px 18px rgba(44, 29, 31, .14);
+      pointer-events: none;
+    }
+    .marca-legend span { display: flex; align-items: center; gap: .32rem; }
+    .marca-dot {
+      width: .58rem; height: .58rem; border-radius: 50%; flex: 0 0 auto;
+    }
+    .marca-dot.rojo  { background: #ef4444; }
+    .marca-dot.azul  { background: #3b82f6; }
+    .marca-dot.verde { background: #22c55e; }
+
+    /* Etiqueta morfológica HEBREA (OSHB) — ámbar */
+    .admin-morph-segment-label {
+      font-size: var(--morph-label-size);
+      color: #d6943a;
+      font-weight: 600;
+      word-break: break-all;
+      overflow-wrap: anywhere;
+      max-width: 11ch;
+      text-align: center;
+      line-height: 1.22;
+      min-height: .85rem;
+    }
+    .admin-morph-token.tok-elem-prefix .admin-morph-segment-label {
+      color: #9c7a47;   /* tono más apagado para prefijos */
+    }
+    .admin-morph-segment-label.unknown { opacity: .38; }
+
+    /* Número Strong — violeta monocromático */
+    .admin-morph-segment-strong {
+      font-size: calc(var(--morph-label-size) * .85);
+      color: #7851a9;
+      font-family: monospace;
+      letter-spacing: .01em;
+      opacity: .82;
+      text-align: center;
+    }
+
+    /* Glosa en español — gris cálido */
+    .admin-morph-segment-gloss {
+      font-size: var(--morph-lang-size);
+      color: #7a685c;
+      text-align: center;
+      line-height: 1.28;
+      max-width: 9rem;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+      max-width: 18ch;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* Texto griego LXX — azul oscuro */
+    .admin-morph-segment-lxx {
+      font-family: 'Times New Roman', 'SBL Greek', serif;
+      font-size: var(--morph-lang-size);
+      color: #234a8a;
+      direction: ltr;
+      text-align: center;
+      line-height: 1.28;
+      max-width: 9rem;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+    }
+    .admin-morph-token.tok-kind-gkadd .admin-morph-segment-lxx { color: #395a93; }
+    .admin-morph-token.tok-kind-omit  .admin-morph-segment-lxx {
+      font-style: italic;
+      font-size: calc(var(--morph-lang-size) * .78);
+      color: #8a9ab8;
+    }
+
+    /* ── Bloque de sufijo pronominal (mini-fila bajo el stem) ── */
+    .prs-suffix-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1px;
+      margin-top: 3px;
+      padding: 2px 4px 3px;
+      border-top: 1px dashed rgba(120,90,60,.25);
+      background: rgba(255,248,235,.55);
+      border-radius: 0 0 4px 4px;
+    }
+    .prs-suffix-he {
+      font-family: 'SBL Hebrew', 'Ezra SIL', 'David', serif;
+      font-size: calc(var(--morph-heb-size) * .82);
+      color: #6b4c22;
+      direction: rtl;
+      line-height: 1.3;
+    }
+    .prs-suffix-morph {
+      font-size: calc(var(--morph-label-size) * .8);
+      color: #9a7230;
+      font-weight: 600;
+      word-break: break-all;
+      max-width: 13ch;
+      text-align: center;
+      line-height: 1.1;
+    }
+    .prs-suffix-es {
+      font-size: calc(var(--morph-gloss-size) * .85);
+      color: #7a6040;
+      font-style: italic;
+    }
+    .prs-suffix-gr {
+      font-size: calc(var(--morph-lang-size) * .82);
+      color: #2a4a78;
+      font-family: 'Gentium Plus', 'Gentium Book Basic', 'GFS Didot', serif;
+    }
+    .prs-suffix-block:empty { display: none; }
+
+    /* Morfología LXX (bonus) — azul más claro que el griego */
+    .admin-morph-segment-lxx-morph {
+      font-size: calc(var(--morph-label-size) * .88);
+      color: #3a5a90;
+      font-weight: 600;
+      text-align: center;
+      opacity: .78;
+      word-break: break-all;
+      max-width: 14ch;
+      line-height: 1.18;
+    }
+
+    /* ── Cuerpo de la tarjeta de versículo ── */
+    .admin-morph-card-body {
+      padding: .3rem 0 0;
+    }
+
+    /* ── Chip de referencia LXX (esquina superior derecha en el head) ── */
+    .admin-lxx-verse-chip {
+      font-size: .82rem;
+      color: #395a93;
+      letter-spacing: .015em;
+      direction: ltr;
+      text-align: right;
+      max-width: min(52rem, 72vw);
+      line-height: 1.45;
+    }
+    .admin-lxx-verse-chip .lxx-chip-ref {
+      display: block;
+      font-size: .68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      opacity: .75;
+      margin-bottom: .15rem;
+    }
+    .admin-lxx-verse-chip .lxx-chip-text {
+      display: block;
+      font-family: "SBL Greek", "Times New Roman", serif;
+      white-space: normal;
+    }
+    .admin-lxx-verse-meta {
+      font-size: .72rem;
+      color: #7b6a60;
+      margin-top: .12rem;
+    }
+
+    /* ── Línea de traducción RV1960 (solo lectura) ── */
+    .tok-translate-area {
+      border-top: 1px dashed rgba(30,74,148,.22);
+      margin: .1rem 1.1rem .2rem;
+      padding: .5rem 0 .7rem;
+      display: flex;
+      align-items: baseline;
+      gap: .55rem;
+      direction: ltr;
+    }
+    .tok-translate-label {
+      font-size: .68rem;
+      font-weight: 700;
+      color: #4b2743;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      white-space: nowrap;
+      opacity: .65;
+      flex-shrink: 0;
+    }
+    .tok-translate-text {
+      font-size: .93rem;
+      color: #3a2d28;
+      line-height: 1.55;
+      font-family: system-ui, sans-serif;
+    }
+    .tok-translate-source {
+      font-size: .62rem;
+      color: #9a8478;
+      font-style: italic;
+      white-space: nowrap;
+      flex-shrink: 0;
+      align-self: flex-end;
+      margin-bottom: .05rem;
+    }
+    /* ── Traducción personal (piloto): sustituye al RV1960 donde exista ── */
+    .tok-translate-personal {
+      border-top: 1px solid rgba(30,120,74,.35);
+    }
+    .tok-translate-personal .tok-translate-label { color: #1f6b3a; opacity: .9; }
+    .tok-translate-personal .tok-translate-text  { color: #24352a; }
+    .tok-translate-personal .tok-translate-text.is-editable {
+      flex: 1;
+      cursor: text;
+      border-radius: 6px;
+      padding: .12rem .4rem;
+      margin: -.12rem -.4rem;
+      min-width: 0;
+    }
+    .tok-translate-personal .tok-translate-text.is-editable:hover {
+      background: rgba(31, 107, 58, .07);
+    }
+    .tok-translate-personal .tok-translate-text.is-editable:focus {
+      outline: 2px solid rgba(31, 107, 58, .45);
+      background: #fff;
+    }
+    .tok-translate-personal .tok-translate-source { color: #6f9a80; }
+
+    /* ── Separador de versículo vacío ── */
+    .empty-state {
+      padding: 1.5rem;
+      border: 1px dashed rgba(75,39,67,.24);
+      border-radius: 16px;
+      background: rgba(255,255,255,.7);
+      color: #5b4d45;
+      text-align: center;
+    }
+
+    /* ── Backdrop para el prototipo ── */
+    .proto-badge {
+      display: inline-flex;
+      padding: .2rem .55rem;
+      border-radius: 999px;
+      background: #f1e0d2;
+      color: #4b2743;
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+
+    /* ── Book/chapter nav ── */
+    .chapter-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .35rem;
+      padding: .6rem .85rem;
+    }
+    .chapter-btn {
+      width: 2.1rem;
+      height: 2.1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(75,39,67,.25);
+      border-radius: 6px;
+      font-size: .78rem;
+      font-weight: 600;
+      cursor: pointer;
+      background: #fff;
+      color: #4b2743;
+      transition: background .15s;
+    }
+    .chapter-btn:hover { background: #f3e8df; border-color: #4b2743; }
+    .chapter-btn.active { background: #4b2743; color: #fdf6f2; border-color: #4b2743; }
+
+    /* Feedback badge */
+    .feedback-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: .35rem;
+      padding: .3rem .75rem;
+      border-radius: 999px;
+      font-size: .82rem;
+      font-weight: 600;
+      background: #dcfce7;
+      color: #166534;
+      border: 1px solid #bbf7d0;
+    }
+    .feedback-badge.error { background: #fee2e2; color: #991b1b; border-color: #fecaca; }
+
+    /* ── Glosas editables ── */
+    .admin-morph-segment-gloss {
+      cursor: pointer;
+      border-radius: 6px;
+      border: 1px dashed transparent;
+      padding: .12rem .3rem;
+      transition: border-color .15s, background .15s;
+    }
+    .admin-morph-segment-gloss:hover {
+      border-color: rgba(75,39,67,.3);
+      background: rgba(255,250,244,.85);
+    }
+
+    /* ── Modal de edición ── */
+    .edit-modal-overlay {
+      display: none;
+      position: fixed; inset: 0; z-index: 2000;
+      background: rgba(44,29,31,.45);
+      align-items: center; justify-content: center; padding: 1rem;
+    }
+    .edit-modal-overlay.is-open { display: flex; }
+    .edit-modal {
+      background: #fff;
+      border: 1px solid rgba(75,39,67,.18);
+      border-radius: 16px;
+      box-shadow: 0 20px 50px rgba(15,23,42,.18);
+      width: min(480px, 100%);
+      overflow: hidden;
+    }
+    .edit-modal-head {
+      padding: .85rem 1rem;
+      border-bottom: 1px solid rgba(75,39,67,.12);
+      background: linear-gradient(180deg, rgba(237,221,206,.42), #fff);
+    }
+    .edit-modal-head h3 { margin: 0; font-size: 1.05rem; font-weight: 700; color: #2c1d1f; }
+    .edit-modal-ref { font-size: .82rem; color: #7b6a60; margin-top: .15rem; }
+    .edit-modal-body { padding: 1rem; }
+    .edit-hebrew {
+      font-family: "SBL Hebrew","Ezra SIL","Times New Roman",serif;
+      font-size: 1.75rem; text-align: center; color: #24181a;
+      padding: .5rem; margin-bottom: .65rem;
+      border-radius: 12px; background: rgba(237,221,206,.25);
+      border: 1px solid rgba(75,39,67,.1); direction: rtl;
+    }
+    .edit-meta {
+      display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: .75rem;
+      font-size: .82rem; color: #6d5d52;
+    }
+    .edit-meta-chip {
+      padding: .2rem .5rem; border-radius: 999px;
+      background: #f8f1ea; border: 1px solid rgba(75,39,67,.1);
+    }
+    .edit-input-row { display: flex; flex-direction: column; gap: .3rem; }
+    .edit-input-label {
+      font-size: .78rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: .04em; color: #7b6a60;
+    }
+    .edit-input {
+      font-size: 1.05rem; padding: .55rem .75rem;
+      border-radius: 10px; border: 1px solid rgba(75,39,67,.25);
+      outline: none;
+    }
+    .edit-input:focus { border-color: #4b2743; box-shadow: 0 0 0 3px rgba(75,39,67,.12); }
+    .edit-preview {
+      margin-top: .75rem; padding: .45rem .65rem;
+      border-radius: 8px; background: #faf6f2;
+      border: 1px dashed rgba(75,39,67,.15);
+      font-size: .92rem;
+    }
+    .edit-preview .before { color: #9a8478; text-decoration: line-through; }
+    .edit-preview .arrow { color: #b0897a; margin: 0 .4rem; }
+    .edit-preview .after { color: #4b2743; font-weight: 700; }
+    .edit-modal-foot {
+      display: flex; flex-wrap: wrap; gap: .5rem;
+      padding: .85rem 1rem; border-top: 1px solid rgba(75,39,67,.1);
+      justify-content: stretch;
+    }
+    .edit-modal-foot .btn { flex: 1 1 auto; min-width: 7rem; }
+    .edit-modal-foot .btn-cancel { flex: 0 1 auto; min-width: auto; }
+    .edit-global-info {
+      width: 100%; font-size: .78rem; color: #6d5d52;
+      text-align: center; margin-top: .25rem;
+    }
+
+    /* ── Panel de globalización por contexto ── */
+    .ctx-overlay {
+      display: none;
+      position: fixed; inset: 0; z-index: 2100;
+      background: rgba(44,29,31,.5);
+      align-items: center; justify-content: center; padding: .5rem;
+    }
+    .ctx-overlay.is-open { display: flex; }
+    .ctx-panel {
+      background: #fff;
+      border: 1px solid rgba(75,39,67,.18);
+      border-radius: 16px;
+      box-shadow: 0 24px 60px rgba(15,23,42,.22);
+      width: min(960px, 100%);
+      height: 96vh; max-height: 96vh;
+      display: flex; flex-direction: column;
+      overflow: hidden;
+    }
+    .ctx-head {
+      display: flex; align-items: flex-start; justify-content: space-between;
+      gap: .75rem; padding: .85rem 1.1rem;
+      border-bottom: 1px solid rgba(75,39,67,.12);
+      background: linear-gradient(180deg, rgba(237,221,206,.42), #fff);
+    }
+    .ctx-head h3 { margin: 0; font-size: 1.05rem; font-weight: 700; color: #2c1d1f; }
+    .ctx-head-meta {
+      display: flex; flex-wrap: wrap; align-items: center; gap: .5rem;
+      margin-top: .35rem;
+    }
+    .ctx-he {
+      font-family: "SBL Hebrew","Ezra SIL","Times New Roman",serif;
+      font-size: 1.35rem; color: #24181a; direction: rtl;
+    }
+    .ctx-close {
+      border: none; background: transparent; cursor: pointer;
+      font-size: 1.1rem; color: #7b6a60; padding: .25rem .4rem;
+      border-radius: 8px; line-height: 1;
+    }
+    .ctx-close:hover { background: rgba(75,39,67,.08); color: #2c1d1f; }
+    .ctx-global-row {
+      display: flex; flex-wrap: wrap; align-items: center; gap: .55rem;
+      padding: .75rem 1.1rem; border-bottom: 1px solid rgba(75,39,67,.1);
+      background: #faf6f2;
+    }
+    .ctx-global-row .edit-input { flex: 1 1 14rem; }
+    .ctx-global-row .edit-input-label { flex: 0 0 auto; }
+    .ctx-scope-label { color: #4b2743; font-weight: 600; }
+    .ctx-allbooks-toggle {
+      flex: 0 0 auto; display: inline-flex; align-items: center; gap: .35rem;
+      font-size: .8rem; color: #7b4a1e; font-weight: 600; cursor: pointer;
+      white-space: nowrap; user-select: none;
+    }
+    .ctx-allbooks-toggle input { margin: 0; cursor: pointer; }
+    .ctx-hint {
+      padding: .55rem 1.1rem; font-size: .78rem; color: #7b6a60;
+      border-bottom: 1px solid rgba(75,39,67,.08);
+    }
+    .ctx-list {
+      overflow-y: auto; padding: .75rem 1.1rem 1rem;
+      display: flex; flex-direction: column; gap: .6rem;
+      flex: 1 1 auto; min-height: 0;
+    }
+    .ctx-card {
+      border: 1px solid rgba(75,39,67,.14); border-radius: 12px;
+      padding: .65rem .8rem; background: #fff;
+    }
+    .ctx-card.is-dirty { border-color: #4b2743; box-shadow: 0 0 0 2px rgba(75,39,67,.1); }
+    .ctx-card-top {
+      display: flex; flex-wrap: wrap; align-items: center;
+      justify-content: space-between; gap: .5rem; margin-bottom: .4rem;
+    }
+    .ctx-card-ref { font-size: .82rem; font-weight: 700; color: #4b2743; }
+    .ctx-he-form {
+      font-size: 1rem; color: #2b2b2b; font-weight: 600;
+      margin-inline: auto .25rem;
+    }
+    .ctx-group {
+      border: 1px solid rgba(75,39,67,.16); border-radius: 12px;
+      margin-bottom: 1rem; overflow: hidden; background: #fff;
+    }
+    .ctx-group-head {
+      display: flex; flex-wrap: wrap; align-items: center; gap: .5rem;
+      padding: .5rem .7rem; background: #f6eee9;
+      border-bottom: 1px solid transparent;
+      position: sticky; top: 0; z-index: 1;
+    }
+    .ctx-group.is-open > .ctx-group-head {
+      border-bottom-color: rgba(75,39,67,.12);
+    }
+    .ctx-group-toggle {
+      flex: 1 1 auto; display: flex; align-items: center; gap: .5rem;
+      background: none; border: 0; cursor: pointer; padding: .15rem 0;
+      text-align: start; font: inherit; color: inherit;
+    }
+    .ctx-group-toggle:hover .ctx-he-form { color: #7c2d5b; }
+    .ctx-chevron {
+      display: inline-block; transition: transform .15s ease;
+      color: #9a6b54; font-size: .9rem; width: 1rem;
+    }
+    .ctx-group.is-open .ctx-chevron { transform: rotate(90deg); }
+    .ctx-group-head .ctx-he-form { font-size: 1.25rem; margin: 0; }
+    .ctx-group-count {
+      font-size: .76rem; color: #6d5d52; font-weight: 600;
+      background: #fff; border: 1px solid rgba(75,39,67,.12);
+      border-radius: 999px; padding: .1rem .5rem; white-space: nowrap;
+    }
+    .ctx-group-actions {
+      display: flex; align-items: center; gap: .5rem; flex: 1 1 200px;
+    }
+    .ctx-group-actions .ctx-form-input { flex: 1 1 160px; min-width: 130px; }
+    .ctx-group-body { padding: .6rem .8rem; display: none; }
+    .ctx-group.is-open > .ctx-group-body {
+      display: block; max-height: 68vh; overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .ctx-group-body .ctx-card { margin-bottom: .6rem; }
+    .ctx-group-body .ctx-card:last-child { margin-bottom: 0; }
+    /* Al abrir una forma: ocultar las demás y que la abierta llene el panel */
+    .ctx-list.has-open .ctx-group:not(.is-open) { display: none; }
+    .ctx-list.has-open .ctx-more-forms { display: none; }
+    .ctx-list.has-open .ctx-group.is-open {
+      flex: 1 1 auto; display: flex; flex-direction: column;
+      min-height: 0; margin-bottom: 0;
+    }
+    .ctx-list.has-open .ctx-group.is-open > .ctx-group-body {
+      flex: 1 1 auto; min-height: 0; max-height: none; overflow-y: auto;
+    }
+    .ctx-more {
+      display: block; width: 100%; margin-top: .5rem;
+      padding: .5rem; border: 1px dashed rgba(75,39,67,.3);
+      border-radius: 10px; background: #faf5f1; color: #7c2d5b;
+      font-size: .82rem; font-weight: 600; cursor: pointer;
+    }
+    .ctx-more:hover { background: #f3e8e0; }
+    .ctx-more-forms {
+      display: block; width: 100%; margin-top: .3rem;
+      padding: .6rem; border: 1px solid rgba(75,39,67,.25);
+      border-radius: 12px; background: #f0e6df; color: #4b2743;
+      font-size: .85rem; font-weight: 700; cursor: pointer;
+    }
+    .ctx-more-forms:hover { background: #e7d8cf; }
+    .ctx-card-morph {
+      font-size: .72rem; color: #6d5d52;
+      padding: .12rem .45rem; border-radius: 999px;
+      background: #f3ece4; border: 1px solid rgba(75,39,67,.1);
+    }
+    .ctx-verse {
+      font-size: .92rem; color: #3a2c2e; line-height: 1.55;
+      margin-bottom: .5rem;
+    }
+    .ctx-verse .ctx-tok { color: #6d5d52; }
+    .ctx-verse .ctx-tok-target {
+      background: #fde68a; color: #4b2743; font-weight: 700;
+      padding: 0 .2rem; border-radius: 4px;
+    }
+    .ctx-card-edit { display: flex; flex-wrap: wrap; gap: .45rem; align-items: center; }
+    .ctx-card-edit .edit-input { flex: 1 1 12rem; font-size: .95rem; padding: .4rem .6rem; }
+    .ctx-card-edit .btn { flex: 0 0 auto; }
+    @media (max-width: 575.98px) {
+      .ctx-global-row { flex-direction: column; align-items: stretch; }
+    }
+
+    /* Resalte breve del verso al volver tras una edición */
+    @keyframes verseFlash {
+      0%   { background: rgba(253,230,138,.7); }
+      100% { background: transparent; }
+    }
+    .admin-verse-card.verse-flash {
+      animation: verseFlash 1.6s ease-out;
+      border-radius: 12px;
+    }
+
+    .feedback-badge {
+      display: inline-flex; align-items: center; gap: .35rem;
+      padding: .3rem .75rem; border-radius: 999px;
+      font-size: .82rem; font-weight: 600;
+      background: #dcfce7; color: #166534; border: 1px solid #bbf7d0;
+    }
+    .feedback-badge.error { background: #fee2e2; color: #991b1b; border-color: #fecaca; }
+
+    @media (max-width: 991.98px) {
+      .admin-sidebar-col { display: none; }
+    }
+    @media (max-width: 767.98px) {
+      .admin-morph-token-strip { padding: .6rem .6rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ══════════════════════ TOPBAR ══════════════════════ -->
+<header class="topbar">
+  <div class="container sitewrap py-2">
+    <div class="d-flex flex-column flex-lg-row align-items-lg-center gap-2 gap-lg-3">
+
+      <div class="d-flex align-items-center gap-2 flex-grow-1">
+        <a class="site-brand" href="#" aria-label="Inicio">
+          <img src="logo.png" alt="Prototipo CATSS"/>
+        </a>
+
+        <!-- Selector de libro -->
+        <select id="bookSelect" class="form-select" style="max-width:180px"
+                aria-label="Libro">
+          <option value="genesis">Génesis</option>
+          <option value="exodo">Éxodo</option>
+          <option value="levitico">Levítico</option>
+          <option value="numeros">Números</option>
+          <option value="deuteronomio">Deuteronomio</option>
+          <option value="josue">Josué</option>
+          <option value="jueces">Jueces</option>
+          <option value="rut">Rut</option>
+          <option value="1_samuel">1 Samuel</option>
+        </select>
+
+        <!-- Buscador de capítulo -->
+        <form id="chapterForm" class="d-flex gap-2 flex-grow-1" style="max-width:340px">
+          <input id="chapterInput" class="form-control" type="text"
+                 value="Génesis 1" placeholder="Génesis 1"/>
+          <button class="btn btn-primary" type="submit">Abrir</button>
+        </form>
+      </div>
+
+      <div class="d-flex gap-2 align-items-center ms-auto">
+        <button id="motorBtn" class="btn btn-sm btn-outline-primary" type="button"
+                title="Correr el motor de español (revisar_es) en el capítulo abierto. Aceptar=aplicar autofix seguros (CANON, PENINSULAR, CONSTRUCT, POSES, CONCORD, PRON, PREPRON, HOMOGRAF, EUFONIA, VAV, KI, PEN, CONJUGA, PUNTOCOMA, TIEMPOVERBAL, REFLEX, TRANSLIT, GLOSAFUNC, CONTAGIO) con respaldo · Cancelar=solo informe">
+          Motor ES
+        </button>
+        <button id="lockBtn" class="btn btn-sm btn-success" type="button"
+                title="Cerrar el capítulo actual (candado): ningún motor volverá a tocarlo">
+          Cerrar
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Modal de resultados del Motor ES -->
+<div id="motorModal" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.5)">
+  <div style="max-width:920px;margin:4vh auto;background:#fff;border-radius:10px;padding:16px 18px;max-height:90vh;overflow:auto;box-shadow:0 10px 40px rgba(0,0,0,.35)">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:12px">
+      <strong id="motorTitle">Motor ES</strong>
+      <div class="d-flex gap-2">
+        <button id="motorReload" class="btn btn-sm btn-warning" style="display:none" type="button">Recargar capítulo</button>
+        <button id="motorClose" class="btn btn-sm btn-secondary" type="button">Cerrar</button>
+      </div>
+    </div>
+    <pre id="motorOut" style="white-space:pre-wrap;font-size:12px;line-height:1.35;margin-top:12px;background:#f7f7f9;border-radius:8px;padding:12px"></pre>
+  </div>
+</div>
+
+<!-- ══════════════════════ MAIN ══════════════════════ -->
+<main class="container sitewrap my-3 my-lg-4">
+  <div class="d-flex flex-column gap-2 mb-3">
+    <div class="d-flex flex-column flex-md-row justify-content-between gap-2 align-items-md-start">
+      <div>
+        <div class="passage-title" id="pageTitle">Interlineal CATSS</div>
+        <div class="meta-row">Pasaje: <span class="fw-semibold" id="metaRef">–</span></div>
+      </div>
+      <div class="d-flex gap-2 align-items-center">
+        <span id="statusBadge" class="feedback-badge" style="display:none"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="row g-3 flex-nowrap content-layout">
+
+    <!-- ── Sidebar ── -->
+    <aside class="col-4 col-lg-2 admin-sidebar-col">
+      <div class="sticky-aside d-flex flex-column gap-3">
+
+        <!-- Resumen -->
+        <section class="panel">
+          <div class="panel-header">Resumen</div>
+          <div class="panel-body admin-summary">
+            <div class="admin-summary-row">
+              <span>Capítulo</span>
+              <strong id="sideChapter">–</strong>
+            </div>
+            <div class="admin-summary-row">
+              <span>Versículos</span>
+              <strong id="sideVerseCount">0</strong>
+            </div>
+            <div class="admin-summary-row">
+              <span>Pares</span>
+              <strong id="sidePairCount">0</strong>
+            </div>
+            <div class="admin-summary-row">
+              <span>Palabras LXX</span>
+              <strong id="sideLxxWordCount">0</strong>
+            </div>
+          </div>
+        </section>
+
+        <!-- Capítulos -->
+        <section class="panel">
+          <div class="panel-header">Capítulos</div>
+          <div id="chapterNav" class="chapter-nav"></div>
+        </section>
+
+        <!-- Info -->
+        <section class="panel">
+          <div class="panel-header">Fuente</div>
+          <div class="panel-body" style="font-size:.8rem;color:#7b6a60;line-height:1.5">
+            <strong>CATSS</strong> · Universidad de Pensilvania<br>
+            Parser inspirado en<br>
+            <em>codykingham/CATSS_parsers</em><br>
+            <span class="proto-badge mt-1" id="sideBookBadge">Génesis</span>
+          </div>
+        </section>
+      </div>
+    </aside>
+
+    <!-- ── Workspace ── -->
+    <div class="col-12 col-lg-10 main-column">
+      <section class="panel admin-workspace-panel">
+        <div class="panel-header d-flex justify-content-between align-items-center gap-2">
+          <span id="panelTitle">Capítulo</span>
+          <div class="d-flex align-items-center gap-2">
+            <button id="prevChBtn" class="btn btn-soft btn-sm" type="button">Anterior</button>
+            <button id="nextChBtn" class="btn btn-soft btn-sm" type="button">Siguiente</button>
+          </div>
+        </div>
+        <div class="panel-body admin-panel-body">
+          <div id="editorMount" class="admin-editor-mount">
+            <div class="empty-state">Cargando…</div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</main>
+
+<div class="marca-legend" title="Clic en la hebrea base (no en la glosa)">
+  <span><i class="marca-dot rojo"></i> transliterar</span>
+  <span><i class="marca-dot azul"></i> globalizar</span>
+  <span><i class="marca-dot verde"></i> error motor</span>
+</div>
+
+<!-- paleta de marca (rojo / azul / verde) sobre hebreo base -->
+<div id="marcaPalette" class="marca-palette" role="dialog" aria-label="Marcar token">
+  <button type="button" data-color="rojo" title="Rojo: transliterar esta forma"></button>
+  <button type="button" data-color="azul" title="Azul: misma palabra — globalizar (preguntar término)"></button>
+  <button type="button" data-color="verde" title="Verde: error para reforzar el motor"></button>
+</div>
+
+<!-- ══════════════════════ MODAL EDICIÓN ══════════════════════ -->
+<div id="editOverlay" class="edit-modal-overlay">
+  <div class="edit-modal">
+    <div class="edit-modal-head">
+      <h3>Editar glosa española</h3>
+      <div class="edit-modal-ref" id="editRef">—</div>
+    </div>
+    <div class="edit-modal-body">
+      <div class="edit-hebrew" id="editHebrew" dir="rtl">—</div>
+      <div class="edit-meta">
+        <span class="edit-meta-chip" id="editMorph">—</span>
+        <span class="edit-meta-chip" id="editStrong">—</span>
+      </div>
+      <div class="edit-input-row">
+        <label class="edit-input-label" for="editInput">Español</label>
+        <input id="editInput" class="edit-input" type="text" autocomplete="off" spellcheck="true"/>
+      </div>
+      <div class="edit-preview" id="editPreview" style="display:none">
+        <span class="before" id="editBefore">—</span>
+        <span class="arrow">→</span>
+        <span class="after" id="editAfter">—</span>
+      </div>
+    </div>
+    <div class="edit-modal-foot">
+      <button type="button" class="btn btn-soft btn-sm btn-cancel" id="editCancelBtn">Cancelar</button>
+      <button type="button" class="btn btn-outline-primary btn-sm" id="editSaveBtn">Guardar aquí</button>
+      <button type="button" class="btn btn-primary btn-sm" id="editGlobalBtn" disabled>Globalizar…</button>
+      <div class="edit-global-info" id="editGlobalInfo"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Panel de globalización por contexto -->
+<div class="ctx-overlay" id="ctxOverlay">
+  <div class="ctx-panel">
+    <div class="ctx-head">
+      <div class="ctx-head-main">
+        <h3>Globalizar por contexto</h3>
+        <div class="ctx-head-meta">
+          <span class="ctx-he" id="ctxHebrew" dir="rtl">—</span>
+          <span class="edit-meta-chip" id="ctxStrong">—</span>
+          <span class="edit-meta-chip" id="ctxCount">—</span>
+        </div>
+      </div>
+      <button type="button" class="ctx-close" id="ctxCloseBtn" aria-label="Cerrar">✕</button>
+    </div>
+    <div class="ctx-global-row">
+      <label class="edit-input-label" for="ctxGlobalInput">Aplicar a TODAS las formas (Strong) · <span id="ctxScopeLabel" class="ctx-scope-label">solo este libro</span></label>
+      <input id="ctxGlobalInput" class="edit-input" type="text" autocomplete="off" spellcheck="true" placeholder="glosa única para TODAS las formas del Strong…"/>
+      <label class="ctx-allbooks-toggle" title="Si lo marcas, el cambio se aplica también al resto de los libros (alcance global).">
+        <input type="checkbox" id="ctxAllBooks"/> y libros (todos)
+      </label>
+      <button type="button" class="btn btn-primary btn-sm" id="ctxApplyAllBtn">Aplicar a todas</button>
+    </div>
+    <div class="ctx-hint">Las ocurrencias mostradas son <b>solo del libro actual</b> (más seguro y contextual). Se agrupan por <b>forma flexionada</b> (hebreo + morfología). Capas: <b>«Guardar este»</b> cambia solo esa ocurrencia · <b>«Aplicar a esta forma»</b> aplica la glosa a esa misma forma <b>en este libro</b> · <b>«Aplicar a todas»</b> reemplaza TODAS las formas del Strong <b>en este libro</b>. Marca <b>«y libros (todos)»</b> para extender «Aplicar a todas» a todos los libros.</div>
+    <div class="ctx-list" id="ctxList"></div>
+  </div>
+</div>
+
+<script src="./traduccion-tokens.js?v=15"></script>
+<script>
+// ═══════════════════════════════════════════════════════════════════════════
+//  VISOR INTERLINEAL CATSS — multi-libro
+//  Lee ./data/<slug>_final.json generado por scripts/process_book.py
+// ═══════════════════════════════════════════════════════════════════════════
+
+// ── Registro de libros disponibles ─────────────────────────────────────────
+//   lxx: código corto usado en el chip "LXX (Gen) 1:1" (Rahlfs)
+const BOOKS = {
+  genesis:      { slug: 'genesis',      label: 'Génesis',      lxx: 'Gen',  chapters: 50 },
+  exodo:        { slug: 'exodo',        label: 'Éxodo',        lxx: 'Exod', chapters: 40 },
+  levitico:     { slug: 'levitico',     label: 'Levítico',     lxx: 'Lev',  chapters: 27 },
+  numeros:      { slug: 'numeros',      label: 'Números',      lxx: 'Num',  chapters: 36 },
+  deuteronomio: { slug: 'deuteronomio', label: 'Deuteronomio', lxx: 'Deut', chapters: 34 },
+  josue:        { slug: 'josue',        label: 'Josué',        lxx: 'Josh', chapters: 24 },
+  jueces:       { slug: 'jueces',       label: 'Jueces',       lxx: 'Judg', chapters: 21 },
+  rut:          { slug: 'rut',          label: 'Rut',          lxx: 'Ruth', chapters: 4 },
+  '1_samuel':   { slug: '1_samuel',    label: '1 Samuel',     lxx: '1Sam', chapters: 31 },
+  '2_samuel':   { slug: '2_samuel',    label: '2 Samuel',     lxx: '2Sam', chapters: 24 },
+  '1_reyes':    { slug: '1_reyes',     label: '1 Reyes',      lxx: '3Kgs', chapters: 22 },
+  '2_reyes':    { slug: '2_reyes',     label: '2 Reyes',      lxx: '4Kgs', chapters: 25 },
+  '1_cronicas': { slug: '1_cronicas',  label: '1 Crónicas',   lxx: '1Chr', chapters: 29 },
+  '2_cronicas': { slug: '2_cronicas',  label: '2 Crónicas',   lxx: '2Chr', chapters: 36 },
+  esdras:       { slug: 'esdras',       label: 'Esdras',       lxx: '2Esdr', chapters: 10 },
+  nehemias:     { slug: 'nehemias',     label: 'Nehemías',     lxx: 'Neh',  chapters: 13 },
+  ester:        { slug: 'ester',        label: 'Ester',        lxx: 'Esth', chapters: 10 },
+  job:          { slug: 'job',          label: 'Job',          lxx: 'Job',  chapters: 42 },
+  salmos:       { slug: 'salmos',       label: 'Salmos',       lxx: 'Ps',   chapters: 150 },
+  proverbios:   { slug: 'proverbios',   label: 'Proverbios',   lxx: 'Prov', chapters: 31 },
+  eclesiastes:  { slug: 'eclesiastes',  label: 'Eclesiastés',  lxx: 'Eccl', chapters: 12 },
+  cantares:     { slug: 'cantares',     label: 'Cantares',     lxx: 'Cant', chapters: 8 },
+  isaias:       { slug: 'isaias',       label: 'Isaías',       lxx: 'Isa',  chapters: 66 },
+  jeremias:     { slug: 'jeremias',     label: 'Jeremías',     lxx: 'Jer',  chapters: 52 },
+  lamentaciones:{ slug: 'lamentaciones',label: 'Lamentaciones',lxx: 'Lam',  chapters: 5 },
+  ezequiel:     { slug: 'ezequiel',     label: 'Ezequiel',     lxx: 'Ezek', chapters: 48 },
+  daniel:       { slug: 'daniel',       label: 'Daniel',       lxx: 'Dan',  chapters: 12 },
+  oseas:        { slug: 'oseas',        label: 'Oseas',        lxx: 'Hos',  chapters: 14 },
+  joel:         { slug: 'joel',         label: 'Joel',         lxx: 'Joel', chapters: 4 },
+  amos:         { slug: 'amos',         label: 'Amós',         lxx: 'Amos', chapters: 9 },
+  abdias:       { slug: 'abdias',       label: 'Abdías',       lxx: 'Obad', chapters: 1 },
+  jonas:        { slug: 'jonas',        label: 'Jonás',        lxx: 'Jonah',chapters: 4 },
+  miqueas:      { slug: 'miqueas',      label: 'Miqueas',      lxx: 'Mic',  chapters: 7 },
+  nahum:        { slug: 'nahum',        label: 'Nahúm',        lxx: 'Nah',  chapters: 3 },
+  habacuc:      { slug: 'habacuc',      label: 'Habacuc',      lxx: 'Hab',  chapters: 3 },
+  sofonias:     { slug: 'sofonias',     label: 'Sofonías',     lxx: 'Zeph', chapters: 3 },
+  hageo:        { slug: 'hageo',        label: 'Hageo',        lxx: 'Hag',  chapters: 2 },
+  zacarias:     { slug: 'zacarias',     label: 'Zacarías',     lxx: 'Zech', chapters: 14 },
+  malaquias:    { slug: 'malaquias',    label: 'Malaquías',    lxx: 'Mal',  chapters: 3 },
+};
+
+// ── Estado activo ──────────────────────────────────────────────────────────
+let activeBook = (() => {
+  const url = new URL(window.location.href);
+  const requested = (url.searchParams.get('book') || '').toLowerCase();
+  return BOOKS[requested] ? requested : 'genesis';
+})();
+let genesisData = null;       // alias histórico: contiene los datos del libro activo
+let rv1960Data  = null;       // RV1960 del libro activo (array[cap][verso])
+let tradPersonalData = null;  // Traducción personal (piloto) del libro activo (array[cap][verso])
+let _marcasList = [];         // resaltados rojo/azul/verde por token-stem
+let _marcasReady = false;     // no volcar al servidor hasta haber fusionado
+let currentChapter = 1;
+
+function bookInfo()       { return BOOKS[activeBook]; }
+function bookLabel()      { return bookInfo().label; }
+function bookLxxCode()    { return bookInfo().lxx || bookInfo().label; }
+function buildDataUrl(s)  { return `./data/${s}_final.json`; }
+function buildRvUrl(s)    { return `./data/rv1960_${s}.json`; }
+function buildTradUrl(s)  { return `./data/traduccion_personal_${s}.json`; }
+let DATA_URL = buildDataUrl(activeBook);
+let RV_URL   = buildRvUrl(activeBook);
+
+// ── Arrange chapter numbers from data ──────────────────────────────────────
+
+function getChapters(data) {
+  const set = new Set(data.verses.map(v => v.chapter));
+  return [...set].sort((a, b) => a - b);
+}
+
+function getVersesForChapter(data, ch) {
+  return data.verses.filter(v => v.chapter === ch);
+}
+
+// ── Render helpers ─────────────────────────────────────────────────────────
+
+/**
+ * Construye la lista plana de "elementos visuales" para un par.
+ * Devuelve [{type, form, morph, strongs, es, raw}, ...]
+ */
+/**
+ * Construye la lista plana de elementos visuales para un par.
+ * Cuando el snapshot dio gr_word individual por morfema, lo usa directamente.
+ * Si no, pone el griego completo del par en el último elemento.
+ */
+// ── Tablas de sufijos pronominales para el frontend ──────────────────────────
+const _SUFFIX_ES = {
+  'RBSM3':'su','RBSF3':'su','RBPM3':'su','RBPF3':'su','RBPC3':'su',
+  'RBSM2':'tu','RBSF2':'tu','RBPM2':'vuestro','RBPF2':'vuestro',
+  'RBSM1':'mi','RBSC1':'mi','RBSF1':'mi',
+  'RBPM1':'nuestro','RBPC1':'nuestro',
+  'PRS.P3.M.SG':'su','PRS.P3.F.SG':'su','PRS.P3.M.PL':'su','PRS.P3.C.PL':'su',
+  'PRS.P2.M.SG':'tu','PRS.P2.F.SG':'tu',
+  'PRS.P1.SG':'mi','PRS.P1.C.SG':'mi','PRS.P1.PL':'nuestro','PRS.P1.C.PL':'nuestro',
+};
+const _SUFFIX_GR_EXPECT = {
+  'RBSM3':'αὐτοῦ','RBSF3':'αὐτῆς','RBPM3':'αὐτῶν','RBPF3':'αὐτῶν','RBPC3':'αὐτῶν',
+  'RBSM2':'σου','RBSF2':'σου','RBPM2':'ὑμῶν',
+  'RBSM1':'μου','RBSC1':'μου','RBSF1':'μου','RBPM1':'ἡμῶν','RBPC1':'ἡμῶν',
+};
+
+function _sufMorphToEs(morph) {
+  return _SUFFIX_ES[morph] || '';
+}
+
+function _stripDiac(s) {
+  // Eliminar diacríticos para comparar griegos normalizados
+  return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+}
+
+function _extractPronoun(grText, sufMorph) {
+  // Extrae el pronombre genitivo del Greek phrase por búsqueda de palabra
+  const expected = _SUFFIX_GR_EXPECT[sufMorph];
+  if (!expected || !grText) return '';
+  const words = grText.split(/\s+/);
+  const plainWords = words.map(w => _stripDiac(w.replace(/[.,·;:]/g, '')));
+  const plainExp  = _stripDiac(expected);
+  // Buscar desde el final
+  for (let i = words.length - 1; i >= 0; i--) {
+    if (plainWords[i] === plainExp) return words[i];
+  }
+  return '';
+}
+
+// ── Reparto cosmético del griego para «את (PART) + NPROP» unidos por maqaf ──
+// Cuando el marcador de objeto carga "τὸν NOMBRE" (o solo "NOMBRE") y el NPROP
+// siguiente quedó vacío, coloca el nombre bajo el NPROP y deja el artículo bajo
+// את. SOLO el patrón inequívoco; los casos compuestos (καὶ τὸν…, τὸ εἶδος…,
+// pronombres αὐτὴν, marcadores ----) no se tocan. No muta datos: es de render.
+const _GR_ARTICLES = new Set([
+  'ὁ','ἡ','τό','τὸ','οἱ','αἱ','τά','τὰ',
+  'τόν','τὸν','τήν','τὴν','τούς','τοὺς','τάς','τὰς',
+  'τοῦ','τῆς','τῶν','τῷ','τῇ','τοῖς','ταῖς'
+]);
+// Palabras función griegas que NO son nombres (pronombres, adverbios, cópula).
+// Evita mover "ἐμέ" (me), "ἑαυτῷ" (sí mismo), "ἐκεῖ" (allí) bajo un NPROP.
+const _GR_FUNC = new Set([
+  'εἶ','ἐκεῖ','ἐκεῖθεν','ὧδε',
+  'ἐγώ','ἐγὼ','ἐμέ','ἐμὲ','ἐμοῦ','ἐμοί','ἐμοὶ','με','μου','μοι',
+  'σύ','σὺ','σέ','σὲ','σοῦ','σοί','σοὶ','σε','σου','σοι',
+  'ἡμεῖς','ἡμᾶς','ἡμῶν','ἡμῖν','ὑμεῖς','ὑμᾶς','ὑμῶν','ὑμῖν'
+]);
+function _conskHe(s) {
+  let r = '';
+  for (const c of (s || '')) { const o = c.codePointAt(0); if (o >= 0x05D0 && o <= 0x05EA) r += c; }
+  return r;
+}
+// Pronombre griego de 3ª persona / reflexivo (corresponde al sufijo pronominal hebreo)
+function _isGrPron3(t) { return /^αὐτ/.test(t) || /^ἑαυτ/.test(t); }
+// ¿Token griego "movible" a un núcleo? (tiene letras griegas y no es función)
+function _grMovable(t) {
+  const isFnWord = _GR_ARTICLES.has(t) || /^αὐτ/.test(t) || /^ἑαυτ/.test(t) || _GR_FUNC.has(t);
+  return /[\u0370-\u03ff\u1f00-\u1fff]/.test(t) && !isFnWord;
+}
+function _redistributeNameGreek(words) {
+  const ov = {};  // índice de he_word -> grWord (string) o {w, suf}
+  for (let i = 0; i < words.length - 1; i++) {
+    const a = words[i], b = words[i + 1];
+    if (!a || !b) continue;
+    if (!String(a.he_morph || '').includes('PART')) continue;  // marcador de objeto
+    if (_conskHe(a.he_form) !== 'את') continue;
+    const ga = (a.gr_word || '').trim();
+    const gb = (b.gr_word || '').trim();
+    if (!ga || gb) continue;                                   // el 2º debe estar vacío
+    const bMorph = (b.he_morph || '');
+    const toks = ga.split(/\s+/);
+
+    if (bMorph === 'NPROP') {
+      if (toks.length === 1) {
+        // Solo el nombre: moverlo al NPROP (si es palabra movible, no función).
+        if (_grMovable(toks[0])) { ov[i] = ''; ov[i + 1] = toks[0]; }
+      } else if (toks.length === 2 && _GR_ARTICLES.has(toks[0])) {
+        // Artículo + nombre: artículo bajo את, nombre bajo NPROP
+        ov[i] = toks[0]; ov[i + 1] = toks[1];
+      }
+    } else if (/^(SUBS|ADJ)/.test(bMorph)) {
+      // את + sustantivo común. Reparte: artículo→את, núcleo→sustantivo y, si hay
+      // sufijo pronominal y el griego acaba en αὐτοῦ/αὐτῆς…, el pronombre→mini-fila
+      // del sufijo. Solo patrones cortos e inequívocos (evita cadenas constructas).
+      const hasSuf = !!b.prs_suffix;
+      const last = toks[toks.length - 1];
+      if (hasSuf && _isGrPron3(last)) {
+        if (toks.length === 3 && _GR_ARTICLES.has(toks[0])) {
+          ov[i] = toks[0]; ov[i + 1] = { w: toks[1], suf: toks[2] };
+        } else if (toks.length === 2) {
+          ov[i] = ''; ov[i + 1] = { w: toks[0], suf: toks[1] };
+        }
+      } else if (toks.length === 2 && _GR_ARTICLES.has(toks[0])) {
+        ov[i] = toks[0]; ov[i + 1] = toks[1];
+      } else if (toks.length === 1 && _grMovable(toks[0])) {
+        ov[i] = ''; ov[i + 1] = toks[0];
+      }
+    }
+  }
+  return ov;
+}
+
+function buildElements(pair) {
+  const elements   = [];
+  const grTextFull = (pair.gr_unicode    || '').trim();
+  const grMorphAll = pair.morph_summary  || '';
+
+  // Detectar si el snapshot asignó griegos individuales
+  let hasIndividualGr = false;
+  for (const hw of (pair.he_words || [])) {
+    if (hw.gr_word) { hasIndividualGr = true; break; }
+    if ((hw.prefix_gr || []).some(g => g)) { hasIndividualGr = true; break; }
+  }
+
+  // Overrides de griego para nombres propios precedidos del marcador את
+  const _grOverride = _redistributeNameGreek(pair.he_words || []);
+
+  // El número real de prefijos lo marca prefix_forms (forma hebrea de cada
+  // prefijo), NO el array `prefixes`: este último es inconsistente — a veces
+  // está vacío aunque haya prefijo, y a veces incluye el código del stem.
+  let totalElems = 0;
+  for (const hw of (pair.he_words || []))
+    totalElems += (hw.prefix_forms || []).length + 1;
+
+  let elemIdx = 0;
+  let hwIndex = 0;
+  for (const hw of (pair.he_words || [])) {
+    const prefixForms  = hw.prefix_forms  || [];
+    const prefixMorphs = hw.prefix_morphs || [];
+    const prefixEs     = hw.prefix_es     || [];
+    const prefixGr     = hw.prefix_gr     || [];
+
+    for (let i = 0; i < prefixForms.length; i++) {
+      const isLast = (elemIdx === totalElems - 1);
+      const rawMorph = prefixMorphs[i] || '';
+      // Detectar morfología combinada (stem+sufijo): NCCSMS+RBSM3 etc.
+      const plusIdx  = rawMorph.indexOf('+RBS');
+      const hasCombinedSuf = plusIdx !== -1;
+      const stemMorph = hasCombinedSuf ? rawMorph.slice(0, plusIdx) : rawMorph;
+      const sufMorph  = hasCombinedSuf ? rawMorph.slice(plusIdx + 1) : '';
+
+      elements.push({
+        type:           'prefix',
+        form:           prefixForms[i]  || '',
+        morph:          stemMorph,
+        strongs:        '',
+        es:             prefixEs[i]     || '',
+        grWord:         hasIndividualGr ? (prefixGr[i] || '')
+                                       : (isLast ? grTextFull : ''),
+        grMorph:        isLast && !hasIndividualGr ? grMorphAll : '',
+        raw:            hw.raw,
+        // Mini-fila de sufijo desde morph combinado (+RBS...)
+        prsSuffix: hasCombinedSuf ? {
+          he_form:  '',        // no hay forma separada en el JSON para el sufijo
+          he_morph: sufMorph,
+          es:       _sufMorphToEs(sufMorph),
+          gr_word:  prefixGr[i] ? _extractPronoun(prefixGr[i], sufMorph) : '',
+        } : null,
+      });
+      elemIdx++;
+    }
+
+    const isLast = (elemIdx === totalElems - 1);
+    const _ovVal = Object.prototype.hasOwnProperty.call(_grOverride, hwIndex)
+                     ? _grOverride[hwIndex] : undefined;
+    let _hwGr, _sufGrOv = null;
+    if (_ovVal !== undefined) {
+      if (_ovVal && typeof _ovVal === 'object') { _hwGr = _ovVal.w || ''; _sufGrOv = _ovVal.suf || ''; }
+      else { _hwGr = _ovVal; }
+    } else {
+      _hwGr = hw.gr_word || '';
+    }
+    // Inyecta el pronombre griego en la mini-fila del sufijo si el reparto lo asignó
+    const _prsSuf = hw.prs_suffix
+      ? (_sufGrOv !== null ? Object.assign({}, hw.prs_suffix, { gr_word: _sufGrOv }) : hw.prs_suffix)
+      : null;
+    elements.push({
+      type:      'stem',
+      form:      hw.he_form  || hw.stem_unicode || hw.full_unicode || '·',
+      morph:     hw.he_morph || hw.stem_label   || '',
+      strongs:   hw.strongs  || '',
+      es:        hw.es       || '',
+      grWord:    hasIndividualGr ? _hwGr
+                                 : (isLast ? grTextFull : ''),
+      grMorph:   isLast && !hasIndividualGr ? grMorphAll : '',
+      raw:       hw.raw,
+      prsSuffix: _prsSuf,   // ← sufijo pronominal (con griego repartido si aplica)
+      translitAcad: hw.translit_academica || '',  // capa académica de nombre propio
+    });
+    elemIdx++;
+    hwIndex++;
+  }
+  return elements;
+}
+
+// Compatibilidad: distributeGrTokens ya no modifica nada (buildElements lo resuelve)
+function distributeGrTokens(elements) { return elements; }
+
+// Pronombres clíticos/posesivos en español: van ANTES del verbo/sustantivo
+// "los creó", "su nombre", "te bendice", "nuestra casa"
+const ES_PROCLITICS = new Set([
+  'lo','la','los','las','le','les','me','te','nos','os','se',
+  'su','mi','tu','sus','mis','tus',
+  'nuestro','nuestra','nuestros','nuestras',
+  'vuestro','vuestra','vuestros','vuestras'
+]);
+
+// Pronombres tónicos/sujetos: van DESPUÉS del verbo
+// "fueron creados ellos", "habló él", "vinimos nosotros"
+const ES_TONICS = new Set([
+  'él','ella','ellos','ellas','yo','tú','usted',
+  'nosotros','nosotras','vosotros','vosotras','ustedes'
+]);
+
+// Pronombres OBJETO (clíticos átonos) que con infinitivo van ENCLÍTICOS
+// (pospuestos y unidos al verbo): "llorar"+"la" → "llorarla", nunca "la llorar".
+const ES_OBJ_CLITICS = new Set(['lo','la','los','las','le','les','me','te','se','nos','os']);
+// Infinitivo que YA trae el clítico incorporado ("consolarlo","enterrarle"): no duplicar.
+const ENCLITIC_TAIL_RE = /r(lo|la|los|las|le|les|me|te|se|nos|os)$/;
+
+/**
+ * Combina la glosa española del stem + sufijo PRS en una sola frase con orden natural.
+ *   "creó" + "los"          → "los creó"        (clítico antes del verbo)
+ *   "nombre" + "su"         → "su nombre"       (posesivo antes del sustantivo)
+ *   "fueron creados" + "ellos" → "fueron creados ellos" (tónico tras el verbo)
+ *   "creó" + "a ellos"      → "creó a ellos"    (preposicional tras el verbo)
+ */
+function combineEsWithSuffix(stemEs, sufEs, stemMorph) {
+  if (!sufEs) return stemEs || '';
+  if (!stemEs) return sufEs;
+  const sLow = sufEs.toLowerCase().trim();
+  const stemLow = stemEs.toLowerCase().trim();
+  // Anti-duplicación: si la raíz YA contiene el sufijo como palabra separada
+  // (caso de datos pre-combinados o edición manual con texto completo),
+  // devolver la raíz tal cual sin volver a anexar el sufijo.
+  if (stemLow === sLow) return stemEs;
+  const stemTokens = stemLow.split(/\s+/);
+  if (stemTokens.includes(sLow)) return stemEs;
+  // Sufijos compuestos tipo "a ellos" / "para él"
+  if (sLow.includes(' ') && stemLow.includes(sLow)) return stemEs;
+  // VERBO + pronombre objeto átono → el clítico va ENCLÍTICO (pospuesto y unido):
+  // "llorar"+"la" → "llorarla"; "escucha"+"me" → "escúchame"; nunca antepuesto.
+  if (ES_OBJ_CLITICS.has(sLow)) {
+    const lastTok = stemTokens[stemTokens.length - 1] || '';
+    // (a) el stem YA trae ESE mismo clítico pegado al final → NO duplicar:
+    //     infinitivo ("consolarlo"), gerundio ("hallándote"), o imperativo con
+    //     tilde de enclisis ("escúchame","respóndeme","oídme","sálvanos").
+    if (lastTok.length > sLow.length && lastTok.endsWith(sLow)) {
+      const host = lastTok.slice(0, lastTok.length - sLow.length);
+      const esVerbo = /VERB|INF|IMP|PTC|JUSS|COHOR|WAYY|QATAL|YIQT|SEQ/.test(stemMorph || '');
+      if (ENCLITIC_TAIL_RE.test(lastTok) || /ndo$/.test(host)
+          || (esVerbo && /[áéíóúÁÉÍÓÚ]/.test(host))) {
+        return stemEs;
+      }
+    }
+    // (b) infinitivo simple SIN clítico → unir enclítico ("llorar"+"la" → "llorarla").
+    if (stemTokens.length === 1 && /r$/.test(stemLow)
+        && (/INF/.test(stemMorph || '') || /(ar|er|ir)$/.test(stemLow))) {
+      return `${stemEs}${sLow}`;
+    }
+  }
+  if (ES_PROCLITICS.has(sLow))           return `${sufEs} ${stemEs}`;
+  if (ES_TONICS.has(sLow))               return `${stemEs} ${sufEs}`;
+  if (sLow.startsWith('a '))             return `${stemEs} ${sufEs}`;  // "a él / a ellos"
+  return `${stemEs} ${sufEs}`;
+}
+
+function renderToken(el, pairIdx, hwIdx, prefixIdx) {
+  const isPrefix = el.type === 'prefix';
+  const kindCls  = isPrefix ? ' tok-elem-prefix' : '';
+
+  let displayForm  = el.form;
+  let displayMorph = el.morph;
+  let displayEs    = el.es;
+  let displayGr    = el.grWord;
+  let combinedTitle = '';
+  let sufEs = '';
+
+  if (el.prsSuffix) {
+    const sf = el.prsSuffix;
+    const heStem = cleanHebrew(el.form)     || '';
+    const heSuf  = cleanHebrew(sf.he_form)  || '';
+    if (heSuf) displayForm = heStem + heSuf;
+    else        displayForm = heStem;
+    if (el.morph && sf.he_morph)        displayMorph = `${el.morph} + ${sf.he_morph}`;
+    else if (sf.he_morph)               displayMorph = sf.he_morph;
+    sufEs = sf.es || '';
+    displayEs = combineEsWithSuffix(el.es, sufEs, el.morph);
+    if (el.grWord && sf.gr_word)        displayGr = `${el.grWord} ${sf.gr_word}`;
+    else if (sf.gr_word)                displayGr = sf.gr_word;
+    combinedTitle = ` + ${sf.he_morph || 'PRS'}`;
+  }
+
+  // Mostrar tarjeta si hay hebreo, glosa ES o forma griega LXX (p. ej. artículo sin hebreo).
+  {
+    let probeForm = displayForm ? cleanHebrew(displayForm) : '';
+    if (el.prsSuffix && el.prsSuffix.he_form && !displayForm.includes(el.prsSuffix.he_form)) {
+      probeForm += cleanHebrew(el.prsSuffix.he_form);
+    }
+    const probeEs = (displayEs || '') || (el.prsSuffix && el.prsSuffix.es ? el.prsSuffix.es : '');
+    const probeGr = (displayGr || '').trim();
+    if (!probeForm.trim() && !probeEs.trim() && !probeGr) return '';
+  }
+
+  const title = `${el.raw || ''} · ${displayMorph || '—'}${combinedTitle}${el.strongs ? '  ' + el.strongs : ''}`
+    + (el.translitAcad ? `\nTransliteración académica: ${el.translitAcad}` : '');
+
+  // Fila 1: hebreo — siempre limpiar cantilación (teamim) preservando niqqud y maqaf.
+  // Los datos JSON conservan teamim originales del WLC; el visor los filtra para
+  // mostrar solo consonantes + vocales masoréticas. No toca los motores ni los datos.
+  const _heClean = cleanHebrew(displayForm || '');
+  const _heDisplay = (_heClean && _heClean !== '·' && _heClean !== '.')
+    ? escHtml(_heClean) : '<span style="opacity:.18">—</span>';
+  const heHtml = `<div class="admin-morph-segment-hebrew admin-morph-segment-hebrew-base">${_heDisplay}</div>`;
+
+  // Fila 2: etiqueta morfológica hebrea (OSHB)
+  const labelHtml = displayMorph
+    ? `<div class="admin-morph-segment-label">${escHtml(displayMorph)}</div>`
+    : `<div class="admin-morph-segment-label unknown">—</div>`;
+
+  // Fila 3: glosa español — clicable para editar
+  // data-es = texto combinado (stem + sufijo) para edición completa en un solo campo.
+  // data-has-suf="1" marca tokens con sufijo; al guardar el servidor vacía prs_suffix.es
+  // para evitar duplicación al recargar.
+  const glossAttr = `data-es="${escHtml(displayEs || '')}" data-he="${escHtml(el.form || '')}" `
+    + `data-strong="${escHtml(el.strongs || '')}" data-morph="${escHtml(displayMorph || '')}"`
+    + (sufEs ? ' data-has-suf="1"' : '');
+  const glossHtml = `<div class="admin-morph-segment-gloss" ${glossAttr}>${escHtml(displayEs || '—')}</div>`;
+
+  // Fila 4: forma griega LXX
+  const lxxHtml = displayGr
+    ? `<div class="admin-morph-segment-lxx">${escHtml(displayGr)}</div>`
+    : `<div class="admin-morph-segment-lxx" style="opacity:.25;font-style:italic">—</div>`;
+
+  // Fila 5: morfología LXX
+  const lxxMorphHtml = (displayGr && el.grMorph)
+    ? `<div class="admin-morph-segment-lxx-morph">${escHtml(el.grMorph)}</div>` : '';
+
+  const locAttr = (pairIdx != null && hwIdx != null)
+    ? ` data-pair="${pairIdx}" data-hw="${hwIdx}"` : '';
+  const typeAttr = isPrefix
+    ? ` data-type="prefix" data-prefix-idx="${prefixIdx != null ? prefixIdx : 0}"`
+    : ' data-type="stem" data-prefix-idx="-1"';
+  return `
+    <div class="admin-morph-token${kindCls}" title="${escHtml(title)}" data-strong="${escHtml(el.strongs||'')}"${locAttr}${typeAttr}>
+      <div class="admin-morph-segment">
+        ${heHtml}
+        ${labelHtml}
+        ${glossHtml}
+        ${lxxHtml}
+        ${lxxMorphHtml}
+      </div>
+    </div>`;
+}
+
+function renderPair(pair) {
+
+  // ── Adición LXX (presente en griego, sin equivalente hebreo) ──
+  if (pair.kind === 'gk_add') {
+    const grText  = pair.gr_unicode    || '–';
+    const grMorph = pair.morph_summary || '';
+    const grLemma = pair.lemma_unicode || '';
+    return `
+      <div class="admin-morph-token tok-kind-gkadd"
+           title="+ LXX: ${escHtml(pair.gr||'')}">
+        <div class="admin-morph-segment">
+          <div class="admin-morph-segment-hebrew tok-gkadd-marker">+ LXX</div>
+          <div class="admin-morph-segment-label tok-gkadd-label">ADD</div>
+          <div class="admin-morph-segment-gloss">—</div>
+          <div class="admin-morph-segment-lxx">${escHtml(grText)}</div>
+          ${grMorph ? `<div class="admin-morph-segment-lxx-morph">${escHtml(grMorph)}</div>` : ''}
+          ${grLemma ? `<div class="admin-morph-segment-lxx-morph" style="font-style:italic">${escHtml(grLemma)}</div>` : ''}
+        </div>
+      </div>`;
+  }
+
+  // ── Omisión griega (hebreo presente, sin equivalente griego) ──
+  if (pair.kind === 'heb_omit') {
+    const heText = cleanHebrew(pair.he_unicode || '—');
+    return `
+      <div class="admin-morph-token tok-kind-omit"
+           title="Hebreo sin traducción en LXX · ${escHtml(pair.he||'')}">
+        <div class="admin-morph-segment">
+          <div class="admin-morph-segment-hebrew">${escHtml(heText)}</div>
+          <div class="admin-morph-segment-label unknown">—</div>
+          <div class="admin-morph-segment-gloss" style="opacity:.5">—</div>
+          <div class="admin-morph-segment-lxx" style="font-style:italic;opacity:.55">[ — ]</div>
+        </div>
+      </div>`;
+  }
+
+  // Par normal: buildVerseTokensHtml gestiona directamente con índices;
+  // este bloque es fallback de seguridad (sin edición).
+  const elements = buildElements(pair);
+  if (elements.length === 0) return '';
+  const enriched = distributeGrTokens(elements, pair);
+  const _emptyForm = f => !f || f === '·' || f === '.' || f === '-' || f.trim() === '';
+  const visible = enriched.filter(el => !(_emptyForm(el.form) && !el.es));
+  return visible.map(el => renderToken(el)).join('');
+}
+
+/** Genera la fila de traducción para un versículo dado.
+ * Si existe traducción personal (piloto) para ese verso, la muestra en lugar
+ * del RV1960. El archivo RV1960 permanece intacto como respaldo. */
+function buildTranslateRow(cap, verse) {
+  let personal = '';
+  if (tradPersonalData && tradPersonalData[cap - 1]) {
+    personal = (tradPersonalData[cap - 1][verse - 1] || '').trim();
+  }
+  if (personal) {
+    return `
+    <div class="tok-translate-area tok-translate-personal">
+      <span class="tok-translate-label">Personal</span>
+      <span class="tok-translate-text is-editable"
+            contenteditable="true"
+            spellcheck="true"
+            role="textbox"
+            title="Clic para corregir · Enter guarda · Esc cancela"
+            data-chapter="${cap}"
+            data-verse="${verse}"
+            data-original="${escHtml(personal)}">${escHtml(personal)}</span>
+      <span class="tok-translate-source">Traducción personal · clic para editar</span>
+    </div>`;
+  }
+
+  let text = '';
+  if (rv1960Data && rv1960Data[cap - 1]) {
+    text = rv1960Data[cap - 1][verse - 1] || '';
+  }
+  if (!text) return '';
+  return `
+    <div class="tok-translate-area">
+      <span class="tok-translate-label">RV1960</span>
+      <span class="tok-translate-text">${escHtml(text)}</span>
+      <span class="tok-translate-source">Reina Valera 1960</span>
+    </div>`;
+}
+
+// ─── Regla del Maqaf (־) ───────────────────────────────────────────────────
+// Detecta si una he_form termina en maqaf (U+05BE) o en guion ASCII (fallback).
+function endsWithMaqaf(heForm) {
+  if (!heForm) return false;
+  // U+05BE (־), también verificar guion ASCII como fallback
+  return /[\u05BE\-־]$/.test(String(heForm));
+}
+
+/**
+ * Construye el HTML del strip de tokens de un verso, aplicando la regla del
+ * maqaf: si una he_word termina en ־ y la siguiente he_word existe, ambas
+ * (con todos sus prefijos+stem) se envuelven en un mismo <div class="maqaf-group">.
+ * Soporta cadenas de 3+ tokens encadenados (cada eslabón con maqaf) y casos
+ * cruzando frontera de pair. Los pairs especiales (gk_add / heb_omit) NUNCA
+ * entran en grupos maqaf.
+ */
+function buildVerseTokensHtml(verse) {
+  // Paso 1: construir la secuencia plana de "unidades de render".
+  // Cada unidad es UNA he_word (con todos sus elementos: prefijos + stem)
+  // o UN pair especial (gk_add / heb_omit). Los pairs especiales son no-agrupables.
+  const seq = [];
+  for (let pi = 0; pi < (verse.pairs || []).length; pi++) {
+    const pair = verse.pairs[pi];
+    if (pair.kind === 'gk_add' || pair.kind === 'heb_omit') {
+      const html = renderPair(pair);
+      if (html) {
+        seq.push({ html, heForm: '', isWordable: false, _maqafGroupId: null });
+      }
+      continue;
+    }
+
+    const elements = buildElements(pair);
+    if (!elements.length) continue;
+    const enriched = distributeGrTokens(elements, pair);
+    let elIdx = 0;
+    for (let hi = 0; hi < (pair.he_words || []).length; hi++) {
+      const hw = pair.he_words[hi];
+      const numElems = (hw.prefix_forms || []).length + 1;
+      if (numElems <= 0) continue;
+      const hwElems = enriched.slice(elIdx, elIdx + numElems);
+      elIdx += numElems;
+      if (!hwElems.length) continue;
+      let _prefI = 0;
+      const hwHtml = hwElems.map(el => {
+        const pidx = el.type === 'prefix' ? _prefI++ : -1;
+        return renderToken(el, pi, hi, pidx);
+      }).join('');
+      seq.push({
+        html: hwHtml,
+        heForm: hw.he_form || '',
+        isWordable: true,
+        _maqafGroupId: null,
+      });
+    }
+  }
+
+  // Paso 2: marcar los grupos maqaf. Si seq[k] termina en ־ y seq[k+1] es
+  // wordable, ambos comparten _maqafGroupId. Si seq[k] ya tiene gid (chain),
+  // se reutiliza para soportar cadenas de 3+.
+  let groupCounter = 0;
+  for (let k = 0; k < seq.length; k++) {
+    if (!seq[k].isWordable) continue;
+    if (!endsWithMaqaf(seq[k].heForm)) continue;
+    if (k + 1 >= seq.length) continue;       // último he_word del verso → no agrupar
+    if (!seq[k + 1].isWordable) continue;     // siguiente es gk_add/heb_omit → no agrupar
+    let gid = seq[k]._maqafGroupId;
+    if (!gid) {
+      groupCounter++;
+      gid = `m_${groupCounter}`;
+      seq[k]._maqafGroupId = gid;
+    }
+    seq[k + 1]._maqafGroupId = gid;
+  }
+
+  // Paso 3: emitir HTML, envolviendo las corridas de mismo gid en .maqaf-group.
+  let out = '';
+  let i = 0;
+  while (i < seq.length) {
+    const gid = seq[i]._maqafGroupId;
+    if (gid) {
+      let inner = '';
+      while (i < seq.length && seq[i]._maqafGroupId === gid) {
+        inner += seq[i].html;
+        i++;
+      }
+      out += `<div class="maqaf-group">${inner}</div>`;
+    } else {
+      out += seq[i].html;
+      i++;
+    }
+  }
+  return out;
+}
+
+function countLxxWordsInVerse(verse) {
+  let n = 0;
+  for (const pair of (verse.pairs || [])) {
+    const gr = (pair.gr_unicode || '').trim();
+    if (!gr) continue;
+    for (const raw of gr.split(/\s+/)) {
+      if (raw && raw !== '---' && raw !== '—') n += 1;
+    }
+  }
+  return n;
+}
+
+function buildVerseLxxText(verse) {
+  const parts = [];
+  for (const pair of (verse.pairs || [])) {
+    const gr = (pair.gr_unicode || '').trim();
+    if (gr) parts.push(gr);
+  }
+  return parts.join(' ');
+}
+
+function renderVerse(verse) {
+  // ── ADD+ LXX pseudo-verse (large gk_add block) ──
+  if (verse.is_lxx_add) {
+    const label = verse.lxx_add_label || `${verse.chapter}:${verse.verse} ADD+ LXX`;
+    const pairs = verse.pairs || [];
+    const grWords = pairs
+      .map(p => (p.gr_unicode || '').trim())
+      .filter(Boolean);
+    const wordCount = grWords.reduce((s, w) => s + w.split(/\s+/).length, 0);
+    const wordsHtml = grWords
+      .map(w => `<span class="lxx-add-word">${escHtml(w)}</span>`)
+      .join(' ');
+    return `
+      <article class="lxx-add-section" data-verse="${verse.chapter}:${verse.verse}">
+        <div class="lxx-add-header">
+          <span class="lxx-add-badge">ADD+ LXX</span>
+          <span class="lxx-add-ref">${escHtml(label)}</span>
+          <span class="lxx-add-meta">${wordCount} palabras · ${pairs.length} tokens</span>
+        </div>
+        <div class="lxx-add-body" dir="ltr" lang="el">${wordsHtml || '—'}</div>
+      </article>`;
+  }
+
+  const refLabel = `${bookLabel()} ${verse.chapter}:${verse.verse}`;
+  const lxxRef   = `LXX (${bookLxxCode()}) ${verse.chapter}:${verse.verse}`;
+  const lxxText  = buildVerseLxxText(verse);
+  const lxxWords = countLxxWordsInVerse(verse);
+  const pairCount = (verse.pairs || []).filter(p => (p.gr_unicode || '').trim() || p.kind === 'gk_add').length;
+  const tokens   = buildVerseTokensHtml(verse);
+
+  return `
+    <article class="admin-verse-card" data-verse="${verse.chapter}:${verse.verse}">
+      <div class="admin-verse-head">
+        <div>
+          <div class="admin-verse-ref">${escHtml(refLabel)}</div>
+          <div class="admin-lxx-verse-meta">${lxxWords} palabras LXX · ${pairCount} pares alineados</div>
+        </div>
+        <div class="admin-lxx-verse-chip" dir="ltr" lang="el">
+          <span class="lxx-chip-ref">${escHtml(lxxRef)}</span>
+          <span class="lxx-chip-text">${escHtml(lxxText || '—')}</span>
+        </div>
+      </div>
+      <div class="admin-morph-card-body">
+        <div class="admin-morph-token-strip">${tokens}</div>
+        ${buildTranslateRow(verse.chapter, verse.verse)}
+      </div>
+    </article>`;
+}
+
+function renderChapter(ch) {
+  const verses = getVersesForChapter(genesisData, ch);
+  if (!verses.length) {
+    return '<div class="empty-state">No hay versículos para este capítulo.</div>';
+  }
+  return verses.map(renderVerse).join('');
+}
+
+// ── Chapter navigation ─────────────────────────────────────────────────────
+
+function buildChapterNav() {
+  const chapters = getChapters(genesisData);
+  const nav = document.getElementById('chapterNav');
+  nav.innerHTML = chapters.map(ch =>
+    `<button class="chapter-btn${ch === currentChapter ? ' active' : ''}"
+             data-ch="${ch}" type="button">${ch}</button>`
+  ).join('');
+  nav.querySelectorAll('.chapter-btn').forEach(btn => {
+    btn.addEventListener('click', () => goToChapter(+btn.dataset.ch));
+  });
+}
+
+function goToChapter(ch) {
+  const chapters = getChapters(genesisData);
+  if (!chapters.includes(ch)) return;
+  currentChapter = ch;
+  // Recuerda dónde estás para restaurar la posición tras recargar (F5).
+  try {
+    localStorage.setItem('biblia_pos',
+      JSON.stringify({ book: activeBook, chapter: ch }));
+  } catch (_) { /* no-op */ }
+  paintChapter();
+}
+
+// Desplaza la vista al verso indicado del capítulo actual y lo resalta
+// brevemente, para no perder la posición tras recargar por una edición.
+function scrollToVerse(ch, vs) {
+  const sel = `.admin-verse-card[data-verse="${ch}:${vs}"]`;
+  const card = document.querySelector(sel);
+  if (!card) return;
+  card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  card.classList.add('verse-flash');
+  setTimeout(() => card.classList.remove('verse-flash'), 1600);
+}
+
+function paintChapter() {
+  const verses = getVersesForChapter(genesisData, currentChapter);
+  const pairCount = verses.reduce((s, v) => s + (v.pairs || []).length, 0);
+  const lxxWordCount = verses.reduce((s, v) => s + countLxxWordsInVerse(v), 0);
+
+  // Content
+  document.getElementById('editorMount').innerHTML = renderChapter(currentChapter);
+
+  // Sidebar
+  document.getElementById('sideChapter').textContent   = currentChapter;
+  document.getElementById('sideVerseCount').textContent = verses.filter(v => !v.is_lxx_add).length;
+  document.getElementById('sidePairCount').textContent = pairCount;
+  document.getElementById('sideLxxWordCount').textContent = lxxWordCount;
+
+  // Header
+  document.getElementById('panelTitle').textContent = `${bookLabel()} ${currentChapter}`;
+  document.getElementById('metaRef').textContent    = `${bookLabel()} ${currentChapter}`;
+
+  // Search input
+  document.getElementById('chapterInput').value = `${bookLabel()} ${currentChapter}`;
+
+  // Chapter nav active state
+  document.querySelectorAll('.chapter-btn').forEach(btn => {
+    btn.classList.toggle('active', +btn.dataset.ch === currentChapter);
+  });
+
+  // Prev / Next
+  const chapters = getChapters(genesisData);
+  const idx = chapters.indexOf(currentChapter);
+  document.getElementById('prevChBtn').disabled = idx <= 0;
+  document.getElementById('nextChBtn').disabled = idx >= chapters.length - 1;
+
+  // Estado del candado para el capítulo actual
+  refreshLockState();
+  applyMarcas();
+}
+
+// ── Candado de capítulo (Cerrar / Cerrado) ─────────────────────────────────
+
+let _lockBusy = false;
+
+function paintLockButton(locked) {
+  const btn = document.getElementById('lockBtn');
+  if (!btn) return;
+  btn.dataset.locked = locked ? '1' : '0';
+  if (locked) {
+    btn.textContent = 'Cerrado';
+    btn.classList.remove('btn-success');
+    btn.classList.add('btn-danger');
+    btn.title = 'Capítulo CERRADO (candado activo). Click para reabrirlo y permitir cambios.';
+  } else {
+    btn.textContent = 'Cerrar';
+    btn.classList.remove('btn-danger');
+    btn.classList.add('btn-success');
+    btn.title = 'Cerrar el capítulo actual (candado): ningún motor volverá a tocarlo.';
+  }
+}
+
+async function refreshLockState() {
+  try {
+    const res = await fetch('/api/lock-state', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ book: activeBook, chapter: currentChapter }),
+    });
+    const j = await res.json();
+    if (j && j.ok) paintLockButton(!!j.locked);
+  } catch (e) { /* servidor apagado: deja el botón como está */ }
+}
+
+async function toggleLock() {
+  if (_lockBusy) return;
+  _lockBusy = true;
+  const btn = document.getElementById('lockBtn');
+  if (btn) btn.disabled = true;
+  try {
+    const res = await fetch('/api/toggle-lock', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ book: activeBook, chapter: currentChapter }),
+    });
+    const j = await res.json();
+    if (j && j.ok) paintLockButton(!!j.locked);
+    else alert('No se pudo cambiar el candado: ' + ((j && j.error) || 'error'));
+  } catch (e) {
+    alert('No se pudo contactar el servidor para el candado.');
+  } finally {
+    _lockBusy = false;
+    if (btn) btn.disabled = false;
+  }
+}
+
+document.getElementById('lockBtn')?.addEventListener('click', toggleLock);
+
+// ── Motor ES (correr revisar_es sobre el capítulo abierto) ─────────────────
+async function runMotor(apply) {
+  const btn = document.getElementById('motorBtn');
+  const out = document.getElementById('motorOut');
+  const modal = document.getElementById('motorModal');
+  const reload = document.getElementById('motorReload');
+  document.getElementById('motorTitle').textContent =
+    `Motor ES · ${activeBook} ${currentChapter} · ${apply ? 'APLICAR' : 'informe'}`;
+  out.textContent = 'Ejecutando…';
+  reload.style.display = 'none';
+  modal.style.display = 'block';
+  if (btn) btn.disabled = true;
+  try {
+    const res = await fetch('/api/run-motor', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ book: activeBook, chapter: currentChapter, apply: !!apply }),
+    });
+    const j = await res.json();
+    out.textContent = (j && (j.output || j.error)) || 'Sin salida.';
+    if (j && j.applied > 0) reload.style.display = 'inline-block';
+  } catch (e) {
+    out.textContent = 'No se pudo contactar el servidor. ¿Está corriendo servidor.py?';
+  } finally {
+    if (btn) btn.disabled = false;
+  }
+}
+
+document.getElementById('motorBtn')?.addEventListener('click', () => {
+  if (document.getElementById('lockBtn')?.dataset.locked === '1') {
+    alert(`Capítulo CERRADO (candado): ${activeBook} ${currentChapter}.\n\n` +
+          'El motor no se ejecuta en capítulos cerrados. Reábrelo si quieres correrlo.');
+    return;
+  }
+  const apply = confirm(
+    `MOTOR ES · ${activeBook} ${currentChapter}\n\n` +
+    'Aceptar = APLICAR autofix seguros, con respaldo .bak:\n' +
+    'CANON · PENINSULAR · CONSTRUCT · POSES · CONCORD · PRON · PREPRON ·\n' +
+    'HOMOGRAF · EUFONIA · VAV · KI · PEN · CONJUGA · PUNTOCOMA · TIEMPOVERBAL · REFLEX · TRANSLIT · GLOSAFUNC · CONTAGIO.\n' +
+    '(El léxico/estilo queda como REPORTE, no se toca.)\n\n' +
+    'Cancelar = solo INFORME (no cambia nada).');
+  runMotor(apply);
+});
+document.getElementById('motorClose')?.addEventListener('click', () => {
+  document.getElementById('motorModal').style.display = 'none';
+});
+document.getElementById('motorReload')?.addEventListener('click', () => location.reload());
+
+// ── Events ─────────────────────────────────────────────────────────────────
+
+document.getElementById('prevChBtn').addEventListener('click', () => {
+  const chapters = getChapters(genesisData);
+  const idx = chapters.indexOf(currentChapter);
+  if (idx > 0) goToChapter(chapters[idx - 1]);
+});
+
+document.getElementById('nextChBtn').addEventListener('click', () => {
+  const chapters = getChapters(genesisData);
+  const idx = chapters.indexOf(currentChapter);
+  if (idx < chapters.length - 1) goToChapter(chapters[idx + 1]);
+});
+
+document.getElementById('chapterForm').addEventListener('submit', e => {
+  e.preventDefault();
+  const raw = document.getElementById('chapterInput').value.trim();
+  const m = raw.match(/(\d+)/);
+  if (m) goToChapter(+m[1]);
+});
+
+// Theme switcher
+document.querySelectorAll('[data-theme]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.documentElement.setAttribute('data-theme', btn.dataset.theme);
+  });
+});
+
+// ── Utility ────────────────────────────────────────────────────────────────
+
+function escHtml(s) {
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+/**
+ * Limpia el texto hebreo para display:
+ *  - Elimina marcas de cantilación/teamim (U+0591–U+05AF)
+ *  - Conserva maqaf ־ (U+05BE) — se muestra directamente en el texto hebreo;
+ *    el CSS .maqaf-group envuelve las tarjetas enlazadas con estilo correcto
+ *  - Elimina paseq (U+05C0), sof pasuq (U+05C3)
+ *  - Elimina dots decorativos (U+05C4, U+05C5, U+05C6)
+ *  - Conserva todos los niqqud/vocales (U+05B0–U+05BF, U+05C1, U+05C2, U+05C7)
+ *  - Conserva consonantes (U+05D0–U+05EA)
+ */
+function cleanHebrew(s) {
+  if (!s) return '';
+  return String(s)
+    .replace(/[\u0591-\u05AF]/g, '')  // cantilación (teamim)
+    // U+05BE maqaf ־: conservado — se muestra directamente en el texto
+    .replace(/[\u05C0]/g, '')          // paseq
+    .replace(/[\u05C3-\u05C6]/g, '')   // sof pasuq, upper/lower dot, nun hafukha
+    .replace(/^\s*[-–]\s*/, '')        // guion ASCII inicial residual
+    .trim();
+}
+
+function showStatus(msg, isError = false) {
+  const badge = document.getElementById('statusBadge');
+  badge.textContent = msg;
+  badge.className   = 'feedback-badge' + (isError ? ' error' : '');
+  badge.style.display = '';
+  setTimeout(() => { badge.style.display = 'none'; }, 4000);
+}
+
+// ── Carga del libro activo (reutilizable al cambiar de libro) ─────────────
+
+function loadBook(slug, opts = {}) {
+  if (!BOOKS[slug]) {
+    showStatus(`Libro desconocido: ${slug}`, true);
+    return Promise.reject(new Error(`Libro desconocido: ${slug}`));
+  }
+  activeBook   = slug;
+  DATA_URL     = buildDataUrl(slug);
+  RV_URL       = buildRvUrl(slug);
+  // Capítulo/verso a restaurar tras la carga (para no perder la posición al
+  // recargar después de una edición). Por defecto, capítulo 1.
+  const restoreChapter = Number(opts.chapter) || 1;
+  const restoreVerse   = opts.verse != null ? Number(opts.verse) : null;
+  currentChapter = restoreChapter;
+
+  document.title = `Interlineal ${bookLabel()} · Prototipo CATSS`;
+  const badge = document.getElementById('sideBookBadge');
+  if (badge) badge.textContent = bookLabel();
+  const sel = document.getElementById('bookSelect');
+  if (sel && sel.value !== slug) sel.value = slug;
+
+  // Reflejar el libro en la URL (sin recargar) para que sea bookmarkeable.
+  try {
+    const url = new URL(window.location.href);
+    url.searchParams.set('book', slug);
+    window.history.replaceState({}, '', url);
+  } catch (_) { /* no-op */ }
+
+  // Estado de carga visible
+  document.getElementById('editorMount').innerHTML =
+    `<div class="empty-state">Cargando ${escHtml(bookLabel())}…</div>`;
+
+  return Promise.all([
+    fetch(DATA_URL, { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error(`HTTP ${r.status} (interlineal)`); return r.json(); }),
+    fetch(RV_URL, { cache: 'no-store' }).then(r  => { if (!r.ok) throw new Error(`HTTP ${r.status} (RV1960)`);      return r.json(); }),
+    fetch('./data/glosas_personales.json', { cache: 'no-store' })
+      .then(r => (r.ok ? r.json() : { global: [], contexto: [] }))
+      .catch(() => ({ global: [], contexto: [] })),
+    fetch(buildTradUrl(slug), { cache: 'no-store' })
+      .then(r => (r.ok ? r.json() : null))
+      .catch(() => null),
+    fetch('./data/candado_capitulos.json', { cache: 'no-store' })
+      .then(r => (r.ok ? r.json() : null))
+      .catch(() => null),
+    fetch('/api/marcas', { cache: 'no-store' })
+      .then(r => (r.ok ? r.json() : { marcas: [] }))
+      .catch(() => ({ marcas: [] })),
+  ])
+    .then(([interlinealData, rvData, glosasRegistry, tradData, candadoCfg, marcasRes]) => {
+      if (window.TraduccionTokens?.applyRegistryToInterlineal) {
+        TraduccionTokens.applyRegistryToInterlineal(interlinealData, slug, glosasRegistry, candadoCfg);
+      }
+      genesisData = interlinealData;
+      rv1960Data  = rvData;
+      tradPersonalData = tradData;
+      _marcasList = mergeMarcas(loadMarcasLocal(), marcasRes?.marcas || []);
+      _marcasReady = true;
+      saveMarcasLocal();
+
+      buildChapterNav();
+      const chapters = getChapters(genesisData);
+      goToChapter(chapters.includes(restoreChapter) ? restoreChapter : (chapters[0] || 1));
+      if (restoreVerse != null) {
+        requestAnimationFrame(() => scrollToVerse(currentChapter, restoreVerse));
+      }
+      showStatus(`${interlinealData.verseCount || ''} versículos de ${bookLabel()} cargados`);
+    })
+    .catch(err => {
+      document.getElementById('editorMount').innerHTML =
+        `<div class="empty-state">
+          <strong>Error al cargar ${escHtml(bookLabel())}</strong><br>
+          <small>${escHtml(err.message)}</small><br><br>
+          <span class="proto-badge">¿Generaste data/${escHtml(slug)}_final.json y data/rv1960_${escHtml(slug)}.json?</span>
+        </div>`;
+      showStatus('Error al cargar datos', true);
+      throw err;
+    });
+}
+
+// ── Selector de libro ──────────────────────────────────────────────────────
+const _bookSelectEl = document.getElementById('bookSelect');
+if (_bookSelectEl) {
+  // Configurar opciones según BOOKS (mantiene el orden de declaración)
+  _bookSelectEl.innerHTML = '';
+  for (const [slug, info] of Object.entries(BOOKS)) {
+    const opt = document.createElement('option');
+    opt.value = slug;
+    opt.textContent = info.disabled ? `${info.label} (pendiente)` : info.label;
+    opt.disabled = !!info.disabled;
+    if (slug === activeBook) opt.selected = true;
+    _bookSelectEl.appendChild(opt);
+  }
+  _bookSelectEl.addEventListener('change', e => {
+    const slug = e.target.value;
+    if (slug && BOOKS[slug] && !BOOKS[slug].disabled) loadBook(slug);
+  });
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+//  EDICIÓN DE GLOSAS ESPAÑOLAS
+// ═══════════════════════════════════════════════════════════════════════════
+
+const _editOverlay = document.getElementById('editOverlay');
+const _editRef     = document.getElementById('editRef');
+const _editHebrew  = document.getElementById('editHebrew');
+const _editMorph   = document.getElementById('editMorph');
+const _editStrong  = document.getElementById('editStrong');
+const _editInput   = document.getElementById('editInput');
+const _editPreview = document.getElementById('editPreview');
+const _editBefore  = document.getElementById('editBefore');
+const _editAfter   = document.getElementById('editAfter');
+const _editSaveBtn = document.getElementById('editSaveBtn');
+const _editGlobalBtn  = document.getElementById('editGlobalBtn');
+const _editCancelBtn  = document.getElementById('editCancelBtn');
+const _editGlobalInfo = document.getElementById('editGlobalInfo');
+
+// Panel de globalización por contexto
+const _ctxOverlay     = document.getElementById('ctxOverlay');
+const _ctxHebrew      = document.getElementById('ctxHebrew');
+const _ctxStrong      = document.getElementById('ctxStrong');
+const _ctxCount       = document.getElementById('ctxCount');
+const _ctxCloseBtn    = document.getElementById('ctxCloseBtn');
+const _ctxGlobalInput = document.getElementById('ctxGlobalInput');
+const _ctxApplyAllBtn = document.getElementById('ctxApplyAllBtn');
+const _ctxAllBooks    = document.getElementById('ctxAllBooks');
+const _ctxScopeLabel  = document.getElementById('ctxScopeLabel');
+const _ctxList        = document.getElementById('ctxList');
+let _ctxStrongs = '';
+let _ctxSavedAny = false;
+let _ctxInfo = null;   // resumen del Strong activo (conteos por forma)
+let _ctxGroups = [];        // formas agrupadas {key,heForm,morph,cons,occs,rendered}
+let _ctxGroupsShown = 0;    // nº de formas (cabeceras) ya renderizadas
+let _ctxOpenKey = null;     // forma a expandir por defecto
+const CTX_BATCH = 5;        // versos por tanda dentro de una forma
+const CTX_GROUP_BATCH = 3;  // formas (cabeceras) por tanda
+
+let _activeEdit = null;   // { chapter, verse, pairIdx, hwIdx, before, strongs }
+
+function openEditModal(glossEl) {
+  const token = glossEl.closest('.admin-morph-token');
+  const card  = glossEl.closest('.admin-verse-card');
+  if (!token || !card) return;
+
+  const refStr  = card.dataset.verse;    // "chapter:verse"
+  const [ch, vs] = refStr.split(':').map(Number);
+  const pairIdx = Number(token.dataset.pair);
+  const hwIdx   = Number(token.dataset.hw);
+  if (isNaN(pairIdx) || isNaN(hwIdx)) return;
+
+  const heForm   = glossEl.dataset.he || '';
+  const strongs  = glossEl.dataset.strong || '';
+  const morph    = glossEl.dataset.morph || '';
+  const curEs    = glossEl.dataset.es || '';
+  const hasSuf   = glossEl.dataset.hasSuf === '1';
+  const tokType  = token.dataset.type || 'stem';
+  const prefIdx  = tokType === 'prefix' ? Number(token.dataset.prefixIdx || 0) : -1;
+
+  _activeEdit = {
+    chapter: ch, verse: vs, pairIdx, hwIdx,
+    before: curEs, strongs,
+    field: tokType === 'prefix' ? 'prefix_es' : 'es',
+    prefixIdx: prefIdx,
+    hasSuffix: hasSuf,
+  };
+
+  _editRef.textContent = `${bookLabel()} ${ch}:${vs}`;
+  _editHebrew.textContent = cleanHebrew(heForm) || '—';
+  _editMorph.textContent = morph || '—';
+  _editStrong.textContent = strongs || 'sin Strong';
+  _editInput.value = curEs;
+  _updateEditPreview();
+
+  // Contar ocurrencias para el botón globalizar
+  if (strongs) {
+    _editGlobalBtn.disabled = true;
+    _editGlobalBtn.textContent = 'Globalizar…';
+    _editGlobalInfo.textContent = 'Contando ocurrencias…';
+    fetch('/api/count-strongs', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ strongs })
+    })
+      .then(r => r.json())
+      .then(data => {
+        if (data.ok) {
+          _editGlobalBtn.textContent = `Globalizar (${data.total})`;
+          _editGlobalBtn.disabled = data.total <= 1;
+          _editGlobalInfo.textContent = data.total > 1
+            ? `${data.total} tokens con ${strongs} en ${data.books} libro(s)`
+            : 'Solo 1 ocurrencia — no hay qué globalizar';
+        }
+      })
+      .catch(() => {
+        _editGlobalBtn.textContent = 'Globalizar';
+        _editGlobalBtn.disabled = true;
+        _editGlobalInfo.textContent = 'No se pudo contar';
+      });
+  } else {
+    _editGlobalBtn.disabled = true;
+    _editGlobalBtn.textContent = 'Globalizar';
+    _editGlobalInfo.textContent = 'Sin número Strong — no se puede globalizar';
+  }
+
+  _editOverlay.classList.add('is-open');
+  requestAnimationFrame(() => { _editInput.focus(); _editInput.select(); });
+}
+
+function closeEditModal() {
+  _editOverlay.classList.remove('is-open');
+  _activeEdit = null;
+}
+
+function _updateEditPreview() {
+  if (!_activeEdit) return;
+  const before = _activeEdit.before || '';
+  const after  = (_editInput.value || '').trim();
+  if (after !== before) {
+    _editBefore.textContent = before || '—';
+    _editAfter.textContent  = after || '—';
+    _editPreview.style.display = '';
+  } else {
+    _editPreview.style.display = 'none';
+  }
+}
+
+// Refleja en memoria (genesisData) el mismo cambio que el servidor escribió,
+// para re-renderizar sin recargar el libro. Devuelve true si lo aplicó.
+function _applyLocalEdit(edit, newEs) {
+  if (!genesisData || !Array.isArray(genesisData.verses)) return false;
+  const v = genesisData.verses.find(
+    x => x.chapter === edit.chapter && x.verse === edit.verse);
+  if (!v) return false;
+  const p = (v.pairs || [])[edit.pairIdx];
+  if (!p) return false;
+  const hw = (p.he_words || [])[edit.hwIdx];
+  if (!hw) return false;
+  const field = edit.field || 'es';
+  if (field === 'prefix_es' && edit.prefixIdx != null && edit.prefixIdx >= 0) {
+    if (!Array.isArray(hw.prefix_es)) hw.prefix_es = [];
+    while (hw.prefix_es.length <= edit.prefixIdx) hw.prefix_es.push('');
+    hw.prefix_es[edit.prefixIdx] = newEs;
+  } else {
+    hw.es = newEs;
+    if (edit.hasSuffix && hw.prs_suffix) hw.prs_suffix.es = '';
+  }
+  return true;
+}
+
+async function _saveHere() {
+  if (!_activeEdit) return;
+  const newEs = (_editInput.value || '').trim();
+  if (newEs === _activeEdit.before) { closeEditModal(); return; }
+
+  _editSaveBtn.disabled = true;
+  _editSaveBtn.textContent = 'Guardando…';
+  try {
+    const res = await fetch('/api/save-gloss', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        book: activeBook,
+        chapter: _activeEdit.chapter,
+        verse: _activeEdit.verse,
+        pairIdx: _activeEdit.pairIdx,
+        hwIdx: _activeEdit.hwIdx,
+        field: _activeEdit.field || 'es',
+        prefixIdx: _activeEdit.prefixIdx != null ? _activeEdit.prefixIdx : -1,
+        hasSuffix: !!_activeEdit.hasSuffix,
+        es: newEs
+      })
+    });
+    const data = await res.json();
+    if (!data.ok) throw new Error(data.error || 'Error');
+    const edit = _activeEdit;
+    rememberCambioEs({
+      book: activeBook,
+      chapter: edit.chapter,
+      verse: edit.verse,
+      pairIdx: edit.pairIdx,
+      hwIdx: edit.hwIdx,
+      prefixIdx: edit.prefixIdx != null ? edit.prefixIdx : -1,
+    }, edit.before, newEs);
+    const keepCh = edit.chapter;
+    const keepVs = edit.verse;
+    showStatus('Guardado');
+    closeEditModal();
+    // Actualización local + re-render del capítulo (sin re-descargar el libro
+    // completo ni re-aplicar todas las reglas). El servidor ya persistió el
+    // cambio en _final.json y en el registro; aquí solo reflejamos el mismo
+    // cambio en memoria para que la vista sea instantánea.
+    if (_applyLocalEdit(edit, newEs)) {
+      goToChapter(currentChapter);
+      requestAnimationFrame(() => scrollToVerse(keepCh, keepVs));
+    } else {
+      // Fallback: si no se pudo localizar el token, recarga completa.
+      genesisData = null;
+      await loadBook(activeBook, { chapter: keepCh, verse: keepVs });
+    }
+  } catch (err) {
+    showStatus('Error: ' + err.message, true);
+  } finally {
+    _editSaveBtn.disabled = false;
+    _editSaveBtn.textContent = 'Guardar aquí';
+  }
+}
+
+function _escapeHtml(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
+function _ctxBookLabel(slug) {
+  if (typeof BOOKS !== 'undefined' && BOOKS && BOOKS[slug]) {
+    return BOOKS[slug].label || slug;
+  }
+  return slug;
+}
+
+// Abre el panel de globalización por contexto
+async function openContextPanel() {
+  if (!_activeEdit || !_activeEdit.strongs) return;
+  _ctxStrongs = _activeEdit.strongs;
+  _ctxSavedAny = false;
+  const seedEs = (_editInput.value || '').trim() || _activeEdit.before || '';
+
+  _ctxHebrew.textContent = cleanHebrew(_editHebrew.textContent || '') || '—';
+  _ctxStrong.textContent = _ctxStrongs;
+  _ctxCount.textContent = 'cargando…';
+  _ctxGlobalInput.value = seedEs;
+  if (_ctxAllBooks) _ctxAllBooks.checked = false;
+  if (_ctxScopeLabel) {
+    const bn = (bookInfo() && bookInfo().label) || activeBook;
+    _ctxScopeLabel.textContent = `solo ${bn}`;
+  }
+  _ctxList.innerHTML = '<div class="ctx-hint">Cargando ocurrencias…</div>';
+  _ctxInfo = null;
+  _ctxOverlay.classList.add('is-open');
+
+  // Carga conteos exactos por forma flexionada (acotados al libro actual)
+  _loadStrongInfo();
+
+  try {
+    const res = await fetch('/api/occurrences', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ strongs: _ctxStrongs, scope: 'book:' + activeBook })
+    });
+    const data = await res.json();
+    if (!data.ok) throw new Error(data.error || 'Error');
+    _ctxCount.textContent = data.returned < data.total
+      ? `${data.returned} de ${data.total} ocurrencias`
+      : `${data.total} ocurrencia(s)`;
+    _renderCtxOccurrences(data.occurrences || []);
+    _refreshFormCounts();   // si la validación ya llegó, corrige conteos exactos
+  } catch (err) {
+    _ctxList.innerHTML = `<div class="ctx-hint">Error: ${_escapeHtml(err.message)}</div>`;
+    _ctxCount.textContent = 'error';
+  }
+}
+
+// Consulta el resumen del Strong (conteos exactos por forma flexionada)
+async function _loadStrongInfo() {
+  const strong = _ctxStrongs;
+  try {
+    const res = await fetch('/api/strong-info', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ strongs: strong, scope: 'book:' + activeBook })
+    });
+    const data = await res.json();
+    if (strong !== _ctxStrongs) return;   // cambió el contexto mientras cargaba
+    _ctxInfo = (data.ok && data.info) ? data.info : null;
+  } catch (_) {
+    _ctxInfo = null;
+  }
+  _refreshFormCounts();
+}
+
+// Corrige los conteos por forma con el total EXACTO del índice (corpus completo)
+function _refreshFormCounts() {
+  const fc = (_ctxInfo && _ctxInfo.form_counts) || null;
+  if (!fc || !window.TraduccionTokens) return;
+  _ctxList.querySelectorAll('.ctx-group').forEach(group => {
+    const cons = TraduccionTokens.consonantsOnly(group.dataset.heform || '');
+    const key = cons + '\u0001' + (group.dataset.morph || '');
+    const n = fc[key];
+    if (n == null) return;
+    const shown = Number((group.querySelector('.ctx-group-count') || {}).dataset?.base || n);
+    const cntEl = group.querySelector('.ctx-group-count');
+    if (cntEl) cntEl.textContent = (n === shown)
+      ? `${n} verso(s)` : `${shown} mostrados · ${n} en total`;
+    const btn = group.querySelector('.ctx-form-apply');
+    if (btn) btn.textContent = `Aplicar a esta forma (${n})`;
+  });
+}
+
+function _ctxCardHtml(o) {
+  const verseHtml = (o.tokens || []).map(t => {
+    const cls = t.target ? 'ctx-tok ctx-tok-target' : 'ctx-tok';
+    const txt = t.es || (t.target ? '∅' : '');
+    return `<span class="${cls}" title="${_escapeHtml(t.he)}">${_escapeHtml(txt)}</span>`;
+  }).join(' ');
+  return `
+    <div class="ctx-card"
+         data-book="${_escapeHtml(o.book)}" data-chapter="${o.chapter}"
+         data-verse="${o.verse}" data-pair="${o.pairIdx}" data-hw="${o.hwIdx}">
+      <div class="ctx-card-top">
+        <span class="ctx-card-ref">${_escapeHtml(_ctxBookLabel(o.book))} ${o.chapter}:${o.verse}</span>
+      </div>
+      <div class="ctx-verse">${verseHtml}</div>
+      <div class="ctx-card-edit">
+        <input class="edit-input ctx-one-input" type="text" autocomplete="off"
+               spellcheck="true" value="${_escapeHtml(o.es)}"/>
+        <button type="button" class="btn btn-outline-primary btn-sm ctx-one-save">Guardar este</button>
+      </div>
+    </div>`;
+}
+
+// Renderiza la siguiente tanda de versos (CTX_BATCH) dentro de un grupo
+function _renderGroupBatch(group) {
+  const gi = Number(group.dataset.gidx);
+  const g = _ctxGroups[gi];
+  if (!g) return;
+  const body = group.querySelector('.ctx-group-body');
+  if (!body) return;
+  const old = body.querySelector('.ctx-more');
+  if (old) old.remove();
+  const start = g.rendered || 0;
+  const end = Math.min(start + CTX_BATCH, g.occs.length);
+  if (start >= g.occs.length) return;
+  let frag = '';
+  for (let i = start; i < end; i++) frag += _ctxCardHtml(g.occs[i]);
+  body.insertAdjacentHTML('beforeend', frag);
+  g.rendered = end;
+  if (g.rendered < g.occs.length) {
+    body.insertAdjacentHTML('beforeend',
+      `<button type="button" class="ctx-more">Mostrar más (${g.occs.length - g.rendered} restantes)</button>`);
+  }
+}
+
+// Carga al bajar: al acercarse al fondo del cuerpo del grupo, render más
+function _bindGroupScroll(group) {
+  const body = group.querySelector('.ctx-group-body');
+  if (!body || body.dataset.bound) return;
+  body.dataset.bound = '1';
+  body.addEventListener('scroll', () => {
+    if (body.scrollTop + body.clientHeight >= body.scrollHeight - 140) {
+      _renderGroupBatch(group);
+    }
+  });
+}
+
+// HTML de la cabecera de una forma (sin versos; estos se cargan al expandir)
+function _groupShellHtml(g, gi) {
+  const freq = {};
+  for (const o of g.occs) {
+    const e = (o.es || '').trim();
+    if (e) freq[e] = (freq[e] || 0) + 1;
+  }
+  const topEs = Object.keys(freq).sort((a, b) => freq[b] - freq[a])[0] || '';
+  const shown = g.occs.length;
+  const formBtn = g.cons
+    ? `<button type="button" class="btn btn-outline-secondary btn-sm ctx-form-apply">Aplicar a esta forma (${shown})</button>`
+    : '';
+  const isOpen = g.key === _ctxOpenKey;
+  return `
+    <div class="ctx-group${isOpen ? ' is-open' : ''}" data-gidx="${gi}"
+         data-heform="${_escapeHtml(g.heForm)}" data-morph="${_escapeHtml(g.morph)}">
+      <div class="ctx-group-head">
+        <button type="button" class="ctx-group-toggle" aria-expanded="${isOpen}">
+          <span class="ctx-chevron" aria-hidden="true">▸</span>
+          <span class="ctx-he-form" dir="rtl">${_escapeHtml(g.heForm)}</span>
+          <span class="ctx-card-morph">${_escapeHtml(g.morph || '—')}</span>
+          <span class="ctx-group-count" data-base="${shown}">${shown} verso(s)</span>
+        </button>
+        <div class="ctx-group-actions">
+          <input class="edit-input ctx-form-input" type="text" autocomplete="off"
+                 spellcheck="true" value="${_escapeHtml(topEs)}"
+                 placeholder="glosa para TODA esta forma…"/>
+          ${formBtn}
+        </div>
+      </div>
+      <div class="ctx-group-body"></div>
+    </div>`;
+}
+
+// Renderiza la siguiente tanda de FORMAS (cabeceras)
+function _renderGroupsBatch() {
+  const old = _ctxList.querySelector('.ctx-more-forms');
+  if (old) old.remove();
+  const start = _ctxGroupsShown;
+  const end = Math.min(start + CTX_GROUP_BATCH, _ctxGroups.length);
+  let frag = '';
+  for (let gi = start; gi < end; gi++) frag += _groupShellHtml(_ctxGroups[gi], gi);
+  _ctxList.insertAdjacentHTML('beforeend', frag);
+  _ctxGroupsShown = end;
+  if (_ctxGroupsShown < _ctxGroups.length) {
+    _ctxList.insertAdjacentHTML('beforeend',
+      `<button type="button" class="ctx-more-forms">Mostrar más formas (${_ctxGroups.length - _ctxGroupsShown} restantes)</button>`);
+  }
+  _refreshFormCounts();
+}
+
+function _renderCtxOccurrences(occs) {
+  _ctxGroups = [];
+  _ctxGroupsShown = 0;
+  _ctxOpenKey = null;
+  if (!occs.length) {
+    _ctxList.innerHTML = '<div class="ctx-hint">Sin ocurrencias.</div>';
+    return;
+  }
+  // Agrupa por forma flexionada = consonantes + morfología (capa "esta forma")
+  const consOf = (s) => (window.TraduccionTokens
+    ? TraduccionTokens.consonantsOnly(s || '') : (s || ''));
+  const formKey = (he, morph) => consOf(he || '') + '\u0001' + (morph || '');
+
+  const groups = new Map();
+  for (const o of occs) {
+    const cons = consOf(o.he_form || '');
+    const key = formKey(o.he_form, o.he_morph);
+    if (!groups.has(key)) {
+      groups.set(key, { key, heForm: o.he_form || '', morph: o.he_morph || '',
+                        cons, occs: [], rendered: 0 });
+    }
+    groups.get(key).occs.push(o);
+    if (_activeEdit && o.book === activeBook &&
+        o.chapter === _activeEdit.chapter && o.verse === _activeEdit.verse &&
+        o.pairIdx === _activeEdit.pairIdx && o.hwIdx === _activeEdit.hwIdx) {
+      _ctxOpenKey = key;
+    }
+  }
+  // Orden: forma más frecuente primero
+  _ctxGroups = [...groups.values()].sort((a, b) => b.occs.length - a.occs.length);
+  // La forma del token clicado (o la más frecuente) se fija al frente y se abre
+  if (!_ctxOpenKey && _ctxGroups.length) _ctxOpenKey = _ctxGroups[0].key;
+  const oi = _ctxGroups.findIndex(g => g.key === _ctxOpenKey);
+  if (oi > 0) {
+    const [og] = _ctxGroups.splice(oi, 1);
+    _ctxGroups.unshift(og);
+  }
+
+  // Solo 5 formas al entrar; el resto al desplazar.
+  _ctxList.innerHTML = '';
+  _renderGroupsBatch();
+  // Expande la primera forma (la activa) y carga su primera tanda de versos
+  const openEl = _ctxList.querySelector('.ctx-group.is-open');
+  if (openEl) {
+    _ctxList.classList.add('has-open');
+    _renderGroupBatch(openEl);
+    _bindGroupScroll(openEl);
+  } else {
+    _ctxList.classList.remove('has-open');
+  }
+}
+
+// Globaliza SOLO esta forma flexionada (Strong + consonantes + morfología) del grupo
+async function _ctxApplyForm(group) {
+  if (!_ctxStrongs) return;
+  const input = group.querySelector('.ctx-form-input');
+  const btn   = group.querySelector('.ctx-form-apply');
+  const heForm = group.dataset.heform || '';
+  const heMorph = group.dataset.morph || '';
+  const newEs = (input && input.value || '').trim();
+  const bookName = (bookInfo() && bookInfo().label) || activeBook;
+  if (!heForm) { showStatus('Esta forma no tiene texto hebreo', true); return; }
+  if (!newEs) { showStatus('Escribe la glosa antes de aplicar a esta forma', true); return; }
+  if (!confirm(`¿Aplicar "${newEs}" a TODAS las ocurrencias de la forma ${heForm} (${heMorph}) del Strong ${_ctxStrongs} en ${bookName}?\nNo afecta otras formas ni morfologías distintas, ni otros libros.`)) return;
+
+  const prev = btn ? btn.textContent : '';
+  if (btn) { btn.disabled = true; btn.textContent = 'Aplicando…'; }
+  try {
+    const res = await fetch('/api/globalize', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ strongs: _ctxStrongs, es: newEs, scope: 'book:' + activeBook,
+                             mode: 'form', he_form: heForm, he_morph: heMorph })
+    });
+    const data = await res.json();
+    if (!data.ok) throw new Error(data.error || 'Error');
+    const keepCh = currentChapter;
+    const keepVs = _activeEdit ? _activeEdit.verse : null;
+    showStatus(`Forma globalizada: ${data.changed} tokens en ${(data.books||[]).join(', ')}`);
+    _ctxSavedAny = false;
+    closeContextPanel();
+    closeEditModal();
+    genesisData = null;
+    await loadBook(activeBook, { chapter: keepCh, verse: keepVs });
+  } catch (err) {
+    showStatus('Error: ' + err.message, true);
+    if (btn) { btn.disabled = false; btn.textContent = prev; }
+  }
+}
+
+async function _ctxSaveOne(card) {
+  const input = card.querySelector('.ctx-one-input');
+  const btn   = card.querySelector('.ctx-one-save');
+  if (!input || !btn) return;
+  const newEs = (input.value || '').trim();
+
+  btn.disabled = true;
+  const prevTxt = btn.textContent;
+  btn.textContent = 'Guardando…';
+  try {
+    const res = await fetch('/api/save-gloss', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        book: card.dataset.book,
+        chapter: Number(card.dataset.chapter),
+        verse: Number(card.dataset.verse),
+        pairIdx: Number(card.dataset.pair),
+        hwIdx: Number(card.dataset.hw),
+        field: 'es',
+        prefixIdx: -1,
+        hasSuffix: false,
+        es: newEs
+      })
+    });
+    const data = await res.json();
+    if (!data.ok) throw new Error(data.error || 'Error');
+    card.classList.remove('is-dirty');
+    _ctxSavedAny = true;
+    btn.textContent = 'Guardado ✓';
+    showStatus(`Guardado ${card.dataset.book} ${card.dataset.chapter}:${card.dataset.verse}`);
+    setTimeout(() => { btn.textContent = prevTxt; btn.disabled = false; }, 1200);
+  } catch (err) {
+    showStatus('Error: ' + err.message, true);
+    btn.textContent = prevTxt;
+    btn.disabled = false;
+  }
+}
+
+async function _ctxApplyAll() {
+  if (!_ctxStrongs) return;
+  const newEs = (_ctxGlobalInput.value || '').trim();
+  if (!newEs) { showStatus('Escribe la glosa única antes de aplicar a todas', true); return; }
+
+  const allBooks = !!(_ctxAllBooks && _ctxAllBooks.checked);
+  const bookName = (bookInfo() && bookInfo().label) || activeBook;
+  const scope = allBooks ? 'all' : ('book:' + activeBook);
+  const ambito = allBooks ? 'TODOS los libros' : `${bookName} (solo este libro)`;
+
+  const distinct = _ctxInfo ? (_ctxInfo.distinct_glosses || 0) : 0;
+  let msg = `¿Cambiar TODAS las formas de ${_ctxStrongs} a "${newEs}"?\n` +
+            `Ámbito: ${ambito}.\n(Las ediciones puntuales por contexto se sobrescribirán.)`;
+  if (distinct > 1) {
+    msg = `Este Strong tiene ${distinct} glosas distintas (palabra flexionada).\n` +
+          `Vas a reemplazar TODAS por "${newEs}".\nÁmbito: ${ambito}.\n\n¿Continuar?`;
+  }
+  if (!confirm(msg)) return;
+
+  _ctxApplyAllBtn.disabled = true;
+  const prev = _ctxApplyAllBtn.textContent;
+  _ctxApplyAllBtn.textContent = 'Aplicando…';
+  try {
+    const res = await fetch('/api/globalize', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ strongs: _ctxStrongs, es: newEs, scope: scope })
+    });
+    const data = await res.json();
+    if (!data.ok) throw new Error(data.error || 'Error');
+    const keepCh = currentChapter;
+    const keepVs = _activeEdit ? _activeEdit.verse : null;
+    showStatus(`Globalizado: ${data.changed} tokens en ${(data.books||[]).join(', ')}`);
+    _ctxSavedAny = false;   // ya recargamos aquí; evitar doble recarga al cerrar
+    closeContextPanel();
+    closeEditModal();
+    genesisData = null;
+    await loadBook(activeBook, { chapter: keepCh, verse: keepVs });
+  } catch (err) {
+    showStatus('Error: ' + err.message, true);
+  } finally {
+    _ctxApplyAllBtn.disabled = false;
+    _ctxApplyAllBtn.textContent = prev;
+  }
+}
+
+function closeContextPanel() {
+  _ctxOverlay.classList.remove('is-open');
+  _ctxStrongs = '';
+  // Refrescar el capítulo solo si hubo guardados puntuales por contexto,
+  // manteniendo la posición actual del lector
+  if (_ctxSavedAny) {
+    _ctxSavedAny = false;
+    const keepCh = currentChapter;
+    genesisData = null;
+    loadBook(activeBook, { chapter: keepCh });
+  }
+}
+
+// Eventos del modal
+_editCancelBtn.addEventListener('click', closeEditModal);
+_editOverlay.addEventListener('click', (e) => {
+  if (e.target === _editOverlay) closeEditModal();
+});
+_editInput.addEventListener('input', _updateEditPreview);
+_editInput.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') { e.preventDefault(); _saveHere(); }
+  if (e.key === 'Escape') { e.preventDefault(); closeEditModal(); }
+});
+_editSaveBtn.addEventListener('click', _saveHere);
+_editGlobalBtn.addEventListener('click', openContextPanel);
+
+// Eventos del panel de contexto
+// El panel SOLO se cierra con la X (no por clic fuera ni con Escape), para
+// evitar perder el trabajo de globalización por contexto accidentalmente.
+_ctxCloseBtn.addEventListener('click', closeContextPanel);
+_ctxApplyAllBtn.addEventListener('click', _ctxApplyAll);
+// Carga más FORMAS al desplazar la lista hacia el fondo
+_ctxList.addEventListener('scroll', () => {
+  if (_ctxGroupsShown < _ctxGroups.length &&
+      _ctxList.scrollTop + _ctxList.clientHeight >= _ctxList.scrollHeight - 200) {
+    _renderGroupsBatch();
+  }
+});
+_ctxList.addEventListener('click', (e) => {
+  const formBtn = e.target.closest('.ctx-form-apply');
+  if (formBtn) {
+    const group = formBtn.closest('.ctx-group');
+    if (group) _ctxApplyForm(group);
+    return;
+  }
+  const moreForms = e.target.closest('.ctx-more-forms');
+  if (moreForms) {
+    _renderGroupsBatch();
+    return;
+  }
+  const more = e.target.closest('.ctx-more');
+  if (more) {
+    const group = more.closest('.ctx-group');
+    if (group) _renderGroupBatch(group);
+    return;
+  }
+  const toggle = e.target.closest('.ctx-group-toggle');
+  if (toggle) {
+    const group = toggle.closest('.ctx-group');
+    if (!group) return;
+    const willOpen = !group.classList.contains('is-open');
+    // Acordeón: al abrir uno, colapsa los demás
+    _ctxList.querySelectorAll('.ctx-group.is-open').forEach(g => {
+      if (g !== group) {
+        g.classList.remove('is-open');
+        const t = g.querySelector('.ctx-group-toggle');
+        if (t) t.setAttribute('aria-expanded', 'false');
+      }
+    });
+    group.classList.toggle('is-open', willOpen);
+    toggle.setAttribute('aria-expanded', String(willOpen));
+    // Una abierta = ocultar las demás para aprovechar el espacio
+    _ctxList.classList.toggle('has-open', willOpen);
+    if (willOpen) {
+      const gi = Number(group.dataset.gidx);
+      const g = _ctxGroups[gi];
+      if (g && !g.rendered) _renderGroupBatch(group);   // primera tanda
+      _bindGroupScroll(group);
+      _ctxList.scrollTop = 0;
+    } else {
+      // Al cerrar, vuelve a verse y deja visible la forma que se cerró
+      requestAnimationFrame(() =>
+        group.scrollIntoView({ block: 'nearest', behavior: 'smooth' }));
+    }
+    return;
+  }
+  const btn = e.target.closest('.ctx-one-save');
+  if (!btn) return;
+  const card = btn.closest('.ctx-card');
+  if (card) _ctxSaveOne(card);
+});
+_ctxList.addEventListener('input', (e) => {
+  const input = e.target.closest('.ctx-one-input');
+  if (!input) return;
+  const card = input.closest('.ctx-card');
+  if (card) card.classList.add('is-dirty');
+});
+_ctxList.addEventListener('keydown', (e) => {
+  if (e.key !== 'Enter') return;
+  const formInput = e.target.closest('.ctx-form-input');
+  if (formInput) {
+    e.preventDefault();
+    const group = formInput.closest('.ctx-group');
+    if (group) _ctxApplyForm(group);
+    return;
+  }
+  const input = e.target.closest('.ctx-one-input');
+  if (!input) return;
+  e.preventDefault();
+  const card = input.closest('.ctx-card');
+  if (card) _ctxSaveOne(card);
+});
+
+const MARCAS_LS = 'biblia_marcas_v1';
+
+function loadMarcasLocal() {
+  try {
+    const arr = JSON.parse(localStorage.getItem(MARCAS_LS) || '[]');
+    return Array.isArray(arr) ? arr : [];
+  } catch (_) {
+    return [];
+  }
+}
+
+function saveMarcasLocal() {
+  try {
+    localStorage.setItem(MARCAS_LS, JSON.stringify(_marcasList));
+  } catch (_) { /* cuota llena: el servidor sigue siendo respaldo */ }
+}
+
+function cambioEsKey(o) {
+  const pidx = o.prefixIdx == null || o.prefixIdx === '' ? -1 : Number(o.prefixIdx);
+  return [o.book || activeBook, o.chapter, o.verse, o.pairIdx, o.hwIdx, pidx].join('|');
+}
+
+function rememberCambioEs(loc, antes, despues) {
+  try {
+    const map = JSON.parse(localStorage.getItem('biblia_cambios_es_v1') || '{}');
+    map[cambioEsKey(loc)] = { antes: antes || '', despues: despues || '' };
+    localStorage.setItem('biblia_cambios_es_v1', JSON.stringify(map));
+  } catch (_) {}
+}
+
+function lookupCambioEs(loc) {
+  try {
+    const map = JSON.parse(localStorage.getItem('biblia_cambios_es_v1') || '{}');
+    return map[cambioEsKey(loc)] || null;
+  } catch (_) {
+    return null;
+  }
+}
+
+_marcasList = loadMarcasLocal();
+
+function marcaKeyOf(m) {
+  const pidx = m.prefixIdx == null || m.prefixIdx === '' ? -1 : Number(m.prefixIdx);
+  return [m.book, m.chapter, m.verse, m.pairIdx, m.hwIdx, pidx].join('|');
+}
+
+function mergeMarcas(a, b) {
+  const map = new Map();
+  for (const src of [a, b]) {
+    if (!Array.isArray(src)) continue;
+    for (const m of src) {
+      if (!m || !m.color) continue;
+      const k = marcaKeyOf(m);
+      const prev = map.get(k);
+      if (!prev || String(m.at || '') >= String(prev.at || '')) map.set(k, m);
+    }
+  }
+  return [...map.values()];
+}
+
+function marcaFromToken(token) {
+  const card = token.closest('.admin-verse-card');
+  if (!card || !card.dataset.verse) return null;
+  const [ch, vs] = card.dataset.verse.split(':').map(Number);
+  const pi = Number(token.dataset.pair);
+  const hi = Number(token.dataset.hw);
+  const pidx = token.dataset.prefixIdx != null && token.dataset.prefixIdx !== ''
+    ? Number(token.dataset.prefixIdx)
+    : (token.dataset.type === 'prefix' ? 0 : -1);
+  if (!Number.isFinite(ch) || !Number.isFinite(vs) || !Number.isFinite(pi) || !Number.isFinite(hi)) {
+    return null;
+  }
+  const gloss = token.querySelector('.admin-morph-segment-gloss');
+  return {
+    book: activeBook,
+    chapter: ch,
+    verse: vs,
+    pairIdx: pi,
+    hwIdx: hi,
+    prefixIdx: Number.isFinite(pidx) ? pidx : -1,
+    role: token.dataset.type || 'stem',
+    he: (gloss && gloss.dataset.he) || '',
+    es: (gloss && gloss.dataset.es) || '',
+    strongs: token.dataset.strong || (gloss && gloss.dataset.strong) || '',
+    morph: (gloss && gloss.dataset.morph) || '',
+  };
+}
+
+function sameMarcaLoc(m, loc) {
+  const mp = m.prefixIdx == null || m.prefixIdx === '' ? -1 : Number(m.prefixIdx);
+  const lp = loc.prefixIdx == null || loc.prefixIdx === '' ? -1 : Number(loc.prefixIdx);
+  return m.book === loc.book &&
+    Number(m.chapter) === loc.chapter &&
+    Number(m.verse) === loc.verse &&
+    Number(m.pairIdx) === loc.pairIdx &&
+    Number(m.hwIdx) === loc.hwIdx &&
+    mp === lp;
+}
+
+function findMarca(loc) {
+  return _marcasList.find(m => sameMarcaLoc(m, loc)) || null;
+}
+
+function applyMarcas() {
+  document.querySelectorAll('.admin-morph-segment-hebrew.marca-rojo, .admin-morph-segment-hebrew.marca-azul, .admin-morph-segment-hebrew.marca-verde')
+    .forEach(el => el.classList.remove('marca-rojo', 'marca-azul', 'marca-verde'));
+  const mount = document.getElementById('editorMount');
+  if (!mount) return;
+  for (const m of _marcasList) {
+    if (m.book !== activeBook) continue;
+    if (Number(m.chapter) !== currentChapter) continue;
+    const card = mount.querySelector(`.admin-verse-card[data-verse="${m.chapter}:${m.verse}"]`);
+    if (!card) continue;
+    const pidx = m.prefixIdx == null || m.prefixIdx === '' ? -1 : Number(m.prefixIdx);
+    const role = pidx >= 0 ? 'prefix' : 'stem';
+    const prefSel = role === 'prefix'
+      ? `[data-type="prefix"][data-prefix-idx="${pidx}"]`
+      : '[data-type="stem"]';
+    const token = card.querySelector(
+      `.admin-morph-token${prefSel}[data-pair="${m.pairIdx}"][data-hw="${m.hwIdx}"]`
+    );
+    const he = token && token.querySelector('.admin-morph-segment-hebrew-base');
+    if (!he) continue;
+    if (m.color === 'rojo' || m.color === 'azul' || m.color === 'verde') {
+      he.classList.add('marca-' + m.color);
+    }
+  }
+}
+
+const _marcaPalette = document.getElementById('marcaPalette');
+let _marcaTarget = null;
+
+function closeMarcaPalette() {
+  _marcaPalette.classList.remove('is-open');
+  _marcaTarget = null;
+}
+
+function openMarcaPalette(token, heEl) {
+  const loc = marcaFromToken(token);
+  if (!loc) return;
+  _marcaTarget = { token, heEl, loc };
+  const cur = findMarca(loc);
+  _marcaPalette.querySelectorAll('button[data-color]').forEach(btn => {
+    btn.classList.toggle('is-on', !!(cur && cur.color === btn.dataset.color));
+  });
+  const r = heEl.getBoundingClientRect();
+  _marcaPalette.classList.add('is-open');
+  const pw = _marcaPalette.offsetWidth || 88;
+  const ph = _marcaPalette.offsetHeight || 32;
+  let left = r.left + (r.width - pw) / 2;
+  let top = r.top - ph - 8;
+  if (top < 8) top = r.bottom + 8;
+  if (left < 8) left = 8;
+  if (left + pw > window.innerWidth - 8) left = window.innerWidth - pw - 8;
+  _marcaPalette.style.left = `${left}px`;
+  _marcaPalette.style.top = `${top}px`;
+}
+
+async function setMarcaColor(color) {
+  if (!_marcaTarget) return;
+  const loc = _marcaTarget.loc;
+  const cur = findMarca(loc);
+  const next = (cur && cur.color === color) ? '' : color;
+  const rec = { ...loc, color: next, at: new Date().toISOString() };
+  if (next === 'verde') {
+    const chg = lookupCambioEs(loc);
+    rec.es_despues = loc.es || '';
+    rec.es_antes = (chg && chg.antes) || '';
+  }
+  _marcasList = _marcasList.filter(m => !sameMarcaLoc(m, loc));
+  if (next) _marcasList.push(rec);
+  saveMarcasLocal();
+  applyMarcas();
+  closeMarcaPalette();
+  try {
+    const res = await fetch('/api/marcas', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(rec),
+    });
+    const data = await res.json();
+    if (!data.ok) throw new Error(data.error || 'No se pudo guardar la marca');
+  } catch (err) {
+    showStatus('Marca en este navegador. Al reabrir el visor se sincroniza.', false);
+  }
+}
+
+function flushMarcasAlSalir() {
+  saveMarcasLocal();
+  if (!_marcasReady) return;
+  const payload = JSON.stringify({ marcas: _marcasList });
+  try {
+    if (navigator.sendBeacon) {
+      navigator.sendBeacon('/api/marcas-sync', new Blob([payload], { type: 'application/json' }));
+      return;
+    }
+  } catch (_) { /* fallback fetch */ }
+  try {
+    fetch('/api/marcas-sync', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: payload,
+      keepalive: true,
+    });
+  } catch (_) {}
+}
+
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'hidden') flushMarcasAlSalir();
+});
+window.addEventListener('pagehide', flushMarcasAlSalir);
+
+_marcaPalette.addEventListener('click', (e) => {
+  const btn = e.target.closest('button[data-color]');
+  if (!btn) return;
+  e.preventDefault();
+  e.stopPropagation();
+  setMarcaColor(btn.dataset.color);
+});
+
+document.addEventListener('click', (e) => {
+  if (!_marcaPalette.classList.contains('is-open')) return;
+  if (_marcaPalette.contains(e.target)) return;
+  if (e.target.closest('.admin-morph-segment-hebrew-base')) return;
+  closeMarcaPalette();
+});
+
+window.addEventListener('scroll', () => {
+  if (_marcaPalette.classList.contains('is-open')) closeMarcaPalette();
+}, true);
+
+function _revertPersonalEl(el) {
+  el.textContent = el.dataset.original || '';
+}
+
+async function _savePersonalEl(el) {
+  if (!el || el.dataset.saving === '1') return;
+  const chapter = Number(el.dataset.chapter);
+  const verse = Number(el.dataset.verse);
+  const original = el.dataset.original || '';
+  const next = (el.innerText || el.textContent || '').replace(/\s+/g, ' ').trim();
+  if (!next) {
+    _revertPersonalEl(el);
+    showStatus('La línea personal no puede quedar vacía', true);
+    return;
+  }
+  if (next === original.trim()) {
+    el.textContent = original;
+    return;
+  }
+  el.dataset.saving = '1';
+  try {
+    const res = await fetch('/api/save-personal', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ book: activeBook, chapter, verse, text: next })
+    });
+    const data = await res.json();
+    if (!data.ok) throw new Error(data.error || 'Error');
+    el.dataset.original = next;
+    el.textContent = next;
+    if (tradPersonalData && tradPersonalData[chapter - 1]) {
+      tradPersonalData[chapter - 1][verse - 1] = next;
+    }
+    showStatus(data.changed ? `Personal ${chapter}:${verse} guardado` : 'Sin cambios');
+  } catch (err) {
+    _revertPersonalEl(el);
+    showStatus(err.message || 'No se pudo guardar el texto personal', true);
+  } finally {
+    delete el.dataset.saving;
+  }
+}
+
+// Clic en glosa española = editar. Clic en hebreo (stem o prefijo) = paleta de marcas.
+document.getElementById('editorMount').addEventListener('click', (e) => {
+  const he = e.target.closest('.admin-morph-segment-hebrew-base');
+  if (he) {
+    const token = he.closest('.admin-morph-token');
+    if (!token || token.dataset.pair == null) return;
+    e.preventDefault();
+    e.stopPropagation();
+    openMarcaPalette(token, he);
+    return;
+  }
+  const gloss = e.target.closest('.admin-morph-segment-gloss');
+  if (!gloss) return;
+  if (e.target.closest('.tok-translate-personal')) return;
+  const token = gloss.closest('.admin-morph-token');
+  if (!token || token.dataset.pair == null) return;
+  e.preventDefault();
+  openEditModal(gloss);
+});
+
+document.getElementById('editorMount').addEventListener('keydown', (e) => {
+  const el = e.target.closest && e.target.closest('.tok-translate-text.is-editable');
+  if (!el) return;
+  if (e.key === 'Enter' && !e.shiftKey) {
+    e.preventDefault();
+    el.blur();
+  }
+});
+
+document.getElementById('editorMount').addEventListener('focusout', (e) => {
+  const el = e.target.closest && e.target.closest('.tok-translate-text.is-editable');
+  if (!el) return;
+  _savePersonalEl(el);
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key !== 'Escape') return;
+  const personalEd = document.activeElement && document.activeElement.closest
+    && document.activeElement.closest('.tok-translate-text.is-editable');
+  if (personalEd) {
+    e.preventDefault();
+    _revertPersonalEl(personalEd);
+    personalEd.blur();
+    return;
+  }
+  // El panel de globalización por contexto NO se cierra con Escape: solo con su X.
+  if (_ctxOverlay.classList.contains('is-open')) return;
+  if (_marcaPalette.classList.contains('is-open')) {
+    closeMarcaPalette();
+    return;
+  }
+  if (_editOverlay.classList.contains('is-open')) {
+    closeEditModal();
+  }
+});
+
+// ── Boot inicial ──────────────────────────────────────────────────────────
+// Restaura la última posición (libro + capítulo). Si la URL trae ?book=, ese
+// manda para el libro; el capítulo guardado solo aplica si coincide el libro.
+(function boot() {
+  let startCh = 1;
+  try {
+    const saved = JSON.parse(localStorage.getItem('biblia_pos') || '{}');
+    const urlBook = new URL(window.location.href).searchParams.get('book');
+    if (!urlBook && saved && saved.book && BOOKS[saved.book]) {
+      activeBook = saved.book;
+    }
+    if (saved && saved.book === activeBook && saved.chapter) {
+      startCh = Number(saved.chapter) || 1;
+    }
+  } catch (_) { /* no-op */ }
+  loadBook(activeBook, { chapter: startCh });
+  placeMarcaLegend();
+})();
+
+function placeMarcaLegend() {
+  const el = document.querySelector('.marca-legend');
+  const wrap = document.querySelector('main.container.sitewrap');
+  if (!el) return;
+  const wr = wrap ? wrap.getBoundingClientRect() : { right: window.innerWidth - 96 };
+  const w = el.offsetWidth || 86;
+  const gutter = window.innerWidth - wr.right;
+  el.style.top = '5.4rem';
+  el.style.left = 'auto';
+  if (gutter >= w + 16) {
+    el.style.right = Math.round((gutter - w) / 2) + 'px';
+  } else {
+    el.style.left = Math.round(wr.right + 6) + 'px';
+    el.style.right = 'auto';
+  }
+}
+window.addEventListener('resize', placeMarcaLegend);
+window.addEventListener('scroll', placeMarcaLegend, { passive: true });
+</script>
+</body>
+</html>

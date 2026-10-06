@@ -1,0 +1,385 @@
+{
+  "name": "BIBLIA2027",
+  "description": "Biblia interlineal Hebreo (TM Macula) / Griego LXX / Español. Texto hebreo consonántico 100% Texto Masorético; capa griega LXX alineada; glosas en español.",
+  "schema_version": "1.0",
+  "generated": "2026-06-09T15:10:32",
+  "language_layers": [
+    "he (hebreo/TM)",
+    "gr (griego LXX)",
+    "es (español)"
+  ],
+  "book_count": 39,
+  "total_verses": 23211,
+  "total_tokens": 469387,
+  "files": {
+    "per_book": "books/NN_slug.json  (recomendado para web: carga el libro bajo demanda)",
+    "combined": "biblia_completa.json  (toda la Biblia en un archivo, para motores/scripts)"
+  },
+  "token_schema": {
+    "num": "posición del token dentro del verso (string, 1-based)",
+    "orig": "forma original (hebreo con vocales/acentos, o griego en adiciones)",
+    "morphs": "código morfológico (si existe)",
+    "strongs": "número Strong (si existe)",
+    "es": "glosa en español (si existe)",
+    "gr": "palabra/frase griega LXX alineada (si existe)",
+    "notrans": "marcador 's/t' = sin traducción española asignada",
+    "lxx_omit": "true = la LXX omite esta palabra hebrea"
+  },
+  "verse_schema": {
+    "\"<cap>\".\"<ver>\"": "{ raw: texto plano del verso, tokens: [ ...token... ] }",
+    "\"<cap>\".\"<ver>_add\"": "{ is_lxx_add:true, lxx_add_label, gr_text, token_count } = bloque de adición LXX (sin equivalente hebreo)"
+  },
+  "books": [
+    {
+      "num": 1,
+      "slug": "genesis",
+      "name": "Génesis",
+      "file": "books/01_genesis.json",
+      "chapters": 50,
+      "verses": 1533,
+      "tokens": 32080
+    },
+    {
+      "num": 2,
+      "slug": "exodo",
+      "name": "Éxodo",
+      "file": "books/02_exodo.json",
+      "chapters": 40,
+      "verses": 1213,
+      "tokens": 25739
+    },
+    {
+      "num": 3,
+      "slug": "levitico",
+      "name": "Levítico",
+      "file": "books/03_levitico.json",
+      "chapters": 27,
+      "verses": 859,
+      "tokens": 18571
+    },
+    {
+      "num": 4,
+      "slug": "numeros",
+      "name": "Números",
+      "file": "books/04_numeros.json",
+      "chapters": 36,
+      "verses": 1290,
+      "tokens": 24879
+    },
+    {
+      "num": 5,
+      "slug": "deuteronomio",
+      "name": "Deuteronomio",
+      "file": "books/05_deuteronomio.json",
+      "chapters": 34,
+      "verses": 957,
+      "tokens": 22819
+    },
+    {
+      "num": 6,
+      "slug": "josue",
+      "name": "Josué",
+      "file": "books/06_josue.json",
+      "chapters": 24,
+      "verses": 658,
+      "tokens": 15716
+    },
+    {
+      "num": 7,
+      "slug": "jueces",
+      "name": "Jueces",
+      "file": "books/07_jueces.json",
+      "chapters": 21,
+      "verses": 618,
+      "tokens": 15356
+    },
+    {
+      "num": 8,
+      "slug": "rut",
+      "name": "Rut",
+      "file": "books/08_rut.json",
+      "chapters": 4,
+      "verses": 85,
+      "tokens": 2026
+    },
+    {
+      "num": 9,
+      "slug": "1_samuel",
+      "name": "1 Samuel",
+      "file": "books/09_1_samuel.json",
+      "chapters": 31,
+      "verses": 811,
+      "tokens": 20628
+    },
+    {
+      "num": 10,
+      "slug": "2_samuel",
+      "name": "2 Samuel",
+      "file": "books/10_2_samuel.json",
+      "chapters": 24,
+      "verses": 695,
+      "tokens": 16997
+    },
+    {
+      "num": 11,
+      "slug": "1_reyes",
+      "name": "1 Reyes",
+      "file": "books/11_1_reyes.json",
+      "chapters": 22,
+      "verses": 817,
+      "tokens": 20153
+    },
+    {
+      "num": 12,
+      "slug": "2_reyes",
+      "name": "2 Reyes",
+      "file": "books/12_2_reyes.json",
+      "chapters": 25,
+      "verses": 719,
+      "tokens": 18632
+    },
+    {
+      "num": 13,
+      "slug": "1_cronicas",
+      "name": "1 Crónicas",
+      "file": "books/13_1_cronicas.json",
+      "chapters": 29,
+      "verses": 943,
+      "tokens": 16506
+    },
+    {
+      "num": 14,
+      "slug": "2_cronicas",
+      "name": "2 Crónicas",
+      "file": "books/14_2_cronicas.json",
+      "chapters": 36,
+      "verses": 822,
+      "tokens": 21083
+    },
+    {
+      "num": 15,
+      "slug": "esdras",
+      "name": "Esdras",
+      "file": "books/15_esdras.json",
+      "chapters": 10,
+      "verses": 280,
+      "tokens": 5806
+    },
+    {
+      "num": 16,
+      "slug": "nehemias",
+      "name": "Nehemías",
+      "file": "books/16_nehemias.json",
+      "chapters": 13,
+      "verses": 405,
+      "tokens": 8432
+    },
+    {
+      "num": 17,
+      "slug": "ester",
+      "name": "Ester",
+      "file": "books/17_ester.json",
+      "chapters": 10,
+      "verses": 167,
+      "tokens": 4847
+    },
+    {
+      "num": 18,
+      "slug": "job",
+      "name": "Job",
+      "file": "books/18_job.json",
+      "chapters": 42,
+      "verses": 1070,
+      "tokens": 12486
+    },
+    {
+      "num": 19,
+      "slug": "salmos",
+      "name": "Salmos",
+      "file": "books/19_salmos.json",
+      "chapters": 150,
+      "verses": 2527,
+      "tokens": 29894
+    },
+    {
+      "num": 20,
+      "slug": "proverbios",
+      "name": "Proverbios",
+      "file": "books/20_proverbios.json",
+      "chapters": 31,
+      "verses": 915,
+      "tokens": 9700
+    },
+    {
+      "num": 21,
+      "slug": "eclesiastes",
+      "name": "Eclesiastés",
+      "file": "books/21_eclesiastes.json",
+      "chapters": 12,
+      "verses": 222,
+      "tokens": 4453
+    },
+    {
+      "num": 22,
+      "slug": "cantares",
+      "name": "Cantares",
+      "file": "books/22_cantares.json",
+      "chapters": 8,
+      "verses": 117,
+      "tokens": 1972
+    },
+    {
+      "num": 23,
+      "slug": "isaias",
+      "name": "Isaías",
+      "file": "books/23_isaias.json",
+      "chapters": 66,
+      "verses": 1291,
+      "tokens": 25266
+    },
+    {
+      "num": 24,
+      "slug": "jeremias",
+      "name": "Jeremías",
+      "file": "books/24_jeremias.json",
+      "chapters": 52,
+      "verses": 1364,
+      "tokens": 32542
+    },
+    {
+      "num": 25,
+      "slug": "lamentaciones",
+      "name": "Lamentaciones",
+      "file": "books/25_lamentaciones.json",
+      "chapters": 5,
+      "verses": 155,
+      "tokens": 2233
+    },
+    {
+      "num": 26,
+      "slug": "ezequiel",
+      "name": "Ezequiel",
+      "file": "books/26_ezequiel.json",
+      "chapters": 48,
+      "verses": 1271,
+      "tokens": 29387
+    },
+    {
+      "num": 27,
+      "slug": "daniel",
+      "name": "Daniel",
+      "file": "books/27_daniel.json",
+      "chapters": 12,
+      "verses": 357,
+      "tokens": 9586
+    },
+    {
+      "num": 28,
+      "slug": "oseas",
+      "name": "Oseas",
+      "file": "books/28_oseas.json",
+      "chapters": 14,
+      "verses": 197,
+      "tokens": 3581
+    },
+    {
+      "num": 29,
+      "slug": "joel",
+      "name": "Joel",
+      "file": "books/29_joel.json",
+      "chapters": 4,
+      "verses": 73,
+      "tokens": 1438
+    },
+    {
+      "num": 30,
+      "slug": "amos",
+      "name": "Amós",
+      "file": "books/30_amos.json",
+      "chapters": 9,
+      "verses": 146,
+      "tokens": 3003
+    },
+    {
+      "num": 31,
+      "slug": "abdias",
+      "name": "Abdías",
+      "file": "books/31_abdias.json",
+      "chapters": 1,
+      "verses": 21,
+      "tokens": 435
+    },
+    {
+      "num": 32,
+      "slug": "jonas",
+      "name": "Jonás",
+      "file": "books/32_jonas.json",
+      "chapters": 4,
+      "verses": 48,
+      "tokens": 1081
+    },
+    {
+      "num": 33,
+      "slug": "miqueas",
+      "name": "Miqueas",
+      "file": "books/33_miqueas.json",
+      "chapters": 7,
+      "verses": 105,
+      "tokens": 2107
+    },
+    {
+      "num": 34,
+      "slug": "nahum",
+      "name": "Nahúm",
+      "file": "books/34_nahum.json",
+      "chapters": 3,
+      "verses": 47,
+      "tokens": 828
+    },
+    {
+      "num": 35,
+      "slug": "habacuc",
+      "name": "Habacuc",
+      "file": "books/35_habacuc.json",
+      "chapters": 3,
+      "verses": 56,
+      "tokens": 1000
+    },
+    {
+      "num": 36,
+      "slug": "sofonias",
+      "name": "Sofonías",
+      "file": "books/36_sofonias.json",
+      "chapters": 3,
+      "verses": 53,
+      "tokens": 1123
+    },
+    {
+      "num": 37,
+      "slug": "hageo",
+      "name": "Hageo",
+      "file": "books/37_hageo.json",
+      "chapters": 2,
+      "verses": 38,
+      "tokens": 911
+    },
+    {
+      "num": 38,
+      "slug": "zacarias",
+      "name": "Zacarías",
+      "file": "books/38_zacarias.json",
+      "chapters": 14,
+      "verses": 211,
+      "tokens": 4788
+    },
+    {
+      "num": 39,
+      "slug": "malaquias",
+      "name": "Malaquías",
+      "file": "books/39_malaquias.json",
+      "chapters": 3,
+      "verses": 55,
+      "tokens": 1303
+    }
+  ]
+}

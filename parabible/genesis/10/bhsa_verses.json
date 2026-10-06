@@ -1,0 +1,2393 @@
+[
+  {
+    "reference": "Genesis 10 1",
+    "rid": 1010001,
+    "verse": 1,
+    "word_count": 16,
+    "words": [
+      {
+        "wid": 4539,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4540,
+        "word": "אֵ֨לֶּה֙",
+        "trailer": " "
+      },
+      {
+        "wid": 4541,
+        "word": "תֹּולְדֹ֣ת",
+        "trailer": " "
+      },
+      {
+        "wid": 4542,
+        "word": "בְּנֵי",
+        "trailer": "־"
+      },
+      {
+        "wid": 4543,
+        "word": "נֹ֔חַ",
+        "trailer": " "
+      },
+      {
+        "wid": 4544,
+        "word": "שֵׁ֖ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4545,
+        "word": "חָ֣ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4546,
+        "word": "וָ",
+        "trailer": ""
+      },
+      {
+        "wid": 4547,
+        "word": "יָ֑פֶת",
+        "trailer": " "
+      },
+      {
+        "wid": 4548,
+        "word": "וַ",
+        "trailer": ""
+      },
+      {
+        "wid": 4549,
+        "word": "יִּוָּלְד֥וּ",
+        "trailer": " "
+      },
+      {
+        "wid": 4550,
+        "word": "לָהֶ֛ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4551,
+        "word": "בָּנִ֖ים",
+        "trailer": " "
+      },
+      {
+        "wid": 4552,
+        "word": "אַחַ֥ר",
+        "trailer": " "
+      },
+      {
+        "wid": 4553,
+        "word": "הַ",
+        "trailer": ""
+      },
+      {
+        "wid": 4554,
+        "word": "מַּבּֽוּל",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 2",
+    "rid": 1010002,
+    "verse": 2,
+    "word_count": 15,
+    "words": [
+      {
+        "wid": 4555,
+        "word": "בְּנֵ֣י",
+        "trailer": " "
+      },
+      {
+        "wid": 4556,
+        "word": "יֶ֔פֶת",
+        "trailer": " "
+      },
+      {
+        "wid": 4557,
+        "word": "גֹּ֣מֶר",
+        "trailer": " "
+      },
+      {
+        "wid": 4558,
+        "word": "וּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4559,
+        "word": "מָגֹ֔וג",
+        "trailer": " "
+      },
+      {
+        "wid": 4560,
+        "word": "וּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4561,
+        "word": "מָדַ֖י",
+        "trailer": " "
+      },
+      {
+        "wid": 4562,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4563,
+        "word": "יָוָ֣ן",
+        "trailer": " "
+      },
+      {
+        "wid": 4564,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4565,
+        "word": "תֻבָ֑ל",
+        "trailer": " "
+      },
+      {
+        "wid": 4566,
+        "word": "וּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4567,
+        "word": "מֶ֖שֶׁךְ",
+        "trailer": " "
+      },
+      {
+        "wid": 4568,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4569,
+        "word": "תִירָֽס",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 3",
+    "rid": 1010003,
+    "verse": 3,
+    "word_count": 8,
+    "words": [
+      {
+        "wid": 4570,
+        "word": "וּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4571,
+        "word": "בְנֵ֖י",
+        "trailer": " "
+      },
+      {
+        "wid": 4572,
+        "word": "גֹּ֑מֶר",
+        "trailer": " "
+      },
+      {
+        "wid": 4573,
+        "word": "אַשְׁכֲּנַ֥ז",
+        "trailer": " "
+      },
+      {
+        "wid": 4574,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4575,
+        "word": "רִיפַ֖ת",
+        "trailer": " "
+      },
+      {
+        "wid": 4576,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4577,
+        "word": "תֹגַרְמָֽה",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 4",
+    "rid": 1010004,
+    "verse": 4,
+    "word_count": 9,
+    "words": [
+      {
+        "wid": 4578,
+        "word": "וּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4579,
+        "word": "בְנֵ֥י",
+        "trailer": " "
+      },
+      {
+        "wid": 4580,
+        "word": "יָוָ֖ן",
+        "trailer": " "
+      },
+      {
+        "wid": 4581,
+        "word": "אֱלִישָׁ֣ה",
+        "trailer": " "
+      },
+      {
+        "wid": 4582,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4583,
+        "word": "תַרְשִׁ֑ישׁ",
+        "trailer": " "
+      },
+      {
+        "wid": 4584,
+        "word": "כִּתִּ֖ים",
+        "trailer": " "
+      },
+      {
+        "wid": 4585,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4586,
+        "word": "דֹדָנִֽים",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 5",
+    "rid": 1010005,
+    "verse": 5,
+    "word_count": 15,
+    "words": [
+      {
+        "wid": 4587,
+        "word": "מֵ֠",
+        "trailer": ""
+      },
+      {
+        "wid": 4588,
+        "word": "אֵלֶּה",
+        "trailer": " "
+      },
+      {
+        "wid": 4589,
+        "word": "נִפְרְד֞וּ",
+        "trailer": " "
+      },
+      {
+        "wid": 4590,
+        "word": "אִיֵּ֤י",
+        "trailer": " "
+      },
+      {
+        "wid": 4591,
+        "word": "הַ",
+        "trailer": ""
+      },
+      {
+        "wid": 4592,
+        "word": "גֹּויִם֙",
+        "trailer": " "
+      },
+      {
+        "wid": 4593,
+        "word": "בְּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4594,
+        "word": "אַרְצֹתָ֔ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4595,
+        "word": "אִ֖ישׁ",
+        "trailer": " "
+      },
+      {
+        "wid": 4596,
+        "word": "לִ",
+        "trailer": ""
+      },
+      {
+        "wid": 4597,
+        "word": "לְשֹׁנֹ֑ו",
+        "trailer": " "
+      },
+      {
+        "wid": 4598,
+        "word": "לְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4599,
+        "word": "מִשְׁפְּחֹתָ֖ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4600,
+        "word": "בְּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4601,
+        "word": "גֹויֵהֶֽם",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 6",
+    "rid": 1010006,
+    "verse": 6,
+    "word_count": 10,
+    "words": [
+      {
+        "wid": 4602,
+        "word": "וּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4603,
+        "word": "בְנֵ֖י",
+        "trailer": " "
+      },
+      {
+        "wid": 4604,
+        "word": "חָ֑ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4605,
+        "word": "כּ֥וּשׁ",
+        "trailer": " "
+      },
+      {
+        "wid": 4606,
+        "word": "וּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4607,
+        "word": "מִצְרַ֖יִם",
+        "trailer": " "
+      },
+      {
+        "wid": 4608,
+        "word": "וּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4609,
+        "word": "פ֥וּט",
+        "trailer": " "
+      },
+      {
+        "wid": 4610,
+        "word": "וּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4611,
+        "word": "כְנָֽעַן",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 7",
+    "rid": 1010007,
+    "verse": 7,
+    "word_count": 18,
+    "words": [
+      {
+        "wid": 4612,
+        "word": "וּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4613,
+        "word": "בְנֵ֣י",
+        "trailer": " "
+      },
+      {
+        "wid": 4614,
+        "word": "כ֔וּשׁ",
+        "trailer": " "
+      },
+      {
+        "wid": 4615,
+        "word": "סְבָא֙",
+        "trailer": " "
+      },
+      {
+        "wid": 4616,
+        "word": "וַֽ",
+        "trailer": ""
+      },
+      {
+        "wid": 4617,
+        "word": "חֲוִילָ֔ה",
+        "trailer": " "
+      },
+      {
+        "wid": 4618,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4619,
+        "word": "סַבְתָּ֥ה",
+        "trailer": " "
+      },
+      {
+        "wid": 4620,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4621,
+        "word": "רַעְמָ֖ה",
+        "trailer": " "
+      },
+      {
+        "wid": 4622,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4623,
+        "word": "סַבְתְּכָ֑א",
+        "trailer": " "
+      },
+      {
+        "wid": 4624,
+        "word": "וּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4625,
+        "word": "בְנֵ֥י",
+        "trailer": " "
+      },
+      {
+        "wid": 4626,
+        "word": "רַעְמָ֖ה",
+        "trailer": " "
+      },
+      {
+        "wid": 4627,
+        "word": "שְׁבָ֥א",
+        "trailer": " "
+      },
+      {
+        "wid": 4628,
+        "word": "וּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4629,
+        "word": "דְדָֽן",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 8",
+    "rid": 1010008,
+    "verse": 8,
+    "word_count": 13,
+    "words": [
+      {
+        "wid": 4630,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4631,
+        "word": "כ֖וּשׁ",
+        "trailer": " "
+      },
+      {
+        "wid": 4632,
+        "word": "יָלַ֣ד",
+        "trailer": " "
+      },
+      {
+        "wid": 4633,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4634,
+        "word": "נִמְרֹ֑ד",
+        "trailer": " "
+      },
+      {
+        "wid": 4635,
+        "word": "ה֣וּא",
+        "trailer": " "
+      },
+      {
+        "wid": 4636,
+        "word": "הֵחֵ֔ל",
+        "trailer": " "
+      },
+      {
+        "wid": 4637,
+        "word": "לִֽ",
+        "trailer": ""
+      },
+      {
+        "wid": 4638,
+        "word": "הְיֹ֥ות",
+        "trailer": " "
+      },
+      {
+        "wid": 4639,
+        "word": "גִּבֹּ֖ר",
+        "trailer": " "
+      },
+      {
+        "wid": 4640,
+        "word": "בָּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4641,
+        "word": "",
+        "trailer": ""
+      },
+      {
+        "wid": 4642,
+        "word": "אָֽרֶץ",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 9",
+    "rid": 1010009,
+    "verse": 9,
+    "word_count": 17,
+    "words": [
+      {
+        "wid": 4643,
+        "word": "הֽוּא",
+        "trailer": "־"
+      },
+      {
+        "wid": 4644,
+        "word": "הָיָ֥ה",
+        "trailer": " "
+      },
+      {
+        "wid": 4645,
+        "word": "גִבֹּֽר",
+        "trailer": "־"
+      },
+      {
+        "wid": 4646,
+        "word": "צַ֖יִד",
+        "trailer": " "
+      },
+      {
+        "wid": 4647,
+        "word": "לִ",
+        "trailer": ""
+      },
+      {
+        "wid": 4648,
+        "word": "פְנֵ֣י",
+        "trailer": " "
+      },
+      {
+        "wid": 4649,
+        "word": "יְהוָ֑ה",
+        "trailer": " "
+      },
+      {
+        "wid": 4650,
+        "word": "עַל",
+        "trailer": "־"
+      },
+      {
+        "wid": 4651,
+        "word": "כֵּן֙",
+        "trailer": " "
+      },
+      {
+        "wid": 4652,
+        "word": "יֵֽאָמַ֔ר",
+        "trailer": " "
+      },
+      {
+        "wid": 4653,
+        "word": "כְּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4654,
+        "word": "נִמְרֹ֛ד",
+        "trailer": " "
+      },
+      {
+        "wid": 4655,
+        "word": "גִּבֹּ֥ור",
+        "trailer": " "
+      },
+      {
+        "wid": 4656,
+        "word": "צַ֖יִד",
+        "trailer": " "
+      },
+      {
+        "wid": 4657,
+        "word": "לִ",
+        "trailer": ""
+      },
+      {
+        "wid": 4658,
+        "word": "פְנֵ֥י",
+        "trailer": " "
+      },
+      {
+        "wid": 4659,
+        "word": "יְהוָֽה",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 10",
+    "rid": 1010010,
+    "verse": 10,
+    "word_count": 14,
+    "words": [
+      {
+        "wid": 4660,
+        "word": "וַ",
+        "trailer": ""
+      },
+      {
+        "wid": 4661,
+        "word": "תְּהִ֨י",
+        "trailer": " "
+      },
+      {
+        "wid": 4662,
+        "word": "רֵאשִׁ֤ית",
+        "trailer": " "
+      },
+      {
+        "wid": 4663,
+        "word": "מַמְלַכְתֹּו֙",
+        "trailer": " "
+      },
+      {
+        "wid": 4664,
+        "word": "בָּבֶ֔ל",
+        "trailer": " "
+      },
+      {
+        "wid": 4665,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4666,
+        "word": "אֶ֖רֶךְ",
+        "trailer": " "
+      },
+      {
+        "wid": 4667,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4668,
+        "word": "אַכַּ֣ד",
+        "trailer": " "
+      },
+      {
+        "wid": 4669,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4670,
+        "word": "כַלְנֵ֑ה",
+        "trailer": " "
+      },
+      {
+        "wid": 4671,
+        "word": "בְּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4672,
+        "word": "אֶ֖רֶץ",
+        "trailer": " "
+      },
+      {
+        "wid": 4673,
+        "word": "שִׁנְעָֽר",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 11",
+    "rid": 1010011,
+    "verse": 11,
+    "word_count": 17,
+    "words": [
+      {
+        "wid": 4674,
+        "word": "מִן",
+        "trailer": "־"
+      },
+      {
+        "wid": 4675,
+        "word": "הָ",
+        "trailer": ""
+      },
+      {
+        "wid": 4676,
+        "word": "אָ֥רֶץ",
+        "trailer": " "
+      },
+      {
+        "wid": 4677,
+        "word": "הַ",
+        "trailer": ""
+      },
+      {
+        "wid": 4678,
+        "word": "הִ֖וא",
+        "trailer": " "
+      },
+      {
+        "wid": 4679,
+        "word": "יָצָ֣א",
+        "trailer": " "
+      },
+      {
+        "wid": 4680,
+        "word": "אַשּׁ֑וּר",
+        "trailer": " "
+      },
+      {
+        "wid": 4681,
+        "word": "וַ",
+        "trailer": ""
+      },
+      {
+        "wid": 4682,
+        "word": "יִּ֨בֶן֙",
+        "trailer": " "
+      },
+      {
+        "wid": 4683,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4684,
+        "word": "נִ֣ינְוֵ֔ה",
+        "trailer": " "
+      },
+      {
+        "wid": 4685,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4686,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4687,
+        "word": "רְחֹבֹ֥ת עִ֖יר",
+        "trailer": " "
+      },
+      {
+        "wid": 4688,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4689,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4690,
+        "word": "כָּֽלַח",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 12",
+    "rid": 1010012,
+    "verse": 12,
+    "word_count": 13,
+    "words": [
+      {
+        "wid": 4691,
+        "word": "וְֽ",
+        "trailer": ""
+      },
+      {
+        "wid": 4692,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4693,
+        "word": "רֶ֔סֶן",
+        "trailer": " "
+      },
+      {
+        "wid": 4694,
+        "word": "בֵּ֥ין",
+        "trailer": " "
+      },
+      {
+        "wid": 4695,
+        "word": "נִֽינְוֵ֖ה",
+        "trailer": " "
+      },
+      {
+        "wid": 4696,
+        "word": "וּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4697,
+        "word": "בֵ֣ין",
+        "trailer": " "
+      },
+      {
+        "wid": 4698,
+        "word": "כָּ֑לַח",
+        "trailer": " "
+      },
+      {
+        "wid": 4699,
+        "word": "הִ֖וא",
+        "trailer": " "
+      },
+      {
+        "wid": 4700,
+        "word": "הָ",
+        "trailer": ""
+      },
+      {
+        "wid": 4701,
+        "word": "עִ֥יר",
+        "trailer": " "
+      },
+      {
+        "wid": 4702,
+        "word": "הַ",
+        "trailer": ""
+      },
+      {
+        "wid": 4703,
+        "word": "גְּדֹלָֽה",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 13",
+    "rid": 1010013,
+    "verse": 13,
+    "word_count": 14,
+    "words": [
+      {
+        "wid": 4704,
+        "word": "וּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4705,
+        "word": "מִצְרַ֡יִם",
+        "trailer": " "
+      },
+      {
+        "wid": 4706,
+        "word": "יָלַ֞ד",
+        "trailer": " "
+      },
+      {
+        "wid": 4707,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4708,
+        "word": "לוּדִ֧ים",
+        "trailer": " "
+      },
+      {
+        "wid": 4709,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4710,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4711,
+        "word": "עֲנָמִ֛ים",
+        "trailer": " "
+      },
+      {
+        "wid": 4712,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4713,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4714,
+        "word": "לְהָבִ֖ים",
+        "trailer": " "
+      },
+      {
+        "wid": 4715,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4716,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4717,
+        "word": "נַפְתֻּחִֽים",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 14",
+    "rid": 1010014,
+    "verse": 14,
+    "word_count": 14,
+    "words": [
+      {
+        "wid": 4718,
+        "word": "וְֽ",
+        "trailer": ""
+      },
+      {
+        "wid": 4719,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4720,
+        "word": "פַּתְרֻסִ֞ים",
+        "trailer": " "
+      },
+      {
+        "wid": 4721,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4722,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4723,
+        "word": "כַּסְלֻחִ֗ים",
+        "trailer": " "
+      },
+      {
+        "wid": 4724,
+        "word": "אֲשֶׁ֨ר",
+        "trailer": " "
+      },
+      {
+        "wid": 4725,
+        "word": "יָצְא֥וּ",
+        "trailer": " "
+      },
+      {
+        "wid": 4726,
+        "word": "מִ",
+        "trailer": ""
+      },
+      {
+        "wid": 4727,
+        "word": "שָּׁ֛ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4728,
+        "word": "פְּלִשְׁתִּ֖ים",
+        "trailer": " "
+      },
+      {
+        "wid": 4729,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4730,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4731,
+        "word": "כַּפְתֹּרִֽים",
+        "trailer": "׃ ס "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 15",
+    "rid": 1010015,
+    "verse": 15,
+    "word_count": 9,
+    "words": [
+      {
+        "wid": 4732,
+        "word": "וּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4733,
+        "word": "כְנַ֗עַן",
+        "trailer": " "
+      },
+      {
+        "wid": 4734,
+        "word": "יָלַ֛ד",
+        "trailer": " "
+      },
+      {
+        "wid": 4735,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4736,
+        "word": "צִידֹ֥ן",
+        "trailer": " "
+      },
+      {
+        "wid": 4737,
+        "word": "בְּכֹרֹ֖ו",
+        "trailer": " "
+      },
+      {
+        "wid": 4738,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4739,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4740,
+        "word": "חֵֽת",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 16",
+    "rid": 1010016,
+    "verse": 16,
+    "word_count": 12,
+    "words": [
+      {
+        "wid": 4741,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4742,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4743,
+        "word": "הַ",
+        "trailer": ""
+      },
+      {
+        "wid": 4744,
+        "word": "יְבוּסִי֙",
+        "trailer": " "
+      },
+      {
+        "wid": 4745,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4746,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4747,
+        "word": "הָ֣",
+        "trailer": ""
+      },
+      {
+        "wid": 4748,
+        "word": "אֱמֹרִ֔י",
+        "trailer": " "
+      },
+      {
+        "wid": 4749,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4750,
+        "word": "אֵ֖ת",
+        "trailer": " "
+      },
+      {
+        "wid": 4751,
+        "word": "הַ",
+        "trailer": ""
+      },
+      {
+        "wid": 4752,
+        "word": "גִּרְגָּשִֽׁי",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 17",
+    "rid": 1010017,
+    "verse": 17,
+    "word_count": 12,
+    "words": [
+      {
+        "wid": 4753,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4754,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4755,
+        "word": "הַֽ",
+        "trailer": ""
+      },
+      {
+        "wid": 4756,
+        "word": "חִוִּ֥י",
+        "trailer": " "
+      },
+      {
+        "wid": 4757,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4758,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4759,
+        "word": "הַֽ",
+        "trailer": ""
+      },
+      {
+        "wid": 4760,
+        "word": "עַרְקִ֖י",
+        "trailer": " "
+      },
+      {
+        "wid": 4761,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4762,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4763,
+        "word": "הַ",
+        "trailer": ""
+      },
+      {
+        "wid": 4764,
+        "word": "סִּינִֽי",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 18",
+    "rid": 1010018,
+    "verse": 18,
+    "word_count": 18,
+    "words": [
+      {
+        "wid": 4765,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4766,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4767,
+        "word": "הָֽ",
+        "trailer": ""
+      },
+      {
+        "wid": 4768,
+        "word": "אַרְוָדִ֥י",
+        "trailer": " "
+      },
+      {
+        "wid": 4769,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4770,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4771,
+        "word": "הַ",
+        "trailer": ""
+      },
+      {
+        "wid": 4772,
+        "word": "צְּמָרִ֖י",
+        "trailer": " "
+      },
+      {
+        "wid": 4773,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4774,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4775,
+        "word": "הַֽ",
+        "trailer": ""
+      },
+      {
+        "wid": 4776,
+        "word": "חֲמָתִ֑י",
+        "trailer": " "
+      },
+      {
+        "wid": 4777,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4778,
+        "word": "אַחַ֣ר",
+        "trailer": " "
+      },
+      {
+        "wid": 4779,
+        "word": "נָפֹ֔צוּ",
+        "trailer": " "
+      },
+      {
+        "wid": 4780,
+        "word": "מִשְׁפְּחֹ֖ות",
+        "trailer": " "
+      },
+      {
+        "wid": 4781,
+        "word": "הַֽ",
+        "trailer": ""
+      },
+      {
+        "wid": 4782,
+        "word": "כְּנַעֲנִֽי",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 19",
+    "rid": 1010019,
+    "verse": 19,
+    "word_count": 21,
+    "words": [
+      {
+        "wid": 4783,
+        "word": "וַֽ",
+        "trailer": ""
+      },
+      {
+        "wid": 4784,
+        "word": "יְהִ֞י",
+        "trailer": " "
+      },
+      {
+        "wid": 4785,
+        "word": "גְּב֤וּל",
+        "trailer": " "
+      },
+      {
+        "wid": 4786,
+        "word": "הַֽ",
+        "trailer": ""
+      },
+      {
+        "wid": 4787,
+        "word": "כְּנַעֲנִי֙",
+        "trailer": " "
+      },
+      {
+        "wid": 4788,
+        "word": "מִ",
+        "trailer": ""
+      },
+      {
+        "wid": 4789,
+        "word": "צִּידֹ֔ן",
+        "trailer": " "
+      },
+      {
+        "wid": 4790,
+        "word": "בֹּאֲכָ֥ה",
+        "trailer": " "
+      },
+      {
+        "wid": 4791,
+        "word": "גְרָ֖רָה",
+        "trailer": " "
+      },
+      {
+        "wid": 4792,
+        "word": "עַד",
+        "trailer": "־"
+      },
+      {
+        "wid": 4793,
+        "word": "עַזָּ֑ה",
+        "trailer": " "
+      },
+      {
+        "wid": 4794,
+        "word": "בֹּאֲכָ֞ה",
+        "trailer": " "
+      },
+      {
+        "wid": 4795,
+        "word": "סְדֹ֧מָה",
+        "trailer": " "
+      },
+      {
+        "wid": 4796,
+        "word": "וַ",
+        "trailer": ""
+      },
+      {
+        "wid": 4797,
+        "word": "עֲמֹרָ֛ה",
+        "trailer": " "
+      },
+      {
+        "wid": 4798,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4799,
+        "word": "אַדְמָ֥ה",
+        "trailer": " "
+      },
+      {
+        "wid": 4800,
+        "word": "וּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4801,
+        "word": "צְבֹיִ֖ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4802,
+        "word": "עַד",
+        "trailer": "־"
+      },
+      {
+        "wid": 4803,
+        "word": "לָֽשַׁע",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 20",
+    "rid": 1010020,
+    "verse": 20,
+    "word_count": 11,
+    "words": [
+      {
+        "wid": 4804,
+        "word": "אֵ֣לֶּה",
+        "trailer": " "
+      },
+      {
+        "wid": 4805,
+        "word": "בְנֵי",
+        "trailer": "־"
+      },
+      {
+        "wid": 4806,
+        "word": "חָ֔ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4807,
+        "word": "לְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4808,
+        "word": "מִשְׁפְּחֹתָ֖ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4809,
+        "word": "לִ",
+        "trailer": ""
+      },
+      {
+        "wid": 4810,
+        "word": "לְשֹֽׁנֹתָ֑ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4811,
+        "word": "בְּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4812,
+        "word": "אַרְצֹתָ֖ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4813,
+        "word": "בְּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4814,
+        "word": "גֹויֵהֶֽם",
+        "trailer": "׃ ס "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 21",
+    "rid": 1010021,
+    "verse": 21,
+    "word_count": 14,
+    "words": [
+      {
+        "wid": 4815,
+        "word": "וּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4816,
+        "word": "לְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4817,
+        "word": "שֵׁ֥ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4818,
+        "word": "יֻלַּ֖ד",
+        "trailer": " "
+      },
+      {
+        "wid": 4819,
+        "word": "גַּם",
+        "trailer": "־"
+      },
+      {
+        "wid": 4820,
+        "word": "ה֑וּא",
+        "trailer": " "
+      },
+      {
+        "wid": 4821,
+        "word": "אֲבִי֙",
+        "trailer": " "
+      },
+      {
+        "wid": 4822,
+        "word": "כָּל",
+        "trailer": "־"
+      },
+      {
+        "wid": 4823,
+        "word": "בְּנֵי",
+        "trailer": "־"
+      },
+      {
+        "wid": 4824,
+        "word": "עֵ֔בֶר",
+        "trailer": " "
+      },
+      {
+        "wid": 4825,
+        "word": "אֲחִ֖י",
+        "trailer": " "
+      },
+      {
+        "wid": 4826,
+        "word": "יֶ֥פֶת",
+        "trailer": " "
+      },
+      {
+        "wid": 4827,
+        "word": "הַ",
+        "trailer": ""
+      },
+      {
+        "wid": 4828,
+        "word": "גָּדֹֽול",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 22",
+    "rid": 1010022,
+    "verse": 22,
+    "word_count": 11,
+    "words": [
+      {
+        "wid": 4829,
+        "word": "בְּנֵ֥י",
+        "trailer": " "
+      },
+      {
+        "wid": 4830,
+        "word": "שֵׁ֖ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4831,
+        "word": "עֵילָ֣ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4832,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4833,
+        "word": "אַשּׁ֑וּר",
+        "trailer": " "
+      },
+      {
+        "wid": 4834,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4835,
+        "word": "אַרְפַּכְשַׁ֖ד",
+        "trailer": " "
+      },
+      {
+        "wid": 4836,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4837,
+        "word": "ל֥וּד",
+        "trailer": " "
+      },
+      {
+        "wid": 4838,
+        "word": "וַֽ",
+        "trailer": ""
+      },
+      {
+        "wid": 4839,
+        "word": "אֲרָֽם",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 23",
+    "rid": 1010023,
+    "verse": 23,
+    "word_count": 10,
+    "words": [
+      {
+        "wid": 4840,
+        "word": "וּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4841,
+        "word": "בְנֵ֖י",
+        "trailer": " "
+      },
+      {
+        "wid": 4842,
+        "word": "אֲרָ֑ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4843,
+        "word": "ע֥וּץ",
+        "trailer": " "
+      },
+      {
+        "wid": 4844,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4845,
+        "word": "ח֖וּל",
+        "trailer": " "
+      },
+      {
+        "wid": 4846,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4847,
+        "word": "גֶ֥תֶר",
+        "trailer": " "
+      },
+      {
+        "wid": 4848,
+        "word": "וָ",
+        "trailer": ""
+      },
+      {
+        "wid": 4849,
+        "word": "מַֽשׁ",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 24",
+    "rid": 1010024,
+    "verse": 24,
+    "word_count": 10,
+    "words": [
+      {
+        "wid": 4850,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4851,
+        "word": "אַרְפַּכְשַׁ֖ד",
+        "trailer": " "
+      },
+      {
+        "wid": 4852,
+        "word": "יָלַ֣ד",
+        "trailer": " "
+      },
+      {
+        "wid": 4853,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4854,
+        "word": "שָׁ֑לַח",
+        "trailer": " "
+      },
+      {
+        "wid": 4855,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4856,
+        "word": "שֶׁ֖לַח",
+        "trailer": " "
+      },
+      {
+        "wid": 4857,
+        "word": "יָלַ֥ד",
+        "trailer": " "
+      },
+      {
+        "wid": 4858,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4859,
+        "word": "עֵֽבֶר",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 25",
+    "rid": 1010025,
+    "verse": 25,
+    "word_count": 20,
+    "words": [
+      {
+        "wid": 4860,
+        "word": "וּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4861,
+        "word": "לְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4862,
+        "word": "עֵ֥בֶר",
+        "trailer": " "
+      },
+      {
+        "wid": 4863,
+        "word": "יֻלַּ֖ד",
+        "trailer": " "
+      },
+      {
+        "wid": 4864,
+        "word": "שְׁנֵ֣י",
+        "trailer": " "
+      },
+      {
+        "wid": 4865,
+        "word": "בָנִ֑ים",
+        "trailer": " "
+      },
+      {
+        "wid": 4866,
+        "word": "שֵׁ֣ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4867,
+        "word": "הָֽ",
+        "trailer": ""
+      },
+      {
+        "wid": 4868,
+        "word": "אֶחָ֞ד",
+        "trailer": " "
+      },
+      {
+        "wid": 4869,
+        "word": "פֶּ֗לֶג",
+        "trailer": " "
+      },
+      {
+        "wid": 4870,
+        "word": "כִּ֤י",
+        "trailer": " "
+      },
+      {
+        "wid": 4871,
+        "word": "בְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4872,
+        "word": "יָמָיו֙",
+        "trailer": " "
+      },
+      {
+        "wid": 4873,
+        "word": "נִפְלְגָ֣ה",
+        "trailer": " "
+      },
+      {
+        "wid": 4874,
+        "word": "הָ",
+        "trailer": ""
+      },
+      {
+        "wid": 4875,
+        "word": "אָ֔רֶץ",
+        "trailer": " "
+      },
+      {
+        "wid": 4876,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4877,
+        "word": "שֵׁ֥ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4878,
+        "word": "אָחִ֖יו",
+        "trailer": " "
+      },
+      {
+        "wid": 4879,
+        "word": "יָקְטָֽן",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 26",
+    "rid": 1010026,
+    "verse": 26,
+    "word_count": 14,
+    "words": [
+      {
+        "wid": 4880,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4881,
+        "word": "יָקְטָ֣ן",
+        "trailer": " "
+      },
+      {
+        "wid": 4882,
+        "word": "יָלַ֔ד",
+        "trailer": " "
+      },
+      {
+        "wid": 4883,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4884,
+        "word": "אַלְמֹודָ֖ד",
+        "trailer": " "
+      },
+      {
+        "wid": 4885,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4886,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4887,
+        "word": "שָׁ֑לֶף",
+        "trailer": " "
+      },
+      {
+        "wid": 4888,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4889,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4890,
+        "word": "חֲצַרְמָ֖וֶת",
+        "trailer": " "
+      },
+      {
+        "wid": 4891,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4892,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4893,
+        "word": "יָֽרַח",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 27",
+    "rid": 1010027,
+    "verse": 27,
+    "word_count": 9,
+    "words": [
+      {
+        "wid": 4894,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4895,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4896,
+        "word": "הֲדֹורָ֥ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4897,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4898,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4899,
+        "word": "אוּזָ֖ל",
+        "trailer": " "
+      },
+      {
+        "wid": 4900,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4901,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4902,
+        "word": "דִּקְלָֽה",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 28",
+    "rid": 1010028,
+    "verse": 28,
+    "word_count": 9,
+    "words": [
+      {
+        "wid": 4903,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4904,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4905,
+        "word": "עֹובָ֥ל",
+        "trailer": " "
+      },
+      {
+        "wid": 4906,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4907,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4908,
+        "word": "אֲבִֽימָאֵ֖ל",
+        "trailer": " "
+      },
+      {
+        "wid": 4909,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4910,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4911,
+        "word": "שְׁבָֽא",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 29",
+    "rid": 1010029,
+    "verse": 29,
+    "word_count": 13,
+    "words": [
+      {
+        "wid": 4912,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4913,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4914,
+        "word": "אֹופִ֥ר",
+        "trailer": " "
+      },
+      {
+        "wid": 4915,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4916,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4917,
+        "word": "חֲוִילָ֖ה",
+        "trailer": " "
+      },
+      {
+        "wid": 4918,
+        "word": "וְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4919,
+        "word": "אֶת",
+        "trailer": "־"
+      },
+      {
+        "wid": 4920,
+        "word": "יֹובָ֑ב",
+        "trailer": " "
+      },
+      {
+        "wid": 4921,
+        "word": "כָּל",
+        "trailer": "־"
+      },
+      {
+        "wid": 4922,
+        "word": "אֵ֖לֶּה",
+        "trailer": " "
+      },
+      {
+        "wid": 4923,
+        "word": "בְּנֵ֥י",
+        "trailer": " "
+      },
+      {
+        "wid": 4924,
+        "word": "יָקְטָֽן",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 30",
+    "rid": 1010030,
+    "verse": 30,
+    "word_count": 10,
+    "words": [
+      {
+        "wid": 4925,
+        "word": "וַֽ",
+        "trailer": ""
+      },
+      {
+        "wid": 4926,
+        "word": "יְהִ֥י",
+        "trailer": " "
+      },
+      {
+        "wid": 4927,
+        "word": "מֹושָׁבָ֖ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4928,
+        "word": "מִ",
+        "trailer": ""
+      },
+      {
+        "wid": 4929,
+        "word": "מֵּשָׁ֑א",
+        "trailer": " "
+      },
+      {
+        "wid": 4930,
+        "word": "בֹּאֲכָ֥ה",
+        "trailer": " "
+      },
+      {
+        "wid": 4931,
+        "word": "סְפָ֖רָה",
+        "trailer": " "
+      },
+      {
+        "wid": 4932,
+        "word": "הַ֥ר",
+        "trailer": " "
+      },
+      {
+        "wid": 4933,
+        "word": "הַ",
+        "trailer": ""
+      },
+      {
+        "wid": 4934,
+        "word": "קֶּֽדֶם",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 31",
+    "rid": 1010031,
+    "verse": 31,
+    "word_count": 11,
+    "words": [
+      {
+        "wid": 4935,
+        "word": "אֵ֣לֶּה",
+        "trailer": " "
+      },
+      {
+        "wid": 4936,
+        "word": "בְנֵי",
+        "trailer": "־"
+      },
+      {
+        "wid": 4937,
+        "word": "שֵׁ֔ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4938,
+        "word": "לְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4939,
+        "word": "מִשְׁפְּחֹתָ֖ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4940,
+        "word": "לִ",
+        "trailer": ""
+      },
+      {
+        "wid": 4941,
+        "word": "לְשֹׁנֹתָ֑ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4942,
+        "word": "בְּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4943,
+        "word": "אַרְצֹתָ֖ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4944,
+        "word": "לְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4945,
+        "word": "גֹויֵהֶֽם",
+        "trailer": "׃ "
+      }
+    ]
+  },
+  {
+    "reference": "Genesis 10 32",
+    "rid": 1010032,
+    "verse": 32,
+    "word_count": 20,
+    "words": [
+      {
+        "wid": 4946,
+        "word": "אֵ֣לֶּה",
+        "trailer": " "
+      },
+      {
+        "wid": 4947,
+        "word": "מִשְׁפְּחֹ֧ת",
+        "trailer": " "
+      },
+      {
+        "wid": 4948,
+        "word": "בְּנֵי",
+        "trailer": "־"
+      },
+      {
+        "wid": 4949,
+        "word": "נֹ֛חַ",
+        "trailer": " "
+      },
+      {
+        "wid": 4950,
+        "word": "לְ",
+        "trailer": ""
+      },
+      {
+        "wid": 4951,
+        "word": "תֹולְדֹתָ֖ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4952,
+        "word": "בְּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4953,
+        "word": "גֹויֵהֶ֑ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4954,
+        "word": "וּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4955,
+        "word": "מֵ",
+        "trailer": ""
+      },
+      {
+        "wid": 4956,
+        "word": "אֵ֜לֶּה",
+        "trailer": " "
+      },
+      {
+        "wid": 4957,
+        "word": "נִפְרְד֧וּ",
+        "trailer": " "
+      },
+      {
+        "wid": 4958,
+        "word": "הַ",
+        "trailer": ""
+      },
+      {
+        "wid": 4959,
+        "word": "גֹּויִ֛ם",
+        "trailer": " "
+      },
+      {
+        "wid": 4960,
+        "word": "בָּ",
+        "trailer": ""
+      },
+      {
+        "wid": 4961,
+        "word": "",
+        "trailer": ""
+      },
+      {
+        "wid": 4962,
+        "word": "אָ֖רֶץ",
+        "trailer": " "
+      },
+      {
+        "wid": 4963,
+        "word": "אַחַ֥ר",
+        "trailer": " "
+      },
+      {
+        "wid": 4964,
+        "word": "הַ",
+        "trailer": ""
+      },
+      {
+        "wid": 4965,
+        "word": "מַּבּֽוּל",
+        "trailer": "׃ פ "
+      }
+    ]
+  }
+]

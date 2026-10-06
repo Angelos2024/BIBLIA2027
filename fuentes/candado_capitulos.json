@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "actualizado": "2026-10-06",
+  "_descripcion": "CANDADO de capítulos TERMINADOS. Ningún motor, script o transliteración global puede modificar NINGÚN campo de un capítulo bloqueado. Se maneja con el botón Cerrar/Cerrado del visor y se refuerza con SELLOS (copia sellada del capítulo en fuentes/candado_sellos/). Solo se desbloquea con el mismo botón (o borrando el sello y la marca aquí).",
+  "_regla": "esta_bloqueado(libro, cap) = (cap <= bloqueados_hasta o cap in bloqueados) y cap not in desbloqueados. Todo proceso debe consultarlo ANTES de escribir; y todo escritor por lotes debe llamar reasegurar(libro, data) justo antes de guardar para restaurar los capítulos sellados.",
+  "candados": {
+    "genesis": {
+      "bloqueados_hasta": 21,
+      "bloqueados": [
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "desbloqueados": [],
+      "capitulo_activo": 22,
+      "nota": "Flujo cap-por-cap del español. 1–21 terminados y bajo candado; se trabaja el 22 en adelante."
+    }
+  },
+  "_libros_sin_candado": "El resto de libros aún no ha pasado por la revisión cap-por-cap; cuando un capítulo se cierre con el botón se registra aquí y se sella automáticamente."
+}

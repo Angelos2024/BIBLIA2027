@@ -1,0 +1,112 @@
+=== GIT ===
+HAS_GIT=False
+=== GENESIS SCHEMA ===
+_schema="catss-par-parsed-v1"
+_source="https://ccat.sas.upenn.edu/gopher/text/religion/biblical/parallel/01.Genesis.par"
+_parser="parse_catss.py (inspirado en codykingham/CATSS_parsers)"
+_book="Génesis"
+top_keys=['_schema', '_source', '_file', '_book', '_slug', '_parser', '_greek_utils', 'verseCount', 'verses']
+n_verses=1533
+first_verse_keys=['book', 'chapter', 'verse', 'ref', 'pairs']
+first_ref=1:1
+n_pairs=5
+pair0_keys=['he', 'he_unicode', 'he_stem_unicode', 'he_words', 'he_note', 'gr', 'gr_unicode', 'prefixes', 'kind', 'isApparatusPrefix', 'isGreekOmitted']
+n_he_words_pair0=1
+he_word0={"raw": "B/R)$YT", "prefixes": ["B"], "stem": "R)$YT", "prefix_labels": ["PREP.B"], "stem_label": "", "prefix_unicode": "ב", "stem_unicode": "ראשׁית", "full_unicode": "בראשׁית", "heb_label": "PREP.B", "prefix_forms": ["בְּ"], "prefix_morphs": ["PREP"], "prefix_es": ["en"], "prefix_gr": ["ἐν"], "prefix_tier": ["hint"], "he_form": "רֵאשִׁית", "he_morph": "SUBS.F.SG.A", "strongs": "H7225", "es": "reshit", "gr_word": "ἀρχῇ", "lxx_tier": "hint", "es_source": "glosa_personal", "gr_source": "catss:par"}
+=== ES_SOURCE COUNTS ===
+n_tokens=21942
+  18279	(empty/None)
+  2065	auto:dic_genesis
+  316	glosa_global
+  276	auto:macula_gloss
+  247	glosa_personal
+  166	auto:lemma_backfill
+  90	short_prep_prs_fusion
+  66	fix:article_batch
+  60	ph4:SpaRV1909
+  57	fix_tipo1_posesivo
+  42	translit_nefesh
+  37	motor:homograf
+  31	fix:es_ch10
+  29	fix_tipo2_lexema
+  29	correccion:tiempo_wayyiqtol
+  22	fix:article_only:manual
+  22	manual:correccion
+  20	motor_cap23_patrones
+  15	motor:poses_tonico
+  13	regla_nombre_divino
+  12	auto:strong_idx
+  8	motor:adonai-morph
+  7	mark:27:1-26
+  6	motor_cap23_estilo
+  4	translit
+  3	fix_structural
+  3	motor:tiempo_verbal
+  2	translit_motor
+  2	motor_cap23_lamed
+  2	fix_ajot_hermana
+  2	auto:num_unify
+  1	translit_lexema
+  1	motor:hta_practicante
+  1	fix_ingles_23_1
+  1	motor_cap23_poses
+  1	motor_cap23_doble
+  1	motor:conjuga
+  1	correccion:manual_recorrido_rvr
+  1	correccion:hifil_causativo
+  1	correccion_motor
+=== EXODO ===
+exodo_files=['exodo_final.json', 'exodo_final.json.bak-adonai-20260703-131943', 'exodo_final.json.bak_conjuga_20260812_125502', 'exodo_final.json.bak_eufonia_20260812_124644', 'exodo_final.json.bak_homograf_20260812_115804', 'exodo_final.json.bak_homograf_20260812_120115', 'exodo_final.json.bak_longposs_20260812_133319', 'exodo_final.json.bak_maqafpre_20260617_171135', 'exodo_final.json.bak_maqaf_20260614_141354', 'exodo_final.json.bak_nefesh_20260805_125933', 'exodo_final.json.bak_olah_20260731_145945', 'exodo_final.json.bak_promesa3_20260706_142541', 'exodo_final.json.bak_sheqer_20260731_115046', 'exodo_final.json.bak_tiempo_20260812_122135', 'exodo_final.json.bak_tv_20260812_135324']
+ex__schema="catss-par-parsed-v1"
+ex__source="https://ccat.sas.upenn.edu/gopher/text/religion/biblical/parallel/02.Exodus.par"
+ex__parser="parse_catss.py (inspirado en codykingham/CATSS_parsers)"
+ex__book="Éxodo"
+ex_top_keys=['_schema', '_source', '_file', '_book', '_slug', '_parser', '_greek_utils', 'verseCount', 'verses']
+ex_n_verses=1213
+ex_total_hw=18039 filled_es=15858 empty_es=2181
+ex_sample={"ch": 1, "vs": 1, "es": "estos", "es_source": null, "he_form": "אֵלֶּה", "strongs": "H428"}
+=== SEARCH _book Exodus ===
+books_mentioning_exodus=['exodo_final.json']
+=== BAK FILES ===
+n_bak=441
+bak_total_bytes=5247601366
+bak_oldest=genesis_final.bak_et_20260611_160253.json mtime=1781214818.1113834
+bak_newest=genesis_final.json.bak_revisar_es_20261006_133021 mtime=1791315021.4404476
+bak_oldest_dt=2026-06-11 15:53:38.111383
+bak_newest_dt=2026-10-06 13:30:21.440448
+=== BACKUP FOLDERS ===
+backup*: ['fuentes\\backups']
+respaldo*: ['extras\\texto samaritano\\respaldos_fonetica_20260611_121807', 'extras\\texto samaritano\\respaldos_fonetica_20260611_121851', 'extras\\texto samaritano\\respaldos_fonetica_20260611_125529', 'extras\\texto samaritano\\respaldos_fonetica_20260611_125841', 'extras\\texto samaritano\\respaldos_fonetica_20260611_130618', 'extras\\texto samaritano\\respaldos_fonetica_20260611_144229', 'extras\\texto samaritano\\respaldos_reglas_e_20260611_121844', 'extras\\texto samaritano\\respaldos_reglas_e_20260611_125527', 'extras\\texto samaritano\\respaldos_reglas_e_20260611_125838', 'extras\\texto samaritano\\respaldos_reglas_e_20260611_130615']
+BACKUP*: ['fuentes\\backups']
+=== TESTS ===
+tests\test_revisar_es.py: def_test_=356 bytes=124053
+motores\scripts\test_beta.py: def_test_=0
+motores\scripts\test_latam_rules.py: def_test_=0
+=== TEST COVERAGE HINTS ===
+translit: ['tests\\test_revisar_es.py']
+candado: []
+estilo_usuario: ['tests\\test_revisar_es.py']
+servidor: []
+=== MD FILES ===
+AGENTS.md | # BIBLIA2027 — Guía del proyecto y contrato de seguridad
+parabible\genesis\10\chapter_review.md | # Génesis 10 — revisión general del capítulo
+parabible\genesis\10\diff_report.md | # Génesis 10 — diff genesis_final vs BHSA (local)
+parabible\genesis\10\lxx_audit_ch10.md | # Génesis 10 — auditoría LXX completa
+parabible\genesis\10\verify_10_1.md | # Verificación LXX — Gén 10:1
+parabible\README.md | # Referencia BHSA local (piloto Génesis 10)
+README.md | # BIBLIA2027
+tmp\recopilacion_25_50.md | # Recopilación post-motor · Génesis 25→50
+visor\README.md | # Interlineal CATSS · Génesis — Prototipo
+=== EXTERNAL PATHS ===
+exists=False path=C:\Users\pik_y\Documents\TRADUCCION\BIBLIAS
+exists=False path=C:\Users\pik_y\Documents\GitHub\Local-consults\estudio\angelos
+exists=False path=C:\Users\pik_y\Documents\GitHub\Local-consults\estudio\angelos\diccionario\pruebas\01Génesis.json
+exists=False path=C:\Users\pik_y\Documents\GitHub\Local-consults\estudio\angelos\IdiomaORIGEN\macula-hebrew.tsv
+exists=False path=C:\Users\pik_y\Documents\TRADUCCION\parabible\scripts
+=== LOCAL IDX / FUENTES ===
+*_idx*: ['BIBLIAS\\_idx_OSHB', 'BIBLIAS\\_idx_SpaRV1909', 'BIBLIAS\\_idx_strong_es_1_cronicas.json', 'BIBLIAS\\_idx_strong_es_1_reyes.json', 'BIBLIAS\\_idx_strong_es_1_samuel.json', 'BIBLIAS\\_idx_strong_es_2_cronicas.json', 'BIBLIAS\\_idx_strong_es_2_reyes.json', 'BIBLIAS\\_idx_strong_es_2_samuel.json', 'BIBLIAS\\_idx_strong_es_abdias.json', 'BIBLIAS\\_idx_strong_es_amos.json', 'BIBLIAS\\_idx_strong_es_cantares.json', 'BIBLIAS\\_idx_strong_es_daniel.json', 'BIBLIAS\\_idx_strong_es_deuteronomio.json', 'BIBLIAS\\_idx_strong_es_eclesiastes.json', 'BIBLIAS\\_idx_strong_es_esdras.json']
+*strong*: ['_mapa_strongs_report.txt', 'BIBLIAS\\_idx_strong_es_1_cronicas.json', 'BIBLIAS\\_idx_strong_es_1_reyes.json', 'BIBLIAS\\_idx_strong_es_1_samuel.json', 'BIBLIAS\\_idx_strong_es_2_cronicas.json', 'BIBLIAS\\_idx_strong_es_2_reyes.json', 'BIBLIAS\\_idx_strong_es_2_samuel.json', 'BIBLIAS\\_idx_strong_es_abdias.json', 'BIBLIAS\\_idx_strong_es_amos.json', 'BIBLIAS\\_idx_strong_es_cantares.json', 'BIBLIAS\\_idx_strong_es_daniel.json', 'BIBLIAS\\_idx_strong_es_deuteronomio.json', 'BIBLIAS\\_idx_strong_es_eclesiastes.json', 'BIBLIAS\\_idx_strong_es_esdras.json', 'BIBLIAS\\_idx_strong_es_ester.json']
+rv1960*: ['data_master\\rv1960_1_cronicas.json', 'data_master\\rv1960_1_reyes.json', 'data_master\\rv1960_1_samuel.json', 'data_master\\rv1960_2_cronicas.json', 'data_master\\rv1960_2_reyes.json', 'data_master\\rv1960_2_samuel.json', 'data_master\\rv1960_abdias.json', 'data_master\\rv1960_amos.json', 'data_master\\rv1960_cantares.json', 'data_master\\rv1960_daniel.json', 'data_master\\rv1960_deuteronomio.json', 'data_master\\rv1960_eclesiastes.json', 'data_master\\rv1960_esdras.json', 'data_master\\rv1960_ester.json', 'data_master\\rv1960_exodo.json']
+macula*: ['fuentes\\macula-hebrew.tsv']
+catss*: ['fuentes\\catss-par']
+oshb*: ['BIBLIAS\\OSHB', 'BIBLIAS\\OSHB.zip', 'BIBLIAS\\_idx_OSHB\\mods.d\\oshb.conf', 'BIBLIAS\\_idx_OSHB\\modules\\texts\\ztext\\oshb', 'BIBLIAS\\OSHB\\mods.d\\oshb.conf', 'BIBLIAS\\OSHB\\modules\\texts\\ztext\\oshb']

@@ -1,0 +1,27 @@
+# ── Respaldos automáticos: se quedan en disco, NO en el historial ────────────
+# (revisar_es --apply, servidor, scripts puntuales crean *.bak_<fecha>)
+*.bak
+*.bak*
+data_master/_backup_*/
+data_master/_maqaf_backup/
+fuentes/backups/
+**/respaldos_*/
+**/_respaldo_json_base/
+**/_PUNTO_RESTAURACION_*/
+
+# ── Binarios grandes o de terceros re-descargables ───────────────────────────
+*.pdf
+*.zip
+*.rar
+*.exe
+*.lnk
+Editor NA28 (portable)/
+extras/texto samaritano/dividido/
+
+# ── Caches / temporales ──────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+.pytest_cache/
+Thumbs.db
+desktop.ini
+.DS_Store

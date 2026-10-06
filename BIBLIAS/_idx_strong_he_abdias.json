@@ -1,0 +1,2368 @@
+{
+  "H1004": [
+    {
+      "count": 1,
+      "morph": "HNcmsc",
+      "text": "בֵית",
+      "verses": [
+        "1:18"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNcmsc",
+      "text": "בֵּ֣ית",
+      "verses": [
+        "1:17"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HC/Ncmsc",
+      "text": "וּבֵ֤ית",
+      "verses": [
+        "1:18"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HC/Ncmsc",
+      "text": "וּבֵ֧ית",
+      "verses": [
+        "1:18"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HR/Ncmsc",
+      "text": "לְבֵ֣ית",
+      "verses": [
+        "1:18"
+      ]
+    }
+  ],
+  "H1121": [
+    {
+      "count": 1,
+      "morph": "HR/Ncmpc",
+      "text": "לִבְנֵ֨י",
+      "verses": [
+        "1:20"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HR/Ncmpc",
+      "text": "לִבְנֵֽי",
+      "verses": [
+        "1:12"
+      ]
+    }
+  ],
+  "H1144": [
+    {
+      "count": 1,
+      "morph": "HC/Np",
+      "text": "וּבִנְיָמִ֖ן",
+      "verses": [
+        "1:19"
+      ]
+    }
+  ],
+  "H1158": [
+    {
+      "count": 1,
+      "morph": "HVNp3cp",
+      "text": "נִבְע֖וּ",
+      "verses": [
+        "1:6"
+      ]
+    }
+  ],
+  "H1219": [
+    {
+      "count": 1,
+      "morph": "HVqrmpa",
+      "text": "בֹּֽצְרִים֙",
+      "verses": [
+        "1:5"
+      ]
+    }
+  ],
+  "H123": [
+    {
+      "count": 1,
+      "morph": "HR/Np",
+      "text": "לֶאֱד֗וֹם",
+      "verses": [
+        "1:1"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HR/Np",
+      "text": "מֵֽאֱד֔וֹם",
+      "verses": [
+        "1:8"
+      ]
+    }
+  ],
+  "H1285": [
+    {
+      "count": 1,
+      "morph": "HNcfsc/Sp2ms",
+      "text": "בְרִיתֶ֔ךָ",
+      "verses": [
+        "1:7"
+      ]
+    }
+  ],
+  "H136": [
+    {
+      "count": 1,
+      "morph": "HNcmpc/Sp1cs",
+      "text": "אֲדֹנָ֨י",
+      "verses": [
+        "1:1"
+      ]
+    }
+  ],
+  "H1361": [
+    {
+      "count": 1,
+      "morph": "HVhi2ms",
+      "text": "תַּגְבִּ֣יהַּ",
+      "verses": [
+        "1:4"
+      ]
+    }
+  ],
+  "H1366": [
+    {
+      "count": 1,
+      "morph": "HTd/Ncmsa",
+      "text": "הַגְּב֣וּל",
+      "verses": [
+        "1:7"
+      ]
+    }
+  ],
+  "H1368": [
+    {
+      "count": 1,
+      "morph": "HAampc/Sp2ms",
+      "text": "גִבּוֹרֶ֖יךָ",
+      "verses": [
+        "1:9"
+      ]
+    }
+  ],
+  "H1431": [
+    {
+      "count": 1,
+      "morph": "HVhj2ms",
+      "text": "תַּגְדֵּ֥ל",
+      "verses": [
+        "1:12"
+      ]
+    }
+  ],
+  "H1471": [
+    {
+      "count": 1,
+      "morph": "HRd/Ncmpa",
+      "text": "בַּגּוֹיִ֑ם",
+      "verses": [
+        "1:2"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HRd/Ncmpa",
+      "text": "בַּגּוֹיִ֣ם",
+      "verses": [
+        "1:1"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HTd/Ncmpa",
+      "text": "הַגּוֹיִ֑ם",
+      "verses": [
+        "1:15"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HTd/Ncmpa",
+      "text": "הַגּוֹיִ֖ם",
+      "verses": [
+        "1:16"
+      ]
+    }
+  ],
+  "H1486": [
+    {
+      "count": 1,
+      "morph": "HNcmsa",
+      "text": "גוֹרָ֔ל",
+      "verses": [
+        "1:11"
+      ]
+    }
+  ],
+  "H1546": [
+    {
+      "count": 1,
+      "morph": "HC/Ncfsc",
+      "text": "וְגָלֻ֣ת",
+      "verses": [
+        "1:20"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HC/Ncfsc",
+      "text": "וְגָלֻ֥ת",
+      "verses": [
+        "1:20"
+      ]
+    }
+  ],
+  "H1568": [
+    {
+      "count": 1,
+      "morph": "HTd/Np",
+      "text": "הַגִּלְעָֽד",
+      "verses": [
+        "1:19"
+      ]
+    }
+  ],
+  "H1571": [
+    {
+      "count": 1,
+      "morph": "HD",
+      "text": "גַם",
+      "verses": [
+        "1:13"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HTa",
+      "text": "גַּם",
+      "verses": [
+        "1:11"
+      ]
+    }
+  ],
+  "H1576": [
+    {
+      "count": 1,
+      "morph": "HNcmsc/Sp2ms",
+      "text": "גְּמֻלְךָ֖",
+      "verses": [
+        "1:15"
+      ]
+    }
+  ],
+  "H1589": [
+    {
+      "count": 1,
+      "morph": "HVqi3mp",
+      "text": "יִגְנְב֖וּ",
+      "verses": [
+        "1:5"
+      ]
+    }
+  ],
+  "H1590": [
+    {
+      "count": 1,
+      "morph": "HNcmpa",
+      "text": "גַּנָּבִ֤ים",
+      "verses": [
+        "1:5"
+      ]
+    }
+  ],
+  "H1696": [
+    {
+      "count": 1,
+      "morph": "HVpp3ms",
+      "text": "דִּבֵּֽר",
+      "verses": [
+        "1:18"
+      ]
+    }
+  ],
+  "H1767": [
+    {
+      "count": 1,
+      "morph": "HNcmsc/Sp3mp",
+      "text": "דַּיָּ֑ם",
+      "verses": [
+        "1:5"
+      ]
+    }
+  ],
+  "H1814": [
+    {
+      "count": 1,
+      "morph": "HC/Vqq3cp",
+      "text": "וְדָלְק֥וּ",
+      "verses": [
+        "1:18"
+      ]
+    }
+  ],
+  "H1820": [
+    {
+      "count": 1,
+      "morph": "HVNp2ms",
+      "text": "נִדְמֵ֔יתָה",
+      "verses": [
+        "1:5"
+      ]
+    }
+  ],
+  "H1931": [
+    {
+      "count": 1,
+      "morph": "HTd/Pp3ms",
+      "text": "הַה֖וּא",
+      "verses": [
+        "1:8"
+      ]
+    }
+  ],
+  "H1961": [
+    {
+      "count": 1,
+      "morph": "HVqp3cp",
+      "text": "הָיֽוּ",
+      "verses": [
+        "1:16"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HC/Vqq3ms",
+      "text": "וְהָ֣יָה",
+      "verses": [
+        "1:17"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HC/Vqq3cp",
+      "text": "וְהָי֖וּ",
+      "verses": [
+        "1:16"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HC/Vqq3fs",
+      "text": "וְהָיְתָ֥ה",
+      "verses": [
+        "1:21"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HC/Vqq3ms",
+      "text": "וְהָיָה֩",
+      "verses": [
+        "1:18"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HVqi3ms",
+      "text": "יִֽהְיֶ֤ה",
+      "verses": [
+        "1:18"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HVqi3fs",
+      "text": "תִּהְיֶ֥ה",
+      "verses": [
+        "1:17"
+      ]
+    }
+  ],
+  "H2009": [
+    {
+      "count": 1,
+      "morph": "HTm",
+      "text": "הִנֵּ֥ה",
+      "verses": [
+        "1:2"
+      ]
+    }
+  ],
+  "H2022": [
+    {
+      "count": 3,
+      "morph": "HNcmsc",
+      "text": "הַ֣ר",
+      "verses": [
+        "1:16",
+        "1:19",
+        "1:21"
+      ]
+    },
+    {
+      "count": 2,
+      "morph": "HR/Ncmsc",
+      "text": "מֵהַ֥ר",
+      "verses": [
+        "1:8",
+        "1:9"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HR/Ncmsc",
+      "text": "בְּהַ֣ר",
+      "verses": [
+        "1:21"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HC/R/Ncmsc",
+      "text": "וּבְהַ֥ר",
+      "verses": [
+        "1:17"
+      ]
+    }
+  ],
+  "H2087": [
+    {
+      "count": 1,
+      "morph": "HNcmsc",
+      "text": "זְד֤וֹן",
+      "verses": [
+        "1:3"
+      ]
+    }
+  ],
+  "H2088": [
+    {
+      "count": 1,
+      "morph": "HTd/Pdxms",
+      "text": "הַ֠זֶּה",
+      "verses": [
+        "1:20"
+      ]
+    }
+  ],
+  "H2114": [
+    {
+      "count": 1,
+      "morph": "HAampa",
+      "text": "זָרִ֖ים",
+      "verses": [
+        "1:11"
+      ]
+    }
+  ],
+  "H2288": [
+    {
+      "count": 1,
+      "morph": "HR/Ncmpc",
+      "text": "בְחַגְוֵי",
+      "verses": [
+        "1:3"
+      ]
+    }
+  ],
+  "H2377": [
+    {
+      "count": 1,
+      "morph": "HNcmsc",
+      "text": "חֲז֖וֹן",
+      "verses": [
+        "1:1"
+      ]
+    }
+  ],
+  "H2426": [
+    {
+      "count": 1,
+      "morph": "HTd/Ncmsa",
+      "text": "הַֽחֵל",
+      "verses": [
+        "1:20"
+      ]
+    }
+  ],
+  "H2428": [
+    {
+      "count": 1,
+      "morph": "HR/Ncmsc/Sp3ms",
+      "text": "בְחֵיל֖וֹ",
+      "verses": [
+        "1:13"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNcmsc/Sp3ms",
+      "text": "חֵיל֑וֹ",
+      "verses": [
+        "1:11"
+      ]
+    }
+  ],
+  "H2450": [
+    {
+      "count": 1,
+      "morph": "HAampa",
+      "text": "חֲכָמִים֙",
+      "verses": [
+        "1:8"
+      ]
+    }
+  ],
+  "H251": [
+    {
+      "count": 1,
+      "morph": "HNcmsc/Sp2ms",
+      "text": "אָחִ֥יךָ",
+      "verses": [
+        "1:10"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNcmsc/Sp2ms",
+      "text": "אָחִ֨יךָ֙",
+      "verses": [
+        "1:12"
+      ]
+    }
+  ],
+  "H2555": [
+    {
+      "count": 1,
+      "morph": "HR/Ncmsc",
+      "text": "מֵחֲמַ֛ס",
+      "verses": [
+        "1:10"
+      ]
+    }
+  ],
+  "H259": [
+    {
+      "count": 1,
+      "morph": "HR/Acmsc",
+      "text": "כְּאַחַ֥ד",
+      "verses": [
+        "1:11"
+      ]
+    }
+  ],
+  "H2664": [
+    {
+      "count": 1,
+      "morph": "HVNp3cp",
+      "text": "נֶחְפְּשׂ֣וּ",
+      "verses": [
+        "1:6"
+      ]
+    }
+  ],
+  "H2865": [
+    {
+      "count": 1,
+      "morph": "HC/Vqq3cp",
+      "text": "וְחַתּ֥וּ",
+      "verses": [
+        "1:9"
+      ]
+    }
+  ],
+  "H3032": [
+    {
+      "count": 1,
+      "morph": "HVqp3cp",
+      "text": "יַדּ֣וּ",
+      "verses": [
+        "1:11"
+      ]
+    }
+  ],
+  "H3063": [
+    {
+      "count": 1,
+      "morph": "HNp",
+      "text": "יְהוּדָ֖ה",
+      "verses": [
+        "1:12"
+      ]
+    }
+  ],
+  "H3068": [
+    {
+      "count": 2,
+      "morph": "HNp",
+      "text": "יְהוָ֖ה",
+      "verses": [
+        "1:15",
+        "1:18"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNp",
+      "text": "יְהוָ֑ה",
+      "verses": [
+        "1:8"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNp",
+      "text": "יְהוָֽה",
+      "verses": [
+        "1:4"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNp",
+      "text": "יְהוָה֙",
+      "verses": [
+        "1:1"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HR/Np",
+      "text": "לַֽיהוָ֖ה",
+      "verses": [
+        "1:21"
+      ]
+    }
+  ],
+  "H3069": [
+    {
+      "count": 1,
+      "morph": "HNp",
+      "text": "יְהוִ֜ה",
+      "verses": [
+        "1:1"
+      ]
+    }
+  ],
+  "H3117": [
+    {
+      "count": 4,
+      "morph": "HR/Ncmsc",
+      "text": "בְּי֣וֹם",
+      "verses": [
+        "1:12",
+        "1:13"
+      ]
+    },
+    {
+      "count": 3,
+      "morph": "HR/Ncmsc",
+      "text": "בְּי֥וֹם",
+      "verses": [
+        "1:12",
+        "1:13",
+        "1:14"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HR/Ncmsc",
+      "text": "בְיוֹם",
+      "verses": [
+        "1:12"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HR/Ncmsc",
+      "text": "בְּי֛וֹם",
+      "verses": [
+        "1:11"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HR/Ncmsc",
+      "text": "בְּיוֹם֙",
+      "verses": [
+        "1:11"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HRd/Ncmsa",
+      "text": "בַּיּ֥וֹם",
+      "verses": [
+        "1:8"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNcmsc",
+      "text": "יוֹם",
+      "verses": [
+        "1:15"
+      ]
+    }
+  ],
+  "H3130": [
+    {
+      "count": 1,
+      "morph": "HNp",
+      "text": "יוֹסֵ֣ף",
+      "verses": [
+        "1:18"
+      ]
+    }
+  ],
+  "H3201": [
+    {
+      "count": 1,
+      "morph": "HVqp3cp",
+      "text": "יָכְל֥וּ",
+      "verses": [
+        "1:7"
+      ]
+    }
+  ],
+  "H3290": [
+    {
+      "count": 1,
+      "morph": "HNp",
+      "text": "יַֽעֲקֹ֔ב",
+      "verses": [
+        "1:17"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNp",
+      "text": "יַעֲקֹ֖ב",
+      "verses": [
+        "1:10"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNp",
+      "text": "יַעֲקֹ֨ב",
+      "verses": [
+        "1:18"
+      ]
+    }
+  ],
+  "H3381": [
+    {
+      "count": 1,
+      "morph": "HVhi1cs/Sp2ms",
+      "text": "אוֹרִֽידְךָ֖",
+      "verses": [
+        "1:4"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HVhi3ms/Sp1cs",
+      "text": "יוֹרִדֵ֖נִי",
+      "verses": [
+        "1:3"
+      ]
+    }
+  ],
+  "H3389": [
+    {
+      "count": 1,
+      "morph": "HNp",
+      "text": "יְרוּשָׁלִַ֖ם",
+      "verses": [
+        "1:20"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNp",
+      "text": "יְרוּשָׁלִַ֨ם֙",
+      "verses": [
+        "1:11"
+      ]
+    }
+  ],
+  "H3423": [
+    {
+      "count": 1,
+      "morph": "HC/Vqq3cp",
+      "text": "וְיָֽרְשׁוּ֙",
+      "verses": [
+        "1:17"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HC/Vqq3cp",
+      "text": "וְיָרְשׁ֨וּ",
+      "verses": [
+        "1:19"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HC/Vqq3cp",
+      "text": "וְיָרְשׁוּ֙",
+      "verses": [
+        "1:19"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HVqi3mp",
+      "text": "יִֽרְשׁ֕וּ",
+      "verses": [
+        "1:20"
+      ]
+    }
+  ],
+  "H343": [
+    {
+      "count": 1,
+      "morph": "HNcmsc/Sp3ms",
+      "text": "אֵיד֑וֹ",
+      "verses": [
+        "1:13"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNcmsc/Sp3mp",
+      "text": "אֵידָ֔ם",
+      "verses": [
+        "1:13"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNcmsc/Sp3ms",
+      "text": "אֵידֽוֹ",
+      "verses": [
+        "1:13"
+      ]
+    }
+  ],
+  "H3467": [
+    {
+      "count": 1,
+      "morph": "HVhrmpa",
+      "text": "מֽוֹשִׁעִים֙",
+      "verses": [
+        "1:21"
+      ]
+    }
+  ],
+  "H3478": [
+    {
+      "count": 1,
+      "morph": "HNp",
+      "text": "יִשְׂרָאֵ֤ל",
+      "verses": [
+        "1:20"
+      ]
+    }
+  ],
+  "H349": [
+    {
+      "count": 1,
+      "morph": "HTi",
+      "text": "אֵ֚יךְ",
+      "verses": [
+        "1:6"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HTi",
+      "text": "אֵ֣יךְ",
+      "verses": [
+        "1:5"
+      ]
+    }
+  ],
+  "H3541": [
+    {
+      "count": 1,
+      "morph": "HD",
+      "text": "כֹּֽה",
+      "verses": [
+        "1:1"
+      ]
+    }
+  ],
+  "H3556": [
+    {
+      "count": 1,
+      "morph": "HNcmpa",
+      "text": "כּֽוֹכָבִ֖ים",
+      "verses": [
+        "1:4"
+      ]
+    }
+  ],
+  "H3588": [
+    {
+      "count": 1,
+      "morph": "HC",
+      "text": "כִּ֗י",
+      "verses": [
+        "1:16"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HC",
+      "text": "כִּ֥י",
+      "verses": [
+        "1:18"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HC",
+      "text": "כִּֽי",
+      "verses": [
+        "1:15"
+      ]
+    }
+  ],
+  "H3605": [
+    {
+      "count": 1,
+      "morph": "HNcmsc",
+      "text": "כָֽל",
+      "verses": [
+        "1:16"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNcmsc",
+      "text": "כָּל",
+      "verses": [
+        "1:15"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNcmsc",
+      "text": "כֹּ֚ל",
+      "verses": [
+        "1:7"
+      ]
+    }
+  ],
+  "H3669": [
+    {
+      "count": 1,
+      "morph": "HNgmpa",
+      "text": "כְּנַעֲנִים֙",
+      "verses": [
+        "1:20"
+      ]
+    }
+  ],
+  "H3680": [
+    {
+      "count": 1,
+      "morph": "HVpi3fs/Sp2ms",
+      "text": "תְּכַסְּךָ֣",
+      "verses": [
+        "1:10"
+      ]
+    }
+  ],
+  "H369": [
+    {
+      "count": 1,
+      "morph": "HTn",
+      "text": "אֵ֥ין",
+      "verses": [
+        "1:7"
+      ]
+    }
+  ],
+  "H376": [
+    {
+      "count": 2,
+      "morph": "HNcmpc",
+      "text": "אַנְשֵׁ֣י",
+      "verses": [
+        "1:7"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNcmsa",
+      "text": "אִ֛ישׁ",
+      "verses": [
+        "1:9"
+      ]
+    }
+  ],
+  "H3772": [
+    {
+      "count": 1,
+      "morph": "HC/VNq2ms",
+      "text": "וְנִכְרַ֖תָּ",
+      "verses": [
+        "1:10"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HVNi3ms",
+      "text": "יִכָּֽרֶת",
+      "verses": [
+        "1:9"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HR/Vhc",
+      "text": "לְהַכְרִ֖ית",
+      "verses": [
+        "1:14"
+      ]
+    }
+  ],
+  "H3808": [
+    {
+      "count": 1,
+      "morph": "HTi/Tn",
+      "text": "הֲל֖וֹא",
+      "verses": [
+        "1:5"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HTi/Tn",
+      "text": "הֲל֛וֹא",
+      "verses": [
+        "1:8"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HTi/Tn",
+      "text": "הֲל֥וֹא",
+      "verses": [
+        "1:5"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HC/Tn",
+      "text": "וְלֹֽא",
+      "verses": [
+        "1:18"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HR/Tn",
+      "text": "כְּל֥וֹא",
+      "verses": [
+        "1:16"
+      ]
+    }
+  ],
+  "H3820": [
+    {
+      "count": 1,
+      "morph": "HR/Ncmsc/Sp3ms",
+      "text": "בְּלִבּ֔וֹ",
+      "verses": [
+        "1:3"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNcmsc/Sp2ms",
+      "text": "לִבְּךָ֙",
+      "verses": [
+        "1:3"
+      ]
+    }
+  ],
+  "H3852": [
+    {
+      "count": 1,
+      "morph": "HNcfsa",
+      "text": "לֶהָבָ֗ה",
+      "verses": [
+        "1:18"
+      ]
+    }
+  ],
+  "H3886": [
+    {
+      "count": 1,
+      "morph": "HC/Vqq3cp",
+      "text": "וְלָע֔וּ",
+      "verses": [
+        "1:16"
+      ]
+    }
+  ],
+  "H3899": [
+    {
+      "count": 1,
+      "morph": "HNcbsc/Sp2ms",
+      "text": "לַחְמְךָ֗",
+      "verses": [
+        "1:7"
+      ]
+    }
+  ],
+  "H3915": [
+    {
+      "count": 1,
+      "morph": "HNcmsa",
+      "text": "לַ֔יְלָה",
+      "verses": [
+        "1:5"
+      ]
+    }
+  ],
+  "H3966": [
+    {
+      "count": 1,
+      "morph": "HD",
+      "text": "מְאֹֽד",
+      "verses": [
+        "1:2"
+      ]
+    }
+  ],
+  "H398": [
+    {
+      "count": 1,
+      "morph": "HC/Vqq3cp/Sp3mp",
+      "text": "וַאֲכָל֑וּם",
+      "verses": [
+        "1:18"
+      ]
+    }
+  ],
+  "H408": [
+    {
+      "count": 5,
+      "morph": "HC/Tn",
+      "text": "וְאַל",
+      "verses": [
+        "1:12",
+        "1:13",
+        "1:14"
+      ]
+    },
+    {
+      "count": 2,
+      "morph": "HTn",
+      "text": "אַל",
+      "verses": [
+        "1:13"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HC/Tn",
+      "text": "וְאַֽל",
+      "verses": [
+        "1:14"
+      ]
+    }
+  ],
+  "H4180": [
+    {
+      "count": 1,
+      "morph": "HNcmpc/Sp3mp",
+      "text": "מוֹרָֽשֵׁיהֶם",
+      "verses": [
+        "1:17"
+      ]
+    }
+  ],
+  "H4204": [
+    {
+      "count": 1,
+      "morph": "HNcmsa",
+      "text": "מָזוֹר֙",
+      "verses": [
+        "1:7"
+      ]
+    }
+  ],
+  "H4310": [
+    {
+      "count": 1,
+      "morph": "HTi",
+      "text": "מִ֥י",
+      "verses": [
+        "1:3"
+      ]
+    }
+  ],
+  "H4410": [
+    {
+      "count": 1,
+      "morph": "HTd/Ncfsa",
+      "text": "הַמְּלוּכָֽה",
+      "verses": [
+        "1:21"
+      ]
+    }
+  ],
+  "H4421": [
+    {
+      "count": 1,
+      "morph": "HRd/Ncfsa",
+      "text": "לַמִּלְחָמָֽה",
+      "verses": [
+        "1:1"
+      ]
+    }
+  ],
+  "H4616": [
+    {
+      "count": 1,
+      "morph": "HR",
+      "text": "לְמַ֧עַן",
+      "verses": [
+        "1:9"
+      ]
+    }
+  ],
+  "H4710": [
+    {
+      "count": 1,
+      "morph": "HNcmpc/Sp3ms",
+      "text": "מַצְפֻּנָֽיו",
+      "verses": [
+        "1:6"
+      ]
+    }
+  ],
+  "H4791": [
+    {
+      "count": 1,
+      "morph": "HNcmsc",
+      "text": "מְר֣וֹם",
+      "verses": [
+        "1:3"
+      ]
+    }
+  ],
+  "H5002": [
+    {
+      "count": 2,
+      "morph": "HNcmsc",
+      "text": "נְאֻם",
+      "verses": [
+        "1:4",
+        "1:8"
+      ]
+    }
+  ],
+  "H5045": [
+    {
+      "count": 1,
+      "morph": "HTd/Ncmsa",
+      "text": "הַנֶּ֜גֶב",
+      "verses": [
+        "1:19"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HTd/Ncmsa",
+      "text": "הַנֶּֽגֶב",
+      "verses": [
+        "1:20"
+      ]
+    }
+  ],
+  "H5048": [
+    {
+      "count": 1,
+      "morph": "HR/R",
+      "text": "מִנֶּ֔גֶד",
+      "verses": [
+        "1:11"
+      ]
+    }
+  ],
+  "H518": [
+    {
+      "count": 4,
+      "morph": "HC",
+      "text": "אִם",
+      "verses": [
+        "1:4",
+        "1:5"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HC/C",
+      "text": "וְאִם",
+      "verses": [
+        "1:4"
+      ]
+    }
+  ],
+  "H5235": [
+    {
+      "count": 1,
+      "morph": "HNcmsc/Sp3ms",
+      "text": "נָכְר֔וֹ",
+      "verses": [
+        "1:12"
+      ]
+    }
+  ],
+  "H5237": [
+    {
+      "count": 1,
+      "morph": "HC/Aampa",
+      "text": "וְנָכְרִ֞ים",
+      "verses": [
+        "1:11"
+      ]
+    }
+  ],
+  "H5377": [
+    {
+      "count": 1,
+      "morph": "HVhp3cp/Sp2ms",
+      "text": "הִשִּׁיא֛וּךָ",
+      "verses": [
+        "1:7"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HVhp3ms/Sp2ms",
+      "text": "הִשִּׁיאֶ֔ךָ",
+      "verses": [
+        "1:3"
+      ]
+    }
+  ],
+  "H5404": [
+    {
+      "count": 1,
+      "morph": "HRd/Ncmsa",
+      "text": "כַּנֶּ֔שֶׁר",
+      "verses": [
+        "1:4"
+      ]
+    }
+  ],
+  "H5414": [
+    {
+      "count": 1,
+      "morph": "HVqp1cs/Sp2ms",
+      "text": "נְתַתִּ֖יךָ",
+      "verses": [
+        "1:2"
+      ]
+    }
+  ],
+  "H5462": [
+    {
+      "count": 1,
+      "morph": "HVhj2ms",
+      "text": "תַּסְגֵּ֥ר",
+      "verses": [
+        "1:14"
+      ]
+    }
+  ],
+  "H5553": [
+    {
+      "count": 1,
+      "morph": "HNcmsa",
+      "text": "סֶּ֖לַע",
+      "verses": [
+        "1:3"
+      ]
+    }
+  ],
+  "H559": [
+    {
+      "count": 1,
+      "morph": "HVqp3ms",
+      "text": "אָמַר֩",
+      "verses": [
+        "1:1"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HVqrmsa",
+      "text": "אֹמֵ֣ר",
+      "verses": [
+        "1:3"
+      ]
+    }
+  ],
+  "H5614": [
+    {
+      "count": 1,
+      "morph": "HR/Np",
+      "text": "בִּסְפָרַ֑ד",
+      "verses": [
+        "1:20"
+      ]
+    }
+  ],
+  "H5662": [
+    {
+      "count": 1,
+      "morph": "HNp",
+      "text": "עֹֽבַדְיָ֑ה",
+      "verses": [
+        "1:1"
+      ]
+    }
+  ],
+  "H5704": [
+    {
+      "count": 1,
+      "morph": "HR",
+      "text": "עַֽד",
+      "verses": [
+        "1:7"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HR",
+      "text": "עַד",
+      "verses": [
+        "1:20"
+      ]
+    }
+  ],
+  "H5769": [
+    {
+      "count": 1,
+      "morph": "HR/Ncmsa",
+      "text": "לְעוֹלָֽם",
+      "verses": [
+        "1:10"
+      ]
+    }
+  ],
+  "H5892": [
+    {
+      "count": 1,
+      "morph": "HNcfpc",
+      "text": "עָרֵ֥י",
+      "verses": [
+        "1:20"
+      ]
+    }
+  ],
+  "H5921": [
+    {
+      "count": 3,
+      "morph": "HR",
+      "text": "עַל",
+      "verses": [
+        "1:14",
+        "1:15",
+        "1:16"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HC/R",
+      "text": "וְעַל",
+      "verses": [
+        "1:11"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HR/Sp3fs",
+      "text": "עָלֶיהָ",
+      "verses": [
+        "1:1"
+      ]
+    }
+  ],
+  "H5927": [
+    {
+      "count": 1,
+      "morph": "HC/Vqq3cp",
+      "text": "וְעָל֤וּ",
+      "verses": [
+        "1:21"
+      ]
+    }
+  ],
+  "H5955": [
+    {
+      "count": 1,
+      "morph": "HNcfpa",
+      "text": "עֹלֵלֽוֹת",
+      "verses": [
+        "1:5"
+      ]
+    }
+  ],
+  "H5971": [
+    {
+      "count": 1,
+      "morph": "HNcmsc/Sp1cs",
+      "text": "עַמִּי֙",
+      "verses": [
+        "1:13"
+      ]
+    }
+  ],
+  "H5975": [
+    {
+      "count": 1,
+      "morph": "HVqc/Sp2ms",
+      "text": "עֲמָֽדְךָ֣",
+      "verses": [
+        "1:11"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HVqj2ms",
+      "text": "תַּעֲמֹד֙",
+      "verses": [
+        "1:14"
+      ]
+    }
+  ],
+  "H6": [
+    {
+      "count": 1,
+      "morph": "HVqc/Sp3mp",
+      "text": "אָבְדָ֑ם",
+      "verses": [
+        "1:12"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HC/Vhq1cs",
+      "text": "וְהַאֲבַדְתִּ֤י",
+      "verses": [
+        "1:8"
+      ]
+    }
+  ],
+  "H6213": [
+    {
+      "count": 1,
+      "morph": "HVNi3ms",
+      "text": "יֵעָ֣שֶׂה",
+      "verses": [
+        "1:15"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HVqp2ms",
+      "text": "עָשִׂ֨יתָ֙",
+      "verses": [
+        "1:15"
+      ]
+    }
+  ],
+  "H6215": [
+    {
+      "count": 2,
+      "morph": "HNp",
+      "text": "עֵשָׂ֔ו",
+      "verses": [
+        "1:6",
+        "1:18"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNp",
+      "text": "עֵשָׂ֑ו",
+      "verses": [
+        "1:21"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNp",
+      "text": "עֵשָׂ֖ו",
+      "verses": [
+        "1:9"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNp",
+      "text": "עֵשָׂ֗ו",
+      "verses": [
+        "1:19"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNp",
+      "text": "עֵשָֽׂו",
+      "verses": [
+        "1:8"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNp",
+      "text": "עֵשָׂו֙",
+      "verses": [
+        "1:18"
+      ]
+    }
+  ],
+  "H6310": [
+    {
+      "count": 1,
+      "morph": "HNcmsc/Sp2ms",
+      "text": "פִּ֖יךָ",
+      "verses": [
+        "1:12"
+      ]
+    }
+  ],
+  "H6412": [
+    {
+      "count": 1,
+      "morph": "HNcmpc/Sp3ms",
+      "text": "פְּלִיטָ֑יו",
+      "verses": [
+        "1:14"
+      ]
+    }
+  ],
+  "H6413": [
+    {
+      "count": 1,
+      "morph": "HNcfsa",
+      "text": "פְלֵיטָ֖ה",
+      "verses": [
+        "1:17"
+      ]
+    }
+  ],
+  "H6430": [
+    {
+      "count": 1,
+      "morph": "HNgmpa",
+      "text": "פְּלִשְׁתִּ֔ים",
+      "verses": [
+        "1:19"
+      ]
+    }
+  ],
+  "H6563": [
+    {
+      "count": 1,
+      "morph": "HTd/Ncmsa",
+      "text": "הַפֶּ֔רֶק",
+      "verses": [
+        "1:14"
+      ]
+    }
+  ],
+  "H669": [
+    {
+      "count": 1,
+      "morph": "HNp",
+      "text": "אֶפְרַ֔יִם",
+      "verses": [
+        "1:19"
+      ]
+    }
+  ],
+  "H6726": [
+    {
+      "count": 1,
+      "morph": "HNp",
+      "text": "צִיּ֔וֹן",
+      "verses": [
+        "1:21"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNp",
+      "text": "צִיּ֛וֹן",
+      "verses": [
+        "1:17"
+      ]
+    }
+  ],
+  "H6735": [
+    {
+      "count": 1,
+      "morph": "HC/Ncmsa",
+      "text": "וְצִיר֙",
+      "verses": [
+        "1:1"
+      ]
+    }
+  ],
+  "H6869": [
+    {
+      "count": 2,
+      "morph": "HNcfsa",
+      "text": "צָרָֽה",
+      "verses": [
+        "1:12",
+        "1:14"
+      ]
+    }
+  ],
+  "H6886": [
+    {
+      "count": 1,
+      "morph": "HNp",
+      "text": "צָ֣רְפַ֔ת",
+      "verses": [
+        "1:20"
+      ]
+    }
+  ],
+  "H6944": [
+    {
+      "count": 1,
+      "morph": "HNcmsc/Sp1cs",
+      "text": "קָדְשִׁ֔י",
+      "verses": [
+        "1:16"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNcmsa",
+      "text": "קֹ֑דֶשׁ",
+      "verses": [
+        "1:17"
+      ]
+    }
+  ],
+  "H6965": [
+    {
+      "count": 1,
+      "morph": "HC/Vqh1cp",
+      "text": "וְנָק֥וּמָה",
+      "verses": [
+        "1:1"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HVqv2mp",
+      "text": "ק֛וּמוּ",
+      "verses": [
+        "1:1"
+      ]
+    }
+  ],
+  "H6993": [
+    {
+      "count": 1,
+      "morph": "HR/Ncmsa",
+      "text": "מִקָּֽטֶל",
+      "verses": [
+        "1:9"
+      ]
+    }
+  ],
+  "H6996": [
+    {
+      "count": 1,
+      "morph": "HAamsa",
+      "text": "קָטֹ֛ן",
+      "verses": [
+        "1:2"
+      ]
+    }
+  ],
+  "H7064": [
+    {
+      "count": 1,
+      "morph": "HNcmsc/Sp2ms",
+      "text": "קִנֶּ֑ךָ",
+      "verses": [
+        "1:4"
+      ]
+    }
+  ],
+  "H7138": [
+    {
+      "count": 1,
+      "morph": "HAamsa",
+      "text": "קָר֥וֹב",
+      "verses": [
+        "1:15"
+      ]
+    }
+  ],
+  "H7179": [
+    {
+      "count": 1,
+      "morph": "HR/Ncmsa",
+      "text": "לְקַ֔שׁ",
+      "verses": [
+        "1:18"
+      ]
+    }
+  ],
+  "H7200": [
+    {
+      "count": 1,
+      "morph": "HVqj2ms",
+      "text": "תֵּ֤רֶא",
+      "verses": [
+        "1:12"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HVqj2ms",
+      "text": "תֵּ֧רֶא",
+      "verses": [
+        "1:13"
+      ]
+    }
+  ],
+  "H7218": [
+    {
+      "count": 1,
+      "morph": "HR/Ncmsc/Sp2ms",
+      "text": "בְּרֹאשֶֽׁךָ",
+      "verses": [
+        "1:15"
+      ]
+    }
+  ],
+  "H7451": [
+    {
+      "count": 1,
+      "morph": "HR/Ncfsc/Sp3ms",
+      "text": "בְּרָעָת֖וֹ",
+      "verses": [
+        "1:13"
+      ]
+    }
+  ],
+  "H7604": [
+    {
+      "count": 1,
+      "morph": "HVhi3mp",
+      "text": "יַשְׁאִ֥ירוּ",
+      "verses": [
+        "1:5"
+      ]
+    }
+  ],
+  "H7617": [
+    {
+      "count": 1,
+      "morph": "HVqc",
+      "text": "שְׁב֥וֹת",
+      "verses": [
+        "1:11"
+      ]
+    }
+  ],
+  "H7675": [
+    {
+      "count": 1,
+      "morph": "HNcfsc/Sp3ms",
+      "text": "שִׁבְתּ֑וֹ",
+      "verses": [
+        "1:3"
+      ]
+    }
+  ],
+  "H7703": [
+    {
+      "count": 1,
+      "morph": "HVqrmpc",
+      "text": "שׁ֣וֹדְדֵי",
+      "verses": [
+        "1:5"
+      ]
+    }
+  ],
+  "H7704": [
+    {
+      "count": 2,
+      "morph": "HNcmsc",
+      "text": "שְׂדֵ֣ה",
+      "verses": [
+        "1:19"
+      ]
+    }
+  ],
+  "H7725": [
+    {
+      "count": 1,
+      "morph": "HVqi3ms",
+      "text": "יָשׁ֥וּב",
+      "verses": [
+        "1:15"
+      ]
+    }
+  ],
+  "H776": [
+    {
+      "count": 1,
+      "morph": "HNcbsa",
+      "text": "אָֽרֶץ",
+      "verses": [
+        "1:3"
+      ]
+    }
+  ],
+  "H7760": [
+    {
+      "count": 1,
+      "morph": "HVqi3mp",
+      "text": "יָשִׂ֤ימוּ",
+      "verses": [
+        "1:7"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HVqsmsa",
+      "text": "שִׂ֣ים",
+      "verses": [
+        "1:4"
+      ]
+    }
+  ],
+  "H784": [
+    {
+      "count": 1,
+      "morph": "HNcbsa",
+      "text": "אֵ֜שׁ",
+      "verses": [
+        "1:18"
+      ]
+    }
+  ],
+  "H7931": [
+    {
+      "count": 1,
+      "morph": "HVqrmsc",
+      "text": "שֹׁכְנִ֥י",
+      "verses": [
+        "1:3"
+      ]
+    }
+  ],
+  "H7965": [
+    {
+      "count": 1,
+      "morph": "HNcmsc/Sp2ms",
+      "text": "שְׁלֹמֶ֑ךָ",
+      "verses": [
+        "1:7"
+      ]
+    }
+  ],
+  "H7971": [
+    {
+      "count": 1,
+      "morph": "HVpp3cp/Sp2ms",
+      "text": "שִׁלְּח֗וּךָ",
+      "verses": [
+        "1:7"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HVPp3ms",
+      "text": "שֻׁלָּ֔ח",
+      "verses": [
+        "1:1"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HVqj2fp",
+      "text": "תִּשְׁלַ֥חְנָה",
+      "verses": [
+        "1:13"
+      ]
+    }
+  ],
+  "H8033": [
+    {
+      "count": 1,
+      "morph": "HR/D",
+      "text": "מִשָּׁ֥ם",
+      "verses": [
+        "1:4"
+      ]
+    }
+  ],
+  "H8052": [
+    {
+      "count": 1,
+      "morph": "HNcfsa",
+      "text": "שְׁמוּעָ֨ה",
+      "verses": [
+        "1:1"
+      ]
+    }
+  ],
+  "H8055": [
+    {
+      "count": 1,
+      "morph": "HVqj2ms",
+      "text": "תִּשְׂמַ֥ח",
+      "verses": [
+        "1:12"
+      ]
+    }
+  ],
+  "H8085": [
+    {
+      "count": 1,
+      "morph": "HVqp1cp",
+      "text": "שָׁמַ֜עְנוּ",
+      "verses": [
+        "1:1"
+      ]
+    }
+  ],
+  "H8111": [
+    {
+      "count": 1,
+      "morph": "HNp",
+      "text": "שֹׁמְר֑וֹן",
+      "verses": [
+        "1:19"
+      ]
+    }
+  ],
+  "H8179": [
+    {
+      "count": 1,
+      "morph": "HR/Ncmsc",
+      "text": "בְשַֽׁעַר",
+      "verses": [
+        "1:13"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNcmpc/Sp3ms",
+      "text": "שְׁעָרָ֗יו",
+      "verses": [
+        "1:11"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNcmsc/Sp3ms",
+      "text": "שערו",
+      "verses": [
+        "1:11"
+      ]
+    }
+  ],
+  "H8199": [
+    {
+      "count": 1,
+      "morph": "HR/Vqc",
+      "text": "לִשְׁפֹּ֖ט",
+      "verses": [
+        "1:21"
+      ]
+    }
+  ],
+  "H8219": [
+    {
+      "count": 1,
+      "morph": "HC/Td/Ncfsa",
+      "text": "וְהַשְּׁפֵלָה֙",
+      "verses": [
+        "1:19"
+      ]
+    }
+  ],
+  "H8300": [
+    {
+      "count": 1,
+      "morph": "HNcmpc/Sp3ms",
+      "text": "שְׂרִידָ֖יו",
+      "verses": [
+        "1:14"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNcmsa",
+      "text": "שָׂרִיד֙",
+      "verses": [
+        "1:18"
+      ]
+    }
+  ],
+  "H834": [
+    {
+      "count": 1,
+      "morph": "HTr",
+      "text": "אֲשֶׁ֣ר",
+      "verses": [
+        "1:20"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HTr",
+      "text": "אֲשֶֽׁר",
+      "verses": [
+        "1:20"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HR/Tr",
+      "text": "כַּֽאֲשֶׁ֤ר",
+      "verses": [
+        "1:16"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HR/Tr",
+      "text": "כַּאֲשֶׁ֤ר",
+      "verses": [
+        "1:15"
+      ]
+    }
+  ],
+  "H8354": [
+    {
+      "count": 1,
+      "morph": "HC/Vqq3cp",
+      "text": "וְשָׁת֣וּ",
+      "verses": [
+        "1:16"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HVqi3mp",
+      "text": "יִשְׁתּ֥וּ",
+      "verses": [
+        "1:16"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HVqp2mp",
+      "text": "שְׁתִיתֶם֙",
+      "verses": [
+        "1:16"
+      ]
+    }
+  ],
+  "H8394": [
+    {
+      "count": 1,
+      "morph": "HC/Ncfsa",
+      "text": "וּתְבוּנָ֖ה",
+      "verses": [
+        "1:8"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HNcfsa",
+      "text": "תְּבוּנָ֖ה",
+      "verses": [
+        "1:7"
+      ]
+    }
+  ],
+  "H8478": [
+    {
+      "count": 1,
+      "morph": "HR/Sp2ms",
+      "text": "תַּחְתֶּ֔יךָ",
+      "verses": [
+        "1:7"
+      ]
+    }
+  ],
+  "H8487": [
+    {
+      "count": 1,
+      "morph": "HNp",
+      "text": "תֵּימָ֑ן",
+      "verses": [
+        "1:9"
+      ]
+    }
+  ],
+  "H853": [
+    {
+      "count": 6,
+      "morph": "HTo",
+      "text": "אֶת",
+      "verses": [
+        "1:14",
+        "1:19",
+        "1:21"
+      ]
+    },
+    {
+      "count": 2,
+      "morph": "HTo",
+      "text": "אֵ֖ת",
+      "verses": [
+        "1:17",
+        "1:20"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HC/To",
+      "text": "וְאֵ֖ת",
+      "verses": [
+        "1:19"
+      ]
+    }
+  ],
+  "H854": [
+    {
+      "count": 1,
+      "morph": "HR/R",
+      "text": "מֵאֵ֤ת",
+      "verses": [
+        "1:1"
+      ]
+    }
+  ],
+  "H8548": [
+    {
+      "count": 1,
+      "morph": "HNcmsa",
+      "text": "תָּמִ֑יד",
+      "verses": [
+        "1:16"
+      ]
+    }
+  ],
+  "H859": [
+    {
+      "count": 2,
+      "morph": "HPp2ms",
+      "text": "אַתָּ֖ה",
+      "verses": [
+        "1:2",
+        "1:11"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HPp2ms",
+      "text": "אַתָּ֛ה",
+      "verses": [
+        "1:13"
+      ]
+    }
+  ],
+  "H935": [
+    {
+      "count": 2,
+      "morph": "HVqp3cp",
+      "text": "בָּ֣אוּ",
+      "verses": [
+        "1:5",
+        "1:11"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HVqp3cp",
+      "text": "בָּאֽוּ",
+      "verses": [
+        "1:5"
+      ]
+    },
+    {
+      "count": 1,
+      "morph": "HVqj2ms",
+      "text": "תָּב֤וֹא",
+      "verses": [
+        "1:13"
+      ]
+    }
+  ],
+  "H955": [
+    {
+      "count": 1,
+      "morph": "HNcfsa",
+      "text": "בוּשָׁ֑ה",
+      "verses": [
+        "1:10"
+      ]
+    }
+  ],
+  "H959": [
+    {
+      "count": 1,
+      "morph": "HVqsmsa",
+      "text": "בָּז֥וּי",
+      "verses": [
+        "1:2"
+      ]
+    }
+  ],
+  "H996": [
+    {
+      "count": 1,
+      "morph": "HR",
+      "text": "בֵּ֥ין",
+      "verses": [
+        "1:4"
+      ]
+    }
+  ]
+}

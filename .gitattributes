@@ -1,0 +1,3 @@
+# Sin conversión de fin de línea: los JSON de data_master están minificados y
+# el hebreo/griego/TSV deben guardarse byte a byte.
+* -text
