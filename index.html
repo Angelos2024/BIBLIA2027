@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Génesis 1–28 · visor (solo lectura)</title>
+<style>
+:root {
+  --morph-lang-size: 1.08rem;
+  --morph-hebrew-size: calc(1.08rem * 1.14);
+  --morph-label-size: calc(1.08rem * 0.66);
+  --bg: #edddce; --bd: #d5c1b1; --text: #2c1d1f; --muted: #6d5d52;
+  --primary: #4b2743; --gr: #395a93; --sp: #b42318;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, "Segoe UI", sans-serif; }
+.top {
+  position: sticky; top: 0; z-index: 8;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px;
+  padding: 10px 18px; background: #fffaf4; border-bottom: 1px solid var(--bd);
+}
+.top b { font-size: 1rem; }
+.toggles { display: flex; gap: 14px; font-size: .9rem; }
+.toggles label { cursor: pointer; display: flex; align-items: center; gap: 5px; user-select: none; }
+select { font: inherit; padding: 3px 6px; border: 1px solid var(--bd); border-radius: 6px; background: #fff; }
+.nav-verse { display: flex; gap: 6px; }
+.nav-verse button {
+  font: inherit; font-size: .9rem; padding: 4px 10px; cursor: pointer;
+  border: 1px solid var(--bd); border-radius: 6px; background: #fff; color: var(--text);
+}
+.nav-verse button:hover:not(:disabled) { background: #fff4ea; }
+.nav-verse button:disabled { opacity: .4; cursor: default; }
+#candado {
+  font: inherit; font-size: .9rem; padding: 4px 10px; cursor: pointer;
+  border: 1px solid var(--bd); border-radius: 6px; background: #fff; color: var(--text);
+}
+#candado.cerrado { background: #f3e6c8; border-color: #8a6a32; color: #6a4e16; }
+#candado:disabled { opacity: .45; cursor: default; }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 18px; }
+.card {
+  background: #fff; border: 1px solid rgba(75,39,67,.14); border-radius: 18px;
+  overflow: hidden; box-shadow: 0 12px 28px rgba(15,23,42,.06);
+}
+.head {
+  display: flex; justify-content: space-between; gap: 1rem; align-items: flex-start;
+  padding: .65rem 1.1rem .6rem;
+  background: linear-gradient(180deg, rgba(237,221,206,.42) 0%, rgba(255,255,255,.92) 100%);
+  border-bottom: 1px solid rgba(75,39,67,.12);
+}
+.ref { font-weight: 700; }
+.meta { font-size: .82rem; color: var(--muted); }
+.lxx-chip { font-size: .82rem; color: var(--gr); text-align: right; max-width: 62%; line-height: 1.4; }
+.lxx-chip span { opacity: .7; font-size: .72rem; display: block; }
+.strip {
+  display: flex; flex-direction: row; flex-wrap: wrap; direction: rtl;
+  align-items: flex-start; padding: .85rem 1.1rem 1rem;
+}
+.col {
+  min-width: 4.6rem; max-width: 6.8rem; padding: 6px 8px 8px;
+  text-align: center; border-right: 1px solid #efe6dc;
+  overflow: hidden; flex: 0 0 auto; isolation: isolate;
+}
+.col.caso-difiere { max-width: 12rem; overflow: visible; }
+.col.add { background: #eef3fb; border-left: 2px solid rgba(57,90,147,.4); }
+.col.spadd { background: #fdeeee; border-left: 2px solid rgba(180,35,24,.35); }
+.he {
+  font-family: "SBL Hebrew","Ezra SIL","Times New Roman",serif;
+  font-size: var(--morph-hebrew-size); direction: rtl; min-height: 1.5rem; color: #24181a;
+}
+.col.add .he, .marker {
+  font-family: system-ui, sans-serif; font-size: .65rem; font-weight: 700;
+  letter-spacing: .04em; text-transform: uppercase; color: var(--gr); min-height: auto;
+}
+.col.spadd .marker { color: var(--sp); }
+.morph {
+  font-size: var(--morph-label-size); color: #9a6b3a; margin: 2px auto 0;
+  letter-spacing: .02em; font-weight: 600; line-height: 1.22;
+  max-width: 11ch; word-break: break-all; overflow-wrap: anywhere;
+}
+.es { font-size: calc(var(--morph-lang-size) * .78); margin-top: 3px; min-height: 1.15em; direction: ltr; unicode-bidi: isolate; }
+.es-sp { color: var(--sp); font-weight: 700; }
+.hide-sp .es-sp { display: none; }
+.gr {
+  font-family: "SBL Greek","GFS Didot","Times New Roman",serif;
+  font-size: .82rem; color: var(--gr); margin-top: 3px;
+}
+.sp {
+  font-family: "SBL Hebrew","Ezra SIL","Times New Roman",serif;
+  font-size: 1.05rem; direction: rtl; margin-top: 5px; color: #6a5348;
+}
+.sp.eq { color: #d2c4b6; font-size: .7rem; }
+.sp-add {
+  margin-top: 6px; padding-top: 4px; border-top: 1px dashed rgba(180,35,24,.35);
+  color: var(--sp);
+}
+.sp-unida { border: 0; margin: 0; padding: 0; min-height: 0; }
+.sp-add-he {
+  font-family: "SBL Hebrew","Ezra SIL","Times New Roman",serif;
+  font-size: 1.05rem; direction: rtl; font-weight: 700;
+}
+.hide-morph .morph { display: none; }
+.hide-lxx .gr, .hide-lxx .lxx-chip, .hide-lxx .col.add .marker { display: none; }
+.hide-lxx .col.add > .morph { display: none; }
+.hide-lxx .col.add:not(.has-sp-plus) { display: none; }
+.hide-lxx.hide-sp .col.add { display: none; }
+.hide-sp .sp, .hide-sp .sp-add, .hide-sp .col.spadd { display: none; }
+/* orden: el hebreo SP va cruzado a propósito; el español MT no se oculta
+   (lección 19:28 כל/פני). */
+.card:not(.hide-sp) .has-sp-plus:not(.caso-difiere):not(.caso-omite):not(.caso-orden) .es-mt { display: none; }
+.personal {
+  padding: .55rem 1.1rem .85rem; font-size: .95rem; line-height: 1.5;
+  border-top: 1px solid rgba(75,39,67,.1);
+}
+.personal .lab { color: #1f6b3a; font-size: .72rem; font-weight: 700; letter-spacing: .08em; margin-right: 8px; }
+[data-caso] { cursor: pointer; }
+.personal [data-caso] { border-bottom: 1px dotted rgba(180,35,24,.55); }
+.consulta {
+  margin-top: 18px;
+  padding: .9rem 1.1rem 1rem;
+  background: #fffaf4;
+  border: 1px solid var(--bd);
+  border-radius: 14px;
+}
+.consulta form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  padding: 6px 6px 6px 18px;
+  background: #fff;
+  border: 1px solid var(--bd);
+  border-radius: 999px;
+}
+.consulta form:focus-within { border-color: var(--primary); }
+.consulta label {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); clip-path: inset(50%);
+}
+.consulta textarea {
+  flex: 1;
+  min-width: 0;
+  height: 1.6rem;
+  max-height: 6.5rem;
+  margin: 0;
+  padding: 4px 0;
+  border: 0;
+  resize: none;
+  overflow: hidden;
+  background: transparent;
+  font: inherit;
+  font-size: .95rem;
+  line-height: 1.4;
+  color: var(--text);
+  outline: none;
+}
+.consulta textarea::placeholder { color: var(--muted); }
+.consulta-fuentes {
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-size: .82rem;
+  white-space: nowrap;
+}
+.consulta button[type="submit"] {
+  flex: 0 0 auto;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--primary);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+.consulta button[type="submit"]:disabled { opacity: .45; cursor: default; }
+.consulta-resp {
+  margin-top: .85rem;
+  padding: .9rem 1rem 1rem;
+  background: #fff;
+  border: 1px solid rgba(75,39,67,.12);
+  border-radius: 12px;
+  line-height: 1.55;
+  font-size: .95rem;
+}
+.consulta-resp:empty { display: none; }
+.consulta-resp.espera {
+  padding: .35rem 0 0;
+  background: transparent;
+  border: 0;
+  color: var(--muted);
+  font-size: .88rem;
+}
+.consulta-resp p { margin: 0 0 .75rem; }
+.consulta-resp p:last-child { margin-bottom: 0; }
+.consulta-resp ul { margin: .15rem 0 .75rem; padding-left: 1.15rem; }
+.consulta-resp li { margin: .4rem 0; }
+.consulta-resp strong { font-weight: 700; }
+.consulta-resp hr {
+  border: 0;
+  border-top: 1px solid rgba(75,39,67,.12);
+  margin: .85rem 0;
+}
+.consulta-resp .sigue { color: var(--muted); font-size: .9rem; }
+@media (max-width: 640px) {
+  .consulta-fuentes { display: none; }
+}
+#leyenda {
+  position: fixed; z-index: 40; display: none;
+  max-width: 16rem; padding: .55rem .7rem;
+  background: #fffaf4; color: var(--sp);
+  border: 1px solid rgba(180,35,24,.45); border-radius: 8px;
+  font-size: .82rem; line-height: 1.35; font-weight: 600;
+  box-shadow: 0 8px 20px rgba(44,29,31,.14);
+}
+#leyenda.pin { outline: 2px solid rgba(180,35,24,.25); }
+
+.badge-ro {
+  font-size: .72rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
+  color: #6a4e16; background: #f3e6c8; border: 1px solid #8a6a32; border-radius: 999px;
+  padding: 2px 8px;
+}
+#candado, .consulta { display: none !important; }
+</style>
+</head>
+<body>
+<div class="top">
+  <b>Génesis 1–28</b><span class="badge-ro">solo lectura</span>
+  <label>Cap. <select id="ch"></select></label>
+  <label>v. <select id="vs"></select></label>
+  <div class="nav-verse">
+    <button type="button" id="vs-prev">← Anterior</button>
+    <button type="button" id="vs-next">Siguiente →</button>
+  </div>
+  <div class="toggles">
+    <label><input type="checkbox" id="lay-morph" checked> Morfología</label>
+    <label><input type="checkbox" id="lay-lxx" checked> LXX</label>
+    <label><input type="checkbox" id="lay-sp"> Samaritano</label>
+  </div>
+</div>
+<div class="wrap">
+  <div class="card" id="card"></div>
+</div>
+<div id="leyenda" role="tooltip" hidden></div>
+<script>
+const DATA_URL = 'genesis_1_28.json';
+const card = document.getElementById('card');
+const chSel = document.getElementById('ch');
+const vsSel = document.getElementById('vs');
+const MEM = 'biblia-sp-cv';
+const LAY = 'biblia-sp-lay';
+const LAY_IDS = ['lay-morph', 'lay-lxx', 'lay-sp'];
+const LEYENDA = {
+  anexa: 'El texto samaritano anexa este contenido.',
+  vocales: 'El texto samaritano difiere del masorético: mismas consonantes, otras vocales.',
+  mismo: 'Mismo sentido, diferencia consonántica: samaritano vs masorético.',
+  cambia: 'El texto samaritano cambia esta palabra.',
+  cambiaPor: 'El texto samaritano difiere en sentido y escritura por:',
+  omite: 'El texto samaritano no trae esta palabra.',
+  sinart: 'El texto samaritano va sin artículo definido.',
+  lectura: 'El texto samaritano lee לרוח como sustantivo: durante.',
+  orden: 'El texto samaritano invierte el orden.'
+};
+const FIN = { 'ך': 'כ', 'ם': 'מ', 'ן': 'נ', 'ף': 'פ', 'ץ': 'צ' };
+let data = null;
+/** Instantánea de solo lectura (Génesis 1–28). Sin sync de editor. */
+let payloadStamp = '';
+
+function stampPayload(json) {
+  // _buildId lo estampa armar_capas.py en cada build; cambia aunque los
+  // personales MT sean idénticos. Fallback: Nº caps + personal del verso.
+  try {
+    if (json && json._buildId) return String(json._buildId);
+    const chs = json.chapters || {};
+    const cur = ((chs[String(ch)] || {})[String(vs)] || {}).personal || '';
+    return `${Object.keys(chs).length}|${cur}`;
+  } catch (_) {
+    return '';
+  }
+}
+
+
+let ch = 1, vs = 1;
+let pinEl = null;
+let candado = { cerrados: [] };
+
+function esc(s) {
+  return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function cons(s) {
+  return String(s || '')
+    .replace(/[\u0591-\u05C7\u05BE\u05C0\s\-־]/g, '')
+    .replace(/[ךםןףץ]/g, ch => FIN[ch] || ch);
+}
+
+function esOrden(t, tokens) {
+  const sp = cons(t.sp);
+  const he = cons(t.he);
+  if (!sp || !he || sp === he) return false;
+  return tokens.some(o => o !== t && o.spRed && cons(o.he) === sp && cons(o.sp) === he);
+}
+
+function mismaGlosa(a, b) {
+  const n = s => String(s || '').trim().toLowerCase().replace(/\s+/g, ' ');
+  const x = n(a);
+  const y = n(b);
+  return !!(x && y && x !== '—' && x === y);
+}
+
+function distCap(a, b, cap) {
+  if (Math.abs(a.length - b.length) > cap) return cap + 1;
+  let prev = [...Array(b.length + 1).keys()];
+  for (let i = 1; i <= a.length; i++) {
+    const cur = [i];
+    for (let j = 1; j <= b.length; j++) {
+      const ins = cur[j - 1] + 1;
+      const del = prev[j] + 1;
+      const sub = prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1);
+      cur.push(Math.min(ins, del, sub));
+    }
+    prev = cur;
+  }
+  return prev[b.length];
+}
+
+function mismaPalabra(a, b) {
+  if (!a || !b || a === b) return false;
+  if (a.length === b.length && a.length >= 3 && a.split('').sort().join('') === b.split('').sort().join('')) return true;
+  const corto = Math.min(a.length, b.length);
+  const menor = a.length <= b.length ? a : b;
+  const mayor = a.length >= b.length ? a : b;
+  const cola = mayor.slice(menor.length);
+  if (corto >= 2 && mayor.startsWith(menor) && cola.length >= 1 && cola.length <= 2
+      && [...cola].every(ch => 'יומנכת'.includes(ch))) return true;
+  if (corto < 3 || Math.abs(a.length - b.length) > 2) return false;
+  const d = distCap(a, b, 2);
+  if (d <= 1) return true;
+  return d <= 2 && a.slice(0, 2) === b.slice(0, 2);
+}
+
+function esSinArticulo(t, tokens) {
+  const i = tokens.indexOf(t);
+  const prev = i > 0 ? tokens[i - 1] : null;
+  if (!prev || !prev.spOmit || cons(prev.he) !== 'ה') return false;
+  const sp = cons(t.sp);
+  const he = cons(t.he);
+  return !!(sp && he && sp === he);
+}
+
+function capCerrado(n) {
+  return (candado.cerrados || []).map(Number).includes(Number(n == null ? ch : n));
+}
+
+function casoDe(t, tokens) {
+  if (capCerrado() && typeof t.caso === 'string') return t.caso;
+  if (t.spLectura) return 'lectura';
+  if (t.spOmit) {
+    const i = tokens.indexOf(t);
+    const nxt = tokens[i + 1];
+    if (cons(t.he) === 'ה' && nxt && esSinArticulo(nxt, tokens)) return 'sinart';
+    return 'omite';
+  }
+  const marcado = !!(t.spRed || t.esSp || t.k === 'spadd');
+  if (!marcado) return '';
+  const sp = cons(t.sp);
+  const he = cons(t.he);
+  if (t.k === 'spadd' || t.k === 'add') return sp || t.esSp ? 'anexa' : '';
+  if (!sp) return '';
+  if (esOrden(t, tokens)) return 'orden';
+  if (he && sp === he) {
+    // Mismas consonantes: si esSp contradice es, es cambio de sentido
+    // (o basura de _rojo_mismo). No clasificar como vocales — el CSS
+    // ocultaría .es-mt (lección 17:13 «circuncidándose» tapada por
+    // «sea circuncidado»; 9:27 «engrandezca»/«embellezca»).
+    if (String(t.esSp || '').trim() && !mismaGlosa(t.es, t.esSp)) return 'cambia';
+    return esSinArticulo(t, tokens) ? 'sinart' : 'vocales';
+  }
+  if (he && mismaPalabra(sp, he) && (!String(t.esSp || '').trim() || mismaGlosa(t.es, t.esSp))) return 'mismo';
+  if (he && mismaGlosa(t.es, t.esSp)) return 'mismo';
+  return 'cambia';
+}
+
+function casoRun(list) {
+  const u = [...new Set(list.filter(Boolean))];
+  if (!u.length) return 'anexa';
+  if (u.length === 1) return u[0];
+  if (u.includes('orden')) return 'orden';
+  if (u.includes('cambia')) return 'cambia';
+  if (u.includes('mismo')) return 'mismo';
+  if (u.includes('vocales')) return 'vocales';
+  if (u.includes('sinart')) return 'sinart';
+  if (u.includes('omite')) return 'omite';
+  return 'anexa';
+}
+
+function casosPersonal(tokens) {
+  const out = [];
+  let buf = [];
+  const flush = () => {
+    if (buf.length) out.push(casoRun(buf));
+    buf = [];
+  };
+  tokens.forEach(t => {
+    const plus = (t.k === 'add' || t.k === 'spadd') && (t.esSp || t.spRed);
+    if (plus) {
+      if ((t.esSp || '').trim()) buf.push(casoDe(t, tokens));
+    } else {
+      flush();
+    }
+  });
+  flush();
+  return out;
+}
+
+function annotatePersonal(html, tokens) {
+  const casos = casosPersonal(tokens);
+  let i = 0;
+  return String(html || '').replace(/<span class="es-sp">/g, () => {
+    const c = casos[i++] || 'anexa';
+    return `<span class="es-sp" data-caso="${c}" tabindex="0">`;
+  });
+}
+
+function escapeReg(s) {
+  return String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function posGlosa(src, word, nth) {
+  const re = new RegExp('(^|[^\\p{L}])(' + escapeReg(word) + ')(?![\\p{L}])', 'giu');
+  let i = 0;
+  let seen = 0;
+  while (i < src.length) {
+    if (src[i] === '<') {
+      // No marcar dentro de un span.es-sp ya puesto (fórmulas ADD TS, etc.).
+      const open = src.slice(i, Math.min(src.length, i + 80)).toLowerCase();
+      if (open.startsWith('<span') && open.includes('es-sp')) {
+        const close = src.toLowerCase().indexOf('</span>', i);
+        i = close < 0 ? src.length : close + 7;
+        continue;
+      }
+      const j = src.indexOf('>', i);
+      i = j < 0 ? src.length : j + 1;
+      continue;
+    }
+    const j = src.indexOf('<', i);
+    const end = j < 0 ? src.length : j;
+    const text = src.slice(i, end);
+    re.lastIndex = 0;
+    let m;
+    while ((m = re.exec(text))) {
+      if (seen === nth) return i + m.index + m[1].length + m[2].length;
+      seen++;
+    }
+    i = end;
+  }
+  return -1;
+}
+
+function marcarSentido(html, tokens) {
+  const cambios = [];
+  tokens.forEach((t, idx) => {
+    if (t.soloCol) return;
+    // Un token con esAncla+esFrase explícitos es una marca editorial del
+    // motor (p. ej. 11:12 שנה «año» cuya edad SP es «ciento treinta y
+    // cinco años») aunque la consonante SP==MT. `casoDe` devolvería
+    // 'vocales' y se perdería. El bypass solo aplica si la marca es
+    // informativa (ancla ≠ frase).
+    const ancla = String(t.esAncla || '').trim();
+    const frase = String(t.esFrase || '').trim();
+    const esMarcaEditorial = !!(ancla && frase && !mismaGlosa(ancla, frase));
+    if (!esMarcaEditorial && casoDe(t, tokens) !== 'cambia') return;
+    const mt = ancla || String(t.es || '').trim();
+    const sp = frase || String(t.esSp || '').trim();
+    if (!mt || mt === '—' || !sp || mismaGlosa(mt, sp)) return;
+    const prev = tokens.slice(0, idx).filter(o => mismaGlosa(o.esAncla || o.es, mt)).length;
+    cambios.push({ mt, sp, nth: prev, nota: String(t.spNota || '').trim() });
+  });
+  if (!cambios.length) return html;
+  const spots = [];
+  cambios.forEach(c => {
+    const pos = posGlosa(html, c.mt, c.nth);
+    if (pos >= 0) spots.push({ pos, sp: c.sp, nota: c.nota || '' });
+  });
+  spots.sort((a, b) => b.pos - a.pos);
+  let src = String(html || '');
+  spots.forEach(s => {
+    const nota = s.nota ? ` data-nota="${escAttr(s.nota)}"` : '';
+    const marcaRoja = `<span class="es-sp" data-caso="cambia" data-palabra="${escAttr(s.sp)}"${nota} tabindex="0">/${esc(s.sp)}</span>`;
+    src = src.slice(0, s.pos) + marcaRoja + src.slice(s.pos);
+  });
+  return src;
+}
+
+function remember() {
+  const h = '#' + ch + ':' + vs;
+  if (location.hash !== h) history.replaceState(null, '', h);
+  try { localStorage.setItem(MEM, JSON.stringify({ ch, vs })); } catch (e) {}
+}
+
+function restorePos() {
+  const m = /^#(\d+):(\d+)$/.exec(location.hash || '');
+  let want = null;
+  if (m) want = { ch: +m[1], vs: +m[2] };
+  else {
+    try { want = JSON.parse(localStorage.getItem(MEM) || 'null'); } catch (e) { want = null; }
+  }
+  if (!want) return;
+  const versos = data.chapters[String(want.ch)];
+  if (versos && versos[String(want.vs)]) {
+    ch = +want.ch;
+    vs = +want.vs;
+  }
+}
+
+function restoreLayers() {
+  let state = null;
+  try { state = JSON.parse(localStorage.getItem(LAY) || 'null'); } catch (e) { state = null; }
+  if (!state) return;
+  LAY_IDS.forEach(id => {
+    if (typeof state[id] === 'boolean') document.getElementById(id).checked = state[id];
+  });
+}
+
+function layers() {
+  card.classList.toggle('hide-morph', !document.getElementById('lay-morph').checked);
+  card.classList.toggle('hide-lxx', !document.getElementById('lay-lxx').checked);
+  card.classList.toggle('hide-sp', !document.getElementById('lay-sp').checked);
+  pintarConsulta();
+  const state = {};
+  LAY_IDS.forEach(id => { state[id] = document.getElementById(id).checked; });
+  try { localStorage.setItem(LAY, JSON.stringify(state)); } catch (e) {}
+}
+
+function escAttr(s) {
+  return esc(s).replace(/"/g, '&quot;');
+}
+
+function marca(caso, inner, palabra, nota) {
+  if (!caso) return inner;
+  const extra = (palabra ? ` data-palabra="${escAttr(palabra)}"` : '')
+    + (nota ? ` data-nota="${escAttr(nota)}"` : '');
+  return `<span data-caso="${caso}"${extra} tabindex="0">${inner}</span>`;
+}
+
+function tokenHtml(t, tokens) {
+  const caso = casoDe(t, tokens);
+  const isPlus = !!(t.esSp || t.spRed);
+  const difiere = caso === 'lectura' || caso === 'cambia';
+  const marker = t.k === 'add' ? '<div class="marker">+ LXX</div><div class="morph">ADD</div>'
+              : t.k === 'spadd' ? '<div class="marker">ADD TS</div><div class="morph">ADD TS</div>'
+              : `<div class="he">${t.he ? esc(t.he) : '—'}</div><div class="morph">${esc(t.morph || '—')}</div>`;
+  const textoEs = String(t.esSp || (caso === 'mismo' ? t.es : '') || '').trim();
+  const palabra = (caso === 'cambia' || caso === 'lectura') ? String(t.esSp || '').trim() : '';
+  const glosaSp = difiere && palabra ? '/' + palabra : textoEs;
+  const nota = String(t.spNota || '').trim();
+  const glosaRepetida = !difiere && mismaGlosa(t.es, glosaSp);
+  const esSp = (isPlus && glosaSp && !t.spOmit && !glosaRepetida)
+    ? `<div class="es es-sp">${marca(caso, esc(glosaSp), palabra, nota)}</div>` : '';
+  const esMt = `<div class="es es-mt">${esc(t.es || '—')}</div>`;
+  const gr = `<div class="gr">${t.gr ? esc(t.gr) : '—'}</div>`;
+  let sp = '';
+  if (t.spUnida && !t.sp) {
+    sp = '';
+  } else if (isPlus && t.sp) {
+    sp = `<div class="sp-add"><div class="sp-add-he">${marca(caso, esc(t.sp), palabra, nota)}</div></div>`;
+  } else if (isPlus && t.spOmit) {
+    sp = `<div class="sp-add"><div class="sp-add-he">${marca(caso, '·', '', nota)}</div></div>`;
+  } else if (t.spUnida) {
+    sp = '<div class="sp-add sp-unida"></div>';
+  } else if (t.k === 'he' || t.k === 'pre') {
+    sp = t.sp
+      ? `<div class="sp">${esc(t.sp)}</div>`
+      : '<div class="sp eq">＝</div>';
+  }
+  const glosas = difiere ? `${esMt}${esSp}` : `${esSp}${esMt}`;
+  const cls = (t.k === 'add' ? 'col add' : t.k === 'spadd' ? 'col spadd' : 'col')
+            + (isPlus && !glosaRepetida ? ' has-sp-plus' : '')
+            + (difiere ? ' caso-difiere' : '')
+            + (caso === 'omite' || caso === 'sinart' ? ' caso-omite' : '')
+            + (caso === 'orden' ? ' caso-orden' : '');
+  return `<div class="${cls}">${marker}${glosas}${gr}${sp}</div>`;
+}
+
+const tip = document.getElementById('leyenda');
+
+function showTip(el) {
+  const caso = el && el.getAttribute('data-caso');
+  const pal = (el && el.getAttribute('data-palabra') || '').trim();
+  const nota = (el && el.getAttribute('data-nota') || '').trim();
+  const texto = nota
+    || ((caso === 'cambia' || caso === 'lectura') && pal
+      ? LEYENDA.cambiaPor + ' ' + pal + '.'
+      : LEYENDA[caso]);
+  if (!texto) { hideTip(); return; }
+  tip.textContent = texto;
+  tip.hidden = false;
+  tip.style.display = 'block';
+  const r = el.getBoundingClientRect();
+  const w = tip.offsetWidth;
+  const h = tip.offsetHeight;
+  let left = r.left + r.width / 2 - w / 2;
+  left = Math.max(8, Math.min(left, window.innerWidth - w - 8));
+  let top = r.bottom + 8;
+  if (top + h > window.innerHeight - 8) top = Math.max(8, r.top - h - 8);
+  tip.style.left = left + 'px';
+  tip.style.top = top + 'px';
+}
+
+function hideTip() {
+  if (pinEl) return;
+  tip.hidden = true;
+  tip.style.display = 'none';
+  tip.classList.remove('pin');
+}
+
+function plano(s) {
+  return String(s || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+function samaritanoActivo() {
+  const el = document.getElementById('lay-sp');
+  return !!(el && el.checked);
+}
+
+function fraseCaso(t, tokens) {
+  const caso = casoDe(t, tokens);
+  if (!caso) return '';
+  const pal = String(t.esSp || '').trim();
+  const nota = String(t.spNota || '').trim();
+  if (nota) return nota;
+  if ((caso === 'cambia' || caso === 'lectura') && pal) return LEYENDA.cambiaPor + ' ' + pal + '.';
+  return LEYENDA[caso] || '';
+}
+
+function marcasDe(chapter, verse) {
+  const bloque = (data && data.chapters[String(chapter)]) || {};
+  const v = bloque[String(verse)];
+  if (!v) return [];
+  const tokens = v.tokens || [];
+  return tokens.flatMap(t => {
+    const caso = casoDe(t, tokens);
+    if (!caso) return [];
+    const es = String(t.es || '').trim();
+    const esSp = String(t.esSp || '').trim();
+    const he = String(t.he || '').trim();
+    const sp = String(t.sp || '').trim();
+    const frase = fraseCaso(t, tokens);
+    return [{ caso, frase, es, esSp, he, sp, texto: [he, sp, es, esSp, frase].join(' ') }];
+  });
+}
+
+
+
+
+
+
+
+
+
+function glosaUtil(s) {
+  const t = String(s || '').trim();
+  return t && t !== '—' ? t : '';
+}
+
+function render() {
+  const v = data.chapters[String(ch)][String(vs)];
+  if (!v) { card.innerHTML = ''; return; }
+  const nAdd = v.nAdd || 0;
+  card.innerHTML = `
+    <div class="head">
+      <div>
+        <div class="ref">Génesis ${ch}:${vs}</div>
+        <div class="meta">${nAdd ? nAdd + ' ADD LXX · ' : ''}${v.tokens.length} unidades</div>
+      </div>
+      <div class="lxx-chip" dir="ltr" lang="el">
+        <span>LXX (GEN) ${ch}:${vs}</span>
+        ${esc(v.lxx || '')}
+      </div>
+    </div>
+    <div class="strip">${v.tokens.map(t => tokenHtml(t, v.tokens)).join('')}</div>
+    <div class="personal"><span class="lab">PERSONAL</span>${annotatePersonal(marcarSentido(v.personalHtml || esc(v.personal || ''), v.tokens), v.tokens)}</div>`;
+  layers();
+  remember();
+  pintarCandado();
+  pintarConsulta();
+  pinEl = null;
+  hideTip();
+}
+
+function chapterNums() {
+  return Object.keys(data.chapters).map(Number).sort((a, b) => a - b);
+}
+
+function verseNums(chapter) {
+  return Object.keys(data.chapters[String(chapter)] || {}).map(Number).sort((a, b) => a - b);
+}
+
+
+
+function etiquetasCapitulo(chapter) {
+  const out = {};
+  const verses = (data && data.chapters[String(chapter)]) || {};
+  Object.keys(verses).forEach(vs => {
+    const tokens = verses[vs].tokens || [];
+    out[vs] = tokens.map(t => casoDe(t, tokens));
+  });
+  return out;
+}
+
+
+
+function fillVerses() {
+  const nums = verseNums(ch);
+  vsSel.innerHTML = nums.map(n => `<option value="${n}">${n}</option>`).join('');
+  if (!nums.includes(vs)) vs = nums[0];
+  vsSel.value = vs;
+  syncNav();
+}
+
+function syncNav() {
+  const chs = chapterNums();
+  const verses = verseNums(ch);
+  const prev = document.getElementById('vs-prev');
+  const next = document.getElementById('vs-next');
+  prev.disabled = ch === chs[0] && vs === verses[0];
+  next.disabled = ch === chs[chs.length - 1] && vs === verses[verses.length - 1];
+}
+
+function stepVerse(dir) {
+  const chs = chapterNums();
+  const verses = verseNums(ch);
+  const i = verses.indexOf(vs);
+  const ci = chs.indexOf(ch);
+  if (dir < 0) {
+    if (i > 0) vs = verses[i - 1];
+    else if (ci > 0) {
+      ch = chs[ci - 1];
+      const prevVerses = verseNums(ch);
+      vs = prevVerses[prevVerses.length - 1];
+      chSel.value = ch;
+      fillVerses();
+    }
+  } else if (i >= 0 && i < verses.length - 1) {
+    vs = verses[i + 1];
+  } else if (ci >= 0 && ci < chs.length - 1) {
+    ch = chs[ci + 1];
+    vs = verseNums(ch)[0];
+    chSel.value = ch;
+    fillVerses();
+  }
+  vsSel.value = vs;
+  render();
+  syncNav();
+}
+
+
+function pintarConsulta() {}
+function pintarCandado() {}
+async function refreshPayloadIfNeeded() {}
+async function init() {
+  try {
+    const res = await fetch(DATA_URL + '?_=' + Date.now(), { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    data = await res.json();
+    payloadStamp = stampPayload(data);
+  } catch (err) {
+    card.textContent = 'No se pudo cargar ' + DATA_URL + ' · ' + err;
+    return;
+  }
+  const chs = Object.keys(data.chapters).map(Number).sort((a,b)=>a-b);
+  restorePos();
+  restoreLayers();
+  candado = { cerrados: [] };
+  chSel.innerHTML = chs.map(n => `<option value="${n}">${n}</option>`).join('');
+  chSel.value = ch;
+  fillVerses();
+  render();
+  chSel.onchange = () => { ch = +chSel.value; fillVerses(); render(); };
+  vsSel.onchange = () => { vs = +vsSel.value; render(); };
+  document.querySelectorAll('.toggles input').forEach(el => el.addEventListener('change', layers));
+  document.getElementById('vs-prev').onclick = () => stepVerse(-1);
+  document.getElementById('vs-next').onclick = () => stepVerse(1);
+  card.addEventListener('mouseover', ev => {
+    if (pinEl) return;
+    const el = ev.target.closest('[data-caso]');
+    if (el) showTip(el);
+  });
+  card.addEventListener('mouseout', ev => {
+    if (pinEl) return;
+    const el = ev.target.closest('[data-caso]');
+    if (!el) return;
+    const to = ev.relatedTarget && ev.relatedTarget.closest && ev.relatedTarget.closest('[data-caso]');
+    if (to === el) return;
+    hideTip();
+  });
+  card.addEventListener('click', ev => {
+    const el = ev.target.closest('[data-caso]');
+    if (!el) return;
+    if (pinEl === el) {
+      pinEl = null;
+      hideTip();
+      return;
+    }
+    pinEl = el;
+    showTip(el);
+    tip.classList.add('pin');
+  });
+  document.addEventListener('click', ev => {
+    if (!pinEl) return;
+    if (ev.target.closest('[data-caso]') || ev.target.closest('#leyenda')) return;
+    pinEl = null;
+    hideTip();
+  });
+  document.addEventListener('keydown', ev => {
+    if (ev.key === 'Escape' && pinEl) {
+      pinEl = null;
+      hideTip();
+    }
+  });
+}
+init();
+</script>
+</body>
+</html>
