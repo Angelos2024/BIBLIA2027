@@ -233,9 +233,9 @@ select { font: inherit; padding: 3px 6px; border: 1px solid var(--bd); border-ra
     <button type="button" id="vs-next">Siguiente →</button>
   </div>
   <div class="toggles">
-    <label><input type="checkbox" id="lay-morph" checked> Morfología</label>
+    <label><input type="checkbox" id="lay-morph"> Morfología</label>
     <label><input type="checkbox" id="lay-lxx" checked> LXX</label>
-    <label><input type="checkbox" id="lay-sp"> Samaritano</label>
+    <label><input type="checkbox" id="lay-sp" checked> Samaritano</label>
   </div>
 </div>
 <div class="wrap">
@@ -248,7 +248,7 @@ const card = document.getElementById('card');
 const chSel = document.getElementById('ch');
 const vsSel = document.getElementById('vs');
 const MEM = 'biblia-sp-cv';
-const LAY = 'biblia-sp-lay';
+const LAY = 'biblia-sp-lay-ro';
 const LAY_IDS = ['lay-morph', 'lay-lxx', 'lay-sp'];
 const LEYENDA = {
   anexa: 'El texto samaritano anexa este contenido.',
