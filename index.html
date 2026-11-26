@@ -233,7 +233,7 @@ select { font: inherit; padding: 3px 6px; border: 1px solid var(--bd); border-ra
   color: #6a4e16; background: #f3e6c8; border: 1px solid #8a6a32; border-radius: 999px;
   padding: 2px 8px;
 }
-#candado, .consulta { display: none !important; }
+#candado, .consulta, #publicar-pages, .top-right { display: none !important; }
 </style>
 </head>
 <body>
@@ -249,9 +249,6 @@ select { font: inherit; padding: 3px 6px; border: 1px solid var(--bd); border-ra
     <label><input type="checkbox" id="lay-morph"> Morfología</label>
     <label><input type="checkbox" id="lay-lxx" checked> LXX</label>
     <label><input type="checkbox" id="lay-sp" checked> Samaritano</label>
-  </div>
-<div class="top-right">
-    <button type="button" id="publicar-pages" title="Exporta Génesis 1–28 al repo Pages y deja el commit. El push lo haces tú.">Publicar Pages</button>
   </div>
 </div>
 <div class="wrap">
@@ -726,39 +723,7 @@ function etiquetasCapitulo(chapter) {
 
 
 
-async function publicarPages() {
-  const btn = document.getElementById('publicar-pages');
-  if (!btn || btn.disabled) return;
-  const prev = btn.textContent;
-  btn.disabled = true;
-  btn.classList.remove('ok', 'err');
-  btn.textContent = 'Publicando…';
-  try {
-    const res = await fetch('/api/publicar-pages', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: '{}',
-    });
-    const body = await res.json().catch(() => ({}));
-    if (!res.ok || !body.ok) {
-      throw new Error(body.error || ('HTTP ' + res.status));
-    }
-    btn.classList.add('ok');
-    btn.textContent = body.committed ? 'Commit listo · push tú' : 'Sin cambios nuevos';
-    btn.title = body.message || prev;
-    console.info('[publicar-pages]', body);
-  } catch (err) {
-    btn.classList.add('err');
-    btn.textContent = 'Error al publicar';
-    btn.title = String(err.message || err);
-    console.error('[publicar-pages]', err);
-  }
-  setTimeout(() => {
-    btn.disabled = false;
-    btn.classList.remove('ok', 'err');
-    btn.textContent = prev;
-  }, 4500);
-}
+
 
 function fillVerses() {
   const nums = verseNums(ch);
@@ -831,9 +796,6 @@ async function init() {
   document.querySelectorAll('.toggles input').forEach(el => el.addEventListener('change', layers));
   document.getElementById('vs-prev').onclick = () => stepVerse(-1);
   document.getElementById('vs-next').onclick = () => stepVerse(1);
-  document.getElementById('candado').onclick = () => toggleCandado();
-  document.getElementById('publicar-pages').onclick = () => publicarPages();
-  pintarCandado();
   card.addEventListener('mouseover', ev => {
     if (pinEl) return;
     const el = ev.target.closest('[data-caso]');
