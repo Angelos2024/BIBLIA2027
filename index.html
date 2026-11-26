@@ -36,6 +36,19 @@ select { font: inherit; padding: 3px 6px; border: 1px solid var(--bd); border-ra
 }
 #candado.cerrado { background: #f3e6c8; border-color: #8a6a32; color: #6a4e16; }
 #candado:disabled { opacity: .45; cursor: default; }
+.top-right {
+  margin-left: auto;
+  display: flex; align-items: center; gap: 8px;
+}
+#publicar-pages {
+  font: inherit; font-size: .9rem; padding: 4px 12px; cursor: pointer;
+  border: 1px solid #3d6b4f; border-radius: 6px;
+  background: #1f6b3a; color: #fff; font-weight: 600;
+}
+#publicar-pages:hover:not(:disabled) { background: #185730; }
+#publicar-pages:disabled { opacity: .55; cursor: default; }
+#publicar-pages.ok { background: #2f7d4a; }
+#publicar-pages.err { background: #8a3030; border-color: #6a2020; }
 .wrap { max-width: 1180px; margin: 0 auto; padding: 18px; }
 .card {
   background: #fff; border: 1px solid rgba(75,39,67,.14); border-radius: 18px;
@@ -236,6 +249,9 @@ select { font: inherit; padding: 3px 6px; border: 1px solid var(--bd); border-ra
     <label><input type="checkbox" id="lay-morph"> Morfología</label>
     <label><input type="checkbox" id="lay-lxx" checked> LXX</label>
     <label><input type="checkbox" id="lay-sp" checked> Samaritano</label>
+  </div>
+<div class="top-right">
+    <button type="button" id="publicar-pages" title="Exporta Génesis 1–28 al repo Pages y deja el commit. El push lo haces tú.">Publicar Pages</button>
   </div>
 </div>
 <div class="wrap">
@@ -710,6 +726,40 @@ function etiquetasCapitulo(chapter) {
 
 
 
+async function publicarPages() {
+  const btn = document.getElementById('publicar-pages');
+  if (!btn || btn.disabled) return;
+  const prev = btn.textContent;
+  btn.disabled = true;
+  btn.classList.remove('ok', 'err');
+  btn.textContent = 'Publicando…';
+  try {
+    const res = await fetch('/api/publicar-pages', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: '{}',
+    });
+    const body = await res.json().catch(() => ({}));
+    if (!res.ok || !body.ok) {
+      throw new Error(body.error || ('HTTP ' + res.status));
+    }
+    btn.classList.add('ok');
+    btn.textContent = body.committed ? 'Commit listo · push tú' : 'Sin cambios nuevos';
+    btn.title = body.message || prev;
+    console.info('[publicar-pages]', body);
+  } catch (err) {
+    btn.classList.add('err');
+    btn.textContent = 'Error al publicar';
+    btn.title = String(err.message || err);
+    console.error('[publicar-pages]', err);
+  }
+  setTimeout(() => {
+    btn.disabled = false;
+    btn.classList.remove('ok', 'err');
+    btn.textContent = prev;
+  }, 4500);
+}
+
 function fillVerses() {
   const nums = verseNums(ch);
   vsSel.innerHTML = nums.map(n => `<option value="${n}">${n}</option>`).join('');
@@ -781,6 +831,9 @@ async function init() {
   document.querySelectorAll('.toggles input').forEach(el => el.addEventListener('change', layers));
   document.getElementById('vs-prev').onclick = () => stepVerse(-1);
   document.getElementById('vs-next').onclick = () => stepVerse(1);
+  document.getElementById('candado').onclick = () => toggleCandado();
+  document.getElementById('publicar-pages').onclick = () => publicarPages();
+  pintarCandado();
   card.addEventListener('mouseover', ev => {
     if (pinEl) return;
     const el = ev.target.closest('[data-caso]');
